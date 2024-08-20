@@ -1,0 +1,3952 @@
+{
+    "status": {
+    "http": 200,
+    "lkbk": "OK"
+    },
+    "ver": "1.0",
+    "interests": {
+    "01f2PHo": {
+    "name": {
+    "en": "Astrology",
+    "es": "Astrología"
+    },
+    "weight": 0.7
+    },
+    "01f7Pco": {
+    "name": {
+    "en": "Sports",
+    "es": "Deportes"
+    },
+    "weight": 0.53
+    },
+    "01fPho": {
+    "name": {
+    "en": "Photography",
+    "es": "Fotografía"
+    },
+    "weight": 0.55
+    },
+    "1Df64CD": {
+    "name": {
+    "en": "Influencers",
+    "es": "Influenciadores"
+    },
+    "weight": 0.4
+    },
+    "26fbYCm": {
+    "name": {
+    "en": "Sports News",
+    "es": "Noticias de Deportes"
+    },
+    "weight": 0.5
+    },
+    "26fgYum": {
+    "name": {
+    "en": "Celebrity Homes",
+    "es": "Casas de Celebridades"
+    },
+    "weight": 0.8
+    },
+    "3xfBzCl": {
+    "name": {
+    "en": "Architecture",
+    "es": "Arquitectura"
+    },
+    "weight": 0.55
+    },
+    "3xfzul": {
+    "name": {
+    "en": "Noteworthy",
+    "es": "Notable"
+    },
+    "weight": 0.47
+    },
+    "3xfzzil": {
+    "name": {
+    "en": "Technology News",
+    "es": "Noticias de Tecnología"
+    },
+    "weight": 0.5
+    },
+    "4xf2df3": {
+    "name": {
+    "en": "News",
+    "es": "Noticias"
+    },
+    "weight": 0.5
+    },
+    "4xfdS3": {
+    "name": {
+    "en": "Editorial Photography",
+    "es": "Fotografía Editorial"
+    },
+    "weight": 0.39
+    },
+    "6JfV7FW": {
+    "name": {
+    "en": "Entertainment",
+    "es": "Entretenimiento"
+    },
+    "weight": 0.6
+    },
+    "7mfnQIy": {
+    "name": {
+    "en": "Personal Finance",
+    "es": "Finanzas Personales"
+    },
+    "weight": 0.5
+    },
+    "97fEvFR": {
+    "name": {
+    "en": "Strange News",
+    "es": "Noticias Extrañas"
+    },
+    "weight": 0.68
+    },
+    "97fvsR": {
+    "name": {
+    "en": "Cars & Rides",
+    "es": "Coches & Paseos"
+    },
+    "weight": 0.5
+    },
+    "97fvvHR": {
+    "name": {
+    "en": "Science",
+    "es": "Ciencia"
+    },
+    "weight": 0.5
+    },
+    "ANfkmhe": {
+    "name": {
+    "en": "Shopping",
+    "es": "Compras"
+    },
+    "weight": 0.7
+    },
+    "BBfmJtJ": {
+    "name": {
+    "en": "Wellness",
+    "es": "Bienestar"
+    },
+    "weight": 0.52
+    },
+    "LRfPcJ": {
+    "name": {
+    "en": "Celebrities",
+    "es": "Famosos"
+    },
+    "weight": 0.7
+    },
+    "LRfbPUJ": {
+    "name": {
+    "en": "General News",
+    "es": "Noticias Generales"
+    },
+    "weight": 0.5
+    },
+    "NZf7cr": {
+    "name": {
+    "en": "Travel",
+    "es": "Viajar"
+    },
+    "weight": 0.7
+    },
+    "OnfOio": {
+    "name": {
+    "en": "Women",
+    "es": "Mujeres"
+    },
+    "weight": 0.5
+    },
+    "OnfPOIo": {
+    "name": {
+    "en": "Mobile Apps",
+    "es": "Aplicaciones Móviles"
+    },
+    "weight": 0.22
+    },
+    "OnfyOho": {
+    "name": {
+    "en": "Sneakers",
+    "es": "Zapatillas"
+    },
+    "weight": 0.55
+    },
+    "Rqf2Tg": {
+    "name": {
+    "en": "Fashion",
+    "es": "Moda"
+    },
+    "weight": 0.31
+    },
+    "Rqfo2tg": {
+    "name": {
+    "en": "Entertainment News",
+    "es": "Noticias de Entretenimiento"
+    },
+    "weight": 0.5
+    },
+    "VPf7tE": {
+    "name": {
+    "en": "Women's Style",
+    "es": "Estilo Mujer"
+    },
+    "weight": 0.5
+    },
+    "WJfPRCJ": {
+    "name": {
+    "en": "Technology",
+    "es": "Tecnología"
+    },
+    "weight": 0.5
+    },
+    "ZofNtA": {
+    "name": {
+    "en": "Culture",
+    "es": "Cultura"
+    },
+    "weight": 0.43
+    },
+    "ZofgNIA": {
+    "name": {
+    "en": "Health",
+    "es": "Salud"
+    },
+    "weight": 0.5
+    },
+    "aYfZ9HP": {
+    "name": {
+    "en": "Science News",
+    "es": "Noticias Científicas"
+    },
+    "weight": 0.5
+    },
+    "dofEhL": {
+    "name": {
+    "en": "Outdoor Photography",
+    "es": "Fotografía al Aire Libre"
+    },
+    "weight": 0.71
+    },
+    "dofxEcL": {
+    "name": {
+    "en": "Business",
+    "es": "Negocio"
+    },
+    "weight": 0.3
+    },
+    "e1f1GsP": {
+    "name": {
+    "en": "Games",
+    "es": "Juegos"
+    },
+    "weight": 0.35
+    },
+    "e1fGFP": {
+    "name": {
+    "en": "Men's Style",
+    "es": "Estilo Masculino"
+    },
+    "weight": 0.47
+    },
+    "e1frGSP": {
+    "name": {
+    "en": "Celebrity Style",
+    "es": "Estilo de Celebridad"
+    },
+    "weight": 0.33
+    },
+    "g6fYliB": {
+    "name": {
+    "en": "Lifestyle",
+    "es": "Estilo de Vida"
+    },
+    "weight": 0.49
+    },
+    "jxfQZuD": {
+    "name": {
+    "en": "International News",
+    "es": "Noticias Internacionales"
+    },
+    "weight": 0.4
+    },
+    "jxfZUD": {
+    "name": {
+    "en": "Art & Design",
+    "es": "Arte & Diseño"
+    },
+    "weight": 0.5
+    },
+    "lAfvyuy": {
+    "name": {
+    "en": "Politics",
+    "es": "Política"
+    },
+    "weight": 0.4
+    },
+    "lAfyfy": {
+    "name": {
+    "en": "Music",
+    "es": "Música"
+    },
+    "weight": 0.59
+    },
+    "oNfDHQ": {
+    "name": {
+    "en": "Designer Fashion",
+    "es": "Moda de Diseño"
+    },
+    "weight": 0.27
+    },
+    "q6fqjSw": {
+    "name": {
+    "en": "Food & Drink",
+    "es": "Comida & Bebida"
+    },
+    "weight": 0.5
+    },
+    "v4fBVtL": {
+    "name": {
+    "en": "US News",
+    "es": "Noticias de EE.UU."
+    },
+    "weight": 0.5
+    },
+    "v4fVCL": {
+    "name": {
+    "en": "Home & Garden",
+    "es": "Hogar & Jardín"
+    },
+    "weight": 0.61
+    },
+    "v4fYViL": {
+    "name": {
+    "en": "Gear & Gadgets",
+    "es": "Equipos & Gadgets"
+    },
+    "weight": 0.57
+    },
+    "w6fnIL": {
+    "name": {
+    "en": "TV & Film",
+    "es": "TV & Cine"
+    },
+    "weight": 0.45
+    },
+    "x6fBXcR": {
+    "name": {
+    "en": "Top News",
+    "es": "Las Noticias Más Importantes"
+    },
+    "weight": 0.7
+    },
+    "x6fpXFR": {
+    "name": {
+    "en": "Adventure",
+    "es": "Aventura"
+    },
+    "weight": 0.63
+    }
+    },
+    "items": [
+    {
+    "title": {
+    "en": "Gunmen kill New Zealand helicopter pilot in another attack in Indonesia's restive Papua region"
+    },
+    "shortTitle": {
+    "en": "Helicopter Pilot Killed In Papua"
+    },
+    "summary": {
+    "en": "Gunmen have stormed a helicopter and killed its New Zealand pilot shortly after it landed in Indonesia’s restive Papua region"
+    },
+    "link": "https://fotoscapes.com/lookbook/Rqfo2poxc3/gunmen-kill-new-zealand-helicopter-pilot-in-another-attack-in-indonesias-restive-papua-region",
+    "sourceLink": "https://apnews.com/article/indonesia-new-zealand-papua-pilot-kill-separatist-attack-b42e9d4dcee4532af11c2b0626b6b421",
+    "uid": "Rqfo2poxc3",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/6d/v9/tB/WJfE6dv9tB-ZofyjbNNsg.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/6d/v9/tB/WJfE6dv9tB-jxfkEdYZh9.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/6d/v9/tB/WJfE6dv9tB-w6fzn1DnH0.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/6d/v9/tB/WJfE6dv9tB-3xfZLJezcp.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/6d/v9/tB/WJfE6dv9tB-x6f6ymQXHY.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/6d/v9/tB/WJfE6dv9tB-v4f29y7VTb.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/6d/v9/tB/WJfE6dv9tB-e1fd6ZkGfe.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T13:11:16Z",
+    "scheduledOn": "2024-08-05T23:42:57Z"
+    },
+    {
+    "title": {
+    "en": "Detroit Lions' biggest takeaways from wild joint practice with Giants"
+    },
+    "summary": {
+    "en": "The Detroit Lions and New York Giants perhaps the most heated joint practice in the history of joint practices on Monday. Here's a look at the biggest takeaways from it based on beat writer observations."
+    },
+    "link": "https://fotoscapes.com/lookbook/J1f6nveGHP/detroit-lions-biggest-takeaways-from-wild-joint-practice-with-giants",
+    "sourceLink": "https://www.sportingnews.com/us/nfl/detroit-lions/news/detroit-lions-takeaways-wild-joint-practice-giants/2797fa5af2cc00206a033127",
+    "uid": "J1f6nveGHP",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/gL/he/zpf6bvgLhe-PYfn6V9JH7.webp",
+    "width": 760,
+    "height": 428
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/gL/he/zpf6bvgLhe-yBfJx0dkIO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/gL/he/zpf6bvgLhe-ngfDY6N0Cz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/gL/he/zpf6bvgLhe-YofWE4N1Uo.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/gL/he/zpf6bvgLhe-J1fBjyZJUn.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4157,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:03:14Z",
+    "scheduledOn": "2024-08-05T23:35:10Z"
+    },
+    {
+    "title": {
+    "en": "Jim Harbaugh on Michigan sign-stealing allegations: 'I do not apologize'"
+    },
+    "summary": {
+    "en": "Former Michigan and current Los Angeles Chargers head coach Jim Harbaugh reacted to the latest sign-stealing news with, 'I do not apologize.'"
+    },
+    "link": "https://fotoscapes.com/lookbook/ngfdVEkes9/jim-harbaugh-on-michigan-sign-stealing-allegations-i-do-not-apologize",
+    "sourceLink": "https://www.sportingnews.com/us/ncaa-football/news/jim-harbaugh-responds-michigan-sign-stealing-allegations-i-do-not-apologize/dae5eaa78c5ef2d47c8d050b",
+    "uid": "ngfdVEkes9",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/GG/so/p6fZWOGGso-ZofyjbLOfg.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/GG/so/p6fZWOGGso-Onfv3EqnSJ.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/GG/so/p6fZWOGGso-01fdVQ6nIA.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/GG/so/p6fZWOGGso-7mfGeExrCx.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/GG/so/p6fZWOGGso-VPf13xkyCy.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:11:09Z",
+    "scheduledOn": "2024-08-05T23:35:09Z"
+    },
+    {
+    "title": {
+    "en": "Texans coach DeMeco Ryans will play C.J. Stroud, first-team offense vs. Steelers"
+    },
+    "summary": {},
+    "link": "https://fotoscapes.com/lookbook/YofjQlL7tO/texans-coach-demeco-ryans-will-play-c-j-stroud-first-team-offense-vs-steelers",
+    "sourceLink": "https://www.sportingnews.com/us/nfl/houston-texans/news/texans-coach-demeco-ryans-will-play-cj-stroud-first-team-offense-vs-steelers/56b2c2d9cfb07ed1e10f3282",
+    "uid": "YofjQlL7tO",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Rb/Iv/Qafq7ERbIv-BBfNEJwGsD.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Rb/Iv/Qafq7ERbIv-QafNmp39hN.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Rb/Iv/Qafq7ERbIv-zpfZ2BO6uE.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Rb/Iv/Qafq7ERbIv-r6fPlb7wfV.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Rb/Iv/Qafq7ERbIv-oNfZmkxpCA.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:09:25Z",
+    "scheduledOn": "2024-08-05T23:35:09Z"
+    },
+    {
+    "title": {
+    "en": "Raiders QB competition pendulum swings back the other way at latest practice"
+    },
+    "summary": {
+    "en": "The Las Vegas Raiders held their ninth practice of training camp on Monday. As we near the preseason opener, the quarterback competition becomes even more crucial, but it appears that neither signal-caller has yet to establish themselves as the better player."
+    },
+    "link": "https://fotoscapes.com/lookbook/yBfQmXRNso/raiders-qb-competition-pendulum-swings-back-the-other-way-at-latest-practice",
+    "sourceLink": "https://www.sportingnews.com/us/nfl/las-vegas-raiders/news/raiders-qb-competition-pendulum-swings-latest-practice/b78f4e30dae0a95e9776ce00",
+    "uid": "yBfQmXRNso",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/EP/t9/bYfRNoEPt9-ANf7OdxRi0.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/EP/t9/bYfRNoEPt9-x6f6ymzESY.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/EP/t9/bYfRNoEPt9-w6fzn1qxS0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/EP/t9/bYfRNoEPt9-97f4XOyJTL.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/EP/t9/bYfRNoEPt9-v4f29y33cb.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:22:33Z",
+    "scheduledOn": "2024-08-05T23:35:08Z"
+    },
+    {
+    "title": {
+    "en": "Discus thrower Allman and pole vaulter Kendricks win Olympic medals moments apart for the US"
+    },
+    "shortTitle": {
+    "en": "USA Sweeps the Podium"
+    },
+    "summary": {
+    "en": "Sam Kendricks appreciates the Olympics again"
+    },
+    "link": "https://fotoscapes.com/lookbook/Zofg74lAH0/discus-thrower-allman-and-pole-vaulter-kendricks-win-olympic-medals-moments-apart-for-the-us",
+    "sourceLink": "https://apnews.com/article/2024-olympics-track-field-0a84ba5d776a70a3ff99f49da8688566",
+    "uid": "Zofg74lAH0",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "01f7Pco"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/23/C0/r6frve23C0-w6fzn1AZT0.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/23/C0/r6frve23C0-97f4XO0oiL.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/23/C0/r6frve23C0-x6f6ymV4fY.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/23/C0/r6frve23C0-r6fPlbLNCV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/23/C0/r6frve23C0-oNfZmkvPTA.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/23/C0/r6frve23C0-XofNnl0lsm.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/23/C0/r6frve23C0-PYfn6Voki7.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 8,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:28:27Z",
+    "scheduledOn": "2024-08-05T23:34:27Z"
+    },
+    {
+    "title": {
+    "en": "How to shop for windows, according to experts"
+    },
+    "summary": {
+    "en": "When shopping for new windows, consider your window size, desired glass type, material, design, local regulations, safety concerns and your budget."
+    },
+    "link": "https://fotoscapes.com/lookbook/97fvBjlGiZ/how-to-shop-for-windows-according-to-experts",
+    "sourceLink": "https://www.nbcnews.com/select/shopping/how-to-shop-for-windows-rcna164731",
+    "uid": "97fvBjlGiZ",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/oG/io/p6fZWOoGio-r6fPlbP1TV.webp",
+    "width": 1280,
+    "height": 640
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/oG/io/p6fZWOoGio-oNfZmkZGcA.webp",
+    "width": 1024,
+    "height": 512
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/oG/io/p6fZWOoGio-XofNnlNOCm.webp",
+    "width": 850,
+    "height": 425
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/oG/io/p6fZWOoGio-yBfJx0JPfO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/oG/io/p6fZWOoGio-ngfDY6DEcz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/oG/io/p6fZWOoGio-YofWE4WbSo.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/oG/io/p6fZWOoGio-J1fBjyBZsn.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4556,
+    "endB": 0.4444
+    },
+    "owner": "NBC News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-6JfzZY3bsq.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-g6fNEVbLIk.png",
+    "numImages": 3,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:11:24Z",
+    "scheduledOn": "2024-08-05T23:34:12Z"
+    },
+    {
+    "title": {
+    "en": "Tamara Keith and Amy Walter on the importance of Harris' running mate decision"
+    },
+    "summary": {
+    "en": "NPR's Tamara Keith and Amy Walter of the Cook Political Report with Amy Walter join Amna Nawaz to discuss the latest political news, including the benefits of Kamala Harris' running mate options, the latest campaign fundraising reports and Donald Trump's struggle to find a message against his new opponent."
+    },
+    "link": "https://fotoscapes.com/lookbook/Dkf6Xal6sW/tamara-keith-and-amy-walter-on-the-importance-of-harris-running-mate-decision",
+    "sourceLink": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-the-importance-of-harris-running-mate-decision",
+    "uid": "Dkf6Xal6sW",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/QE/TJ/VPfjmZQETJ-GvfGeDPvfa.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/QE/TJ/VPfjmZQETJ-EvfprQGrcO.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/QE/TJ/VPfjmZQETJ-DkfbgBEYtR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/QE/TJ/VPfjmZQETJ-WJfbwy1BIL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/QE/TJ/VPfjmZQETJ-g6f2AJdxFk.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/QE/TJ/VPfjmZQETJ-ANf7OdgZC0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "PBS",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-Qaf0wooQcN.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-EvfLnJaLHO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:25:58Z",
+    "scheduledOn": "2024-08-05T23:32:43Z"
+    },
+    {
+    "title": {
+    "en": "How Olympian Allyson Felix is changing the narrative around mothers competing"
+    },
+    "summary": {
+    "en": "As Team USA continues to dominate at the Olympics, the most decorated American athlete in track and field history, Allyson Felix, is in Paris with a different goal in mind. She wants to change the narrative around mothers competing at the highest level. Felix joined Amna Nawaz to discuss more."
+    },
+    "link": "https://fotoscapes.com/lookbook/1Df6ar1guq/how-olympian-allyson-felix-is-changing-the-narrative-around-mothers-competing",
+    "sourceLink": "https://www.pbs.org/newshour/show/how-olympian-allyson-felix-is-changing-the-narrative-around-mothers-competing",
+    "uid": "1Df6ar1guq",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/p3/S9/bYfRNop3S9-PYfn6VWAF7.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/p3/S9/bYfRNop3S9-kvfz4oyVuO.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/p3/S9/bYfRNop3S9-6JfGW0x0tq.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/p3/S9/bYfRNop3S9-q6f0DY3OHY.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/p3/S9/bYfRNop3S9-4xfGVm9wsl.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/p3/S9/bYfRNop3S9-dof6wQzzHV.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3665,
+    "endB": 0.4444
+    },
+    "owner": "PBS",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-Qaf0wooQcN.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-EvfLnJaLHO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:15:23Z",
+    "scheduledOn": "2024-08-05T23:32:43Z"
+    },
+    {
+    "title": {
+    "en": "How Dana Rettke’s best friend since kindergarten put her on an Olympic volleyball path"
+    },
+    "shortTitle": {
+    "en": "Friendship Sparked Olympic Journey"
+    },
+    "summary": {
+    "en": "PARIS — At 14, Dana Rettke’s best friend, Molly Gates, suggested Rettke join her volleyball club so they could spend more time together. Rettke was a talented basketball player with dreams of playing in college and the WNBA. Already well over 6 feet heading into high school, the Riverside native for years had shot down her mother’s advice to give volleyball a chance. A best friend’s ..."
+    },
+    "link": "https://fotoscapes.com/lookbook/g6fYaZAETZ/how-dana-rettkes-best-friend-since-kindergarten-put-her-on-an-olympic-volleyball-path",
+    "sourceLink": "https://www.chicagotribune.com/2024/08/05/olympics-dana-rettke-volleyball/",
+    "uid": "g6fYaZAETZ",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "01f7Pco",
+    "jxfQZuD",
+    "v4fBVtL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/2E/SJ/VPfjmZ2ESJ-J1fBjy6bcn.webp",
+    "width": 1280,
+    "height": 962
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/2E/SJ/VPfjmZ2ESJ-6JfGW0V3Tq.webp",
+    "width": 1024,
+    "height": 769
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/2E/SJ/VPfjmZ2ESJ-ANf7OdVVC0.webp",
+    "width": 850,
+    "height": 639
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/2E/SJ/VPfjmZ2ESJ-7mfGeEn4Hx.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/2E/SJ/VPfjmZ2ESJ-VPf13xjNty.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/2E/SJ/VPfjmZ2ESJ-p6fkoQZ6I0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/2E/SJ/VPfjmZ2ESJ-oNfZmk7dHA.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3366,
+    "endB": 0.4444
+    },
+    "owner": "Chicago Tribune",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/zP/fL/3xfzzPfL-p6fv7DWNT0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/zP/fL/3xfzzPfL-zpfRnWbqsE.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:05:00Z",
+    "scheduledOn": "2024-08-05T23:30:41Z"
+    },
+    {
+    "title": {
+    "en": "Boston Marathon bombing victims rip Tsarnaev’s latest legal appeal"
+    },
+    "shortTitle": {
+    "en": "Boston Marathon Appeal Slammed"
+    },
+    "summary": {
+    "en": "BOSTON — Boston Marathon bombing victims say Dzhokhar Tsarnaev’s attempt to get his old legal team back together is a waste of taxpayers’ money. Tsarnaev, locked up in a Colorado Supermax, has an Aug. 21 court date in Boston where his lawyers will begin to try to keep him out of the electric chair. That status conference is before before federal Judge George A. O’Toole Jr. “Who’s paying for ..."
+    },
+    "link": "https://fotoscapes.com/lookbook/m7fknRYvfe/boston-marathon-bombing-victims-rip-tsarnaevs-latest-legal-appeal",
+    "sourceLink": "https://www.bostonherald.com/2024/08/05/boston-marathon-bombing-victims-rip-tsarnaevs-latest-legal-appeal/",
+    "uid": "m7fknRYvfe",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "v4fBVtL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/B1/FY/BBfmveB1FY-w6fzn1EJc0.webp",
+    "width": 800,
+    "height": 826
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/B1/FY/BBfmveB1FY-3xfZLJBxfp.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/B1/FY/BBfmveB1FY-x6f6ympwCY.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/B1/FY/BBfmveB1FY-v4f29yYnub.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/B1/FY/BBfmveB1FY-e1fd6ZrPce.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.2722,
+    "endB": 0.4444
+    },
+    "owner": "Boston Herald",
+    "brandLogo": "https://media.fotoscapes.com/imgs/97/fE/EG/sj/97fEEGsj-ngfxY0BlUz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/97/fE/EG/sj/97fEEGsj-J1fkvLwVcn.svg",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:18:00Z",
+    "scheduledOn": "2024-08-05T23:30:33Z"
+    },
+    {
+    "title": {
+    "en": "Notre Dame football suffers season-ending injury at key position"
+    },
+    "summary": {
+    "en": "Practice injuries are one of the most bitter pills to swallow in sports, and the Fighting Irish are ertainly dealing with a tough one on Monday."
+    },
+    "link": "https://fotoscapes.com/lookbook/zpfwPN9jhX/notre-dame-football-suffers-season-ending-injury-at-key-position",
+    "sourceLink": "https://www.yardbarker.com/college_football/articles/notre_dame_football_suffers_season_ending_injury_at_key_position/s1_13132_40706130?utm_medium=feed&utm_source=digitalturbine",
+    "uid": "zpfwPN9jhX",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/Lv/HV/yBfVnDLvHV-lAfm2qRnie.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/Lv/HV/yBfVnDLvHV-aYfPy3Xoh0.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/Lv/HV/yBfVnDLvHV-26fGQzyDiy.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/Lv/HV/yBfVnDLvHV-e1fd6V4Qce.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/Lv/HV/yBfVnDLvHV-Onfv3O2biJ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/Lv/HV/yBfVnDLvHV-BBfNELlqsD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/Lv/HV/yBfVnDLvHV-01fdVyRwIA.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Yardbarker",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/D1/sL/3xfzD1sL-PYf4jg9Gf7.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/D1/sL/3xfzD1sL-kvfgRnv6HO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:59:02Z",
+    "scheduledOn": "2024-08-05T23:27:55Z"
+    },
+    {
+    "title": {
+    "en": "Deputy who shot Sonya Massey thought her rebuke 'in the name of Jesus' indicated intent to kill him"
+    },
+    "shortTitle": {
+    "en": "Sonya Massey Killing Misunderstood"
+    },
+    "summary": {
+    "en": "The deputy sheriff who fatally shot Sonya Massey in her Illinois home last month says he thought that when she unexpectedly said, “I rebuke you in the name of Jesus,” she intended to kill him"
+    },
+    "link": "https://fotoscapes.com/lookbook/bYfxD7pWtd/deputy-who-shot-sonya-massey-thought-her-rebuke-in-the-name-of-jesus-indicated-intent-to-kill-him",
+    "sourceLink": "https://apnews.com/article/sonya-massey-911-shooting-illinois-5b15104749570765b854a3a638ab6f0d",
+    "uid": "bYfxD7pWtd",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/XW/uo/p6fZWOXWuo-RqfB3DebTX.webp",
+    "width": 1280,
+    "height": 718
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/XW/uo/p6fZWOXWuo-LRfvEW7LI6.webp",
+    "width": 1024,
+    "height": 574
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/XW/uo/p6fZWOXWuo-Zofyjm43Hg.webp",
+    "width": 850,
+    "height": 477
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/XW/uo/p6fZWOXWuo-26fGQzlNhy.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/XW/uo/p6fZWOXWuo-97f4XnjLCL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/XW/uo/p6fZWOXWuo-3xfZLAlZfp.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/XW/uo/p6fZWOXWuo-x6f6yZNkhY.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4169,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 7,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:13:38Z",
+    "scheduledOn": "2024-08-05T23:23:24Z"
+    },
+    {
+    "title": {
+    "en": "Families whose loved ones were left rotting in funeral home owed $950 million, judge rules"
+    },
+    "shortTitle": {
+    "en": "Families Owed Millions in Funeral Scam"
+    },
+    "summary": {
+    "en": "A judge ruled that the Colorado funeral home who allegedly stored 190 decaying bodies and sent must pay $950 million to the victims’ families"
+    },
+    "link": "https://fotoscapes.com/lookbook/VPfYerQVuz/families-whose-loved-ones-were-left-rotting-in-funeral-home-owed-950-million-judge-rules",
+    "sourceLink": "https://apnews.com/article/colorado-funeral-home-decomposing-bodies-fe1efbcf0716961d53c27e5446f8d0a2",
+    "uid": "VPfYerQVuz",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/yp/s0/r6frveyps0-r6fPl9zbFV.webp",
+    "width": 1280,
+    "height": 714
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/yp/s0/r6frveyps0-oNfZmP4lfA.webp",
+    "width": 1024,
+    "height": 572
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/yp/s0/r6frveyps0-XofNnPXjCm.webp",
+    "width": 850,
+    "height": 474
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/yp/s0/r6frveyps0-yBfJxEXBCO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/yp/s0/r6frveyps0-ngfDYAEpIz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/yp/s0/r6frveyps0-YofWEvlDuo.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/ve/yp/s0/r6frveyps0-J1fBjXvEun.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4185,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:48:17Z",
+    "scheduledOn": "2024-08-05T23:23:03Z"
+    },
+    {
+    "title": {
+    "en": "Spain players Álvaro Morata, Rodri face UEFA disciplinary case at Euro 2024 party"
+    },
+    "summary": {
+    "en": "UEFA has started a disciplinary process against Spain captain Alvaro Morata and player of the tournament Rodri for singing \"Gibraltar is Spanish.\""
+    },
+    "link": "https://fotoscapes.com/lookbook/v4fYqQ70co/spain-players-alvaro-morata-rodri-face-uefa-disciplinary-case-at-euro-2024-party",
+    "sourceLink": "https://www.foxsports.com/stories/soccer/spain-players-alvaro-morata-rodri-face-uefa-disciplinary-case-euro-2024-party",
+    "uid": "v4fYqQ70co",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/nw/TO/J1fkAVnwTO-ngfDYA16Tz.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/nw/TO/J1fkAVnwTO-YofWEvPoco.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/nw/TO/J1fkAVnwTO-J1fBjXaNfn.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/nw/TO/J1fkAVnwTO-m7fqYDpBcR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/nw/TO/J1fkAVnwTO-Dkfbg1ertR.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/nw/TO/J1fkAVnwTO-WJfbwBJmIL.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/nw/TO/J1fkAVnwTO-6JfGWw24hq.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Fox Sports",
+    "brandLogo": "https://media.fotoscapes.com/imgs/aY/fO/Oj/IQ/aYfOOjIQ-NZfrvz0vFz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/aY/fO/Oj/IQ/aYfOOjIQ-lAfklngyhe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-07-20T21:23:17Z",
+    "scheduledOn": "2024-08-05T23:05:20Z"
+    },
+    {
+    "title": {
+    "en": "Annoyed NFL Insider gives Pittsburgh Steelers, Brandon Aiyuk update"
+    },
+    "summary": {
+    "en": "With social media rumors swirling about the San Francisco 49ers trading Brandon Aiyuk to the Pittsburgh Steelers, one NFL Insider provided an update to squash them, and was clearly annoyed while doing so."
+    },
+    "link": "https://fotoscapes.com/lookbook/26fg2lmDcE/annoyed-nfl-insider-gives-pittsburgh-steelers-brandon-aiyuk-update",
+    "sourceLink": "https://www.sportingnews.com/us/nfl/pittsburgh-steelers/news/nfl-insider-pittsburgh-steelers-brandon-aiyuk-update/c5f3ba1a68924e2391b730ca",
+    "uid": "26fg2lmDcE",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/EZ/tn/GvfWolEZtn-NZfjdQmjsz.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/EZ/tn/GvfWolEZtn-oNfZmPyehA.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/EZ/tn/GvfWolEZtn-PYfn6JvDi7.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/EZ/tn/GvfWolEZtn-EvfpreRohO.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/EZ/tn/GvfWolEZtn-yBfJxEAmSO.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:34:52Z",
+    "scheduledOn": "2024-08-05T23:05:15Z"
+    },
+    {
+    "title": {
+    "en": "Paul Finebaum throws shade at NCAA after Michigan draft notice of allegations"
+    },
+    "summary": {
+    "en": "While many are pointing to major penalties for Michigan football after the draft notice of allegations dropped, Paul Finebaum thinks the opposite."
+    },
+    "link": "https://fotoscapes.com/lookbook/w6fEdakESV/paul-finebaum-throws-shade-at-ncaa-after-michigan-draft-notice-of-allegations",
+    "sourceLink": "https://www.sportingnews.com/us/ncaa-football/news/paul-finebaum-throws-shade-ncaa-michigan-sign-stealing-scandal/ba9e648d07c8bbf95066ba04",
+    "uid": "w6fEdakESV",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/oN/f7/Xp/oq/C0/oNf7XpoqC0-YofWEv2mto.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/oN/f7/Xp/oq/C0/oNf7XpoqC0-dof6we9eHV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/oN/f7/Xp/oq/C0/oNf7XpoqC0-ZofyjmQwsg.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/oN/f7/Xp/oq/C0/oNf7XpoqC0-26fGQz9eiy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/oN/f7/Xp/oq/C0/oNf7XpoqC0-3xfZLAVbSp.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:40:54Z",
+    "scheduledOn": "2024-08-05T23:05:14Z"
+    },
+    {
+    "title": {
+    "en": "Ken Walker, Riq Woolen scuffle as Seahawks practices get increasingly scrappy"
+    },
+    "summary": {
+    "en": "For now, all the Seahawks can do is hit eachother, and that's exactly what they've been doing the last several days at practice as training camp has gotten particularly physical."
+    },
+    "link": "https://fotoscapes.com/lookbook/4xf23EBBCn/ken-walker-riq-woolen-scuffle-as-seahawks-practices-get-increasingly-scrappy",
+    "sourceLink": "https://www.sportingnews.com/us/nfl/seattle-seahawks/news/ken-walker-riq-woolen-scuffle-seahawks-practices-get-increasingly-scrappy/8d2b894f67ae32526dc4726e",
+    "uid": "4xf23EBBCn",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/DJ/to/NZfEX1DJto-7mfGev4Nfx.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/DJ/to/NZfEX1DJto-oNfZmPgJUA.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/DJ/to/NZfEX1DJto-PYfn6J7wu7.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/DJ/to/NZfEX1DJto-kvfz4O30FO.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/DJ/to/NZfEX1DJto-yBfJxEgJTO.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:46:13Z",
+    "scheduledOn": "2024-08-05T23:05:10Z"
+    },
+    {
+    "title": {
+    "en": "ESPN analyst Brian Windhorst believes Celtics roster could have won gold at the Olympics"
+    },
+    "summary": {
+    "en": "ESPN analyst Brian Windhorst believes the current reigning NBA champions, the Boston Celtics, could have won gold at the Olympics."
+    },
+    "link": "https://fotoscapes.com/lookbook/m7fknR9gTe/espn-analyst-brian-windhorst-believes-celtics-roster-could-have-won-gold-at-the-olympics",
+    "sourceLink": "https://www.sportingnews.com/us/nba/boston-celtics/news/espn-analyst-brian-windhorst-believes-celtics-roster-could-have-won-gold-olympics/8a83578cb7235a7aa52c7d7e",
+    "uid": "m7fknR9gTe",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/gm/Uz/jxfRXvgmUz-p6fkorPBt0.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/gm/Uz/jxfRXvgmUz-oNfZmPJWSA.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/gm/Uz/jxfRXvgmUz-XofNnPkPhm.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/gm/Uz/jxfRXvgmUz-PYfn6JmVc7.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/gm/Uz/jxfRXvgmUz-GvfGeBA3ca.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:48:12Z",
+    "scheduledOn": "2024-08-05T23:05:03Z"
+    },
+    {
+    "title": {
+    "en": "Imane Khelif's next Olympics boxing fight: Algerian boxer semifinal time, TV channel and live stream at Paris 2024"
+    },
+    "summary": {
+    "en": "Here is everything you need to know about watching Imane Khelif in the women's boxing semifinals, including TV and streaming options for the Olympic event."
+    },
+    "link": "https://fotoscapes.com/lookbook/yBfQmPb7Ho/imane-khelifs-next-olympics-boxing-fight-algerian-boxer-semifinal-time-tv-channel-and-live-stream-at-paris-2024",
+    "sourceLink": "https://www.sportingnews.com/us/boxing/news/imane-khelif-olympics-boxing-fight-time-channel-live-stream/ebec1e19f935bbce4d6630c8",
+    "uid": "yBfQmPb7Ho",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nx/4J/Cp/x6fBnx4JCp-01fdVyYxsA.webp",
+    "width": 760,
+    "height": 428
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nx/4J/Cp/x6fBnx4JCp-XofNnPqEum.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nx/4J/Cp/x6fBnx4JCp-GvfGeBoVta.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nx/4J/Cp/x6fBnx4JCp-yBfJxEnOCO.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nx/4J/Cp/x6fBnx4JCp-J1fBjXE6fn.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4157,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:55:04Z",
+    "scheduledOn": "2024-08-05T23:05:01Z"
+    },
+    {
+    "title": {
+    "en": "Charles Barkley rips into Joel Embiid in scathing podcast appearance"
+    },
+    "summary": {
+    "en": "NBA analyst Charles Barkley didn’t mince words when discussing Joel Embiid’s play at the 2024 Paris Olympics."
+    },
+    "link": "https://fotoscapes.com/lookbook/ngfdVXwQs9/charles-barkley-rips-into-joel-embiid-in-scathing-podcast-appearance",
+    "sourceLink": "https://www.sportingnews.com/us/nba/philadelphia-76ers/news/charles-barkley-rips-joel-embiid-scathing-podcast-appearance/623d39a8183f72de3ddc7df1",
+    "uid": "ngfdVXwQs9",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/4Y/HQ/e1f1Nm4YHQ-PYfn6JBYh7.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/4Y/HQ/e1f1Nm4YHQ-WJfbwBajSL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/4Y/HQ/e1f1Nm4YHQ-g6f2AzOJhk.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/4Y/HQ/e1f1Nm4YHQ-RqfB3DLztX.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/4Y/HQ/e1f1Nm4YHQ-jxfkErlqT9.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:53:33Z",
+    "scheduledOn": "2024-08-05T23:05:01Z"
+    },
+    {
+    "title": {
+    "en": "Where to watch USWNT vs. Germany live stream, TV channel, start time, lineups, prediction for 2024 Olympics semifinal"
+    },
+    "summary": {
+    "en": "USWNT vs. Germany kickoff time: Here’s how to watch the 2024 Olympics semifinal match on TV and live stream as well as the latest team news. The Sporting News takes you through all the information you need to follow the game."
+    },
+    "link": "https://fotoscapes.com/lookbook/kvfmZqJRCq/where-to-watch-uswnt-vs-germany-live-stream-tv-channel-start-time-lineups-prediction-for-2024-olympics-semifinal",
+    "sourceLink": "https://www.sportingnews.com/us/soccer/news/watch-uswnt-germany-live-stream-tv-channel-olympics-semifinal/b16cf799bbcb2fb1e0aa4d3b",
+    "uid": "kvfmZqJRCq",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/00/S6/3xfzbw00S6-97f4XnZwiL.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/00/S6/3xfzbw00S6-BBfNELv0FD.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/00/S6/3xfzbw00S6-7mfGevROfx.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/00/S6/3xfzbw00S6-p6fkorW3i0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/00/S6/3xfzbw00S6-r6fPl9vRUV.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:00:02Z",
+    "scheduledOn": "2024-08-05T23:05:00Z"
+    },
+    {
+    "title": {
+    "en": "Virginia man charged with threatening to kill Kamala Harris"
+    },
+    "summary": {
+    "en": "Frank Carillo of Winchester, Virginia, posted a series of violent threats about the vice president last month using an alias on a conservative social media site, authorities said."
+    },
+    "link": "https://fotoscapes.com/lookbook/v4fYqQo0fo/virginia-man-charged-with-threatening-to-kill-kamala-harris",
+    "sourceLink": "https://www.nbcnews.com/politics/politics-news/virginia-man-charged-threatening-kill-kamala-harris-rcna165280",
+    "uid": "v4fYqQo0fo",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/ZA/CO/J1fkAVZACO-yBfJxEyntO.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/ZA/CO/J1fkAVZACO-ngfDYA0qcz.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/ZA/CO/J1fkAVZACO-YofWEv7nio.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/ZA/CO/J1fkAVZACO-WJfbwBWVsL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/ZA/CO/J1fkAVZACO-6JfGWwaGiq.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/ZA/CO/J1fkAVZACO-g6f2Az0GHk.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/AV/ZA/CO/J1fkAVZACO-q6f0Do6xfY.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "NBC News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-6JfzZY3bsq.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-g6fNEVbLIk.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:32:33Z",
+    "scheduledOn": "2024-08-05T23:04:01Z"
+    },
+    {
+    "title": {
+    "en": "Beatrice Chebet owns the home stretch to win Olympic 5000m"
+    },
+    "summary": {
+    "en": "Kenyan Beatrice Chebet stormed down the home stretch to win gold in the women's 5000m, her first Olympic medal. Watch the 2024 Paris Olympics on NBC and streaming on Peacock, July 26 - Aug 11."
+    },
+    "link": "https://fotoscapes.com/lookbook/26fg2lwDhE/beatrice-chebet-owns-the-home-stretch-to-win-olympic-5000m",
+    "sourceLink": "https://www.nbcnews.com/video/beatrice-chebet-owns-the-home-stretch-to-win-olympic-5000m-final-in-paris-216473157856",
+    "uid": "26fg2lwDhE",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/wL/vj/sJ/kvfNwLvjsJ-g6f2AzVdtk.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/wL/vj/sJ/kvfNwLvjsJ-ANf7OeZNf0.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/wL/vj/sJ/kvfNwLvjsJ-dof6we4gFV.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/wL/vj/sJ/kvfNwLvjsJ-97f4XnWVsL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/wL/vj/sJ/kvfNwLvjsJ-3xfZLApEFp.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/wL/vj/sJ/kvfNwLvjsJ-BBfNEL6otD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/wL/vj/sJ/kvfNwLvjsJ-jxfkErnDs9.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "NBC News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-6JfzZY3bsq.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-g6fNEVbLIk.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:54:07Z",
+    "scheduledOn": "2024-08-05T23:03:56Z"
+    },
+    {
+    "title": {
+    "en": "Sweden's Mondo raises his own bar to set new Olympic and world record in pole vault"
+    },
+    "summary": {
+    "en": "The American-Swede made his eager fans wait until his final attempt at clinching a new world record at the Paris Olympics — knocking down his own by .01 meters."
+    },
+    "link": "https://fotoscapes.com/lookbook/LRfbJ7PBhb/swedens-mondo-raises-his-own-bar-to-set-new-olympic-and-world-record-in-pole-vault",
+    "sourceLink": "https://www.npr.org/2024/08/05/g-s1-15440/mondo-pole-vault-gold-sweden-paris-olympics",
+    "uid": "LRfbJ7PBhb",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/aP/co/NZfEX1aPco-7mfGevE9fx.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/aP/co/NZfEX1aPco-NZfjdQGOsz.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/aP/co/NZfEX1aPco-VPf130xbuy.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/aP/co/NZfEX1aPco-r6fPl9bnIV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/aP/co/NZfEX1aPco-oNfZmPkasA.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/aP/co/NZfEX1aPco-XofNnPlaSm.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/X1/aP/co/NZfEX1aPco-PYfn6JV2S7.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "National Public Radio",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/f2/Vu/p/dof2Vup-p6fZELB6h0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/f2/Vu/p/dof2Vup-PYfNdzXvS7.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:40:53Z",
+    "scheduledOn": "2024-08-05T23:03:43Z"
+    },
+    {
+    "title": {
+    "en": "Gunmen kill Mexican crime reporter despite his police protection"
+    },
+    "shortTitle": {
+    "en": "Gunmen Murder Protected Reporter"
+    },
+    "summary": {
+    "en": "A Mexican journalist who reported on violent crime in his nation died from a shooting while in a car with his police bodyguards in the central state of Guanajuato."
+    },
+    "link": "https://fotoscapes.com/lookbook/yBfQmPL7so/gunmen-kill-mexican-crime-reporter-despite-his-police-protection",
+    "sourceLink": "https://www.upi.com/Top_News/World-News/2024/08/05/Mexico-journalist-Alejandro-Martnez-Noguez-dead-shooting/8861722885017/",
+    "uid": "yBfQmPL7so",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/1R/Sp/RqfaNr1RSp-ngfDYAB9Tz.webp",
+    "width": 1024,
+    "height": 666
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/1R/Sp/RqfaNr1RSp-m7fqYDQlUR.webp",
+    "width": 850,
+    "height": 553
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/1R/Sp/RqfaNr1RSp-ZofyjmayCg.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/1R/Sp/RqfaNr1RSp-jxfkErxAT9.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/1R/Sp/RqfaNr1RSp-w6fzn7Orc0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/1R/Sp/RqfaNr1RSp-lAfm2qkGTe.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3732,
+    "endB": 0.4444
+    },
+    "owner": "UPI",
+    "brandLogo": "https://media.fotoscapes.com/imgs/ng/fd/YQ/Hg/ngfdYQHg-J1fxBL7lin.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/ng/fd/YQ/Hg/ngfdYQHg-m7f6qwQqcR.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:53:03Z",
+    "scheduledOn": "2024-08-05T23:03:35Z"
+    },
+    {
+    "title": {
+    "en": "Former Trump attorney Jenna Ellis to cooperate with prosecution in Ariz. elector case"
+    },
+    "shortTitle": {
+    "en": "Trump Lawyer Aids Elector Probe"
+    },
+    "summary": {
+    "en": "Donald Trump's former campaign lawyer Jenna Ellis has reached a deal with prosecutors in Arizona's 2020 election subversion case to cooperate and testify against other defendants in exchange for charges being dropped."
+    },
+    "link": "https://fotoscapes.com/lookbook/Evf2W3VOtD/former-trump-attorney-jenna-ellis-to-cooperate-with-prosecution-in-ariz-elector-case",
+    "sourceLink": "https://www.upi.com/Top_News/US/2024/08/05/Jenna-Ellis-cooperate-prosecution-arizona-elector-case/9031722896097/",
+    "uid": "Evf2W3VOtD",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/1R/hq/LRf0LQ1Rhq-yBfJxEreUO.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/1R/hq/LRf0LQ1Rhq-YofWEvJYUo.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/1R/hq/LRf0LQ1Rhq-J1fBjX7ptn.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/1R/hq/LRf0LQ1Rhq-1DfRPYQnsj.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/1R/hq/LRf0LQ1Rhq-WJfbwBO9TL.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/1R/hq/LRf0LQ1Rhq-6JfGWw1diq.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "UPI",
+    "brandLogo": "https://media.fotoscapes.com/imgs/ng/fd/YQ/Hg/ngfdYQHg-J1fxBL7lin.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/ng/fd/YQ/Hg/ngfdYQHg-m7f6qwQqcR.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:43:27Z",
+    "scheduledOn": "2024-08-05T23:03:34Z"
+    },
+    {
+    "title": {
+    "en": "Judge rules Google broke antitrust laws to maintain search monopoly"
+    },
+    "summary": {
+    "en": "In a landmark ruling, a federal judge has found that Google broke antitrust laws to maintain a monopoly in online searches. The ruling could upend how Americans get their information online and fundamentally change the way big tech companies operate. Amna Nawaz discussed the case with Rebecca Allensworth, a professor at Vanderbilt Law School."
+    },
+    "link": "https://fotoscapes.com/lookbook/v4fYqQqoFo/judge-rules-google-broke-antitrust-laws-to-maintain-search-monopoly",
+    "sourceLink": "https://www.pbs.org/newshour/show/judge-rules-google-broke-antitrust-laws-to-maintain-search-monopoly",
+    "uid": "v4fYqQqoFo",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/26/fb/vD/33/Fw/26fbvD33Fw-ANf7Ovb6S0.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/26/fb/vD/33/Fw/26fbvD33Fw-RqfB3kJZiX.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/26/fb/vD/33/Fw/26fbvD33Fw-Onfv3LdYuJ.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/26/fb/vD/33/Fw/26fbvD33Fw-jxfkE9jbh9.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/26/fb/vD/33/Fw/26fbvD33Fw-lAfm2ZjbCe.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/26/fb/vD/33/Fw/26fbvD33Fw-97f4XkpySL.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3665,
+    "endB": 0.4444
+    },
+    "owner": "PBS",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-Qaf0wooQcN.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-EvfLnJaLHO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:55:01Z",
+    "scheduledOn": "2024-08-05T23:02:44Z"
+    },
+    {
+    "title": {
+    "en": "Hurricane Debby lashes Florida's coast and brings potential for historic rainfall inland"
+    },
+    "summary": {
+    "en": "Hurricane Debby barreled into Florida as a Category 1 storm on Monday. Now a tropical storm, it's slowly moving inland and is expected to affect Georgia and the Carolinas. Debby's gusty winds are packing a punch, with hundreds of thousands of power outages reported, but authorities are most concerned about the expected historic rainfall. William Brangham reports."
+    },
+    "link": "https://fotoscapes.com/lookbook/e1freXekt7/hurricane-debby-lashes-floridas-coast-and-brings-potential-for-historic-rainfall-inland",
+    "sourceLink": "https://www.pbs.org/newshour/show/hurricane-debby-lashes-floridas-coast-and-brings-potential-for-historic-rainfall-inland",
+    "uid": "e1freXekt7",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fE/Z2/oy/IB/97fEZ2oyIB-97f4Xkp3hL.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fE/Z2/oy/IB/97fEZ2oyIB-x6f6yDr6cY.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fE/Z2/oy/IB/97fEZ2oyIB-x6f6yDrJTY.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fE/Z2/oy/IB/97fEZ2oyIB-e1fd6GxYce.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fE/Z2/oy/IB/97fEZ2oyIB-BBfNE3GEfD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fE/Z2/oy/IB/97fEZ2oyIB-7mfGep26tx.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3665,
+    "endB": 0.4444
+    },
+    "owner": "PBS",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-Qaf0wooQcN.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-EvfLnJaLHO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:40:47Z",
+    "scheduledOn": "2024-08-05T23:02:44Z"
+    },
+    {
+    "title": {
+    "en": "Black women in Georgia discuss their key election issues and Harris' historic campaign"
+    },
+    "summary": {
+    "en": "Monday marked the final round of online balloting by Democratic delegates, officially making Vice President Kamala Harris the first Black and South Asian woman to secure the presidential nomination from one of the two major parties. Laura Barrón-López traveled to Georgia to hear from Black women, a pivotal voting bloc for the Democratic Party, about Harris' candidacy and this milestone."
+    },
+    "link": "https://fotoscapes.com/lookbook/OnfynJn3HY/black-women-in-georgia-discuss-their-key-election-issues-and-harris-historic-campaign",
+    "sourceLink": "https://www.pbs.org/newshour/show/black-women-in-georgia-discuss-their-key-election-issues-and-harris-historic-campaign",
+    "uid": "OnfynJn3HY",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/30/f6/3xfzbw30f6-3xfZLm7VUp.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/30/f6/3xfzbw30f6-v4f29Z4Atb.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/30/f6/3xfzbw30f6-v4f29Z44cb.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/30/f6/3xfzbw30f6-Onfv3Ld4sJ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/30/f6/3xfzbw30f6-01fdVWa9IA.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bw/30/f6/3xfzbw30f6-NZfjd4xPsz.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3665,
+    "endB": 0.4444
+    },
+    "owner": "PBS",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-Qaf0wooQcN.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-EvfLnJaLHO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:30:16Z",
+    "scheduledOn": "2024-08-05T23:02:44Z"
+    },
+    {
+    "title": {
+    "en": "The data fueling investor concerns as stocks plunge on recession fears"
+    },
+    "summary": {
+    "en": "Global markets have plunged on fears that the world's strongest economy, the United States, may be slowing down. U.S. Stocks also fell with all three indexes recording losses. To discuss what happened and what it means, Amna Nawaz spoke with David Wessel, director of the Hutchins Center on Fiscal and Monetary Policy at the Brookings Institution."
+    },
+    "link": "https://fotoscapes.com/lookbook/x6fpJNJrte/the-data-fueling-investor-concerns-as-stocks-plunge-on-recession-fears",
+    "sourceLink": "https://www.pbs.org/newshour/show/the-data-fueling-investor-concerns-as-stocks-plunge-on-recession-fears",
+    "uid": "x6fpJNJrte",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/fO/Nw/mL/T1/aYfONwmLT1-m7fqYAPohR.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/fO/Nw/mL/T1/aYfONwmLT1-1DfRPO2YUj.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/fO/Nw/mL/T1/aYfONwmLT1-dof6wDLRIV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/fO/Nw/mL/T1/aYfONwmLT1-LRfvEoPeC6.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/fO/Nw/mL/T1/aYfONwmLT1-jxfkE9jlT9.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/fO/Nw/mL/T1/aYfONwmLT1-aYfPyQdDs0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3665,
+    "endB": 0.4444
+    },
+    "owner": "PBS",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-Qaf0wooQcN.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/BN/cL/3xfzBNcL-EvfLnJaLHO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:50:18Z",
+    "scheduledOn": "2024-08-05T23:02:43Z"
+    },
+    {
+    "title": {
+    "en": "Pax Jolie-Pitt released from ICU after suffering 'complex trauma' from e-bike accident"
+    },
+    "shortTitle": {
+    "en": "Jolie-Pitt's Recovery from E-bike"
+    },
+    "summary": {
+    "en": "LOS ANGELES — Pax Jolie-Pitt is out of the ICU but still recovering after suffering a head injury in an e-bike accident that left him hospitalized. Jolie-Pitt, 20, drove into the back of another vehicle at an intersection in Los Angeles last Monday. He was not wearing a helmet at the time. The son of Angelina Jolie, 49, and Brad Pitt, 60 had a brain bleed and has a long recovery ahead of him, ..."
+    },
+    "link": "https://fotoscapes.com/lookbook/7mfbWwWjSR/pax-jolie-pitt-released-from-icu-after-suffering-complex-trauma-from-e-bike-accident",
+    "sourceLink": "https://www.latimes.com/entertainment-arts/story/2024-08-05/pax-jolie-pitt-released-icu-ebike-accident",
+    "uid": "7mfbWwWjSR",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "jxfQZuD",
+    "v4fBVtL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Z2/Tv/Qafq7EZ2Tv-q6f0DmW2IY.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Z2/Tv/Qafq7EZ2Tv-ANf7OvLJS0.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Z2/Tv/Qafq7EZ2Tv-4xfGVZJbhl.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Z2/Tv/Qafq7EZ2Tv-jxfkE9woS9.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Z2/Tv/Qafq7EZ2Tv-w6fznYx9F0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Z2/Tv/Qafq7EZ2Tv-lAfm2Z6gte.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/Z2/Tv/Qafq7EZ2Tv-aYfPyQaqt0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "Los Angeles Times",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Qa/fq/0n/fG/Qafq0nfG-97fm4AnQFL.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Qa/fq/0n/fG/Qafq0nfG-3xf6Z1A2ip.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T18:32:00Z",
+    "scheduledOn": "2024-08-05T23:00:29Z"
+    },
+    {
+    "title": {
+    "en": "Zac Efron is ‘happy and healthy’ after recovering from swimming pool incident in Spain"
+    },
+    "shortTitle": {
+    "en": "Efron: Healthy after Spain Incident"
+    },
+    "summary": {
+    "en": "Zac Efron has weighed in after a Friday incident in a swimming pool in Ibiza, Spain, that saw him taken to a hospital . The actor shared a photo on his Instagram story Sunday showing himself shirtless in the sunshine, lifting weights on a pink yoga ball. “happy and healthy– thanks for the well wishes,” the text said. On Friday, the “Iron Claw” actor was taken to the hospital as a precaution ..."
+    },
+    "link": "https://fotoscapes.com/lookbook/01f7l4RqIJ/zac-efron-is-happy-and-healthy-after-recovering-from-swimming-pool-incident-in-spain",
+    "sourceLink": "https://www.latimes.com/entertainment-arts/story/2024-08-05/zac-efron-hospitalized-ibiza-swimming-pool-accident",
+    "uid": "01f7l4RqIJ",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "6JfV7FW",
+    "jxfQZuD",
+    "v4fBVtL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ag/co/p6fZWOAgco-Evfprz7qIO.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ag/co/p6fZWOAgco-kvfz4lG6fO.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ag/co/p6fZWOAgco-yBfJxj7dIO.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ag/co/p6fZWOAgco-DkfbgjzgCR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ag/co/p6fZWOAgco-WJfbwjrviL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ag/co/p6fZWOAgco-6JfGWZNQCq.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ag/co/p6fZWOAgco-g6f2AEXYik.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "Los Angeles Times",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Qa/fq/0n/fG/Qafq0nfG-97fm4AnQFL.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Qa/fq/0n/fG/Qafq0nfG-3xf6Z1A2ip.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T18:39:00Z",
+    "scheduledOn": "2024-08-05T23:00:28Z"
+    },
+    {
+    "title": {
+    "en": "A trademark lawyer sold the domain name ClintonKaine.com in 2016. He's sitting on HarrisWalz.com now"
+    },
+    "shortTitle": {
+    "en": "Lawyer Predicts Harris-Walz Ticket"
+    },
+    "summary": {
+    "en": "A trademark lawyer who bought the domain named ClintonKaine"
+    },
+    "link": "https://fotoscapes.com/lookbook/ngfdVXNpI9/a-trademark-lawyer-sold-the-domain-name-clintonkaine-com-in-2016-hes-sitting-on-harriswalz-com-now",
+    "sourceLink": "https://apnews.com/article/harris-walz-website-vp-democrats-097a00802a141431d13d93f067f55fd5",
+    "uid": "ngfdVXNpI9",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "WJfPRCJ",
+    "lAfvyuy"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/2v/Cz/jxfRXv2vCz-aYfPyQEef0.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/2v/Cz/jxfRXv2vCz-97f4Xk64fL.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/2v/Cz/jxfRXv2vCz-x6f6yDePsY.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/2v/Cz/jxfRXv2vCz-7mfGepkDcx.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/2v/Cz/jxfRXv2vCz-NZfjd4wBCz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/2v/Cz/jxfRXv2vCz-VPf13Jawfy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/2v/Cz/jxfRXv2vCz-bYfZPjB6CQ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3666,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 2,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:44:03Z",
+    "scheduledOn": "2024-08-05T22:52:44Z"
+    },
+    {
+    "title": {
+    "en": "Jim Harbaugh: 'I do not apologize;' Coach again denies knowing about Michigan sign-stealing scheme"
+    },
+    "shortTitle": {
+    "en": "Harbaugh: 'I Do Not Apologize'"
+    },
+    "summary": {
+    "en": "Chargers coach Jim Harbaugh says he has no reason to apologize"
+    },
+    "link": "https://fotoscapes.com/lookbook/yBfQmPdBho/jim-harbaugh-i-do-not-apologize-coach-again-denies-knowing-about-michigan-sign-stealing-scheme",
+    "sourceLink": "https://apnews.com/article/michigan-sign-stealing-harbaugh-7104b05f43b5de61b23f0cf9767bbd42",
+    "uid": "yBfQmPdBho",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "01f7Pco"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/AX/iX/doflgJAXiX-e1fd6GL9fe.webp",
+    "width": 1280,
+    "height": 856
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/AX/iX/doflgJAXiX-Onfv3LwQtJ.webp",
+    "width": 1024,
+    "height": 685
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/AX/iX/doflgJAXiX-ZofyjZ6kCg.webp",
+    "width": 850,
+    "height": 568
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/AX/iX/doflgJAXiX-v4f29ZlOSb.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/AX/iX/doflgJAXiX-Onfv3LwGHJ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/AX/iX/doflgJAXiX-BBfNE3yATD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/AX/iX/doflgJAXiX-01fdVWvmIA.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3659,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 3,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:47:13Z",
+    "scheduledOn": "2024-08-05T22:52:41Z"
+    },
+    {
+    "title": {
+    "en": "Reclusive tribe attacks loggers suspected of encroaching on their land in Peru's Amazon"
+    },
+    "shortTitle": {
+    "en": "Tribe Attacks Loggers in Peru"
+    },
+    "summary": {
+    "en": "A regional Indigenous organization reports that a reclusive tribe has attacked loggers suspected of operating illegally in its territory in the Peruvian Amazon"
+    },
+    "link": "https://fotoscapes.com/lookbook/kvfmZqv2Tq/reclusive-tribe-attacks-loggers-suspected-of-encroaching-on-their-land-in-perus-amazon",
+    "sourceLink": "https://apnews.com/article/tribe-peru-amazon-illegal-logging-mashco-piro-8105c1153a38f819a7811d0c22cdc89a",
+    "uid": "kvfmZqv2Tq",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/lo/Hp/RqfaNrloHp-NZfjd4JBuz.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/lo/Hp/RqfaNrloHp-bYfZPj06uQ.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/lo/Hp/RqfaNrloHp-p6fkoedzh0.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/lo/Hp/RqfaNrloHp-kvfz4lDmTO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/lo/Hp/RqfaNrloHp-ngfDYJZBfz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/lo/Hp/RqfaNrloHp-m7fqYALDhR.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/lo/Hp/RqfaNrloHp-DkfbgjABiR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:44:01Z",
+    "scheduledOn": "2024-08-05T22:52:25Z"
+    },
+    {
+    "title": {
+    "en": "CrowdStrike and Delta fight over who's to blame for the airline canceling thousands of flights"
+    },
+    "shortTitle": {
+    "en": "Blame Game: CrowdStrike vs Delta"
+    },
+    "summary": {
+    "en": "Cybersecurity software company CrowdStrike is firing back at Delta Air Lines"
+    },
+    "link": "https://fotoscapes.com/lookbook/r6fAx07bSo/crowdstrike-and-delta-fight-over-whos-to-blame-for-the-airline-canceling-thousands-of-flights",
+    "sourceLink": "https://apnews.com/article/crowdstrike-technology-outage-delta-airlines-90358ce65529048c8d7e8b3aa3c615aa",
+    "uid": "r6fAx07bSo",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "WJfPRCJ",
+    "dofxEcL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/vB/hv/Qafq7EvBhv-3xfZLmJOip.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/vB/hv/Qafq7EvBhv-x6f6yDmgfY.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/vB/hv/Qafq7EvBhv-v4f29ZydHb.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/vB/hv/Qafq7EvBhv-7mfGepEWTx.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/vB/hv/Qafq7EvBhv-NZfjd4Gghz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/vB/hv/Qafq7EvBhv-VPf13Jx2ty.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/7E/vB/hv/Qafq7EvBhv-bYfZPjGpuQ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 2,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:40:01Z",
+    "scheduledOn": "2024-08-05T22:42:58Z"
+    },
+    {
+    "title": {
+    "en": "Chicago Fire offering vouchers if Inter Miami's Lionel Messi doesn't play"
+    },
+    "summary": {
+    "en": "The Chicago Fire will offer vouchers for fans if Lionel Messi doesn't play for Inter Miami when the teams meet on Aug. 31."
+    },
+    "link": "https://fotoscapes.com/lookbook/NZfeDBaesl/chicago-fire-offering-vouchers-if-inter-miamis-lionel-messi-doesnt-play",
+    "sourceLink": "https://www.foxsports.com/stories/soccer/chicago-fire-offering-vouchers-inter-miamis-lionel-messi-doesnt-play",
+    "uid": "NZfeDBaesl",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fB/nV/GN/uP/v4fBnVGNuP-jxfkE99Vt9.webp",
+    "width": 800,
+    "height": 450
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fB/nV/GN/uP/v4fBnVGNuP-26fGQ44psy.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fB/nV/GN/uP/v4fBnVGNuP-97f4XkkZTL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fB/nV/GN/uP/v4fBnVGNuP-3xfZLmmvcp.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fB/nV/GN/uP/v4fBnVGNuP-x6f6yDDGTY.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Fox Sports",
+    "brandLogo": "https://media.fotoscapes.com/imgs/aY/fO/Oj/IQ/aYfOOjIQ-NZfrvz0vFz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/aY/fO/Oj/IQ/aYfOOjIQ-lAfklngyhe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-07-20T21:12:49Z",
+    "scheduledOn": "2024-08-05T22:35:05Z"
+    },
+    {
+    "title": {
+    "en": "Biggest takeaways from Tennessee Titans' first unofficial depth chart"
+    },
+    "summary": {
+    "en": "The Tennessee Titans released their first unofficial depth chart of the 2024 offseason ahead of preseason Week 1. Here's a look at the biggest takeaways from it."
+    },
+    "link": "https://fotoscapes.com/lookbook/lAfvXDLDsQ/biggest-takeaways-from-tennessee-titans-first-unofficial-depth-chart",
+    "sourceLink": "https://www.sportingnews.com/us/nfl/tennessee-titans/news/tennessee-titans-unofficial-depth-chart-takeaways/3c1cc4a11f9c6601ab1d20f6",
+    "uid": "lAfvXDLDsQ",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/dX/CX/doflgJdXCX-aYfPyQOZC0.webp",
+    "width": 760,
+    "height": 427
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/dX/CX/doflgJdXCX-r6fPlNrkSV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/dX/CX/doflgJdXCX-PYfn6XN7i7.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/dX/CX/doflgJdXCX-ngfDYJb3iz.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fl/gJ/dX/CX/doflgJdXCX-WJfbwjEoUL.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4164,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:11:22Z",
+    "scheduledOn": "2024-08-05T22:34:58Z"
+    },
+    {
+    "title": {
+    "en": "NFL insider provides update on current Brandon Aiyuk trade rumors to Browns AFC North rival"
+    },
+    "summary": {
+    "en": "NFL insider Jordan Schultz gives the first official statement regarding the rampant rumors about Brandon Aiyuk"
+    },
+    "link": "https://fotoscapes.com/lookbook/w6fEdaqRfV/nfl-insider-provides-update-on-current-brandon-aiyuk-trade-rumors-to-browns-afc-north-rival",
+    "sourceLink": "https://www.sportingnews.com/us/nfl/cleveland-browns/news/nfl-insider-update-brandon-aiyuk-rumors-browns-rival/69c9663c9ec7b4396bc5a08d",
+    "uid": "w6fEdaqRfV",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco",
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/Pn/sa/4xfWObPnsa-jxfkE9Q0u9.webp",
+    "width": 760,
+    "height": 428
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/Pn/sa/4xfWObPnsa-7mfGepnqTx.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/Pn/sa/4xfWObPnsa-p6fkoeZvF0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/Pn/sa/4xfWObPnsa-oNfZmW7ziA.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/Pn/sa/4xfWObPnsa-EvfprzNRCO.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4157,
+    "endB": 0.4444
+    },
+    "owner": "Sporting News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-x6fBEdXbCY.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/VP/fj/Y3/S7/VPfjY3S7-e1f1vlRBfe.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:20:02Z",
+    "scheduledOn": "2024-08-05T22:34:57Z"
+    },
+    {
+    "title": {
+    "en": "Why the Japanese Yen is triggering a global market selloff"
+    },
+    "summary": {
+    "en": "Japanese stocks saw their worst day today since ^[1987^|https://apnews.com/article/stocks-markets-nikkei-economy-c6240977e9482bf7207abc53b2a11e58^] as Japan's currency soared to a seven-month high against the U.S. dollar — triggering a selloff in global stocks.\n\n^*Why it matters: ^*There's an unwinding of the popular \"^[yen carry trade^|https://www.cnbc.com/2024/08/05/carry-trades-a-major-unwinding-is-underway-amid-a-stock-sell-off.html^]\" happening \"at lightning speed\" that will continue to cause volatility until it's over, Art Hogan, chief market strategist at B. Riley Wealth, tells Axios.\n\n^*Catch up fast: ^*The premise of the trade is simple: Investors borrow cheap yen in Japan, where interest rates have been ^[stuck at zero^|https://www.axios.com/2024/08/05/global-stock-market-japan-us-selloff^], and buy higher yielding assets in other countries with predictable returns, such as U.S. stocks (primarily Big Tech names) and bonds.\n\nWell, that approach recently lost its appeal, as the value of the yen has risen in recent weeks and after Japan's central bank raised rates last week.\n\n^*The latest: ^*That's the main fuel for today's market meltdown, according to Hogan.\n\nProfit taking, concerns about the direction of the U.S. economy given Friday's U.S. jobs report and a traditional calendar cycle of selling in August and September also factored into the equation, he added.\n\n^*What they're saying: ^*Wall Street is clamoring to figure out what the historic meltdown in a very large and important economy means and who is exposed to it, Callie Cox, chief market strategist at Ritholtz Wealth Management, tells Axios in an interview, about the selloff in Japan.\n\n\"Contagion is the biggest worry right now, and investors are already kind of on edge after Friday's jobs report, already wondering about the economy and what's happening underneath the surface.\"\n\n^*The big picture:^* If you're getting déjà vu — don't be alarmed.\n\nPart of what pushed Silicon Valley Bank to collapse last year was its bet on low interest rates here in the U.S.Those fears spread, but did not ultimately result in prolonged widespread selloff.Over the past week, as the yen carry trade has unraveled, it's also revealed the risk associated with investment concentration in Big Tech.\n\nData: FactSet and Wall Street Journal; Table: Axios Visuals\n\n^*By the numbers: ^*The tech sector was the most hammered by investors unwinding the yen carry trade, down 3.8% compared to the broader market decline of 3%, leaving room for more rotation into smaller names.\n\n^*Zoom in: ^*AMD and ASML — key semiconductor companies — closed up 1.8% and 1.4%, respectively, on the day as Nvidia, one of the most actively traded today, shed 6.4%.\n\nDoorDash and e.l.f. Beauty were also unscathed, rising 3.5% and 5.9%, respectively, on the day.Another notable gainer on the day was Kellanova, which closed up 16.2% on a report that it's the ^[target of an acquisition by Mars^|https://www.axios.com/2024/08/05/mars-kellanova-snack-merger^].\n\n^*What we're watching: ^*Neither Hogan nor Cox believe the Fed will introduce an emergency interest rate cute.\n\n\"The Fed's never been swayed or persuaded by equity markets,\" said Hogan. And an off-cycle move might have the reverse effect on investors.\n\n^*The bottom line: ^*\"Fluky stuff happens every once in a while, but not everything is the next financial crisis,\" said Cox."
+    },
+    "link": "https://fotoscapes.com/lookbook/VPfYerwrIz/why-the-japanese-yen-is-triggering-a-global-market-selloff",
+    "sourceLink": "https://www.axios.com/2024/08/05/stock-market-japan-global-selloff",
+    "uid": "VPfYerwrIz",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/LW/SR/q6f24BLWSR-WJfbwd3lfL.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/LW/SR/q6f24BLWSR-6JfGWo7luq.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/LW/SR/q6f24BLWSR-ANf7OoYEt0.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/LW/SR/q6f24BLWSR-aYfPyw2zF0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/LW/SR/q6f24BLWSR-26fGQDkosy.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/LW/SR/q6f24BLWSR-97f4X2JbUL.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/LW/SR/q6f24BLWSR-3xfZLwPBup.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Axios",
+    "brandLogo": "https://media.fotoscapes.com/imgs/On/fy/gb/Ue/OnfygbUe-01f2g3QXFA.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/On/fy/gb/Ue/OnfygbUe-7mfn39E1Tx.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:09:08Z",
+    "scheduledOn": "2024-08-05T22:34:09Z"
+    },
+    {
+    "title": {
+    "en": "How a VP pick shaped U.S. politics for decades: From the Politics Desk"
+    },
+    "summary": {
+    "en": "Welcome to the online version of From the Politics Desk, an evening newsletter that brings you the NBC News Politics team’s latest reporting and analysis from the campaign trail, the White House and Capitol Hill."
+    },
+    "link": "https://fotoscapes.com/lookbook/BBfgrQ4DSA/how-a-vp-pick-shaped-u-s-politics-for-decades-from-the-politics-desk",
+    "sourceLink": "https://www.nbcnews.com/politics/vp-pick-shaped-us-politics-decades-politics-desk-rcna165125",
+    "uid": "BBfgrQ4DSA",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Ev/fN/B6/nB/In/EvfNB6nBIn-01fdVZ1asA.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Ev/fN/B6/nB/In/EvfNB6nBIn-7mfGeZOaSx.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Ev/fN/B6/nB/In/EvfNB6nBIn-NZfjd1ynHz.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Ev/fN/B6/nB/In/EvfNB6nBIn-zpfZ2vxwcE.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Ev/fN/B6/nB/In/EvfNB6nBIn-r6fPleZrfV.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Ev/fN/B6/nB/In/EvfNB6nBIn-oNfZmpdLUA.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Ev/fN/B6/nB/In/EvfNB6nBIn-XofNnwawsm.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "NBC News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-6JfzZY3bsq.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-g6fNEVbLIk.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:02:02Z",
+    "scheduledOn": "2024-08-05T22:33:54Z"
+    },
+    {
+    "title": {
+    "en": "Justice Clarence Thomas didn't disclose additional private jet travel, Democratic senator says"
+    },
+    "summary": {
+    "en": "Senate Finance Committee chair Ron Wyden said the finding intensified his concerns that conservative megadonor Harlan Crow was engaged in a tax-avoidance scheme."
+    },
+    "link": "https://fotoscapes.com/lookbook/x6fpJNRkhe/justice-clarence-thomas-didnt-disclose-additional-private-jet-travel-democratic-senator-says",
+    "sourceLink": "https://www.nbcnews.com/politics/supreme-court/justice-clarence-thomas-didnt-disclose-additional-private-jet-travel-d-rcna165263",
+    "uid": "x6fpJNRkhe",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/x7/Se/zpf6bvx7Se-aYfPywVNS0.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/x7/Se/zpf6bvx7Se-3xfZLw1NHp.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/x7/Se/zpf6bvx7Se-e1fd6mwqfe.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/x7/Se/zpf6bvx7Se-BBfNEenruD.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/x7/Se/zpf6bvx7Se-7mfGeZzaSx.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/x7/Se/zpf6bvx7Se-bYfZPo2EFQ.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/zp/f6/bv/x7/Se/zpf6bvx7Se-QafNmEdnTN.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "NBC News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-6JfzZY3bsq.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-g6fNEVbLIk.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:12:20Z",
+    "scheduledOn": "2024-08-05T22:33:50Z"
+    },
+    {
+    "title": {
+    "en": "Chuck Schumer eyes opportunities to pass deepfake and AI bills as 2024 elections near"
+    },
+    "summary": {
+    "en": "Senate Majority Leader Chuck Schumer says he'll push to pass artificial intelligence and deepfake bills before the end of the year as the 2024 elections approach."
+    },
+    "link": "https://fotoscapes.com/lookbook/3xfB9l3ZHN/chuck-schumer-eyes-opportunities-to-pass-deepfake-and-ai-bills-as-2024-elections-near",
+    "sourceLink": "https://www.nbcnews.com/politics/congress/chuck-schumer-eyes-opportunities-pass-deepfake-ai-bills-2024-elections-rcna164915",
+    "uid": "3xfB9l3ZHN",
+    "lbtype": "springboard",
+    "interests": [
+    "4xf2df3"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ra/Co/p6fZWORaCo-Evfpr6gVfO.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ra/Co/p6fZWORaCo-yBfJxDv6sO.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ra/Co/p6fZWORaCo-J1fBjVrDtn.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ra/Co/p6fZWORaCo-g6f2A9REFk.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ra/Co/p6fZWORaCo-q6f0DBGoCY.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ra/Co/p6fZWORaCo-ANf7OoAdF0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/WO/Ra/Co/p6fZWORaCo-4xfGVbQACl.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "NBC News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-6JfzZY3bsq.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/6J/fV/er/hL/6JfVerhL-g6fNEVbLIk.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:16:10Z",
+    "scheduledOn": "2024-08-05T22:33:49Z"
+    },
+    {
+    "title": {
+    "en": "A rocket attack at an Iraqi military base injures US personnel, officials tell AP"
+    },
+    "summary": {
+    "en": "Defense officials say several U.S. personnel were injured in a suspected rocket attack at a military base in Iraq"
+    },
+    "link": "https://fotoscapes.com/lookbook/01f7l44NTJ/a-rocket-attack-at-an-iraqi-military-base-injures-us-personnel-officials-tell-ap",
+    "sourceLink": "https://apnews.com/article/iraq-mideast-us-forces-attack-90a1519a42c751fdc2915ba05df9e5a8",
+    "uid": "01f7l44NTJ",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "lAfvyuy"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/LW/Cn/GvfWolLWCn-oNfZmpPWHA.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/LW/Cn/GvfWolLWCn-XofNnwPPCm.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/LW/Cn/GvfWolLWCn-PYfn6pJVh7.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/LW/Cn/GvfWolLWCn-ngfDYoAaUz.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/LW/Cn/GvfWolLWCn-YofWEyvVIo.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/LW/Cn/GvfWolLWCn-J1fBjVXYUn.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/LW/Cn/GvfWolLWCn-m7fqYoD6TR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3666,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:37:58Z",
+    "scheduledOn": "2024-08-05T22:32:13Z"
+    },
+    {
+    "title": {
+    "en": "Man who robbed Brooklyn ‘Bling Bishop’ Lamor Whitehead wants leniency because victim’s a crook too"
+    },
+    "shortTitle": {
+    "en": "Leniency in 'Bling Bishop' Robbery"
+    },
+    "summary": {
+    "en": "NEW YORK — One of the men who robbed Brooklyn Bling Bishop Lamor Whitehead during a live-streamed sermon says he should get leniency on his sentence — because the bishop is also a crook. Ex-con Say-Quan Pollack’s lawyer made a point of Whitehead’s March fraud conviction in a letter to a judge. “The arrest, trial and conviction of Bishop Lamor Whitehead, one of the victims here, bears mention ..."
+    },
+    "link": "https://fotoscapes.com/lookbook/WJfPZGoNSO/man-who-robbed-brooklyn-bling-bishop-lamor-whitehead-wants-leniency-because-victims-a-crook-too",
+    "sourceLink": "https://www.nydailynews.com/2024/08/05/man-who-robbed-brooklyn-bling-bishop-lamor-whitehead-wants-leniency-because-victims-a-crook-too/",
+    "uid": "WJfPZGoNSO",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "v4fBVtL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/L4/Ha/4xfWObL4Ha-RqfB3Y0ntX.webp",
+    "width": 1280,
+    "height": 854
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/L4/Ha/4xfWObL4Ha-Zofyja9RUg.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/L4/Ha/4xfWObL4Ha-aYfPyozXF0.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/L4/Ha/4xfWObL4Ha-QafNm0bpCN.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/L4/Ha/4xfWObL4Ha-r6fPlwoDhV.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/L4/Ha/4xfWObL4Ha-XofNnQAVhm.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/L4/Ha/4xfWObL4Ha-PYfn6rbQc7.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3664,
+    "endB": 0.4444
+    },
+    "owner": "New York Daily News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/p6/fZ/ZV/ir/p6fZZVir-oNfL4dWgUA.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/p6/fZ/ZV/ir/p6fZZVir-XofQXaRocm.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T18:15:00Z",
+    "scheduledOn": "2024-08-05T22:30:30Z"
+    },
+    {
+    "title": {
+    "en": "Sell-off on Wall Street: Why it is happening and what it says about the economy"
+    },
+    "shortTitle": {
+    "en": "Wall Street Sell-Off: Causes"
+    },
+    "summary": {
+    "en": "It’s nail-biting time on Wall Street. Stocks had been dropping at worrisome rates for several days, but on Monday things went from concerning to panicky. At one point, the Dow Jones industrial average plunged more than 1,200 points, on a day when equity markets tumbled across the globe. It closed down 1,034 points, or 2.6%. Technology stocks have been hit particularly hard lately: The Nasdaq ..."
+    },
+    "link": "https://fotoscapes.com/lookbook/1Df6arX2cq/sell-off-on-wall-street-why-it-is-happening-and-what-it-says-about-the-economy",
+    "sourceLink": "https://www.latimes.com/business/story/2024-08-05/sell-off-on-wall-street-why-is-it-happening-and-whats-it-mean-for-the-economy",
+    "uid": "1Df6arX2cq",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "v4fBVtL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/xp/iR/q6f24BxpiR-ngfDYBzqcz.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/xp/iR/q6f24BxpiR-J1fBj7Ogfn.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/xp/iR/q6f24BxpiR-WJfbwOLVUL.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/xp/iR/q6f24BxpiR-26fGQB12ty.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/xp/iR/q6f24BxpiR-3xfZLQyGfp.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/xp/iR/q6f24BxpiR-v4f29Rr9Hb.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/xp/iR/q6f24BxpiR-Onfv36gXtJ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "Los Angeles Times",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Qa/fq/0n/fG/Qafq0nfG-97fm4AnQFL.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Qa/fq/0n/fG/Qafq0nfG-3xf6Z1A2ip.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T18:01:00Z",
+    "scheduledOn": "2024-08-05T22:30:29Z"
+    },
+    {
+    "title": {
+    "en": "Bad Bunny, Karol G and more Latinos make the list of top global tours"
+    },
+    "shortTitle": {
+    "en": "Bad Bunny Leads Latin Music Tours"
+    },
+    "summary": {
+    "en": "A fourth of the world’s top 20 touring artists are Latino musicians, according to new data from Pollstar. For the week of Aug. 5, the trade publication reports that Bad Bunny sits in third place with an average box office gross per city of $3,816,973, below Luke Combs in first and Dead & Company in second. The data includes averages for worldwide ticket prices and average box office grosses ..."
+    },
+    "link": "https://fotoscapes.com/lookbook/Dkf6XaZXTW/bad-bunny-karol-g-and-more-latinos-make-the-list-of-top-global-tours",
+    "sourceLink": "https://www.latimes.com/delos/story/2024-08-05/latin-musicians-bad-bunny-karol-g-top-global-touring-concerts-pollstar",
+    "uid": "Dkf6XaZXTW",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "6JfV7FW",
+    "jxfQZuD",
+    "v4fBVtL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/PO/h3/6JfzdoPOh3-e1fd6R6Jce.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/PO/h3/6JfzdoPOh3-Onfv363XuJ.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/PO/h3/6JfzdoPOh3-01fdVg97IA.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/PO/h3/6JfzdoPOh3-r6fPlwgDiV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/PO/h3/6JfzdoPOh3-oNfZmL90iA.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/PO/h3/6JfzdoPOh3-GvfGeOzxsa.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/PO/h3/6JfzdoPOh3-kvfz4eVgFO.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "Los Angeles Times",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Qa/fq/0n/fG/Qafq0nfG-97fm4AnQFL.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Qa/fq/0n/fG/Qafq0nfG-3xf6Z1A2ip.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T18:01:00Z",
+    "scheduledOn": "2024-08-05T22:30:28Z"
+    },
+    {
+    "title": {
+    "en": "Golf best bets: Dougherty's outright picks for the Wyndham Championship"
+    },
+    "summary": {
+    "en": "Boom! Not only did we cash Scottie Scheffler to win the Olympic men's golf tournament at +400, but we also cashed Tommy Fleetwood in an alternate win market at +1400. Let's keep it going!"
+    },
+    "link": "https://fotoscapes.com/lookbook/7mfbWwDXHR/golf-best-bets-doughertys-outright-picks-for-the-wyndham-championship",
+    "sourceLink": "https://www.yardbarker.com/golf/articles/golf_best_bets_doughertys_outright_picks_for_the_wyndham_championship/s1_13132_40705805?utm_medium=feed&utm_source=digitalturbine",
+    "uid": "7mfbWwDXHR",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/gb/ia/4xfWObgbia-aYfPyomat0.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/gb/ia/4xfWObgbia-v4f29RvQfb.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/gb/ia/4xfWObgbia-Onfv36zqhJ.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/gb/ia/4xfWObgbia-x6f6yXzpUY.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/gb/ia/4xfWObgbia-e1fd6RaRce.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/gb/ia/4xfWObgbia-Onfv36qoSJ.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fW/Ob/gb/ia/4xfWObgbia-BBfNEjw3HD.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Yardbarker",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/D1/sL/3xfzD1sL-PYf4jg9Gf7.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/D1/sL/3xfzD1sL-kvfgRnv6HO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:32:47Z",
+    "scheduledOn": "2024-08-05T22:27:48Z"
+    },
+    {
+    "title": {
+    "en": "Summer of Soccer best bets: USWNT gears up for round two with Germany"
+    },
+    "summary": {
+    "en": "Where are the bets in Tuesday's Olympic women's soccer matchup between the USWNT and Germany? Yardbarker's Alyssa Clang has a pretty good idea."
+    },
+    "link": "https://fotoscapes.com/lookbook/OnfynJ7RsY/summer-of-soccer-best-bets-uswnt-gears-up-for-round-two-with-germany",
+    "sourceLink": "https://www.yardbarker.com/soccer/articles/summer_of_soccer_best_bets_uswnt_gears_up_for_round_two_with_germany/s1_13132_40705942?utm_medium=feed&utm_source=digitalturbine",
+    "uid": "OnfynJ7RsY",
+    "lbtype": "springboard",
+    "interests": [
+    "01f7Pco"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/GY/Hb/g6fNP9GYHb-GvfGeO6jsa.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/GY/Hb/g6fNP9GYHb-EvfprLqeTO.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/GY/Hb/g6fNP9GYHb-kvfz4exofO.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/GY/Hb/g6fNP9GYHb-yBfJxrXeSO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/GY/Hb/g6fNP9GYHb-ngfDYBE9Tz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/GY/Hb/g6fNP9GYHb-YofWEJlYco.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/GY/Hb/g6fNP9GYHb-J1fBj7vpHn.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Yardbarker",
+    "brandLogo": "https://media.fotoscapes.com/imgs/3x/fz/D1/sL/3xfzD1sL-PYf4jg9Gf7.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/3x/fz/D1/sL/3xfzD1sL-kvfgRnv6HO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:06:12Z",
+    "scheduledOn": "2024-08-05T22:27:45Z"
+    }
+    ],
+    "gen": "2024-08-06T00:05:26Z",
+    "ttl": "2024-08-06T00:35:26Z"
+    }

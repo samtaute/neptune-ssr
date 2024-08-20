@@ -1,0 +1,3888 @@
+{
+    "status": {
+    "http": 200,
+    "lkbk": "OK"
+    },
+    "ver": "1.0",
+    "interests": {
+    "01f2PHo": {
+    "name": {
+    "en": "Astrology",
+    "es": "Astrología"
+    },
+    "weight": 0.7
+    },
+    "01f7Pco": {
+    "name": {
+    "en": "Sports",
+    "es": "Deportes"
+    },
+    "weight": 0.53
+    },
+    "01fPho": {
+    "name": {
+    "en": "Photography",
+    "es": "Fotografía"
+    },
+    "weight": 0.55
+    },
+    "1Df64CD": {
+    "name": {
+    "en": "Influencers",
+    "es": "Influenciadores"
+    },
+    "weight": 0.4
+    },
+    "26fbYCm": {
+    "name": {
+    "en": "Sports News",
+    "es": "Noticias de Deportes"
+    },
+    "weight": 0.5
+    },
+    "26fgYum": {
+    "name": {
+    "en": "Celebrity Homes",
+    "es": "Casas de Celebridades"
+    },
+    "weight": 0.8
+    },
+    "3xfBzCl": {
+    "name": {
+    "en": "Architecture",
+    "es": "Arquitectura"
+    },
+    "weight": 0.55
+    },
+    "3xfzul": {
+    "name": {
+    "en": "Noteworthy",
+    "es": "Notable"
+    },
+    "weight": 0.47
+    },
+    "3xfzzil": {
+    "name": {
+    "en": "Technology News",
+    "es": "Noticias de Tecnología"
+    },
+    "weight": 0.5
+    },
+    "4xf2df3": {
+    "name": {
+    "en": "News",
+    "es": "Noticias"
+    },
+    "weight": 0.5
+    },
+    "4xfdS3": {
+    "name": {
+    "en": "Editorial Photography",
+    "es": "Fotografía Editorial"
+    },
+    "weight": 0.39
+    },
+    "6JfV7FW": {
+    "name": {
+    "en": "Entertainment",
+    "es": "Entretenimiento"
+    },
+    "weight": 0.6
+    },
+    "7mfnQIy": {
+    "name": {
+    "en": "Personal Finance",
+    "es": "Finanzas Personales"
+    },
+    "weight": 0.5
+    },
+    "97fEvFR": {
+    "name": {
+    "en": "Strange News",
+    "es": "Noticias Extrañas"
+    },
+    "weight": 0.68
+    },
+    "97fvsR": {
+    "name": {
+    "en": "Cars & Rides",
+    "es": "Coches & Paseos"
+    },
+    "weight": 0.5
+    },
+    "97fvvHR": {
+    "name": {
+    "en": "Science",
+    "es": "Ciencia"
+    },
+    "weight": 0.5
+    },
+    "ANfkmhe": {
+    "name": {
+    "en": "Shopping",
+    "es": "Compras"
+    },
+    "weight": 0.7
+    },
+    "BBfmJtJ": {
+    "name": {
+    "en": "Wellness",
+    "es": "Bienestar"
+    },
+    "weight": 0.52
+    },
+    "LRfPcJ": {
+    "name": {
+    "en": "Celebrities",
+    "es": "Famosos"
+    },
+    "weight": 0.7
+    },
+    "LRfbPUJ": {
+    "name": {
+    "en": "General News",
+    "es": "Noticias Generales"
+    },
+    "weight": 0.5
+    },
+    "NZf7cr": {
+    "name": {
+    "en": "Travel",
+    "es": "Viajar"
+    },
+    "weight": 0.7
+    },
+    "OnfOio": {
+    "name": {
+    "en": "Women",
+    "es": "Mujeres"
+    },
+    "weight": 0.5
+    },
+    "OnfPOIo": {
+    "name": {
+    "en": "Mobile Apps",
+    "es": "Aplicaciones Móviles"
+    },
+    "weight": 0.22
+    },
+    "OnfyOho": {
+    "name": {
+    "en": "Sneakers",
+    "es": "Zapatillas"
+    },
+    "weight": 0.55
+    },
+    "Rqf2Tg": {
+    "name": {
+    "en": "Fashion",
+    "es": "Moda"
+    },
+    "weight": 0.31
+    },
+    "Rqfo2tg": {
+    "name": {
+    "en": "Entertainment News",
+    "es": "Noticias de Entretenimiento"
+    },
+    "weight": 0.5
+    },
+    "VPf7tE": {
+    "name": {
+    "en": "Women's Style",
+    "es": "Estilo Mujer"
+    },
+    "weight": 0.5
+    },
+    "WJfPRCJ": {
+    "name": {
+    "en": "Technology",
+    "es": "Tecnología"
+    },
+    "weight": 0.5
+    },
+    "ZofNtA": {
+    "name": {
+    "en": "Culture",
+    "es": "Cultura"
+    },
+    "weight": 0.43
+    },
+    "ZofgNIA": {
+    "name": {
+    "en": "Health",
+    "es": "Salud"
+    },
+    "weight": 0.5
+    },
+    "aYfZ9HP": {
+    "name": {
+    "en": "Science News",
+    "es": "Noticias Científicas"
+    },
+    "weight": 0.5
+    },
+    "dofEhL": {
+    "name": {
+    "en": "Outdoor Photography",
+    "es": "Fotografía al Aire Libre"
+    },
+    "weight": 0.71
+    },
+    "dofxEcL": {
+    "name": {
+    "en": "Business",
+    "es": "Negocio"
+    },
+    "weight": 0.3
+    },
+    "e1f1GsP": {
+    "name": {
+    "en": "Games",
+    "es": "Juegos"
+    },
+    "weight": 0.35
+    },
+    "e1fGFP": {
+    "name": {
+    "en": "Men's Style",
+    "es": "Estilo Masculino"
+    },
+    "weight": 0.47
+    },
+    "e1frGSP": {
+    "name": {
+    "en": "Celebrity Style",
+    "es": "Estilo de Celebridad"
+    },
+    "weight": 0.33
+    },
+    "g6fYliB": {
+    "name": {
+    "en": "Lifestyle",
+    "es": "Estilo de Vida"
+    },
+    "weight": 0.49
+    },
+    "jxfQZuD": {
+    "name": {
+    "en": "International News",
+    "es": "Noticias Internacionales"
+    },
+    "weight": 0.4
+    },
+    "jxfZUD": {
+    "name": {
+    "en": "Art & Design",
+    "es": "Arte & Diseño"
+    },
+    "weight": 0.5
+    },
+    "lAfvyuy": {
+    "name": {
+    "en": "Politics",
+    "es": "Política"
+    },
+    "weight": 0.4
+    },
+    "lAfyfy": {
+    "name": {
+    "en": "Music",
+    "es": "Música"
+    },
+    "weight": 0.59
+    },
+    "oNfDHQ": {
+    "name": {
+    "en": "Designer Fashion",
+    "es": "Moda de Diseño"
+    },
+    "weight": 0.27
+    },
+    "q6fqjSw": {
+    "name": {
+    "en": "Food & Drink",
+    "es": "Comida & Bebida"
+    },
+    "weight": 0.5
+    },
+    "v4fBVtL": {
+    "name": {
+    "en": "US News",
+    "es": "Noticias de EE.UU."
+    },
+    "weight": 0.5
+    },
+    "v4fVCL": {
+    "name": {
+    "en": "Home & Garden",
+    "es": "Hogar & Jardín"
+    },
+    "weight": 0.61
+    },
+    "v4fYViL": {
+    "name": {
+    "en": "Gear & Gadgets",
+    "es": "Equipos & Gadgets"
+    },
+    "weight": 0.57
+    },
+    "w6fnIL": {
+    "name": {
+    "en": "TV & Film",
+    "es": "TV & Cine"
+    },
+    "weight": 0.45
+    },
+    "x6fBXcR": {
+    "name": {
+    "en": "Top News",
+    "es": "Las Noticias Más Importantes"
+    },
+    "weight": 0.7
+    },
+    "x6fpXFR": {
+    "name": {
+    "en": "Adventure",
+    "es": "Aventura"
+    },
+    "weight": 0.63
+    }
+    },
+    "items": [
+    {
+    "title": {
+    "en": "Jessica Sinn Tapped to Head Entertainment Marketing for 160/90 Agency"
+    },
+    "summary": {
+    "en": "Cultural marketing agency 160/90 has appointed former global business development lead Jessica Sinn to executive vice president. In her new role, Sinn will be responsible for the growth of the company’s entertainment marketing division and lead integrated marketing initiatives for 160/90. Sinn held her previous role for over two and a half years at the […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/e1freXnaU7/jessica-sinn-tapped-to-head-entertainment-marketing-for-160-90-agency",
+    "sourceLink": "https://variety.com/2024/biz/news/jessica-sinn-entertainment-marketing-160-90-1236092904/",
+    "uid": "e1freXnaU7",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/kO/Fb/g6fNP9kOFb-WJfbwylpIL.webp",
+    "width": 800,
+    "height": 800
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/kO/Fb/g6fNP9kOFb-lAfm2elpue.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/kO/Fb/g6fNP9kOFb-97f4XOdBsL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/kO/Fb/g6fNP9kOFb-v4f29ya7ib.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/kO/Fb/g6fNP9kOFb-Onfv3EGgfJ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.2778,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:12:37Z",
+    "scheduledOn": "2024-08-05T23:34:45Z"
+    },
+    {
+    "title": {
+    "en": "Tamra Judge Shares the ‘Biggest Lie’ She Told on RHOC"
+    },
+    "summary": {
+    "en": "\"Real Housewives of Orange County\" star Tamra Judge is opening up about filming the Bravo series on her podcast.\n\nThe post ^[Tamra Judge Shares the ‘Biggest Lie’ She Told on RHOC^|https://heavy.com/entertainment/real-housewives/tamra-judge-lie-rhoc/^] appeared first on ^[Heavy.com^|https://heavy.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/x6fpJN7Wse/tamra-judge-shares-the-biggest-lie-she-told-on-rhoc",
+    "sourceLink": "https://heavy.com/entertainment/real-housewives/tamra-judge-lie-rhoc/",
+    "uid": "x6fpJN7Wse",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/E4/Sz/jxfRXvE4Sz-zpfZ2Bd1hE.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/E4/Sz/jxfRXvE4Sz-r6fPlbkdSV.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/E4/Sz/jxfRXvE4Sz-m7fqYZWeuR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/E4/Sz/jxfRXvE4Sz-g6f2AJpouk.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/E4/Sz/jxfRXvE4Sz-LRfvEYgOH6.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/E4/Sz/jxfRXvE4Sz-lAfm2eo9Te.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Heavy",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Yo/fj/EX/cP/YofjEXcP-1DfxmJVFj.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Yo/fj/EX/cP/YofjEXcP-WJf3YVnuL.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T17:56:43Z",
+    "scheduledOn": "2024-08-05T23:33:50Z"
+    },
+    {
+    "title": {
+    "en": "Zendaya and Robert Pattinson in Early Negotiations to Star in A24’s ‘The Drama’"
+    },
+    "summary": {
+    "en": "Zendaya and Robert Pattinson are in early talks to star in “The Drama,” helmed and written by “Dream Scenario” director Kristoffer Borgli. Project details are still being kept under wraps, but rumors suggest it’s a romance that takes an unexpected turn before the couple’s big day. This marks another film collaboration between Square Peg and […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/zpfwPNqoSX/zendaya-and-robert-pattinson-in-early-negotiations-to-star-in-a24s-the-drama",
+    "sourceLink": "https://variety.com/2024/film/news/zendaya-robert-pattinson-the-drama-a24-kristoffer-borgli-1236096413/",
+    "uid": "zpfwPNqoSX",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/wR/Hq/LRf0LQwRHq-PYfn6J1zC7.webp",
+    "width": 850,
+    "height": 566
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/wR/Hq/LRf0LQwRHq-J1fBjXYqhn.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/wR/Hq/LRf0LQwRHq-Dkfbg1A0HR.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/wR/Hq/LRf0LQwRHq-WJfbwB20FL.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/f0/LQ/wR/Hq/LRf0LQwRHq-6JfGWw4vSq.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3669,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:57:35Z",
+    "scheduledOn": "2024-08-05T23:04:43Z"
+    },
+    {
+    "title": {
+    "en": "France Celebrates Triumphant Olympics With Record Medal Count, Millions of Fans and Spotlight on Paris Landmarks"
+    },
+    "summary": {
+    "en": "Welcoming the summer Olympics in Paris for the first time in 100 years, organizers have set the bar high for the Los Angeles Games that will take place in 2028. Along with beating the odds by hosting the opening ceremony entirely outdoors along the Seine in spite of the country being on high security alert […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/r6fAx0VXio/france-celebrates-triumphant-olympics-with-record-medal-count-millions-of-fans-and-spotlight-on-paris-landmarks",
+    "sourceLink": "https://variety.com/2024/tv/global/paris-olympics-french-athletes-record-medals-1236095510/",
+    "uid": "r6fAx0VXio",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Zo/fY/rE/V2/Hv/ZofYrEV2Hv-EvfpreD7fO.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Zo/fY/rE/V2/Hv/ZofYrEV2Hv-1DfRPYnyhj.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Zo/fY/rE/V2/Hv/ZofYrEV2Hv-g6f2AzByTk.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Zo/fY/rE/V2/Hv/ZofYrEV2Hv-q6f0DolvFY.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Zo/fY/rE/V2/Hv/ZofYrEV2Hv-ANf7OeN0i0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3665,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T23:00:00Z",
+    "scheduledOn": "2024-08-05T23:04:43Z"
+    },
+    {
+    "title": {
+    "en": "Mariah Carey on Her Las Vegas Return, 'Divas Live' Memories and New Music (Exclusive)"
+    },
+    "summary": {
+    "en": "Mariah Carey spoke with ET’s Denny Directo about returning to Vegas to celebrate the 20th anniversary of ‘The Emancipation of Mimi.’"
+    },
+    "link": "https://fotoscapes.com/lookbook/26fg2ljjsE/mariah-carey-on-her-las-vegas-return-divas-live-memories-and-new-music-exclusive",
+    "sourceLink": "https://www.etonline.com/media/videos/mariah-carey-on-her-las-vegas-return-divas-live-memories-and-new-music-exclusive",
+    "uid": "26fg2ljjsE",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/Ao/sp/RqfaNrAosp-VPf13Jjzsy.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/Ao/sp/RqfaNrAosp-XofNnRy6Hm.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/Ao/sp/RqfaNrAosp-kvfz4lNzcO.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/Ao/sp/RqfaNrAosp-w6fznYPws0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/Ao/sp/RqfaNrAosp-aYfPyQoZi0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/Ao/sp/RqfaNrAosp-3xfZLmQwfp.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Rq/fa/Nr/Ao/sp/RqfaNrAosp-v4f29ZRpFb.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Entertainment Tonight Online",
+    "brandLogo": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-BBfm36ByHD.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-01f2WknoHA.jpg",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:26:19Z",
+    "scheduledOn": "2024-08-05T22:34:58Z"
+    },
+    {
+    "title": {
+    "en": "LL Cool J Dishes on New Album 'The Force' and a Possible Biopic (Exclusive)"
+    },
+    "summary": {
+    "en": "ET chats with LL COOL J at the listening party for his long-awaited 14th studio album, 'THE FORCE.'"
+    },
+    "link": "https://fotoscapes.com/lookbook/BBfgrQwDTA/ll-cool-j-dishes-on-new-album-the-force-and-a-possible-biopic-exclusive",
+    "sourceLink": "https://www.etonline.com/ll-cool-j-dishes-on-new-album-the-force-and-a-possible-biopic-exclusive-230047",
+    "uid": "BBfgrQwDTA",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/g7/ub/g6fNP9g7ub-VPf13JY9hy.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/g7/ub/g6fNP9g7ub-oNfZmW1PFA.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/g7/ub/g6fNP9g7ub-yBfJxjQqHO.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/g7/ub/g6fNP9g7ub-dof6wDxqFV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/g7/ub/g6fNP9g7ub-RqfB3koGUX.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/g7/ub/g6fNP9g7ub-ZofyjZg1ug.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fN/P9/g7/ub/g6fNP9g7ub-w6fznYEZt0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Entertainment Tonight Online",
+    "brandLogo": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-BBfm36ByHD.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-01f2WknoHA.jpg",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:31:02Z",
+    "scheduledOn": "2024-08-05T22:34:56Z"
+    },
+    {
+    "title": {
+    "en": "Why LL COOL J Is Releasing New Music for the First Time in 10 Years (Exclusive)"
+    },
+    "summary": {
+    "en": "LL Cool J chats with ET’s Rachel Smith in New York at the listening party for his album, ‘The FORCE,’ which is out Sept. 6."
+    },
+    "link": "https://fotoscapes.com/lookbook/01f7l46jUJ/why-ll-cool-j-is-releasing-new-music-for-the-first-time-in-10-years-exclusive",
+    "sourceLink": "https://www.etonline.com/media/videos/why-ll-cool-j-is-releasing-new-music-for-the-first-time-in-10-years-exclusive-230062",
+    "uid": "01f7l46jUJ",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/PD/CR/q6f24BPDCR-PYfn6XakF7.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/PD/CR/q6f24BPDCR-Evfprz2aHO.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/PD/CR/q6f24BPDCR-YofWE6j3uo.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/PD/CR/q6f24BPDCR-LRfvEobGU6.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/PD/CR/q6f24BPDCR-jxfkE9Q3I9.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/PD/CR/q6f24BPDCR-lAfm2Zvxte.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/PD/CR/q6f24BPDCR-aYfPyQZAF0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Entertainment Tonight Online",
+    "brandLogo": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-BBfm36ByHD.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-01f2WknoHA.jpg",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:28:49Z",
+    "scheduledOn": "2024-08-05T22:34:56Z"
+    },
+    {
+    "title": {
+    "en": "How to Make the 2024 Summer Olympic Village Viral Chocolate Muffins"
+    },
+    "summary": {
+    "en": "Sweeten your summer with the Olympian-approved treat."
+    },
+    "link": "https://fotoscapes.com/lookbook/Dkf6Xak1fW/how-to-make-the-2024-summer-olympic-village-viral-chocolate-muffins",
+    "sourceLink": "https://www.billboard.com/culture/product-recommendations/how-to-make-viral-olympic-village-chocolate-muffins-recipe-1235747058/",
+    "uid": "Dkf6Xak1fW",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/m1/cX/OnfPQom1cX-x6f6yxvdsY.webp",
+    "width": 850,
+    "height": 562
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/m1/cX/OnfPQom1cX-BBfNEeB9FD.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/m1/cX/OnfPQom1cX-01fdVZnpIA.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/m1/cX/OnfPQom1cX-7mfGeZaRhx.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/m1/cX/OnfPQom1cX-NZfjd1xqhz.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3688,
+    "endB": 0.4444
+    },
+    "owner": "Billboard",
+    "brandLogo": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-GvfxdJoQua.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-Evf4boBNhO.png",
+    "numImages": 2,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:26:38Z",
+    "scheduledOn": "2024-08-05T22:34:31Z"
+    },
+    {
+    "title": {
+    "en": "Michael Dorman Signs With Verve (EXCLUSIVE)"
+    },
+    "summary": {
+    "en": "Michael Dorman has signed with Verve for representation, Variety has learned exclusively. Dorman continues to be repped by Entertainment 360, Nathan Culliver in Australia, and attorney Jamie Feldman. Variety recently reported that Dorman has joined the cast of the Amazon dark comedy pilot “The Nightbeast” alongside series lead Tatiana Maslany. Maslany stars as a suburban […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/01f7l4mZiJ/michael-dorman-signs-with-verve-exclusive",
+    "sourceLink": "https://variety.com/2024/tv/news/michael-dorman-agency-verve-1236096059/",
+    "uid": "01f7l4mZiJ",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fn/1z/7g/um/lAfn1z7gum-NZfjdrwmuz.webp",
+    "width": 540,
+    "height": 371
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fn/1z/7g/um/lAfn1z7gum-QafNm0LrUN.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fn/1z/7g/um/lAfn1z7gum-zpfZ2XryHE.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fn/1z/7g/um/lAfn1z7gum-r6fPlwaZTV.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3588,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:00:00Z",
+    "scheduledOn": "2024-08-05T22:04:25Z"
+    },
+    {
+    "title": {
+    "en": "Is the Max/Hulu/Disney+ Mega-Bundle Overpriced? | Chart"
+    },
+    "summary": {
+    "en": "The newly-launched bundle brings competitors together for the biggest library in streaming, but other services have it beat on value\n\nThe post ^[Is the Max/Hulu/Disney+ Mega-Bundle Overpriced? | Chart^|https://www.thewrap.com/max-hulu-disney-plus-bundle-price-value/^] appeared first on ^[TheWrap^|https://www.thewrap.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/q6fqkjPLIJ/is-the-max-hulu-disney-mega-bundle-overpriced-chart",
+    "sourceLink": "https://www.thewrap.com/max-hulu-disney-plus-bundle-price-value/",
+    "uid": "q6fqkjPLIJ",
+    "lbtype": "springboard",
+    "interests": [
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/94/FW/1DfgbB94FW-oNfZmLk3HA.webp",
+    "width": 1039,
+    "height": 1280
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/94/FW/1DfgbB94FW-PYfn6rV0F7.webp",
+    "width": 831,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/94/FW/1DfgbB94FW-EvfprLQEUO.webp",
+    "width": 690,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/94/FW/1DfgbB94FW-g6f2Aoxzuk.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/94/FW/1DfgbB94FW-ANf7OJRRi0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/94/FW/1DfgbB94FW-dof6wbo4sV.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/94/FW/1DfgbB94FW-LRfvEj9AH6.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.2442,
+    "endB": 0.4444
+    },
+    "owner": "The Wrap",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Xo/fo/rU/x/XoforUx-NZfEO9VPhz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Xo/fo/rU/x/XoforUx-VPfjW7RYHy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T22:00:00Z",
+    "scheduledOn": "2024-08-05T22:03:43Z"
+    },
+    {
+    "title": {
+    "en": "Simone Biles Said This Aspect Of The Balance Beam Final Where She And Suni Lee Fell Was \"Weird\" And \"Awkward\""
+    },
+    "summary": {
+    "en": "Simone and Suni were two of four gymnasts to fall.\n\n^[View Entire Post ›^|https://www.buzzfeed.com/rondicker/simone-biles-suni-lee-2024-paris-olympics-balance-beam^]"
+    },
+    "link": "https://fotoscapes.com/lookbook/bYfxD7nXid/simone-biles-said-this-aspect-of-the-balance-beam-final-where-she-and-suni-lee-fell-was-weird-and-awkward",
+    "sourceLink": "https://www.buzzfeed.com/rondicker/simone-biles-suni-lee-2024-paris-olympics-balance-beam",
+    "uid": "bYfxD7nXid",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/k7/I3/6Jfzdok7I3-DkfbgogefR.webp",
+    "width": 1024,
+    "height": 680
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/k7/I3/6Jfzdok7I3-4xfGVWVXUl.webp",
+    "width": 850,
+    "height": 564
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/k7/I3/6Jfzdok7I3-97f4XEXlTL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/k7/I3/6Jfzdok7I3-3xfZLzLgUp.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/k7/I3/6Jfzdok7I3-v4f29BrYub.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/k7/I3/6Jfzdok7I3-e1fd61J1fe.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3677,
+    "endB": 0.4444
+    },
+    "owner": "BuzzFeed",
+    "brandLogo": "https://media.fotoscapes.com/imgs/26/fg/oJ/HQ/26fgoJHQ-NZfEq9QQiz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/26/fg/oJ/HQ/26fgoJHQ-VPfjl70xhy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:54:52Z",
+    "scheduledOn": "2024-08-05T22:03:00Z"
+    },
+    {
+    "title": {
+    "en": "Best New Shows and Movies to Stream the Week of August 5: The Summer Olympics, 'Umbrella Academy' and More"
+    },
+    "summary": {
+    "en": "Wondering what to watch this week on Netflix, Hulu, Prime Video or Max? We've found the most exciting premieres to stream."
+    },
+    "link": "https://fotoscapes.com/lookbook/7mfbWwP7tR/best-new-shows-and-movies-to-stream-the-week-of-august-5-the-summer-olympics-umbrella-academy-and-more",
+    "sourceLink": "https://www.etonline.com/best-new-shows-and-movies-to-stream-the-week-of-august-5-the-summer-olympics-umbrella-academy-and",
+    "uid": "7mfbWwP7tR",
+    "lbtype": "springboard",
+    "interests": [
+    "w6fnIL",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/VQ/sW/1DfgbBVQsW-ANf7Okbxs0.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/VQ/sW/1DfgbBVQsW-dof6wxL3iV.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/VQ/sW/1DfgbBVQsW-LRfvEbPkF6.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/VQ/sW/1DfgbBVQsW-aYfPyZlRs0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/VQ/sW/1DfgbBVQsW-97f4XvREsL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/VQ/sW/1DfgbBVQsW-3xfZLBGQIp.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/VQ/sW/1DfgbBVQsW-x6f6ypvxCY.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Entertainment Tonight Online",
+    "brandLogo": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-BBfm36ByHD.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-01f2WknoHA.jpg",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:06:32Z",
+    "scheduledOn": "2024-08-05T21:34:39Z"
+    },
+    {
+    "title": {
+    "en": "Blake Lively Introduces New Hair Care Line That Ditches Conditioner & Provides ‘Luxurious’ Results"
+    },
+    "summary": {
+    "en": "Lather, rinse and repeat with these under $20 celebrity-approved picks."
+    },
+    "link": "https://fotoscapes.com/lookbook/lAfvXDVNcQ/blake-lively-introduces-new-hair-care-line-that-ditches-conditioner-and-provides-luxurious-results",
+    "sourceLink": "https://www.billboard.com/culture/product-recommendations/blake-lively-hair-care-collection-target-buy-online-1235746963/",
+    "uid": "lAfvXDVNcQ",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/mA/tJ/VPfjmZmAtJ-jxfkEQyqI9.webp",
+    "width": 850,
+    "height": 562
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/mA/tJ/VPfjmZmAtJ-e1fd6rDdUe.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/mA/tJ/VPfjmZmAtJ-Onfv3yz0tJ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/mA/tJ/VPfjmZmAtJ-01fdV7bxsA.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/mA/tJ/VPfjmZmAtJ-7mfGeboOUx.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3688,
+    "endB": 0.4444
+    },
+    "owner": "Billboard",
+    "brandLogo": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-GvfxdJoQua.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-Evf4boBNhO.png",
+    "numImages": 3,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:14:42Z",
+    "scheduledOn": "2024-08-05T21:34:24Z"
+    },
+    {
+    "title": {
+    "en": "Chlöe Bailey Announces ‘Trouble in Paradise’ Release Date"
+    },
+    "summary": {
+    "en": "Chlöe Bailey is gearing up for the release of her sophomore album “Trouble in Paradise,” slated to drop this Friday. “A storm is coming,” she wrote on Instagram, revealing the imminent release of “Trouble in Paradise” and its cover art depicting her in a neon dress laying down in a pool of water. Thus far, […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/OnfynJZrfY/chloe-bailey-announces-trouble-in-paradise-release-date",
+    "sourceLink": "https://variety.com/2024/music/news/chloe-bailey-trouble-in-paradise-release-date-1236096273/",
+    "uid": "OnfynJZrfY",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/va/IY/BBfmvevaIY-26fGQgl7sy.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/va/IY/BBfmvevaIY-97f4XvjwiL.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/va/IY/BBfmvevaIY-e1fd6rXdce.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/va/IY/BBfmvevaIY-XofNnZxEtm.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/va/IY/BBfmvevaIY-Evfpr23PtO.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/va/IY/BBfmvevaIY-J1fBj6v6Sn.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fm/ve/va/IY/BBfmvevaIY-m7fqYkarhR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4163,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:10:00Z",
+    "scheduledOn": "2024-08-05T21:34:20Z"
+    },
+    {
+    "title": {
+    "en": "‘Chicago Med’ Season 10 Casts Sarah Ramos, Darren Barnet"
+    },
+    "summary": {
+    "en": "“Chicago Med” is adding two new series regulars for Season 10. Sarah Ramos and Darren Barnet have both been cast in the NBC medical drama, with Ramos set to play Dr. Caitlin Lenox and Barnet to play Dr. John Frost. They will appear alongside cast members S. Epatha Merkerson, Oliver Platt, Marlyne Barrett, Jessy Schram, […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/01f7l4rzfJ/chicago-med-season-10-casts-sarah-ramos-darren-barnet",
+    "sourceLink": "https://variety.com/2024/tv/news/chicago-med-season-10-cast-sarah-ramos-darren-barnet-1236096190/",
+    "uid": "01f7l4rzfJ",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/Rz/sd/7mfnRZRzsd-7mfGebwOcx.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/Rz/sd/7mfnRZRzsd-zpfZ2wNQCE.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/Rz/sd/7mfnRZRzsd-GvfGeQ1VSa.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/Rz/sd/7mfnRZRzsd-q6f0Dqn7hY.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/Rz/sd/7mfnRZRzsd-ANf7OkmjT0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/Rz/sd/7mfnRZRzsd-4xfGV2vohl.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/Rz/sd/7mfnRZRzsd-dof6wxZvtV.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:30:00Z",
+    "scheduledOn": "2024-08-05T21:34:20Z"
+    },
+    {
+    "title": {
+    "en": "Before Kamala Harris Hard Launches Her Running Mate, Take This Poll To Predict Who You Think Her VP Will Be"
+    },
+    "summary": {
+    "en": "Who will get the final VP rose?\n\n^[View Entire Post ›^|https://www.buzzfeed.com/michaelabramwell/kamala-harris-vp-pick-poll^]"
+    },
+    "link": "https://fotoscapes.com/lookbook/p6fBNA62sN/before-kamala-harris-hard-launches-her-running-mate-take-this-poll-to-predict-who-you-think-her-vp-will-be",
+    "sourceLink": "https://www.buzzfeed.com/michaelabramwell/kamala-harris-vp-pick-poll",
+    "uid": "p6fBNA62sN",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/lV/tR/q6f24BlVtR-dof6wxBGUV.webp",
+    "width": 1024,
+    "height": 680
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/lV/tR/q6f24BlVtR-LRfvEbpRT6.webp",
+    "width": 850,
+    "height": 564
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/lV/tR/q6f24BlVtR-v4f29Yx4Fb.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/lV/tR/q6f24BlVtR-e1fd6r0Yfe.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/lV/tR/q6f24BlVtR-BBfNEg9EtD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/lV/tR/q6f24BlVtR-jxfkEQzmt9.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3677,
+    "endB": 0.4444
+    },
+    "owner": "BuzzFeed",
+    "brandLogo": "https://media.fotoscapes.com/imgs/26/fg/oJ/HQ/26fgoJHQ-NZfEq9QQiz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/26/fg/oJ/HQ/26fgoJHQ-VPfjl70xhy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:10:30Z",
+    "scheduledOn": "2024-08-05T21:33:03Z"
+    },
+    {
+    "title": {
+    "en": "39 Super Famous People Attended Women's Gymnastics, And I'm Jealous Of All Of THEM ALL"
+    },
+    "summary": {
+    "en": "Celebs are just like us: They also find themselves watching the jumbotron more than the actual competition itself.\n\n^[View Entire Post ›^|https://www.buzzfeed.com/mjs538/celebs-at-gymnastics-2024^]"
+    },
+    "link": "https://fotoscapes.com/lookbook/VPfYerOOHz/39-super-famous-people-attended-womens-gymnastics-and-im-jealous-of-all-of-them-all",
+    "sourceLink": "https://www.buzzfeed.com/mjs538/celebs-at-gymnastics-2024",
+    "uid": "VPfYerOOHz",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/4L/T3/6Jfzdo4LT3-Evfpr2DGhO.webp",
+    "width": 1024,
+    "height": 680
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/4L/T3/6Jfzdo4LT3-kvfz4mDjtO.webp",
+    "width": 850,
+    "height": 564
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/4L/T3/6Jfzdo4LT3-m7fqYkLmIR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/4L/T3/6Jfzdo4LT3-Dkfbg6AmTR.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/4L/T3/6Jfzdo4LT3-1DfRP6n0Tj.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/do/4L/T3/6Jfzdo4LT3-WJfbwP2qtL.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3677,
+    "endB": 0.4444
+    },
+    "owner": "BuzzFeed",
+    "brandLogo": "https://media.fotoscapes.com/imgs/26/fg/oJ/HQ/26fgoJHQ-NZfEq9QQiz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/26/fg/oJ/HQ/26fgoJHQ-VPfjl70xhy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:14:02Z",
+    "scheduledOn": "2024-08-05T21:33:01Z"
+    },
+    {
+    "title": {
+    "en": "Blake Lively Says She Feels 'Guilty' Trying to Balance Work With Family Time (Exclusive)"
+    },
+    "summary": {
+    "en": "Blake Lively and Jenny Slate chat with ET's Rachel Smith about 'It Ends With Us,' in theaters on Aug. 9."
+    },
+    "link": "https://fotoscapes.com/lookbook/x6fpJNYxTe/blake-lively-says-she-feels-guilty-trying-to-balance-work-with-family-time-exclusive",
+    "sourceLink": "https://www.etonline.com/media/videos/blake-lively-says-she-feels-guilty-trying-to-balance-work-with-family-time-exclusive",
+    "uid": "x6fpJNYxTe",
+    "lbtype": "springboard",
+    "interests": [
+    "w6fnIL",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/y3/IR/q6f24By3IR-6JfGWQx2Iq.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/y3/IR/q6f24By3IR-q6f0D13GfY.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/y3/IR/q6f24By3IR-ANf7OXgLh0.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/y3/IR/q6f24By3IR-w6fzn0Aqi0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/y3/IR/q6f24By3IR-lAfm2JwRCe.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/y3/IR/q6f24By3IR-aYfPyRqki0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/y3/IR/q6f24By3IR-26fGQYaqUy.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Entertainment Tonight Online",
+    "brandLogo": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-BBfm36ByHD.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/J1/f6/Oz/FD/J1f6OzFD-01f2WknoHA.jpg",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:57:46Z",
+    "scheduledOn": "2024-08-05T21:04:40Z"
+    },
+    {
+    "title": {
+    "en": "Man in critical condition after being stabbed at Milton Keynes’ Reggae Land festival"
+    },
+    "summary": {
+    "en": "The incident was believed to be a targeted attack\n\nThe post ^[Man in critical condition after being stabbed at Milton Keynes’ Reggae Land festival^|https://www.nme.com/news/music/man-in-critical-condition-after-being-stabbed-at-milton-keynes-reggae-land-festival-3781140^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/26fg2lNgFE/man-in-critical-condition-after-being-stabbed-at-milton-keynes-reggae-land-festival",
+    "sourceLink": "https://www.nme.com/news/music/man-in-critical-condition-after-being-stabbed-at-milton-keynes-reggae-land-festival-3781140?utm_source=rss&utm_medium=rss&utm_campaign=man-in-critical-condition-after-being-stabbed-at-milton-keynes-reggae-land-festival",
+    "uid": "26fg2lNgFE",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/Wz/cW/1DfgbBWzcW-q6f0D16GFY.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/Wz/cW/1DfgbBWzcW-dof6wXvncV.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/Wz/cW/1DfgbBWzcW-ZofyjJW4sg.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/Wz/cW/1DfgbBWzcW-p6fkom4QH0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/Wz/cW/1DfgbBWzcW-XofNne11Um.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/Wz/cW/1DfgbBWzcW-PYfn6PQoI7.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fg/bB/Wz/cW/1DfgbBWzcW-EvfprjkXSO.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:36:06Z",
+    "scheduledOn": "2024-08-05T21:04:39Z"
+    },
+    {
+    "title": {
+    "en": "Tributes paid after death of Chicago House producer DANNN: “Fly high”"
+    },
+    "summary": {
+    "en": "He released his last album, ‘The Slightest Dreadful Electricity’, on July 31\n\nThe post ^[Tributes paid after death of Chicago House producer DANNN: “Fly high”^|https://www.nme.com/news/music/tributes-paid-after-death-of-chicago-house-producer-dannn-fly-high-3781149^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/01f7l4XLhJ/tributes-paid-after-death-of-chicago-house-producer-dannn-fly-high",
+    "sourceLink": "https://www.nme.com/news/music/tributes-paid-after-death-of-chicago-house-producer-dannn-fly-high-3781149?utm_source=rss&utm_medium=rss&utm_campaign=tributes-paid-after-death-of-chicago-house-producer-dannn-fly-high",
+    "uid": "01f7l4XLhJ",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fR/Dy/Yy/FL/YofRDyYyFL-w6fzn09Vf0.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fR/Dy/Yy/FL/YofRDyYyFL-aYfPyRbPf0.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fR/Dy/Yy/FL/YofRDyYyFL-97f4XbWaCL.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fR/Dy/Yy/FL/YofRDyYyFL-lAfm2JdRfe.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fR/Dy/Yy/FL/YofRDyYyFL-3xfZLWpeTp.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fR/Dy/Yy/FL/YofRDyYyFL-v4f291zrub.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fR/Dy/Yy/FL/YofRDyYyFL-e1fd6Elnce.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:43:17Z",
+    "scheduledOn": "2024-08-05T21:04:35Z"
+    },
+    {
+    "title": {
+    "en": "Just give me my money explained: what is the TikTok trend and why is it so popular?"
+    },
+    "summary": {
+    "en": "Have you been pranked yet with the viral TikTok trend?\n\nThe post ^[Just give me my money explained: what is the TikTok trend and why is it so popular?^|https://www.nme.com/news/just-give-me-my-money-explained-what-is-the-tiktok-trend-and-why-is-it-so-popular-3781154^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/OnfynJBdCY/just-give-me-my-money-explained-what-is-the-tiktok-trend-and-why-is-it-so-popular",
+    "sourceLink": "https://www.nme.com/news/just-give-me-my-money-explained-what-is-the-tiktok-trend-and-why-is-it-so-popular-3781154?utm_source=rss&utm_medium=rss&utm_campaign=just-give-me-my-money-explained-what-is-the-tiktok-trend-and-why-is-it-so-popular",
+    "uid": "OnfynJBdCY",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/kV/SV/yBfVnDkVSV-DkfbgyDVTR.webp",
+    "width": 1280,
+    "height": 781
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/kV/SV/yBfVnDkVSV-1DfRPmWWFj.webp",
+    "width": 1024,
+    "height": 625
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/kV/SV/yBfVnDkVSV-WJfbwYXWtL.webp",
+    "width": 850,
+    "height": 519
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/kV/SV/yBfVnDkVSV-6JfGWQYxUq.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/kV/SV/yBfVnDkVSV-g6f2A1Vjsk.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/kV/SV/yBfVnDkVSV-q6f0D1yltY.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nD/kV/SV/yBfVnDkVSV-4xfGVNoOul.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3914,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:03:46Z",
+    "scheduledOn": "2024-08-05T21:04:34Z"
+    },
+    {
+    "title": {
+    "en": "Alec Baldwin Prosecutor Says Case Was Dismissed Because Judge Misunderstood Evidence"
+    },
+    "summary": {
+    "en": "The prosecutor in the “Rust” case argued that Alec Baldwin’s manslaughter charge was improperly thrown out because the judge misunderstood the evidence at a crucial hearing. In a filing made public Monday, special prosecutor Kari Morrissey said she is “still struggling” to understand the judge’s ruling. She also argued there are no grounds to overturn […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/w6fEdag2tV/alec-baldwin-prosecutor-says-case-was-dismissed-because-judge-misunderstood-evidence",
+    "sourceLink": "https://variety.com/2024/film/news/alec-baldwin-rust-prosecutor-judge-misunderstood-evidence-case-dismissed-1236095820/",
+    "uid": "w6fEdag2tV",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/d6/i9/bYfRNod6i9-lAfm2Jedie.webp",
+    "width": 1280,
+    "height": 807
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/d6/i9/bYfRNod6i9-3xfZLWJxFp.webp",
+    "width": 1024,
+    "height": 645
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/d6/i9/bYfRNod6i9-BBfNEVJRhD.webp",
+    "width": 850,
+    "height": 536
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/d6/i9/bYfRNod6i9-XofNnelLFm.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/d6/i9/bYfRNod6i9-GvfGeRD2ua.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/d6/i9/bYfRNod6i9-kvfz4WoxHO.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fR/No/d6/i9/bYfRNod6i9-YofWEL4Qto.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3821,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:55:53Z",
+    "scheduledOn": "2024-08-05T21:04:22Z"
+    },
+    {
+    "title": {
+    "en": "Simone Biles’ Olympics Beauty Routine Includes This Fenty Beauty Bestseller: Here’s Where You Can Buy It"
+    },
+    "summary": {
+    "en": "The Olympic medalists uses a $37 Fenty Beauty product as part of her Olympics glam."
+    },
+    "link": "https://fotoscapes.com/lookbook/LRfbJ7rdhb/simone-biles-olympics-beauty-routine-includes-this-fenty-beauty-bestseller-heres-where-you-can-buy-it",
+    "sourceLink": "https://www.billboard.com/culture/product-recommendations/simone-biles-olympics-beauty-routine-includes-this-fenty-beauty-product-1235747050/",
+    "uid": "LRfbJ7rdhb",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/QD/Hd/7mfnRZQDHd-Evfprje3uO.webp",
+    "width": 850,
+    "height": 562
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/QD/Hd/7mfnRZQDHd-1DfRPmYPUj.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/QD/Hd/7mfnRZQDHd-6JfGWQw3tq.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/QD/Hd/7mfnRZQDHd-ANf7OXdVf0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/RZ/QD/Hd/7mfnRZQDHd-RqfB3QwkhX.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3688,
+    "endB": 0.4444
+    },
+    "owner": "Billboard",
+    "brandLogo": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-GvfxdJoQua.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-Evf4boBNhO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:48:09Z",
+    "scheduledOn": "2024-08-05T21:04:21Z"
+    },
+    {
+    "title": {
+    "en": "From TikTok to Bestseller: The $19 Biodance Real Deep Face Mask You Need"
+    },
+    "summary": {
+    "en": "This TikTok favorite Biodance Reel Deep Face Mask rejuvenates your skin with collagen for a firmer, more radiant complexion."
+    },
+    "link": "https://fotoscapes.com/lookbook/Zofg74o0s0/from-tiktok-to-bestseller-the-19-biodance-real-deep-face-mask-you-need",
+    "sourceLink": "https://www.billboard.com/culture/product-recommendations/biodance-hydrating-face-mask-buy-online-1235746966/",
+    "uid": "Zofg74o0s0",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/Xw/iJ/VPfjmZXwiJ-Dkfbgy1WiR.webp",
+    "width": 850,
+    "height": 562
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/Xw/iJ/VPfjmZXwiJ-WJfbwYBLhL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/Xw/iJ/VPfjmZXwiJ-4xfGVNm7sl.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/Xw/iJ/VPfjmZXwiJ-ZofyjJbbsg.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mZ/Xw/iJ/VPfjmZXwiJ-w6fzn01Ji0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3688,
+    "endB": 0.4444
+    },
+    "owner": "Billboard",
+    "brandLogo": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-GvfxdJoQua.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-Evf4boBNhO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:37:08Z",
+    "scheduledOn": "2024-08-05T21:04:21Z"
+    },
+    {
+    "title": {
+    "en": "Editors Guild Chief Cathy Repola to Retire in January"
+    },
+    "summary": {
+    "en": "Cathy Repola plans to retire as national executive director of the Motion Picture Editors Guild at the end of January, following more than three decades with IATSE Local 700. She’s been with the Guild for 32 years and has served in her current role since 2016.  “Cathy has been an indispensable leader for the Guild […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/ANfkWEGriE/editors-guild-chief-cathy-repola-to-retire-in-january",
+    "sourceLink": "https://variety.com/2024/artisans/news/editors-guild-cathy-repola-iatse-retire-january-1236096241/",
+    "uid": "ANfkWEGriE",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/QO/CQ/e1f1NmQOCQ-ANf7OXvEI0.webp",
+    "width": 850,
+    "height": 479
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/QO/CQ/e1f1NmQOCQ-97f4XbnbHL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/QO/CQ/e1f1NmQOCQ-x6f6y1ZBcY.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/QO/CQ/e1f1NmQOCQ-BBfNEVLLuD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/Nm/QO/CQ/e1f1NmQOCQ-jxfkENrJU9.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4158,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:56:34Z",
+    "scheduledOn": "2024-08-05T21:04:19Z"
+    },
+    {
+    "title": {
+    "en": "Jennifer Garner Shares Her Intense Elektra Workout Plan for ‘Deadpool & Wolverine,’ Including Boxing, Sword Training and Rowing: ‘I Was Fit, but Not Marvel Fit’"
+    },
+    "summary": {
+    "en": "Jennifer Garner had to get “Marvel fit” for her “Deadpool & Wolverine” cameo as the sai-wielding assassin Elektra, and she revealed her workout plan in an Instagram video on Monday. Garner’s return as Elektra was one of the A-list superhero cameos in “Deadpool & Wolverine,” and she revealed that Ryan Reynolds and director Shawn Levy […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/4xf23Er0Un/jennifer-garner-shares-her-intense-elektra-workout-plan-for-deadpool-and-wolverine-including-boxing-sword-training-and-rowing-i",
+    "sourceLink": "https://variety.com/2024/film/news/deadpool-wolverine-elektra-cameo-jennifer-garner-1236096247/",
+    "uid": "4xf23Er0Un",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/VG/HX/OnfPQoVGHX-26fGQY4oty.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/VG/HX/OnfPQoVGHX-ZofyjJmbTg.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/VG/HX/OnfPQoVGHX-lAfm2JqdCe.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/VG/HX/OnfPQoVGHX-97f4Xbn1uL.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Qo/VG/HX/OnfPQoVGHX-3xfZLWAxHp.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3665,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T21:02:56Z",
+    "scheduledOn": "2024-08-05T21:04:19Z"
+    },
+    {
+    "title": {
+    "en": "'David Makes Man' actor Akili McDowell is charged with murder in man's shooting in Houston"
+    },
+    "shortTitle": {
+    "en": "Murder Charge for 'David Makes Man' Actor"
+    },
+    "summary": {
+    "en": "Authorities say an actor who starred in the television series “David Makes Man” has been charged with fatally shooting a man in the parking lot of a Houston apartment complex"
+    },
+    "link": "https://fotoscapes.com/lookbook/7mfbWwJOiR/david-makes-man-actor-akili-mcdowell-is-charged-with-murder-in-mans-shooting-in-houston",
+    "sourceLink": "https://apnews.com/article/actor-akili-mcdowell-murder-charge-houston-00485ec514e48f8fcc45a003912c6fac",
+    "uid": "7mfbWwJOiR",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/oP/hR/q6f24BoPhR-ngfD4jPrfz.webp",
+    "width": 1280,
+    "height": 888
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/oP/hR/q6f24BoPhR-YofWkBnaHo.webp",
+    "width": 1024,
+    "height": 711
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/oP/hR/q6f24BoPhR-J1fBQDmqCn.webp",
+    "width": 850,
+    "height": 590
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/oP/hR/q6f24BoPhR-ANf70lP0f0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/oP/hR/q6f24BoPhR-4xfGYnkVIl.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/oP/hR/q6f24BoPhR-RqfB7O4OsX.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/q6/f2/4B/oP/hR/q6f24BoPhR-ZofypldgTg.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3562,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 2,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:52:44Z",
+    "scheduledOn": "2024-08-05T21:01:45Z"
+    },
+    {
+    "title": {
+    "en": "Fred Again.. Announces Fall North American Tour: Here Are the Dates"
+    },
+    "summary": {
+    "en": "The Places We've Never Been Tour will take the producer across the Midwest, southern and northeast United States and into Canada."
+    },
+    "link": "https://fotoscapes.com/lookbook/4xf23EpVSn/fred-again-announces-fall-north-american-tour-here-are-the-dates",
+    "sourceLink": "https://www.billboard.com/music/music-news/fred-again-2024-tour-dates-1235746972/",
+    "uid": "4xf23EpVSn",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/2o/dw/f4/ngfb2odwf4-1DfR71l3fj.webp",
+    "width": 1024,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/2o/dw/f4/ngfb2odwf4-WJfbQL12SL.webp",
+    "width": 850,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/2o/dw/f4/ngfb2odwf4-x6f6Q7VgiY.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/2o/dw/f4/ngfb2odwf4-Onfv4gWzIJ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/2o/dw/f4/ngfb2odwf4-01fdL9wRsA.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/2o/dw/f4/ngfb2odwf4-NZfjn3pgfz.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.2778,
+    "endB": 0.4444
+    },
+    "owner": "Billboard",
+    "brandLogo": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-GvfxdJoQua.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-Evf4boBNhO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:24:59Z",
+    "scheduledOn": "2024-08-05T20:34:25Z"
+    },
+    {
+    "title": {
+    "en": "Matt Damon had “trouble” watching new Andrew Scott Netflix ‘Ripley’ adaptation"
+    },
+    "summary": {
+    "en": "\"It was hard at first for me to sink back into it\"\n\nThe post ^[Matt Damon had “trouble” watching new Andrew Scott Netflix ‘Ripley’ adaptation^|https://www.nme.com/news/tv/matt-damon-had-trouble-watching-andrew-scott-play-his-part-in-netflix-ripley-adaptation-3781139^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/dofx3V2aIv/matt-damon-had-trouble-watching-new-andrew-scott-netflix-ripley-adaptation",
+    "sourceLink": "https://www.nme.com/news/tv/matt-damon-had-trouble-watching-andrew-scott-play-his-part-in-netflix-ripley-adaptation-3781139?utm_source=rss&utm_medium=rss&utm_campaign=matt-damon-had-trouble-watching-andrew-scott-play-his-part-in-netflix-ripley-adaptation",
+    "uid": "dofx3V2aIv",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fr/Xo/ke/im/m7frXokeim-v4f27rNdcb.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fr/Xo/ke/im/m7frXokeim-7mfGrdmWIx.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fr/Xo/ke/im/m7frXokeim-bYfZpEypUQ.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fr/Xo/ke/im/m7frXokeim-1DfR7133Hj.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fr/Xo/ke/im/m7frXokeim-g6f27kjPck.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fr/Xo/ke/im/m7frXokeim-ANf70pwPi0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fr/Xo/ke/im/m7frXokeim-RqfB70E9TX.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:18:34Z",
+    "scheduledOn": "2024-08-05T20:34:25Z"
+    },
+    {
+    "title": {
+    "en": "Bon Iver to Stump for Kamala Harris With Appearance at Wisconsin Rally"
+    },
+    "summary": {
+    "en": "There’s still an empty slot on Kamala Harris’ dance card for her rally Wednesday night in western Wisconsin — that would be her pick for running mate, which will be revealed Tuesday — but the band that they or their supporters will be dancing to has been revealed. Bon Iver will be performing during the […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/g6fYaZ4yiZ/bon-iver-to-stump-for-kamala-harris-with-appearance-at-wisconsin-rally",
+    "sourceLink": "https://variety.com/2024/music/news/bon-iver-kamala-harris-wisconsin-rally-perform-1236096127/",
+    "uid": "g6fYaZ4yiZ",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fy/qw/Zx/Sd/XofyqwZxSd-kvfzdVrZTO.webp",
+    "width": 1280,
+    "height": 911
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fy/qw/Zx/Sd/XofyqwZxSd-ngfD4zewtz.webp",
+    "width": 1024,
+    "height": 729
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fy/qw/Zx/Sd/XofyqwZxSd-YofWkdYkUo.webp",
+    "width": 850,
+    "height": 605
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fy/qw/Zx/Sd/XofyqwZxSd-4xfGYDwzcl.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fy/qw/Zx/Sd/XofyqwZxSd-LRfvnBaOf6.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fy/qw/Zx/Sd/XofyqwZxSd-Zofyp9Wecg.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fy/qw/Zx/Sd/XofyqwZxSd-w6fzkLpAH0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3498,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 2,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:17:34Z",
+    "scheduledOn": "2024-08-05T20:34:23Z"
+    },
+    {
+    "title": {
+    "en": "‘House of the Dragon’ Hits Season 2 Viewership High With Finale’s Nearly 9 Million Viewers, But Down From Season 1 Ender"
+    },
+    "summary": {
+    "en": "“House of the Dragon” hit a Season 2 high in viewership with Sunday’s finale, which drew 8.9 million multiplatform viewers across HBO and Max, per Warner Bros. Discovery. That’s up 14% from the Season 2 premiere night, which garnered 7.8 million viewers. However, it is down from the audience size for the first season finale […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/WJfPZG90IO/house-of-the-dragon-hits-season-2-viewership-high-with-finales-nearly-9-million-viewers-but-down-from-season-1-ender",
+    "sourceLink": "https://variety.com/2024/tv/news/house-of-the-dragon-season-2-finale-ratings-1236096169/",
+    "uid": "WJfPZG90IO",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/QJ/Tn/GvfWolQJTn-dof6NavQSV.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/QJ/Tn/GvfWolQJTn-jxfkZ0VVS9.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/QJ/Tn/GvfWolQJTn-26fGm1OpHy.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/QJ/Tn/GvfWolQJTn-jxfkZ0Vki9.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/QJ/Tn/GvfWolQJTn-w6fzkLpXu0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/QJ/Tn/GvfWolQJTn-lAfmEygVUe.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Gv/fW/ol/QJ/Tn/GvfWolQJTn-aYfPGzvVc0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3667,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:19:10Z",
+    "scheduledOn": "2024-08-05T20:34:21Z"
+    },
+    {
+    "title": {
+    "en": "Former RHONJ Producer Thinks Dolores Catania Hasn’t Been Loyal to Teresa Giudice"
+    },
+    "summary": {
+    "en": "Former RHONJ producer, Carlos King, claimed Dolores Catania has made unkind comments about her castmate Teresa Giudice.\n\nThe post ^[Former RHONJ Producer Thinks Dolores Catania Hasn’t Been Loyal to Teresa Giudice^|https://heavy.com/entertainment/real-housewives/dolores-catania-teresa-giudice-carlos-king/^] appeared first on ^[Heavy.com^|https://heavy.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/v4fYqQx9Io/former-rhonj-producer-thinks-dolores-catania-hasnt-been-loyal-to-teresa-giudice",
+    "sourceLink": "https://heavy.com/entertainment/real-housewives/dolores-catania-teresa-giudice-carlos-king/",
+    "uid": "v4fYqQx9Io",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fP/b6/0A/Tg/w6fPb60ATg-q6f0eDvquY.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fP/b6/0A/Tg/w6fPb60ATg-dof6Nw7JsV.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fP/b6/0A/Tg/w6fPb60ATg-ZofypjNbSg.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fP/b6/0A/Tg/w6fPb60ATg-w6fzknDJi0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fP/b6/0A/Tg/w6fPb60ATg-aYfPGylvF0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fP/b6/0A/Tg/w6fPb60ATg-x6f6QyvwUY.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Heavy",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Yo/fj/EX/cP/YofjEXcP-1DfxmJVFj.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Yo/fj/EX/cP/YofjEXcP-WJf3YVnuL.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T16:41:23Z",
+    "scheduledOn": "2024-08-05T20:33:19Z"
+    },
+    {
+    "title": {
+    "en": "RHONJ Star ‘Collapsed’ On the Floor Following ‘Last Supper’"
+    },
+    "summary": {
+    "en": "\"It was so intense\"\n\nThe post ^[RHONJ Star ‘Collapsed’ On the Floor Following ‘Last Supper’^|https://heavy.com/entertainment/real-housewives/rhonj-finale-dinner-collapsed-danielle-cabral/^] appeared first on ^[Heavy.com^|https://heavy.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/x6fpJNeQCe/rhonj-star-collapsed-on-the-floor-following-last-supper",
+    "sourceLink": "https://heavy.com/entertainment/real-housewives/rhonj-finale-dinner-collapsed-danielle-cabral/",
+    "uid": "x6fpJNeQCe",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/NV/sz/jxfRXvNVsz-yBfJ6xLYhO.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/NV/sz/jxfRXvNVsz-ngfD4YnNhz.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/NV/sz/jxfRXvNVsz-DkfbWgPWCR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/NV/sz/jxfRXvNVsz-1DfR7P2Ptj.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/NV/sz/jxfRXvNVsz-WJfbQweLiL.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fR/Xv/NV/sz/jxfRXvNVsz-6JfG9WA3Hq.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Heavy",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Yo/fj/EX/cP/YofjEXcP-1DfxmJVFj.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Yo/fj/EX/cP/YofjEXcP-WJf3YVnuL.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:53:58Z",
+    "scheduledOn": "2024-08-05T20:33:18Z"
+    },
+    {
+    "title": {
+    "en": "13 Really Funny Tweets About The \"House Of The Dragon\" Season Finale"
+    },
+    "summary": {
+    "en": "Daemon Targaryen respect your wife without being haunted challenge.\n\n^[View Entire Post ›^|https://www.buzzfeed.com/andyneuenschwander/house-of-the-dragon-season-finale-tweets^]"
+    },
+    "link": "https://fotoscapes.com/lookbook/q6fqkjlxCJ/13-really-funny-tweets-about-the-house-of-the-dragon-season-finale",
+    "sourceLink": "https://www.buzzfeed.com/andyneuenschwander/house-of-the-dragon-season-finale-tweets",
+    "uid": "q6fqkjlxCJ",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/DP/hO/J1fkA7DPhO-GvfGveXESa.webp",
+    "width": 1024,
+    "height": 680
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/DP/hO/J1fkA7DPhO-EvfpPr9VuO.webp",
+    "width": 850,
+    "height": 564
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/DP/hO/J1fkA7DPhO-kvfzd4XJtO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/DP/hO/J1fkA7DPhO-yBfJ6x16FO.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/DP/hO/J1fkA7DPhO-ngfD4YRYTz.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/DP/hO/J1fkA7DPhO-YofWkEaduo.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3677,
+    "endB": 0.4444
+    },
+    "owner": "BuzzFeed",
+    "brandLogo": "https://media.fotoscapes.com/imgs/26/fg/oJ/HQ/26fgoJHQ-NZfEq9QQiz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/26/fg/oJ/HQ/26fgoJHQ-VPfjl70xhy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:10:04Z",
+    "scheduledOn": "2024-08-05T20:32:43Z"
+    },
+    {
+    "title": {
+    "en": "Hilton’s Conrad Los Angeles Rises as Cultural Hub in LA"
+    },
+    "summary": {
+    "en": "When traveling to Los Angeles, finding the right place to stay that allows you take full advantage of the storied city is of utmost importance. With its expansive geography, location-specific hubs and in-the-know destinations, choosing the right hotel makes a huge impact on your experience in Los Angeles — perhaps moreso than any other place […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/ngfdVX0oI9/hiltons-conrad-los-angeles-rises-as-cultural-hub-in-la",
+    "sourceLink": "https://variety.com/2024/shopping/news/hiltons-conrad-los-angeles-book-online-1236077004/",
+    "uid": "ngfdVX0oI9",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/R3/W0/Cd/7mfnR3W0Cd-PYfneeQ0S7.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/R3/W0/Cd/7mfnR3W0Cd-yBfJ66qxTO.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/R3/W0/Cd/7mfnR3W0Cd-YofWkk1Bso.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/R3/W0/Cd/7mfnR3W0Cd-97f4PP1NiL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/R3/W0/Cd/7mfnR3W0Cd-BBfNYYyauD.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/R3/W0/Cd/7mfnR3W0Cd-7mfGrrVzFx.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fn/R3/W0/Cd/7mfnR3W0Cd-VPf1QQzAFy.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4162,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 7,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:48:39Z",
+    "scheduledOn": "2024-08-05T20:04:26Z"
+    },
+    {
+    "title": {
+    "en": "Google Illegally Maintained Search Monopoly, Judge Rules in Siding With DOJ"
+    },
+    "summary": {
+    "en": "Google broke the law by inking multibillion-dollar deals to make its search engine the default on web browsers and smartphones including devices from Apple and Samsung, a federal judge ruled Monday. Judge Amit Mehta of U.S. District Court for the District of Columbia said Google’s payments to partners — estimated to be more than $26 […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/BBfgrQ6oSA/google-illegally-maintained-search-monopoly-judge-rules-in-siding-with-doj",
+    "sourceLink": "https://variety.com/2024/digital/news/google-illegal-search-monopoly-judge-ruling-doj-1236096055/",
+    "uid": "BBfgrQ6oSA",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/vw/x7/c0/r6frvwx7c0-97f4PP6NhL.webp",
+    "width": 850,
+    "height": 479
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/vw/x7/c0/r6frvwx7c0-ZofyppxOUg.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/vw/x7/c0/r6frvwx7c0-w6fzkkvxh0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/vw/x7/c0/r6frvwx7c0-26fGmmekTy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fr/vw/x7/c0/r6frvwx7c0-e1fdkk04ce.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.4158,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:34:46Z",
+    "scheduledOn": "2024-08-05T20:04:12Z"
+    },
+    {
+    "title": {
+    "en": "Maluma Opens New Restaurant in Colombia and Donald Glover Campaigns for ‘Mr. & Mrs. Smith’ Emmys: August 2024 Celebrity Pics"
+    },
+    "summary": {
+    "en": "August kicked off with music superstar Maluma celebrating the opening of his new restaurant Casa Eterna in Medellin, Colombia. At the same time, celebrities like Kendall Jenner and Martha Stewart continued to descend on Paris for the Olympics. In Los Angeles, Zoey Deutch and Jimmy Tatro enjoyed the Cinespia screening of “Bridesmaids” at the Hollywood […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/01f7l4kEiJ/maluma-opens-new-restaurant-in-colombia-and-donald-glover-campaigns-for-mr-and-mrs-smith-emmys-august-2024-celebrity-pics",
+    "sourceLink": "https://variety.com/gallery/august-2024-celebrity-photos/",
+    "uid": "01f7l4kEiJ",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/70/kP/fv/Qafq70kPfv-kvfzdd2dCO.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/70/kP/fv/Qafq70kPfv-dof6NNB4cV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/70/kP/fv/Qafq70kPfv-Zofyppx6Ig.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/70/kP/fv/Qafq70kPfv-3xfZeexjup.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fq/70/kP/fv/Qafq70kPfv-e1fdkk03fe.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3665,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 2,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:38:02Z",
+    "scheduledOn": "2024-08-05T20:04:12Z"
+    },
+    {
+    "title": {
+    "en": "‘House Of The Dragon’ will end with season four"
+    },
+    "summary": {
+    "en": "Filming for season three is also expected to get underway early next year\n\nThe post ^[‘House Of The Dragon’ will end with season four^|https://www.nme.com/news/tv/house-of-the-dragon-will-end-with-season-four-3781123^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/OnfynJbmfY/house-of-the-dragon-will-end-with-season-four",
+    "sourceLink": "https://www.nme.com/news/tv/house-of-the-dragon-will-end-with-season-four-3781123?utm_source=rss&utm_medium=rss&utm_campaign=house-of-the-dragon-will-end-with-season-four",
+    "uid": "OnfynJbmfY",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/Wy/NA/io/p6fZWyNAio-r6fP22LzUV.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/Wy/NA/io/p6fZWyNAio-PYfneeo0c7.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/Wy/NA/io/p6fZWyNAio-yBfJ669xtO.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/Wy/NA/io/p6fZWyNAio-m7fqEELkSR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/Wy/NA/io/p6fZWyNAio-WJfbQQ2dHL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/Wy/NA/io/p6fZWyNAio-4xfGYY1esl.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fZ/Wy/NA/io/p6fZWyNAio-LRfvnnpAs6.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:34:45Z",
+    "scheduledOn": "2024-08-05T20:04:11Z"
+    },
+    {
+    "title": {
+    "en": "CBS Orders Comedy Pilot ‘DMV,’ to Develop Single-Cam ‘Eternally Yours’ From ‘Ghosts’ Creators"
+    },
+    "summary": {
+    "en": "CBS has given out a pilot order to the single-camera workplace comedy “DMV,” Variety has confirmed. In addition, CBS has opened a writers’ room for another single-cam titled “Eternally Yours.” Based on the short story from Katherine Heiny, “DMV” hails from writer Dana Klein, who executive produces with Aaron Kaplan, Wendi Trilling and Robyn Meisinger. […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/x6fpJNd0Ie/cbs-orders-comedy-pilot-dmv-to-develop-single-cam-eternally-yours-from-ghosts-creators",
+    "sourceLink": "https://variety.com/2024/tv/news/cbs-comedy-pilot-dmv-eternally-yours-ghosts-creators-1236096016/",
+    "uid": "x6fpJNd0Ie",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/D6/co/NZfEXrD6co-EvfpPPkEfO.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/D6/co/NZfEXrD6co-ngfD44azUz.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/D6/co/NZfEXrD6co-dof6NNR4SV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/D6/co/NZfEXrD6co-w6fzkkolS0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/D6/co/NZfEXrD6co-x6f6QQoECY.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/D6/co/NZfEXrD6co-e1fdkkL3Ue.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:44:52Z",
+    "scheduledOn": "2024-08-05T20:04:10Z"
+    },
+    {
+    "title": {
+    "en": "St Vincent thinks the worst song ever written is John Mayer’s ‘Daughters’"
+    },
+    "summary": {
+    "en": "\"It’s really, really retrograde and really sexist\"\n\nThe post ^[St Vincent thinks the worst song ever written is John Mayer’s ‘Daughters’^|https://www.nme.com/news/music/st-vincent-thinks-the-worst-song-ever-written-is-john-mayers-daughters-3781130^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/v4fYqQzDCo/st-vincent-thinks-the-worst-song-ever-written-is-john-mayers-daughters",
+    "sourceLink": "https://www.nme.com/news/music/st-vincent-thinks-the-worst-song-ever-written-is-john-mayers-daughters-3781130?utm_source=rss&utm_medium=rss&utm_campaign=st-vincent-thinks-the-worst-song-ever-written-is-john-mayers-daughters",
+    "uid": "v4fYqQzDCo",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mp/eq/iJ/VPfjmpeqiJ-DkfbWW2oIR.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mp/eq/iJ/VPfjmpeqiJ-q6f0eeRYsY.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mp/eq/iJ/VPfjmpeqiJ-LRfvnnyAI6.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mp/eq/iJ/VPfjmpeqiJ-01fdLLvrsA.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mp/eq/iJ/VPfjmpeqiJ-NZfjnnJyfz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mp/eq/iJ/VPfjmpeqiJ-bYfZpp0nHQ.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fj/mp/eq/iJ/VPfjmpeqiJ-zpfZ993NiE.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:37:11Z",
+    "scheduledOn": "2024-08-05T20:04:10Z"
+    },
+    {
+    "title": {
+    "en": "Johnny Marr, Bobby Gillespie, Fontaines D.C.’s Carlos O’Connell and more feature on Peter Perrett’s new album ‘The Cleansing’"
+    },
+    "summary": {
+    "en": "The album's set for release on November 1\n\nThe post ^[Johnny Marr, Bobby Gillespie, Fontaines D.C.’s Carlos O’Connell and more feature on Peter Perrett’s new album ‘The Cleansing’^|https://www.nme.com/news/music/johnny-marr-bobby-gillespie-fontaines-dcs-carlos-oconnell-peter-perrett-new-album-3781134^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/3xfB9lpEcN/johnny-marr-bobby-gillespie-fontaines-d-c-s-carlos-oconnell-and-more-feature-on-peter-perretts-new-album-the-cleansing",
+    "sourceLink": "https://www.nme.com/news/music/johnny-marr-bobby-gillespie-fontaines-dcs-carlos-oconnell-peter-perrett-new-album-3781134?utm_source=rss&utm_medium=rss&utm_campaign=johnny-marr-bobby-gillespie-fontaines-dcs-carlos-oconnell-peter-perrett-new-album",
+    "uid": "3xfB9lpEcN",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/l1/CP/01f2Ygl1CP-bYfZppynsQ.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/l1/CP/01f2Ygl1CP-QafNQQ1juN.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/l1/CP/01f2Ygl1CP-zpfZ99DNCE.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/l1/CP/01f2Ygl1CP-4xfGYYyesl.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/l1/CP/01f2Ygl1CP-RqfB77EWIX.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/l1/CP/01f2Ygl1CP-jxfkZZazi9.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/l1/CP/01f2Ygl1CP-26fGmm0Xcy.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:03:00Z",
+    "scheduledOn": "2024-08-05T20:04:09Z"
+    },
+    {
+    "title": {
+    "en": "Hulk Hogan vs. Gawker Film in Active Development With Matt Damon and Ben Affleck’s Artists Equity"
+    },
+    "summary": {
+    "en": "A film about Hulk Hogan’s infamous legal battle against Gawker is officially in the works. Artists Equity, Matt Damon and Ben Affleck’s production banner, has acquired a screenplay written by Charles Randolph and based on Ryan Holiday’s book “Conspiracy: Peter Thiel, Hulk Hogan, Gawker and the Anatomy of Intrigue.” The project is in active development. While it’s been […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/26fg2lEGfE/hulk-hogan-vs-gawker-film-in-active-development-with-matt-damon-and-ben-afflecks-artists-equity",
+    "sourceLink": "https://variety.com/2024/film/news/hulk-hogan-gawker-film-artists-equity-1236096091/",
+    "uid": "26fg2lEGfE",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Q6/nZ/fX/OnfPQ6nZfX-x6f6QQVquY.webp",
+    "width": 1280,
+    "height": 851
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Q6/nZ/fX/OnfPQ6nZfX-Onfv44WpcJ.webp",
+    "width": 1024,
+    "height": 681
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Q6/nZ/fX/OnfPQ6nZfX-ZofyppG6Fg.webp",
+    "width": 850,
+    "height": 565
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Q6/nZ/fX/OnfPQ6nZfX-v4f277NkCb.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Q6/nZ/fX/OnfPQ6nZfX-BBfNYYbaTD.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Q6/nZ/fX/OnfPQ6nZfX-7mfGrrmzHx.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fP/Q6/nZ/fX/OnfPQ6nZfX-NZfjnnpySz.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3675,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T20:02:55Z",
+    "scheduledOn": "2024-08-05T20:04:08Z"
+    },
+    {
+    "title": {
+    "en": "Fred Again.. announces 2024 North American tour"
+    },
+    "summary": {
+    "en": "“I can’t waittttt to see these parts and play some shows in some magical places”\n\nThe post ^[Fred Again.. announces 2024 North American tour^|https://www.nme.com/news/music/fred-again-announces-2024-north-american-tour-buy-tickets-here-3781114^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/1Df6arOnhq/fred-again-announces-2024-north-american-tour",
+    "sourceLink": "https://www.nme.com/news/music/fred-again-announces-2024-north-american-tour-buy-tickets-here-3781114?utm_source=rss&utm_medium=rss&utm_campaign=fred-again-announces-2024-north-american-tour-buy-tickets-here",
+    "uid": "1Df6arOnhq",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/wb/hO/J1fkA7wbhO-26fGmqJrHy.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/wb/hO/J1fkA7wbhO-BBfNYGZXhD.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/wb/hO/J1fkA7wbhO-Zofypz32sg.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/wb/hO/J1fkA7wbhO-01fdLaN9IA.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/wb/hO/J1fkA7wbhO-NZfjngAPTz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/wb/hO/J1fkA7wbhO-VPf1QvnYty.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fk/A7/wb/hO/J1fkA7wbhO-bYfZpmkRFQ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:06:24Z",
+    "scheduledOn": "2024-08-05T19:34:08Z"
+    },
+    {
+    "title": {
+    "en": "Serena Williams Calls Out Paris Restaurant for ‘Denying Access’ to Her and Her Children: ‘Yikes … Always a First’"
+    },
+    "summary": {
+    "en": "Serena Williams criticized a luxury hotel in Paris on Monday evening for being “denied access” to the hotel’s rooftop restaurant along with her children. The retired tennis champion, who served as a torch bearer at the opening ceremony of this summer’s Olympics, shared an anecdote about her experience at the Peninsula Paris on X, formerly […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/Dkf6Xaj2SW/serena-williams-calls-out-paris-restaurant-for-denying-access-to-her-and-her-children-yikes-always-a-first",
+    "sourceLink": "https://variety.com/2024/tv/news/serena-williams-slams-paris-restaurant-olympics-1236095987/",
+    "uid": "Dkf6Xaj2SW",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nr/3Y/sV/yBfVnr3YsV-EvfpPVB1SO.webp",
+    "width": 1024,
+    "height": 682
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nr/3Y/sV/yBfVnr3YsV-kvfzd1wQIO.webp",
+    "width": 850,
+    "height": 566
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nr/3Y/sV/yBfVnr3YsV-LRfvnPZeT6.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nr/3Y/sV/yBfVnr3YsV-lAfmEj0oFe.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nr/3Y/sV/yBfVnr3YsV-3xfZe7vVcp.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/nr/3Y/sV/yBfVnr3YsV-e1fdkxPofe.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3669,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:18:04Z",
+    "scheduledOn": "2024-08-05T19:34:07Z"
+    },
+    {
+    "title": {
+    "en": "Soundcore’s New A20 Earbuds Promise to Help You Sleep Better With Noise-Canceling Features & Built-In White Noise"
+    },
+    "summary": {
+    "en": "Prepare to have your sleep \"revolutionized,\" according to reviewers."
+    },
+    "link": "https://fotoscapes.com/lookbook/m7fknRAlie/soundcores-new-a20-earbuds-promise-to-help-you-sleep-better-with-noise-canceling-features-and-built-in-white-noise",
+    "sourceLink": "https://www.billboard.com/culture/product-recommendations/soundcore-sleep-a20-earbuds-review-buy-online-1235746302/",
+    "uid": "m7fknRAlie",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/we/bx/FJ/kvfNwebxFJ-bYfZpmN7tQ.webp",
+    "width": 850,
+    "height": 562
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/we/bx/FJ/kvfNwebxFJ-r6fP2yvxsV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/we/bx/FJ/kvfNwebxFJ-oNfZNbXbuA.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/we/bx/FJ/kvfNwebxFJ-XofNW4qdUm.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/kv/fN/we/bx/FJ/kvfNwebxFJ-GvfGvNoeTa.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3688,
+    "endB": 0.4444
+    },
+    "owner": "Billboard",
+    "brandLogo": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-GvfxdJoQua.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-Evf4boBNhO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:14:58Z",
+    "scheduledOn": "2024-08-05T19:34:06Z"
+    },
+    {
+    "title": {
+    "en": "Crocs Introduces the High Shine Loafers: Shop This Must-Have Style Now"
+    },
+    "summary": {
+    "en": "Crocs' high-shine loafers blend sleek style with ultimate comfort for a versatile, eye-catching look."
+    },
+    "link": "https://fotoscapes.com/lookbook/ngfdVXJ9s9/crocs-introduces-the-high-shine-loafers-shop-this-must-have-style-now",
+    "sourceLink": "https://www.billboard.com/culture/product-recommendations/crocs-stomp-high-shine-loafer-where-to-buy-online-1235746680/",
+    "uid": "ngfdVXJ9s9",
+    "lbtype": "springboard",
+    "interests": [
+    "lAfyfy",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/0v/fo/NZfEXr0vfo-1DfR723auj.webp",
+    "width": 850,
+    "height": 562
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/0v/fo/NZfEXr0vfo-q6f0eVRDiY.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/0v/fo/NZfEXr0vfo-ANf70bwpf0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/0v/fo/NZfEXr0vfo-4xfGY6ynSl.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fE/Xr/0v/fo/NZfEXr0vfo-dof6NLBXFV.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3688,
+    "endB": 0.4444
+    },
+    "owner": "Billboard",
+    "brandLogo": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-GvfxdJoQua.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/v4/fV/2U/N/v4fV2UN-Evf4boBNhO.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:19:08Z",
+    "scheduledOn": "2024-08-05T19:33:57Z"
+    },
+    {
+    "title": {
+    "en": "Blink-182 Interpolates Chappell Roan’s ‘Pink Pony Club’ for Performance of ‘Dammit’"
+    },
+    "summary": {
+    "en": "Chappell Roan is on a hot streak, proving she is “your favorite artist’s favorite artist,” with major co-signs from Elton John, Lady Gaga, Charli XCX and now, Blink-182. The band was concluding their headlining set at Lollapalooza on Aug. 4 when Mark Hoppus sang the closing lines of Roan’s “Pink Pony Club” to replace the […]"
+    },
+    "link": "https://fotoscapes.com/lookbook/kvfmZqlosq/blink-182-interpolates-chappell-roans-pink-pony-club-for-performance-of-dammit",
+    "sourceLink": "https://variety.com/2024/music/news/blink-182-interpolates-chappell-roan-pink-pony-club-dammit-1236095960/",
+    "uid": "kvfmZqlosq",
+    "lbtype": "springboard",
+    "interests": [
+    "6JfV7FW",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nX/9w/up/x6fBnX9wup-bYfZpmyGFQ.webp",
+    "width": 850,
+    "height": 566
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nX/9w/up/x6fBnX9wup-EvfpPVkBHO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nX/9w/up/x6fBnX9wup-ngfD4na7hz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nX/9w/up/x6fBnX9wup-DkfbWPEdhR.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/x6/fB/nX/9w/up/x6fBnX9wup-1DfR72lRfj.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3669,
+    "endB": 0.4444
+    },
+    "owner": "Variety",
+    "brandLogo": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-NZfE47R3uz.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/7m/fb/dV/Sk/7mfbdVSk-VPfjJDPPiy.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T19:30:05Z",
+    "scheduledOn": "2024-08-05T19:33:54Z"
+    },
+    {
+    "title": {
+    "en": "Police release images of suspects and car in killing of actor Johnny Wactor in Los Angeles"
+    },
+    "shortTitle": {
+    "en": "Hunt for Johnny Wactor's Killers"
+    },
+    "summary": {
+    "en": "Police have released images of three suspects and the getaway car used in the killing of former “General Hospital” actor Johnny Wactor in downtown Los Angeles"
+    },
+    "link": "https://fotoscapes.com/lookbook/97fvBjv2TZ/police-release-images-of-suspects-and-car-in-killing-of-actor-johnny-wactor-in-los-angeles",
+    "sourceLink": "https://apnews.com/article/johnny-wactor-killing-suspect-images-los-angeles-2eeeeb3668bef190a59efb8758532ade",
+    "uid": "97fvBjv2TZ",
+    "lbtype": "article",
+    "interests": [
+    "4xf2df3",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/zD/CP/01f2YgzDCP-WJfbQ0lnCL.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/zD/CP/01f2YgzDCP-6JfG9LgbIq.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/zD/CP/01f2YgzDCP-g6f27neLuk.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/zD/CP/01f2YgzDCP-q6f0ezLgHY.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/zD/CP/01f2YgzDCP-ANf7093rC0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/zD/CP/01f2YgzDCP-4xfGYlj0Hl.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/Yg/zD/CP/01f2YgzDCP-dof6NEk6SV.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3666,
+    "endB": 0.4444
+    },
+    "owner": "AP News",
+    "brandLogo": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-aYfWPVZGf0.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/Gv/fQ/eG/CE/GvfQeGCE-26fpG6gQsy.png",
+    "numImages": 2,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T18:01:44Z",
+    "scheduledOn": "2024-08-05T19:20:27Z"
+    },
+    {
+    "title": {
+    "en": "David Lynch’s health problems mean he can no longer direct in-person"
+    },
+    "summary": {
+    "en": "The director revealed he's now \"homebound\"\n\nThe post ^[David Lynch’s health problems mean he can no longer direct in-person^|https://www.nme.com/news/film/david-lynchs-health-problems-mean-he-can-no-longer-direct-in-person-3781105^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/LRfbJ6mEub/david-lynchs-health-problems-mean-he-can-no-longer-direct-in-person",
+    "sourceLink": "https://www.nme.com/news/film/david-lynchs-health-problems-mean-he-can-no-longer-direct-in-person-3781105?utm_source=rss&utm_medium=rss&utm_campaign=david-lynchs-health-problems-mean-he-can-no-longer-direct-in-person",
+    "uid": "LRfbJ6mEub",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/NR/vQ/IQ/e1f1NRvQIQ-dof6NEBZHV.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/NR/vQ/IQ/e1f1NRvQIQ-LRfvnwpwu6.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/NR/vQ/IQ/e1f1NRvQIQ-w6fzkjvDc0.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/NR/vQ/IQ/e1f1NRvQIQ-v4f27wXBhb.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/NR/vQ/IQ/e1f1NRvQIQ-e1fdk49RUe.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/NR/vQ/IQ/e1f1NRvQIQ-Onfv42RoSJ.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/e1/f1/NR/vQ/IQ/e1f1NRvQIQ-BBfNYl73UD.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T18:45:35Z",
+    "scheduledOn": "2024-08-05T19:04:08Z"
+    },
+    {
+    "title": {
+    "en": "Banksy confirms new goat mural in London"
+    },
+    "summary": {
+    "en": "The new artwork appeared in Kew Green in south-west London\n\nThe post ^[Banksy confirms new goat mural in London^|https://www.nme.com/news/banksy-confirms-new-goat-mural-in-london-3781120^] appeared first on ^[NME^|https://www.nme.com^]."
+    },
+    "link": "https://fotoscapes.com/lookbook/4xf23Xn6fn/banksy-confirms-new-goat-mural-in-london",
+    "sourceLink": "https://www.nme.com/news/banksy-confirms-new-goat-mural-in-london-3781120?utm_source=rss&utm_medium=rss&utm_campaign=banksy-confirms-new-goat-mural-in-london",
+    "uid": "4xf23Xn6fn",
+    "lbtype": "springboard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bQ/rA/i6/3xfzbQrAi6-e1fdk40Rce.webp",
+    "width": 1280,
+    "height": 813
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bQ/rA/i6/3xfzbQrAi6-Onfv421oUJ.webp",
+    "width": 1024,
+    "height": 650
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bQ/rA/i6/3xfzbQrAi6-BBfNYl93cD.webp",
+    "width": 850,
+    "height": 540
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bQ/rA/i6/3xfzbQrAi6-oNfZNxj6uA.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bQ/rA/i6/3xfzbQrAi6-EvfpPbDlhO.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bQ/rA/i6/3xfzbQrAi6-ngfD4NZghz.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fz/bQ/rA/i6/3xfzbQrAi6-J1fBQZYBHn.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.38,
+    "endB": 0.4444
+    },
+    "owner": "NME",
+    "brandLogo": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-yBfVA0DwsO.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/do/fl/x1/sp/doflx1sp-ngfby6oRHz.png",
+    "numImages": 1,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-08-05T18:58:57Z",
+    "scheduledOn": "2024-08-05T19:04:06Z"
+    }
+    ],
+    "gen": "2024-08-06T00:05:47Z",
+    "ttl": "2024-08-06T00:35:47Z"
+    }

@@ -1,0 +1,4396 @@
+{
+    "status": {
+    "http": 200,
+    "lkbk": "OK"
+    },
+    "ver": "1.0",
+    "interests": {
+    "01f2PHo": {
+    "name": {
+    "en": "Astrology",
+    "es": "Astrología"
+    },
+    "weight": 0.7
+    },
+    "01f7Pco": {
+    "name": {
+    "en": "Sports",
+    "es": "Deportes"
+    },
+    "weight": 0.53
+    },
+    "01fPho": {
+    "name": {
+    "en": "Photography",
+    "es": "Fotografía"
+    },
+    "weight": 0.55
+    },
+    "1Df64CD": {
+    "name": {
+    "en": "Influencers",
+    "es": "Influenciadores"
+    },
+    "weight": 0.4
+    },
+    "26fbYCm": {
+    "name": {
+    "en": "Sports News",
+    "es": "Noticias de Deportes"
+    },
+    "weight": 0.5
+    },
+    "26fgYum": {
+    "name": {
+    "en": "Celebrity Homes",
+    "es": "Casas de Celebridades"
+    },
+    "weight": 0.8
+    },
+    "3xfBzCl": {
+    "name": {
+    "en": "Architecture",
+    "es": "Arquitectura"
+    },
+    "weight": 0.55
+    },
+    "3xfzul": {
+    "name": {
+    "en": "Noteworthy",
+    "es": "Notable"
+    },
+    "weight": 0.47
+    },
+    "3xfzzil": {
+    "name": {
+    "en": "Technology News",
+    "es": "Noticias de Tecnología"
+    },
+    "weight": 0.5
+    },
+    "4xf2df3": {
+    "name": {
+    "en": "News",
+    "es": "Noticias"
+    },
+    "weight": 0.5
+    },
+    "4xfdS3": {
+    "name": {
+    "en": "Editorial Photography",
+    "es": "Fotografía Editorial"
+    },
+    "weight": 0.39
+    },
+    "6JfV7FW": {
+    "name": {
+    "en": "Entertainment",
+    "es": "Entretenimiento"
+    },
+    "weight": 0.6
+    },
+    "7mfnQIy": {
+    "name": {
+    "en": "Personal Finance",
+    "es": "Finanzas Personales"
+    },
+    "weight": 0.5
+    },
+    "97fEvFR": {
+    "name": {
+    "en": "Strange News",
+    "es": "Noticias Extrañas"
+    },
+    "weight": 0.68
+    },
+    "97fvsR": {
+    "name": {
+    "en": "Cars & Rides",
+    "es": "Coches & Paseos"
+    },
+    "weight": 0.5
+    },
+    "97fvvHR": {
+    "name": {
+    "en": "Science",
+    "es": "Ciencia"
+    },
+    "weight": 0.5
+    },
+    "ANfkmhe": {
+    "name": {
+    "en": "Shopping",
+    "es": "Compras"
+    },
+    "weight": 0.7
+    },
+    "BBfmJtJ": {
+    "name": {
+    "en": "Wellness",
+    "es": "Bienestar"
+    },
+    "weight": 0.52
+    },
+    "LRfPcJ": {
+    "name": {
+    "en": "Celebrities",
+    "es": "Famosos"
+    },
+    "weight": 0.7
+    },
+    "LRfbPUJ": {
+    "name": {
+    "en": "General News",
+    "es": "Noticias Generales"
+    },
+    "weight": 0.5
+    },
+    "NZf7cr": {
+    "name": {
+    "en": "Travel",
+    "es": "Viajar"
+    },
+    "weight": 0.7
+    },
+    "OnfOio": {
+    "name": {
+    "en": "Women",
+    "es": "Mujeres"
+    },
+    "weight": 0.5
+    },
+    "OnfPOIo": {
+    "name": {
+    "en": "Mobile Apps",
+    "es": "Aplicaciones Móviles"
+    },
+    "weight": 0.22
+    },
+    "OnfyOho": {
+    "name": {
+    "en": "Sneakers",
+    "es": "Zapatillas"
+    },
+    "weight": 0.55
+    },
+    "Rqf2Tg": {
+    "name": {
+    "en": "Fashion",
+    "es": "Moda"
+    },
+    "weight": 0.31
+    },
+    "Rqfo2tg": {
+    "name": {
+    "en": "Entertainment News",
+    "es": "Noticias de Entretenimiento"
+    },
+    "weight": 0.5
+    },
+    "VPf7tE": {
+    "name": {
+    "en": "Women's Style",
+    "es": "Estilo Mujer"
+    },
+    "weight": 0.5
+    },
+    "WJfPRCJ": {
+    "name": {
+    "en": "Technology",
+    "es": "Tecnología"
+    },
+    "weight": 0.5
+    },
+    "ZofNtA": {
+    "name": {
+    "en": "Culture",
+    "es": "Cultura"
+    },
+    "weight": 0.43
+    },
+    "ZofgNIA": {
+    "name": {
+    "en": "Health",
+    "es": "Salud"
+    },
+    "weight": 0.5
+    },
+    "aYfZ9HP": {
+    "name": {
+    "en": "Science News",
+    "es": "Noticias Científicas"
+    },
+    "weight": 0.5
+    },
+    "dofEhL": {
+    "name": {
+    "en": "Outdoor Photography",
+    "es": "Fotografía al Aire Libre"
+    },
+    "weight": 0.71
+    },
+    "dofxEcL": {
+    "name": {
+    "en": "Business",
+    "es": "Negocio"
+    },
+    "weight": 0.3
+    },
+    "e1f1GsP": {
+    "name": {
+    "en": "Games",
+    "es": "Juegos"
+    },
+    "weight": 0.35
+    },
+    "e1fGFP": {
+    "name": {
+    "en": "Men's Style",
+    "es": "Estilo Masculino"
+    },
+    "weight": 0.47
+    },
+    "e1frGSP": {
+    "name": {
+    "en": "Celebrity Style",
+    "es": "Estilo de Celebridad"
+    },
+    "weight": 0.33
+    },
+    "g6fYliB": {
+    "name": {
+    "en": "Lifestyle",
+    "es": "Estilo de Vida"
+    },
+    "weight": 0.49
+    },
+    "jxfQZuD": {
+    "name": {
+    "en": "International News",
+    "es": "Noticias Internacionales"
+    },
+    "weight": 0.4
+    },
+    "jxfZUD": {
+    "name": {
+    "en": "Art & Design",
+    "es": "Arte & Diseño"
+    },
+    "weight": 0.5
+    },
+    "lAfvyuy": {
+    "name": {
+    "en": "Politics",
+    "es": "Política"
+    },
+    "weight": 0.4
+    },
+    "lAfyfy": {
+    "name": {
+    "en": "Music",
+    "es": "Música"
+    },
+    "weight": 0.59
+    },
+    "oNfDHQ": {
+    "name": {
+    "en": "Designer Fashion",
+    "es": "Moda de Diseño"
+    },
+    "weight": 0.27
+    },
+    "q6fqjSw": {
+    "name": {
+    "en": "Food & Drink",
+    "es": "Comida & Bebida"
+    },
+    "weight": 0.5
+    },
+    "v4fBVtL": {
+    "name": {
+    "en": "US News",
+    "es": "Noticias de EE.UU."
+    },
+    "weight": 0.5
+    },
+    "v4fVCL": {
+    "name": {
+    "en": "Home & Garden",
+    "es": "Hogar & Jardín"
+    },
+    "weight": 0.61
+    },
+    "v4fYViL": {
+    "name": {
+    "en": "Gear & Gadgets",
+    "es": "Equipos & Gadgets"
+    },
+    "weight": 0.57
+    },
+    "w6fnIL": {
+    "name": {
+    "en": "TV & Film",
+    "es": "TV & Cine"
+    },
+    "weight": 0.45
+    },
+    "x6fBXcR": {
+    "name": {
+    "en": "Top News",
+    "es": "Las Noticias Más Importantes"
+    },
+    "weight": 0.7
+    },
+    "x6fpXFR": {
+    "name": {
+    "en": "Adventure",
+    "es": "Aventura"
+    },
+    "weight": 0.63
+    }
+    },
+    "items": [
+    {
+    "title": {
+    "en": "“The Godfather Part II” $5.5 Million Lake Tahoe Mansion",
+    "es": "La lujosa mansión de “El Padrino II” a la venta por 5.5 millones de dólares",
+    "fr": "Le Manoir du \"Parrain II\" de 5,5 Millions de Dollars du Lac Tahoe",
+    "hi": "\"द गॉडफादर पार्ट 2\" की $5.5 मिलियन की टाहो झील वाली हवेली",
+    "it": "La villa da $5.5 mln sul lago Tahoe de \"Il Padrino Parte II\"",
+    "pt": "A Mansão do Lago Tahoe de 5.5 Milhões de Dólares do Filme “The Godfather Part II”",
+    "tl": "\"The Godfather Part II\" $5.5 Milyong Mansyon sa Lake Tahoe"
+    },
+    "shortTitle": {
+    "en": "“The Godfather Part II” $5.5 Million Mansion",
+    "es": "La mansión de “El Padrino II” de 5.5 millones de dólares",
+    "fr": "Le Manoir du \"Parrain II\" de 5,5 Millions de Dollars",
+    "hi": "\"द गॉडफादर पार्ट 2\" की $5.5 मिलियन की हवेली",
+    "it": "La villa da $5.5 mln de \"Il Padrino Parte II\"",
+    "pt": "A Mansão de 5.5 Milhões de Dólares do Filme “The Godfather Part II”",
+    "tl": "\"The Godfather Part II\" $5.5 Milyong Mansyon"
+    },
+    "summary": {
+    "en": "The California mansion that was made famous by ^&“The Godfather Part II”^& has hit the market for $5.5 million. In the film, the compound served as the setting for a party Michael Corleone threw for his son.\n\nComplete with four bedrooms, a pool, a tennis court, towering stone hearth fireplaces and more than 4,000-square-feet, it’s not hard to see why producers chose this location for the movie. \n\nCheck out the luxurious estate with breathtaking mountain vistas and Lake Tahoe views.",
+    "es": "La mansión de California que adquirió su fama después de la grabación de _“El Padrino: Parte II”_ se encuentra a la venta por $5.5 millones de dólares. En esta residencia se llevó a cabo la fiesta del hijo de Michael Corleone.\n\nLa lujosa propiedad cuenta con cuatro habitaciones, una piscina, una cancha de tenis, varias chimeneas de piedra y más de 372 metros cuadrados de terreno. No es difícil imaginar por qué los productores eligieron esta locación para la película.\n\nAdmira esta lujosa mansión y maravíllate con sus increíbles vistas de la montaña y del Lago Tahoe.",
+    "fr": "Le manoir californien rendu célèbre par \"Le Parrain\" a été mis sur le marché pour 5,5 millions de dollars. Dans le film, l'enceinte a servi de décor à une fête organisée par Michael Corleone pour son fils.\n\nAvec quatre chambres, une piscine, un court de tennis, d'imposantes cheminées en pierre et plus de 372 mètres carrés, il n'est pas difficile de comprendre pourquoi les producteurs ont choisi cet endroit pour le film.\n\nDécouvrez le domaine luxueux entouré de montagnes sur le lac Tahoe, avec ces images à couper le souffle.",
+    "hi": "कैलिफ़ोर्निया की हवेली जो \"द गॉडफादर पार्ट 2\" के कारण प्रसिद्ध थी बाजार में $5.5 मिलियन की कीमत पर उपलब्ध है। फिल्म में, कंपाउंड को उस पार्टी के परिवेश के रूप में पेश किया गया था माइकल कोरलियोन अपने बेटे के लिए देता है।\n\nचार बेडरूम, एक पूल, एक टेनिस कोर्ट, विशाल पत्थर के चूल्हे की चिमनियों, और 4,000-वर्ग फुट से अधिक फैली हुई इस हवेली को निर्माताओं ने फिल्म के लिए क्यों चुना यह समझना मुश्किल नहीं है। \n\nलुभावने पहाड़ी विस्तार और झील टाहो के सुंदर दृश्यों से घिरी इस शानदार संपत्ति को देखें।",
+    "it": "La villa californiana che è diventata famosa grazie a _“Il Padrino Parte II”_ è stata messa sul mercato al prezzo di $5.5 milioni. Nella pellicola, il complesso è stato usato come il set per la festa che Michael Corleone organizza per suo figlio.\n\nCompleta di quattro camere, una piscina, un campo da tennis, camini torreggianti in pietra e di più di 370 m² di spazio, non è difficile capire come mai i produttori abbiano scelto questa location per il film.\n\nScopri questo lussuoso immobile con viste mozzafiato sulle montagne e sul lago Tahoe.",
+    "pt": "A mansão da Califórnia que ficou famosa por _ “The Godfather Part II” _ chegou ao mercado por 5,5 milhões de dólares. No filme, o complexo serviu de cenário para uma festa que Michael Corleone deu para seu filho.\n\nCompleto com quatro quartos, piscina, quadra de tênis, lareiras de pedra e mais de 4.000 pés quadrados, não é difícil entender por que os produtores escolheram este local para o filme.\n\nConfira a luxuosa propriedade com vistas deslumbrantes das montanhas e do Lago Tahoe.",
+    "tl": "Ang mansyon sa California na pinasikat ng _“The Godfather Part II”_ ay ipinagbebenta na sa halagang $5.5 milyon. Sa pelikula, ang compound na ito ang ginamit na lugar sa ginawang party ni Michael Corleone para sa kanyang anak. \n\nKumpleto kasama ang apat na kwarto, isang pool, isang tennis court, matataas na apuyang gawa sa bato at sukat na higit 4,000-piye-kwadrado, madaling makita kung bakit ito ang napili ng mga producer para sa pelikula.\n\nTingnan ang magarbong bahay na may makapigil-hiningang tanawin ng kabundukan at ng Lake Tahoe."
+    },
+    "link": "https://fotoscapes.com/lookbook/BBfbJjcA/the-godfather-part-ii-5-5-million-lake-tahoe-mansion",
+    "uid": "BBfbJjcA",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "w6fnIL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/NO/Ei/6/3xfBNOEi6-lAf3ppdBue.webp",
+    "width": 1280,
+    "height": 854
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/NO/Ei/6/3xfBNOEi6-p6fqggL9t0.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/NO/Ei/6/3xfBNOEi6-XofoXXrWhm.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/NO/Ei/6/3xfBNOEi6-6JfBqqxmHq.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/NO/Ei/6/3xfBNOEi6-ZofDPPG3ig.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/NO/Ei/6/3xfBNOEi6-x6fYRRVkSY.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/NO/Ei/6/3xfBNOEi6-w6fVQQARS0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4491,
+    "startY": 0.5505,
+    "startB": 0.3992,
+    "endX": 0.529,
+    "endY": 0.5505,
+    "endB": 0.3992
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 18,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-04-02T13:53:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Look Inside NBA All-Star Jimmy Butler's Miami Home",
+    "es": "Mire el interior de la casa en Miami del All-Star de la NBA Jimmy Butler"
+    },
+    "shortTitle": {
+    "en": "Jimmy Butler's Miami Home",
+    "es": "La casa de Jimmy Butler en Miami"
+    },
+    "summary": {
+    "en": "NBA All-Star Jimmy Butler shoots and scores with this new home purchase. Butler's $7.4 million mansion in Miami South Florida, is located in a gated community with a reputation for being very exclusive.",
+    "es": "El All-Star de la NBA Jimmy Butler dispara y anota con la compra de esta nueva casa. La mansión de Butler de 7,4 millones de dólares en Miami, sur de Florida, está ubicada en una comunidad cerrada con reputación de ser muy exclusiva."
+    },
+    "link": "https://fotoscapes.com/lookbook/e1f1NXZH7/look-inside-nba-all-star-jimmy-butlers-miami-home",
+    "uid": "e1f1NXZH7",
+    "lbtype": "standard",
+    "interests": [
+    "v4fVCL",
+    "26fgYum"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fE/gn/wI/d/7mfEgnwId-VPfjoBXjCy.jpg",
+    "width": 1024,
+    "height": 684
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fE/gn/wI/d/7mfEgnwId-bYfRygdJfQ.jpg",
+    "width": 850,
+    "height": 568
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fE/gn/wI/d/7mfEgnwId-p6fZ4zYOS0.jpg",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fE/gn/wI/d/7mfEgnwId-Qafq13o6TN.jpg",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fE/gn/wI/d/7mfEgnwId-zpf6DOVYfE.jpg",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/7m/fE/gn/wI/d/7mfEgnwId-r6frm7DbIV.jpg",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4992,
+    "startY": 0.3829,
+    "startB": 0.4453,
+    "endX": 0.5391,
+    "endY": 0.4754,
+    "endB": 0.3344
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 13,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-06-16T19:47:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "The Gamer-designed Ford P1"
+    },
+    "shortTitle": {
+    "en": "Ford’s New Virtual Concept Vehicle"
+    },
+    "summary": {
+    "en": "The Ford P1 was crafted out of a unique, collaborative effort between Ford and its official eSports team, Fordzilla. The design was partially inspired by the classic Ford GT, but input from the automaker’s gamers really drove the vision for this futuristic, virtually-rendered concept vehicle.\n\nFord says to expect a full-sized model to be built before the end of 2020. In the meantime, check out the awesome first-look photos of the world’s first virtual concept car – the Ford P1."
+    },
+    "link": "https://fotoscapes.com/lookbook/QafvONhx/the-gamer-designed-ford-p1",
+    "uid": "QafvONhx",
+    "lbtype": "standard",
+    "interests": [
+    "97fvsR",
+    "3xfzul"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/1r/7u/4/ngfb1r7u4-Xofo3oO2Tm.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/1r/7u/4/ngfb1r7u4-DkfLkLqzFR.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/1r/7u/4/ngfb1r7u4-4xfqdqJvUl.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/1r/7u/4/ngfb1r7u4-yBf2Y232FO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/1r/7u/4/ngfb1r7u4-DkfLkL7zSR.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/1r/7u/4/ngfb1r7u4-Rqf616qxhX.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/1r/7u/4/ngfb1r7u4-lAf3L3l2Te.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.6188,
+    "startY": 0.3597,
+    "startB": 0.2891,
+    "endX": 0.5,
+    "endY": 0.4556,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 6,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-09-10T20:38:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Lamborghini's Top-notch $3.4 Million Speed Yacht",
+    "es": "Lamborghini revela su yate de súper lujo que cuesta 3.4 millones de dólares",
+    "fr": "Lamborghini Dévoile un Yacht Haut de Gamme de 3,4 Millions de Dollars",
+    "hi": "लेम्बोर्गिनी ने उच्चतम गुणवत्ता की $3.4 मिलियन स्पीड यॉट का अनावरण किया",
+    "it": "La Lamborghini svela il suo eccezionale yacht ultraveloce da $3.4 mln",
+    "pt": "Lamborghini Revela um Iate de Alta Velocidade de 3,4 milhões de dólares",
+    "tl": "Lamborghini Naglabas ng Pambihirang $3.4 Milyong Speed Yacht"
+    },
+    "shortTitle": {
+    "en": "Tecnomar for Lamborghini 63",
+    "es": "Tecnomar for Lamborghini 63",
+    "fr": "Tecnomar pour Lamborghini 63",
+    "hi": "लेम्बोर्गिनी 63 की टेकनोमर",
+    "it": "Tecnomar for Lamborghini 63",
+    "pt": "Tecnomar para Lamborghini 63",
+    "tl": "Tecnomar for Lamborghini 63"
+    },
+    "summary": {
+    "en": "Automobili Lamborghini and The Italian Sea Group recently premiered the Tecnomar for Lamborghini 63 – a limited-edition, luxury speed yacht clad in Lamborghini accents. For fans and owners of the Italian automaker’s vehicles, the new yacht is the closest you’ll get to driving an awesome supercar across the water.\n\nCheck out these awesome press photos of the sleek Tecnomar for Lamborghini 63.",
+    "es": "Automobili Lamborghini y The Italian Sea Group lanzaron recientemente el Tecnomar for Lamborghini 63, un yate de lujo de edición especial revestido con los detalles de Lamborghini. Si eres un fanático o dueño de algún vehículo de esta empresa automotriz italiana, este nuevo yate es lo más cercano que tendrás si quieres manejar un superdeportivo en el agua.\n\nEcha un vistazo a las fotografías de prensa del elegante Tecnomar for Lamborghini 63.",
+    "fr": "Automobili Lamborghini et The Italian Sea Group ont récemment créé le Tecnomar pour Lamborghini 63 - un yacht de luxe en édition limitée revêtu d'accents Lamborghini. Pour les fans et les propriétaires de véhicules du constructeur italien, le nouveau yacht est ce qui se rapproche le plus de conduire un super bolide sur l'eau.\n\nDécouvrez ces superbes photos de presse de l'élégant Tecnomar pour Lamborghini 63.",
+    "hi": "ऑटोमोबिली लेम्बोर्गिनी और द इटालियन सी ग्रुप ने हाल ही में लेम्बोर्गिनी 63 के लिए टेकनोमर का प्रीमियर किया था - लेम्बोर्गिनी की शैली की एक सीमित-संस्करण लक्जरी स्पीड यॉट। इटालियन ऑटोमेकर के वाहनों के प्रशंसकों और मालिकों के लिए यह नयी नौका आपको पानी में एक शानदार सुपरकार चलाने का अनुभव करवाएगी।\n\nलेम्बोर्गिनी 63 के लिए निर्मित इस सुंदर टेक्नोमर की तस्वीरें देखें।",
+    "it": "La Automobili Lamborghini e The Italian Sea Group di recente hanno presentato in anteprica il Tecnomar for Lamborghini 63 - uno yacht di lusso ultraveloce in edizione limitata rivestito di elementi distintivi Lamborghini. Per i fan e i proprietari delle macchine della casa automobilistica italiana, il nuovo yacht è quanto di più vicino si possa immaginare a una stupenda supercar che viaggia sull'acqua.\n\nScopri queste incredibili foto stampa dell'elegante Tecnomar for Lamborghini 63.",
+    "pt": "A Automobili Lamborghini e o The Italian Sea Group lançaram recentemente o Tecnomar para o Lamborghini 63 - uma edição limitada de um iate de luxo com detalhes em Lamborghini. Para fãs e proprietários de veículos da montadora italiana, o novo iate é o mais perto que você chegará de dirigir um supercarro incrível através da água.\n\nConfira essas incríveis fotos de imprensa do elegante Tecnomar para Lamborghini 63.",
+    "tl": "Inilabas kamakailan ng Automobili Lamborghini at The Italian Sea Group ang Tecnomar for Lamborghini 63 - isang limitadong edisyon at marangyang speed yacht taglay ang karaniwang dating ng isang Lamborghini. Para sa mga panatiko at nagmamay-ari ng Lamborghini, ang bagong yateng ito na ang pinakamalapit na disensyo ng sasakyan kung saan magagawa mong makapagmaneho ng isang astig na supercar sa tubig.\n\nTingnan ang mga astig na litrato ng napakagandang Tecnomar for Lamborghini 63."
+    },
+    "link": "https://fotoscapes.com/lookbook/g6feOzfZ/lamborghinis-top-notch-3-4-million-speed-yacht",
+    "uid": "g6feOzfZ",
+    "lbtype": "standard",
+    "interests": [
+    "97fvsR",
+    "01fPho",
+    "v4fYViL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/3W/3c/P/01f23W3cP-dofPOp9biV.webp",
+    "width": 1280,
+    "height": 905
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/3W/3c/P/01f23W3cP-jxf1OpBdF9.webp",
+    "width": 1024,
+    "height": 724
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/3W/3c/P/01f23W3cP-aYfeBg6bC0.webp",
+    "width": 850,
+    "height": 601
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/3W/3c/P/01f23W3cP-J1f2dglnhn.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/3W/3c/P/01f23W3cP-m7fV17NPCR.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/3W/3c/P/01f23W3cP-1Df9y0J7Cj.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/01/f2/3W/3c/P/01f23W3cP-6JfBrbyeSq.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.3609,
+    "startY": 0.4801,
+    "startB": 0.2891,
+    "endX": 0.5,
+    "endY": 0.5728,
+    "endB": 0.4453
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 9,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-08-26T18:13:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Chrissy Teigen and John Legend's $28 Million Beverly Hills Mansion",
+    "es": "La mansión de Chrissy Teigen y John Legend en Beverly Hills, valorada en 28 millones de dólares"
+    },
+    "shortTitle": {
+    "en": "Chrissy Teigen and John Legend's $28 Million Beverly Hills Mansion",
+    "es": "La mansión de Chrissy Teigen y John Legend en Beverly Hills, valorada en 28 millones de dólares"
+    },
+    "summary": {
+    "en": "Singer John Legend and model-turned-celebrity chef Chrissy Teigen are one of Hollywood’s most beloved duos. The power couple listed their contemporary Beverly Hills mansion for a sky-high $28 million, a cool $10 million more than they purchased it for in 2016. \n\nThe home, formerly owned by Rihanna, is more than 8,500 square feet, with high 33-foot ceilings and a gorgeous spiral staircase. Check out John and Chrissy's ultra-luxe, Beverly Hills home.",
+    "es": "El cantante John Legend y la modelo convertida en celebridad chef Chrissy Teigen son uno de los dúos más queridos de Hollywood. La poderosa pareja puso a la venta su mansión contemporánea en Beverly Hills por la altísima suma de 28 millones de dólares, 10 millones de dólares más de lo que la compraron en 2016. La casa, anteriormente propiedad de Rihanna, tiene más de 8,500 pies cuadrados, con alturas de 33 pies. techos y una preciosa escalera de caracol. Echa un vistazo a la lujosa casa de John y Chrissy en Beverly Hills."
+    },
+    "link": "https://fotoscapes.com/lookbook/BBfDgduA/chrissy-teigen-and-john-legends-28-million-beverly-hills-mansion",
+    "uid": "BBfDgduA",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/b0/gI/3/6Jfzb0gI3-ngfgWP1vsz.webp",
+    "width": 1280,
+    "height": 808
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/b0/gI/3/6Jfzb0gI3-ANfrxP2Yf0.webp",
+    "width": 1024,
+    "height": 646
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/b0/gI/3/6Jfzb0gI3-w6fVqyXet0.webp",
+    "width": 850,
+    "height": 537
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/b0/gI/3/6Jfzb0gI3-BBfdwPneuD.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/b0/gI/3/6Jfzb0gI3-BBfdwPnZUD.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/b0/gI/3/6Jfzb0gI3-r6fYRkn1CV.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/6J/fz/b0/gI/3/6Jfzb0gI3-DkfLkmzPFR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5988,
+    "startY": 0.5546,
+    "startB": 0.3569,
+    "endX": 0.3952,
+    "endY": 0.5722,
+    "endB": 0.3569
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 17,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-08-24T15:46:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "DJ Khaled’s Infamous Miami Beach Estate",
+    "es": "La infame propiedad de DJ Khaled en el Estado de Miami Beach",
+    "fr": "La Célèbre Demeure du DJ Khaled à Miami Beach",
+    "hi": "डीजे ख़ालिद का बदनाम मियामी बीच एस्टेट",
+    "it": "La celeberrima tenuta a Miami Beach di DJ Khaled",
+    "pt": "A Famosa Mansão do DJ Khaled em Miami Beach",
+    "tl": "Ang Tanyag na Mansyon ni DJ Khaled sa Miami Beach"
+    },
+    "shortTitle": {
+    "en": "DJ Khaled’s $8 Million Mansion",
+    "es": "La mansión de 8 millones de dólares de DJ Khaled",
+    "fr": "La Villa de 8 Millions de Dollars de DJ Khaled",
+    "hi": "डीजे ख़ालिद का 8 मिलियन डॉलर का महल",
+    "it": "La villa da $8 mln di DJ Khaled",
+    "pt": "A Mansão de US$8 Milhões do DJ Khaled",
+    "tl": "Ang $8 Milyong Mansyong Pagmamay-ari ni DJ Khaled"
+    },
+    "summary": {
+    "en": "As popular as DJ Khaled’s summertime collaboration albums are, his presence on Snapchat took on a life of its own in 2015. If you’ve seen any of the videos responsible for Khaled’s “human meme” persona, you’ll definitely recognize areas of this amazing, 6,700-square-foot waterfront mansion.\n\nContinue for photos of what following DJ Khaled’s “Major Keys” could get you one day.",
+    "es": "Tan popular como son los álbumes de colaboración de DJ Khaled en verano, su presencia en Snapchat cobró vida propia en 2015. Si has visto alguno de los videos responsables del personaje  “meme humano” de Khaled, definitivamente reconocerás las áreas de esta asombrosa mansión de 6.700 pies cuadrados frente al mar.\n\nContinúa para ver las fotos de lo que las “Claves principales” de DJ Khaled podrían conseguirte algún día.",
+    "fr": "Aussi populaires que soient les albums de collaboration estivale de DJ Khaled, sa présence sur Snapchat a pris une vie propre en 2015. Si vous avez vu l'une des vidéos responsables du personnage de \"mème humain\" de Khaled, vous en reconnaîtrez certainement plusieurs pièces. Étonnante villa de 622 mètres carrés au bord de l'eau.\n\nContinuez pour voir des photos de la demeure de DJ Khaled.",
+    "hi": "डीजे ख़ालिद के समरटाइम एलबम्स तो हर जगह लोकप्रिय हैं ही, 2015 में उनके जीवन में स्नैपचैट की वजह से एक नया मोड़ आया। अगर आपने ख़ालिद के \"ह्यूमन मीम\" पर्सोना के पीछे ज़िम्मेदार कोई भी वीडियो देखे हैं, तो आप 6,700-स्क्वायर-फ़ुट के तरणताल वाले इस महल को ज़रूर पहचान जायेंगे। \n\nआगे आप देखेंगे डीजे ख़ालिद के \"मेजर कीज़\" से जुड़ी तस्वीरें।",
+    "it": "Popolare su per giù quanto i suoi album estivi di collaborazioni, è dal 2015 che la presenza di DJ Khaled su Snapchat ha una vita propria. Se ha mai visto uno dei video che poi hanno portato a costruire il personaggio \"human meme\", sicuramente riconoscerai parti di questa fantastica villa sul lungomare da 622 m².\n\nProsegui per vedere le foto di cosa potresti ottenere un giorno se riuscissi a replicare il successo di \"Major Key\", il più famoso lavoro di DJ Khaled.",
+    "pt": "Tão popular quanto os álbuns de verão colaborativos do DJ Khaled, a sua presença no Snapchat tem uma vida própria desde 2015. Se você já viu alguns dos vídeos responsáveis pela personalidade de \"meme humano\" do Khaled, você com certeza reconhecerá algumas áreas desta mansão incrível de 622 metros quadrados de frente para o mar.\n\nContinue para ver fotos do que uma “Major Keys” do DJ Khaled pode te dar um dia.",
+    "tl": "Kasing tanyag ng mga ginawang summertime collaboration albums ni DJ Khaled, sumikat din siya sa Snapchat noong taong 2015. Kung nakita mo na ang mga video kung saan sumikat si Khaled bilang isang \"human meme,\" siguradong maaalala mo ang ilang parte nitong kamangha-manghang 6,700-square-foot na waterfront na mansyon.\n\nMagpatuloy sa pagbabasa para makita ang mga litrato ng mga posible mong makamit kung susundan ang \"Major Keys\" ni DJ Khaled balang araw."
+    },
+    "link": "https://fotoscapes.com/lookbook/kvfzOeuq/dj-khaleds-infamous-miami-beach-estate",
+    "uid": "kvfzOeuq",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "v4fVCL",
+    "lAfyfy"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-g6f36V3yhk.webp",
+    "width": 1280,
+    "height": 653
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-aYfeBb6QH0.webp",
+    "width": 1024,
+    "height": 522
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-e1fqal3zSe.webp",
+    "width": 850,
+    "height": 434
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-01fz6kOxsA.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-bYfb6VaOuQ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-oNfw30yxUA.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-Xofo3rbEIm.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.4356,
+    "startB": 0.4438,
+    "endX": 0.6438,
+    "endY": 0.434,
+    "endB": 0.3172
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 14,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-07-20T16:15:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Predictions From the 1900 World’s Fair - Were They Right?",
+    "es": "Predicciones de la Exposición Universal de 1900: ¿eran correctas?",
+    "pt": "Previsões da Feira Mundial de 1900 – Estavam certas?"
+    },
+    "shortTitle": {
+    "en": "Predictions From the 1900 World’s Fair",
+    "es": "Predicciones de la Exposición Universal de 1900",
+    "pt": "Previsões da Feira Mundial de 1900"
+    },
+    "summary": {
+    "en": "In 1899, commercial artist Jean-Marc Côté and his team were commissioned to create an artistic series for the 1900 world's fair, \"Exposition Universelle,\" held in Paris, France. \n\nSwipe ahead to see the images created by Côté of what he thought the year 2000 would look like.",
+    "es": "En 1899, el artista comercial Jean-Marc Côté y su equipo recibieron el encargo de crear una serie artística para la feria mundial de 1900, la \"Exposición Universal\", celebrada en París, Francia. Desliza hacia adelante para ver las imágenes creadas por Côté de cómo pensó que sería el año 2000.",
+    "pt": "Em 1899, o artista comercial Jean-Marc Côté e sua equipe foram contratados para criar uma série artística para a feira mundial de 1900, \"Exposition Universelle\", realizada em Paris, França. Deslize para frente para ver as imagens criadas por Côté de como ele pensava que seria o ano 2000."
+    },
+    "link": "https://fotoscapes.com/lookbook/LRf9BE2Ib/predictions-from-the-1900-worlds-fair-were-they-right",
+    "uid": "LRf9BE2Ib",
+    "lbtype": "standard",
+    "interests": [
+    "jxfZUD",
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fa/WD/YS/J/VPfaWDYSJ-3xfk9pXvIp.webp",
+    "width": 584,
+    "height": 346
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fa/WD/YS/J/VPfaWDYSJ-Rqf62dxXcX.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fa/WD/YS/J/VPfaWDYSJ-aYfekbXEf0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/VP/fa/WD/YS/J/VPfaWDYSJ-v4fkqzwmHb.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.3016,
+    "startY": 0.5501,
+    "startB": 0.2641,
+    "endX": 0.4992,
+    "endY": 0.4736,
+    "endB": 0.4453
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 8,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-09-20T17:46:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Top 10 Animals With Comedic Sense",
+    "es": "Los 10 mejores animales con sentido cómico",
+    "pt": "Os 10 principais animais com senso cômico"
+    },
+    "shortTitle": {
+    "en": "Top 10 Comedic Animals",
+    "es": "Los 10 mejores animales cómicos",
+    "pt": "Os 10 principais animais cômicos"
+    },
+    "summary": {
+    "en": "Here is a compilation of a few hilarious photos submitted to The Comedy Wildlife Photography Awards. \n\nStay a while and see what the laughter is all about.",
+    "es": "Aquí hay una recopilación de algunas fotografías divertidas enviadas a los premios Comedy Wildlife Photography Awards. Quédate un rato y mira de qué se trata la risa.",
+    "pt": "Aqui está uma compilação de algumas fotos hilárias enviadas ao The Comedy Wildlife Photography Awards. Fique um pouco e veja do que se trata o riso."
+    },
+    "link": "https://fotoscapes.com/lookbook/WJfmOkQfO/top-10-animals-with-comedic-sense",
+    "uid": "WJfmOkQfO",
+    "lbtype": "standard",
+    "interests": [
+    "dofEhL",
+    "01fPho"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fW/rk/0F/m/lAfWrk0Fm-m7fVnpQwFR.webp",
+    "width": 1280,
+    "height": 720
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fW/rk/0F/m/lAfWrk0Fm-1Df9avQ4Sj.webp",
+    "width": 1024,
+    "height": 576
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fW/rk/0F/m/lAfWrk0Fm-WJfpZJORFL.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fW/rk/0F/m/lAfWrk0Fm-4xfq3g7dIl.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fW/rk/0F/m/lAfWrk0Fm-dofP3qbEuV.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fW/rk/0F/m/lAfWrk0Fm-Rqf62jY2CX.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/lA/fW/rk/0F/m/lAfWrk0Fm-LRf3JxjPi6.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.416,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-11-15T05:07:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Mangrove's Best Underwater Photography On Display",
+    "es": "La mejor fotografía submarina de Mangrove en exhibición",
+    "pt": "As melhores fotografias subaquáticas de mangue em exibição"
+    },
+    "shortTitle": {
+    "en": "Mangrove's Best Underwater Photography",
+    "es": "La mejor fotografía submarina de Mangrove",
+    "pt": "A melhor fotografia subaquática de mangue"
+    },
+    "summary": {
+    "en": "In 2022, Mangrove Photography shows off its underwater photographs to raise its voice for the protection of Earth's most precious ecosystems. Explore the winning display of Mangrove Forests as it shows a new world within its coastal communities.",
+    "es": "En 2022, Mangrove Photography muestra sus fotografías submarinas para alzar la voz por la protección de los ecosistemas más preciados de la Tierra. Explore la exhibición ganadora de los bosques de manglares, ya que muestra un mundo nuevo dentro de sus comunidades costeras.",
+    "pt": "Em 2022, a Mangrove Photography mostra as suas fotografias subaquáticas para levantar a sua voz em defesa dos ecossistemas mais preciosos da Terra. Explore a exibição vencedora das Florestas de Mangue, que mostra um novo mundo dentro de suas comunidades costeiras."
+    },
+    "link": "https://fotoscapes.com/lookbook/3xfq60WUN/mangroves-best-underwater-photography-on-display",
+    "uid": "3xfq60WUN",
+    "lbtype": "standard",
+    "interests": [
+    "01fPho",
+    "dofEhL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fy/gy/WH/l/ANfygyWHl-97f3BVg2hL.webp",
+    "width": 742,
+    "height": 1280
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fy/gy/WH/l/ANfygyWHl-3xfk9dnmSp.webp",
+    "width": 593,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fy/gy/WH/l/ANfygyWHl-x6fYJkGZCY.webp",
+    "width": 493,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fy/gy/WH/l/ANfygyWHl-01fzlDJehA.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fy/gy/WH/l/ANfygyWHl-7mf1WyXmcx.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fy/gy/WH/l/ANfygyWHl-VPfbeOnaIy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fy/gy/WH/l/ANfygyWHl-bYfbDAk4fQ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4992,
+    "startY": 0.6695,
+    "startB": 0.4453,
+    "endX": 0.4992,
+    "endY": 0.4161,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 8,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-11-18T02:21:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Jayson Tatum & Satou Sabally's Player Edition Jordan 37",
+    "es": "Jayson Tatum y Satou Sabally's Player Edition Jordan 37"
+    },
+    "shortTitle": {
+    "en": "Player Edition Jordan 37",
+    "es": "Edición de jugador Jordan 37"
+    },
+    "summary": {
+    "en": "The Jordan Brand roster is as strong as it has ever been, with a plethora of male and female athletes from numerous sports leagues. In conjunction with the 2022-2023 NBA season, the company released the first Player Editions of the nostalgia-laced silhouette. With their new releases, both Jayson Tatum (NBA) and Satou Sabally (WNBA) receive their time in the limelight.\n\nContinue on for a closer look at these two collaborative models and look for them on the court this season.",
+    "es": "La plantilla de Jordan Brand es más sólida que nunca, con una gran cantidad de atletas masculinos y femeninos de numerosas ligas deportivas. Junto con la temporada 2022-2023 de la NBA, la compañía lanzó las primeras Player Editions de la silueta nostálgica. Con sus nuevos lanzamientos, tanto Jayson Tatum (NBA) como Satou Sabally (WNBA) reciben su momento en el centro de atención. Continúe para ver más de cerca estos dos modelos colaborativos y búsquelos en la cancha esta temporada."
+    },
+    "link": "https://fotoscapes.com/lookbook/kvfgwoVcq/jayson-tatum-and-satou-saballys-player-edition-jordan-37",
+    "uid": "kvfgwoVcq",
+    "lbtype": "standard",
+    "interests": [
+    "OnfyOho",
+    "01f7Pco"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fl/YP/PU/9/bYflYPPU9-01fzlrAjcA.webp",
+    "width": 770,
+    "height": 770
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fl/YP/PU/9/bYflYPPU9-g6f3aWVVfk.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fl/YP/PU/9/bYflYPPU9-ANfrWBZgI0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fl/YP/PU/9/bYflYPPU9-LRf3JdVLi6.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/bY/fl/YP/PU/9/bYflYPPU9-lAf3XVdBce.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.2778,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 8,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-12-13T23:32:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Sugar Ray Leonard Owned This $45M Pacific Palisades Palace",
+    "es": "Sugar Ray Leonard era propietario de este Pacific Palisades Palace de 45 millones de dólares"
+    },
+    "shortTitle": {
+    "en": "Sugar Ray Leonard 's Mansion",
+    "es": "La mansión de Sugar Ray Leonard"
+    },
+    "summary": {
+    "en": "Sugar Ray Leonard was the first to eclipse $100M in boxing prize money during his legendary 20-year career. He also took home world titles in five different weight classes. \n\nSwipe through to see where he spent his time away from the boxing ring before the home was placed on the market in 2022.",
+    "es": "Sugar Ray Leonard fue el primero en eclipsar los 100 millones de dólares en premios de boxeo durante su legendaria carrera de 20 años. También se llevó a casa títulos mundiales en cinco categorías de peso diferentes. Desliza el dedo para ver dónde pasó su tiempo fuera del ring de boxeo antes de que la casa se pusiera a la venta en 2022."
+    },
+    "link": "https://fotoscapes.com/lookbook/p6fvX29CN/sugar-ray-leonard-owned-this-45m-pacific-palisades-palace",
+    "uid": "p6fvX29CN",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "3xfBzCl"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Dk/fL/6Q/eh/2/DkfL6Qeh2-97f3Ba3bUL.webp",
+    "width": 750,
+    "height": 563
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Dk/fL/6Q/eh/2/DkfL6Qeh2-BBfdr0dRUD.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Dk/fL/6Q/eh/2/DkfL6Qeh2-7mf1WP14Hx.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Dk/fL/6Q/eh/2/DkfL6Qeh2-VPfbeGbNUy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Dk/fL/6Q/eh/2/DkfL6Qeh2-bYfbDQbZIQ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4992,
+    "startY": 0.4771,
+    "startB": 0.4438,
+    "endX": 0.5938,
+    "endY": 0.699,
+    "endB": 0.3609
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 7,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-12-20T18:35:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Kylie Jenner, the Billionaire in Pink",
+    "es": "Kylie Jenner, La Multimillonaria De Rosa"
+    },
+    "shortTitle": {
+    "en": "Kylie's Pink Billions",
+    "es": "Los Miles De Millones Rosas De Kylie"
+    },
+    "summary": {
+    "en": "Reality television, social media superstar and entrepreneur Kylie Jenner isn’t just a pretty face — she also happens to be the world's youngest self-made billionaire. The makeup mogul found herself on Forbes' 2020 World's Youngest Billionaires list for the second year in a row, courtesy of her wildly successful Kylie Cosmetics brand. So it only makes sense that Kylie finds herself among cool, hard cash in this stunning photo campaign for her collection celebrating her 22nd birthday. Enjoy!",
+    "es": "Kylie Jenner, superestrella de la telerrealidad, superestrella de las redes sociales y empresaria, no es solo una cara bonita: también es la multimillonaria más joven del mundo que se hizo a sí misma. La magnate del maquillaje se encontró en la lista de Forbes de los multimillonarios más jóvenes del mundo 2020 por segundo año consecutivo, cortesía de su exitosa marca Kylie Cosmetics. Así que tiene sentido que Kylie se encuentre entre dinero contante y sonante en esta impresionante campaña fotográfica para su colección que celebra su cumpleaños número 22. ¡Disfrutar!"
+    },
+    "link": "https://fotoscapes.com/lookbook/r6fmR7uo/kylie-jenner-the-billionaire-in-pink",
+    "sourceLink": "https://www.kyliecosmetics.com/",
+    "uid": "r6fmR7uo",
+    "lbtype": "standard",
+    "interests": [
+    "LRfPcJ",
+    "e1frGSP"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fk/dN/1t/m/m7fkdN1tm-jxf1ygbaF9.webp",
+    "width": 1280,
+    "height": 864
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fk/dN/1t/m/m7fkdN1tm-lAf3pRQASe.webp",
+    "width": 1024,
+    "height": 691
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fk/dN/1t/m/m7fkdN1tm-97f3oeYgcL.webp",
+    "width": 850,
+    "height": 574
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fk/dN/1t/m/m7fkdN1tm-7mf1o7LPcx.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fk/dN/1t/m/m7fkdN1tm-NZfvoa6ksz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fk/dN/1t/m/m7fkdN1tm-bYfbwgnWtQ.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fk/dN/1t/m/m7fkdN1tm-QafBP3VvIN.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5037,
+    "endY": 0.3266,
+    "endB": 0.4412
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 6,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-04-10T17:13:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Kaley Cuoco Sells $4 Million Home Formerly Owned by Khloe Kardashian",
+    "es": "Kaley Cuoco vende casa por 4 millones de dólares que anteriormente fue propiedad de Khloe Kardashian",
+    "pt": "Kaley Cuoco vende casa de US$ 4 milhões que pertencia a Khloe Kardashian"
+    },
+    "shortTitle": {
+    "en": "Kaley Cuoco’s $4 Million California Home",
+    "es": "La casa de Kaley Cuoco de 4 millones de dólares en California",
+    "pt": "Casa de US$ 4 milhões de Kaley Cuoco na Califórnia"
+    },
+    "summary": {
+    "en": "^&“The Big Bang Theory”^& actress Kaley Cuoco sold her Los Angeles home for $3.95 million, about $3 million less than she originally purchased it from TV personality Khloe Kardashian and former Lakers forward Lamar Odom. \n\nThe lavish Mediterranean home has 8,000-square-feet, six bedrooms and a home theater. Step inside this luxury California mansion.",
+    "es": "^&“The Big Bang Theory”^& la actriz Kaley Cuoco vendió su casa de Los Ángeles por $3,95 millones, alrededor de $3 millones menos de lo que se la compró originalmente a la personalidad de televisión Khloe Kardashian y al exdelantero de los Lakers Lamar Odom. La lujosa casa mediterránea tiene 8.000 pies cuadrados, seis dormitorios y un cine en casa. Ingrese a esta lujosa mansión de California.",
+    "pt": "^&“The Big Bang Theory”^& a atriz Kaley Cuoco vendeu sua casa em Los Angeles por US$ 3,95 milhões, cerca de US$ 3 milhões a menos do que ela comprou originalmente da personalidade da TV Khloe Kardashian e do ex-atacante do Lakers Lamar Odom. A luxuosa casa mediterrânea tem 8.000 pés quadrados, seis quartos e um home theater. Entre nesta luxuosa mansão na Califórnia."
+    },
+    "link": "https://fotoscapes.com/lookbook/EvfkO3TD/kaley-cuoco-sells-4-million-home-formerly-owned-by-khloe-kardashian",
+    "uid": "EvfkO3TD",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fQ/Wx/0T/V/yBfQWx0TV-3xfk30Jocp.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fQ/Wx/0T/V/yBfQWx0TV-aYfemXrnu0.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fQ/Wx/0T/V/yBfQWx0TV-7mf1o7EOfx.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fQ/Wx/0T/V/yBfQWx0TV-PYfOy9VYc7.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fQ/Wx/0T/V/yBfQWx0TV-ANfrm9Rjc0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fQ/Wx/0T/V/yBfQWx0TV-v4fkvw0JHb.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fQ/Wx/0T/V/yBfQWx0TV-zpfaQOAQiE.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4086,
+    "startY": 0.4837,
+    "startB": 0.3632,
+    "endX": 0.5617,
+    "endY": 0.4883,
+    "endB": 0.3632
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 21,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-04-08T12:32:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "12 Beauty Influencers Whose Skills Brought Them Stardom",
+    "es": "12 personas influyentes en la belleza cuyas habilidades les dieron el estrellato"
+    },
+    "shortTitle": {
+    "en": "Awesome Beauty Influencers",
+    "es": "Impresionantes influencers de belleza"
+    },
+    "summary": {
+    "en": "The folks in this list are some of the most popular makeup artists, beauty bloggers and fashionistas on the Internet. \n\nContinue on for our list of superstar Instagram beauty influencers – you’re bound to pick up a great tip or two.",
+    "es": "Las personas en esta lista son algunos de los maquilladores, blogueros de belleza y amantes de la moda más populares de Internet. Continúe con nuestra lista de personas influyentes de belleza superestrellas de Instagram: seguramente obtendrá uno o dos excelentes consejos."
+    },
+    "link": "https://fotoscapes.com/lookbook/bYfzkghd/12-beauty-influencers-whose-skills-brought-them-stardom",
+    "uid": "bYfzkghd",
+    "lbtype": "standard",
+    "interests": [
+    "1Df64CD",
+    "VPf7tE"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/Qn/mt/4/ngfbQnmt4-w6fVqzG7t0.webp",
+    "width": 1024,
+    "height": 715
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/Qn/mt/4/ngfbQnmt4-26fNjG6VSy.webp",
+    "width": 850,
+    "height": 593
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/Qn/mt/4/ngfbQnmt4-e1fqadw0ue.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/Qn/mt/4/ngfbQnmt4-OnfeqvYRHJ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/Qn/mt/4/ngfbQnmt4-BBfdwNnvUD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fb/Qn/mt/4/ngfbQnmt4-01fz6dxNSA.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.6148,
+    "startY": 0.4473,
+    "startB": 0.3234,
+    "endX": 0.5,
+    "endY": 0.3722,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 13,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-09-21T15:06:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "The Rock Takes Cheat Day to the Max",
+    "es": "The Rock lleva el día de las trampas al máximo",
+    "pt": "The Rock leva o dia da trapaça ao máximo"
+    },
+    "shortTitle": {
+    "en": "The Rock’s Cheat Day Meals",
+    "es": "Las comidas del día trampa de The Rock",
+    "pt": "Refeições do dia da trapaça do Rock"
+    },
+    "summary": {
+    "en": "Dwayne “The Rock” Johnson’s insanely large cheat day meals are nothing less than epic. He uses Instagram to give fans a glimpse of these momentous occasions, as well as his workouts, days on set and his general goofy antics. \n\nContinue on to see images of Johnson’s cheat days, and don't forget to follow his Instagram page at @therock.",
+    "es": "Las increíblemente abundantes comidas trampa de Dwayne “The Rock” Johnson son nada menos que épicas. Utiliza Instagram para brindarles a los fanáticos un vistazo de estas ocasiones trascendentales, así como de sus entrenamientos, días en el set y sus travesuras tontas en general. Continúe para ver imágenes de los días de trampa de Johnson y no olvide seguir su página de Instagram en @therock.",
+    "pt": "As refeições diárias insanamente grandes de Dwayne “The Rock” Johnson são nada menos que épicas. Ele usa o Instagram para dar aos fãs um vislumbre dessas ocasiões importantes, bem como de seus treinos, dias no set e suas travessuras bobas em geral. Continue para ver imagens dos dias de trapaça de Johnson e não se esqueça de seguir sua página no Instagram em @therock."
+    },
+    "link": "https://fotoscapes.com/lookbook/ZofYL0t0/the-rock-takes-cheat-day-to-the-max",
+    "sourceLink": "https://www.instagram.com/therock/",
+    "uid": "ZofYL0t0",
+    "lbtype": "standard",
+    "interests": [
+    "LRfPcJ",
+    "3xfzul"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fj/An/Iv/QafjAnIv-v4fkvV0Ztb.webp",
+    "width": 774,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fj/An/Iv/QafjAnIv-e1fqDmjVUe.webp",
+    "width": 642,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fj/An/Iv/QafjAnIv-aYfemw01H0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fj/An/Iv/QafjAnIv-97f3o2xmSL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fj/An/Iv/QafjAnIv-x6fYRxqlsY.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Qa/fj/An/Iv/QafjAnIv-e1fqDmjpte.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.4734,
+    "startB": 0.4444,
+    "endX": 0.4148,
+    "endY": 0.4229,
+    "endB": 0.3019
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 15,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-11-04T22:25:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Post Malone’s Former $26 Million Mansion",
+    "es": "La antigua mansión de Post Malone de 26 millones de dólares",
+    "pt": "A antiga mansão de US$ 26 milhões de Post Malone"
+    },
+    "shortTitle": {
+    "en": "Post Malone’s Former Hidden Hills Home",
+    "es": "Antigua casa de Hidden Hills de Post Malone",
+    "pt": "Antiga casa de Post Malone em Hidden Hills"
+    },
+    "summary": {
+    "en": "This sprawling fortress in the Los Angels area’s Hidden Hills is where Post Malone used to reside. The contemporary 11,000-square-foot mansion features six bedrooms and sits on an enormous 36,300-square-foot lot. In addition to the insane amount of land, this modern home also includes top-notch amenities like a movie theater, a gym and a super cool infinity pool that wraps around the house.\n\nContinue on for photos of this illustrious palace, fit for only the biggest of stars.",
+    "es": "Esta extensa fortaleza en Hidden Hills del área de Los Ángeles es donde solía residir Post Malone. La mansión contemporánea de 11,000 pies cuadrados cuenta con seis habitaciones y se encuentra en un enorme lote de 36,300 pies cuadrados. Además de la increíble cantidad de terreno, esta casa moderna también incluye comodidades de primer nivel como una sala de cine, un gimnasio y una piscina infinita súper genial que rodea la casa. Continúe para ver fotos de este ilustre palacio, digno sólo de las estrellas más grandes.",
+    "pt": "Esta extensa fortaleza em Hidden Hills, na área de Los Angels, é onde Post Malone morava. A mansão contemporânea de 11.000 pés quadrados possui seis quartos e fica em um enorme terreno de 36.300 pés quadrados. Além da quantidade absurda de terreno, esta casa moderna também inclui comodidades de primeira linha, como cinema, academia e uma piscina infinita super bacana que envolve a casa. Continue para fotos deste ilustre palácio, digno apenas das maiores estrelas."
+    },
+    "link": "https://fotoscapes.com/lookbook/bYfo24sd/post-malones-former-26-million-mansion",
+    "uid": "bYfo24sd",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fb/dN/FO/J1fbdNFO-NZfvowB7Sz.webp",
+    "width": 1280,
+    "height": 960
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fb/dN/FO/J1fbdNFO-p6fqgwAds0.webp",
+    "width": 1024,
+    "height": 768
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fb/dN/FO/J1fbdNFO-XofoX9xkhm.webp",
+    "width": 850,
+    "height": 638
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fb/dN/FO/J1fbdNFO-LRf3Xp7Pu6.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fb/dN/FO/J1fbdNFO-aYfemEL9T0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fb/dN/FO/J1fbdNFO-v4fkvxvVhb.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/J1/fb/dN/FO/J1fbdNFO-ZofDPxPBug.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.7395,
+    "startY": 0.4586,
+    "startB": 0.2043,
+    "endX": 0.4999,
+    "endY": 0.4475,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 15,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-12-11T19:51:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "The Stunning Net Worths Of Your Favorite Celebrities",
+    "es": "El Impresionante Patrimonio de tus Celebridades Favoritas",
+    "pt": "Os Impressionantes Patrimônios Líquidos de Suas Celebridades Favoritas"
+    },
+    "shortTitle": {
+    "en": "Today's Wealthiest Celebrities",
+    "es": "Las Celebridades Más Ricas de Hoy",
+    "pt": "As Celebridades Mais Ricas de Hoje"
+    },
+    "summary": {
+    "en": "A celebrity with a big bank account is the norm in Hollywood, but some of the entertainment industry’s elite stand way above the rest.\n\nCheck out this list of popular celebs with insanely high net worths.",
+    "es": "Una celebridad con una gran cuenta bancaria es la norma en Hollywood, pero parte de la élite de la industria del entretenimiento está muy por encima del resto.\n\nEcha un vistazo a esta lista de celebridades populares con un patrimonio increíblemente alto.",
+    "pt": "Uma celebridade com uma grande conta bancária é a norma em Hollywood, mas parte da elite da indústria do entretenimento está acima dos demais.\n\nConfira esta lista de celebridades populares com patrimônio líquido incrivelmente alto."
+    },
+    "link": "https://fotoscapes.com/lookbook/lAfzwgfQ/the-stunning-net-worths-of-your-favorite-celebrities",
+    "uid": "lAfzwgfQ",
+    "lbtype": "standard",
+    "interests": [
+    "LRfPcJ",
+    "3xfzul"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fN/6e/so/p6fN6eso-ngfgExgmCz.webp",
+    "width": 1024,
+    "height": 1280
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fN/6e/so/p6fN6eso-dofPZRPAfV.webp",
+    "width": 819,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fN/6e/so/p6fN6eso-ZofDP6QESg.webp",
+    "width": 680,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fN/6e/so/p6fN6eso-3xfk3qV4Tp.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fN/6e/so/p6fN6eso-zpfaQ3kZCE.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fN/6e/so/p6fN6eso-EvfZq4RycO.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fN/6e/so/p6fN6eso-J1f2vJldCn.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4981,
+    "startY": 0.333,
+    "startB": 0.4444,
+    "endX": 0.4956,
+    "endY": 0.3457,
+    "endB": 0.3151
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-12-05T20:01:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "These Celebrities Own Pro Sports Franchises",
+    "es": "Estas celebridades poseen franquicias de deportes profesionales"
+    },
+    "shortTitle": {
+    "en": "Celebrities in Sports Ownership",
+    "es": "Celebridades en la propiedad deportiva"
+    },
+    "summary": {
+    "en": "Celebrities in the entertainment world and pro sports alike often make large investments with their earnings.  These famous folks own stake in pro sports franchises that you may not have known about.  \n\nTake a look at this list of celebrity pro sports franchise owners.",
+    "es": "Las celebridades del mundo del entretenimiento y los deportes profesionales suelen realizar grandes inversiones con sus ganancias. Estas personas famosas poseen participaciones en franquicias de deportes profesionales que quizás no conocías. Eche un vistazo a esta lista de propietarios de franquicias de deportes profesionales famosos."
+    },
+    "link": "https://fotoscapes.com/lookbook/J1fVpriP/these-celebrities-own-pro-sports-franchises",
+    "uid": "J1fVpriP",
+    "lbtype": "standard",
+    "interests": [
+    "LRfPcJ",
+    "OnfOio"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fx/6V/I0/r6fx6VI0-v4fkvlXZHb.webp",
+    "width": 750,
+    "height": 750
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fx/6V/I0/r6fx6VI0-7mf1oVgNix.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fx/6V/I0/r6fx6VI0-NZfvoJb9Hz.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fx/6V/I0/r6fx6VI0-VPfbwz6oiy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/r6/fx/6V/I0/r6fx6VI0-bYfbw040SQ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.255,
+    "startB": 0.4444,
+    "endX": 0.4622,
+    "endY": 0.1568,
+    "endB": 0.2634
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-12-05T17:46:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Mustang Mach-E Shatters the Status Quo",
+    "es": "El Ford Mustang Mach-E desafía el status quo del automovilismo",
+    "fr": "Mustang Mach-E Brise le Statu Quo",
+    "hi": "मस्टैंग माक़-ई ने पिछले सभी रिकॉर्ड तोड़े",
+    "it": "La Mustang Mach-E rovescia le carte in tavola",
+    "pt": "Mustang Mach-E Estraçalha o Status Quo",
+    "tl": "Mustang Mach-E Binasag ang Status Quo"
+    },
+    "shortTitle": {
+    "en": "2021 Ford Mustang Mach-E",
+    "es": "Ford Mustang Mach-E 2021",
+    "fr": "Ford Mustang Mach-E 2021",
+    "hi": "2021 फ़ोर्ड मस्टैंग माक़-ई",
+    "it": "Ford Mustang Mach-E 2021",
+    "pt": "2021 Ford Mustang Mach-E",
+    "tl": "2021 Ford Mustang Mach-E"
+    },
+    "summary": {
+    "en": "The all-electric 2021 Ford Mustang Mach-E made its debut at the 2019 Los Angeles Auto Show. Back in 2018, the American automaker pledged $11 billion toward the creation of 40 all-electric models by 2022. The fruits of Ford’s labor were on full display, as the Mach-E’s looks – as well as its price tag – enticed the potential buyers on hand.\n\nContinue on for pictures of the 2021 Ford Mustang Mach-E, which starts at a surprisingly low $44,000. Make sure to visit Ford’s website for more information.",
+    "es": "El Mustang Mach-E, el nuevo y primer auto eléctrico de Ford, hizo su debut en el Salón del Automóvil de Los Ángeles de 2019. Un año antes, el fabricante estadounidense invirtió $11 mil millones de dólares en la creación de 40 modelos eléctricos para el 2022. El trabajo de Ford dio frutos, ya que el aspecto del Mach-E, al igual que su precio, atrajeron a los compradores potenciales.\n\nConoce el nuevo Ford Mustang Mach-E del 2021, que comienza a un precio sorprendentemente bajo de 44 mil dólares. Si quieres obtener más información, visita el sitio web de Ford.",
+    "fr": "La Ford Mustang Mach-E 2021 entièrement électrique a fait ses débuts au Salon de l'auto de Los Angeles 2019. En 2018, le constructeur automobile américain a promis 11 milliards de dollars pour la création de 40 modèles entièrement électriques d'ici 2022. Les fruits du travail de Ford étaient pleinement visibles, car l'apparence du Mach-E - ainsi que son prix - attirent les acheteur.se.s potentiel.le.s.\n\nContinuez pour des photos de la Ford Mustang Mach-E 2021, qui commence à un prix étonnamment bas de 44,000 $. Assurez-vous de visiter le site Web de Ford pour plus d’informations.",
+    "hi": "पूरी तरह से विद्युत, 2021 फ़ोर्ड मस्टैंग माक़-ई को पहली बार 2019 में लॉस एंजेलेस के ऑटो शो में लॉन्च किया गया था। 2018 में, इस अमेरिकी ऑटोमेकर ने ऐसी 40 ऑल-इलेक्ट्रिक मॉडल्स को 2022 तक तैयार करने का बीड़ा उठाया था और इसके लिए उन्होंने 11 बिलियन डॉलर लगाए। फ़ोर्ड को अपनी मेहनत का फल मिला जब माक़-ई के लुक्स और बेहतरीन क़ीमत की वजह से उसे हाथों-हाथ कई ख़रीदार मिल गए। \n\nआगे दिखाते हैं आपको 2021 फ़ोर्ड मस्टैंग माक़-ई की कुछ तस्वीरें, आपको हैरानी होगी कि इसकी शुरुआती क़ीमत मात्र 44,000 डॉलर है। और अधिक जानकारी के लिए, फ़ोर्ड की वेबसाइट पर ज़रूर जाएं।",
+    "it": "La Ford Mustang Mach-E 2021, completamente elettrica, ha fatto il suo debutto all'Auto Show di Los Angeles nel 2019. Nel 2018 il produttore di auto americano si è impegnato a investire $11 miliardi per la creazione di 40 modelli completamente elettrici entro il 2022. I frutti dello sforzo della Ford sono stati messi in piena mostra, così come il look della Mach-E - e anche il suo prezzo di vendita - ha attirato le attenzioni dei potenziali compratori a disposizione.\n\nProsegui per vedere le foto della Ford Mustang Mach-E 2021, il cui prezzo parte dalla cifra sorprendentemente modica di $44,000. Assicurati di visitare il sito web della Ford per maggior informazioni.",
+    "pt": "O completamente elétrico 2021 Ford Mustang Mach-E fez a sua estréia em 2019 no Los Angeles Auto Show. Em 2018, a fabricante de carros americana prometeu usar 11 bilhões de dólares na criação de 40 modelos completamente elétricos até 2022. Os frutos do trabalho da Ford estavam em plena exibição, como os looks do Mach-E, e também sua etiqueta de preço, seduzindo compradores em potencial.\n\nContinue para imagens do 2021 Ford Mustang Mach-E, que começa a um preço surpreendemente baixo de 44.000 dólares. Certifique-se de visitar o website da  Ford para maiores informações.",
+    "tl": "Ang ganap na de-kuryenteng sasakyan na 2021 Ford Mustang Mach-E ay unang naipakilala sa 2019 Los Angeles Auto Show. Noong 2018, nangako ang American automaker ng halagang $11 bilyon para bumuo ng 40 de-kuryenteng modelo ng sasakyan hanggang sa taong 2022. Makikita ang bunga ng paghihirap ng Ford, dahil sa hitsura ng Mach-E – pati na sa presyo nito – marami na ang naakit na bumili nito.\n\nMagpatuloy para sa mga litrato ng 2021 Ford Mustang Mach-E, na nagsisimula sa nakakagulat na mababang presyo na $44,000. Siguraduhing bumisita sa website ng Ford para sa mas marami pang impormasyon."
+    },
+    "link": "https://fotoscapes.com/lookbook/lAfzkkSQ/mustang-mach-e-shatters-the-status-quo",
+    "sourceLink": "https://www.ford.com/suvs/mach-e/2021/",
+    "uid": "lAfzkkSQ",
+    "lbtype": "standard",
+    "interests": [
+    "97fvsR",
+    "3xfzul",
+    "WJfPRCJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fz/o6/io/p6fzo6io-7mf1oND9ix.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fz/o6/io/p6fzo6io-NZfvo7lOSz.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fz/o6/io/p6fzo6io-VPfbwDdbFy.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fz/o6/io/p6fzo6io-m7fVaByPHR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fz/o6/io/p6fzo6io-1Df9DWX7Cj.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fz/o6/io/p6fzo6io-4xfqvoEWUl.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/p6/fz/o6/io/p6fzo6io-lAf3pdDOse.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5967,
+    "startB": 0.4444,
+    "endX": 0.4852,
+    "endY": 0.5507,
+    "endB": 0.2495
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 14,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-12-02T18:56:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Kunal Nayyar Snags $7.5 Million LA Mansion",
+    "es": "Kunal Nayyar adquiere una mansión de 7,5 millones de dólares en Los Ángeles.",
+    "fr": "Kunal Nayyar s'empare d'un Manoir de Los Angeles de 7,5 millions de Dollars"
+    },
+    "shortTitle": {
+    "en": "Kunal Nayyar’s Hancock Park Home",
+    "es": "La casa de Kunal Nayyar en Hancock Park",
+    "fr": "La Maison de Kunal Nayyar à Hancock Park"
+    },
+    "summary": {
+    "en": "Kunal Nayyar and Neha Kapur’s new residence is quite the looker and can boast a prestigious pedigree — the $7.5 million property once belonged to Nicolas Cage. The gorgeous Tudor-style mansion sits on a massive 7,070-square-foot property. It was built in 1924 and has received numerous upgrades over the years., It includes a 960-square-foot guest house, a gym and a studio.\n\nContinue on for photos of the couple’s expansive new digs in the historic Hancock Park neighborhood of Los Angeles.",
+    "es": "La nueva residencia de Kunal Nayyar y Neha Kapur es bastante atractiva y puede presumir de un prestigioso pedigrí, (la propiedad de 7,5 millones de dólares que una vez perteneció a Nicolas Cage). La magnífica mansión estilo Tudor se encuentra en una enorme propiedad de 7.070 pies cuadrados. Fue construida en 1924 y ha recibido numerosas mejoras a lo largo de los años. Incluye una casa de huéspedes de 960 pies cuadrados, un gimnasio y un estudio.\n\nContinúa para ver fotos de las nuevas instalaciones de la pareja en el histórico barrio de Hancock Park en Los Ángeles.",
+    "fr": "La nouvelle résidence de Kunal Nayyar et Neha Kapur est très élégante et peut se vanter d'un pedigree prestigieux - la propriété de 7,5 millions de Dollars appartenait autrefois à Nicolas Cage. Le magnifique manoir de style Tudor se trouve sur une immense propriété de 7 070 pieds carrés. Il a été construit en 1924 et a fait l'objet de nombreuses améliorations au fil des ans. Il comprend une maison d'hôtes de 960 pieds carrés, un gymnase et un studio.\n\nContinuez pour voir des photos des nouvelles fouilles du couple dans le quartier historique de Hancock Park à Los Angeles."
+    },
+    "link": "https://fotoscapes.com/lookbook/r6fwkqfo/kunal-nayyar-snags-7-5-million-la-mansion",
+    "uid": "r6fwkqfo",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fy/lm/cJ/PYfylmcJ-zpfaQArLUE.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fy/lm/cJ/PYfylmcJ-EvfZq0DetO.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fy/lm/cJ/PYfylmcJ-WJfpA429CL.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fy/lm/cJ/PYfylmcJ-e1fqDj0Dce.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fy/lm/cJ/PYfylmcJ-7mf1olk2cx.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fy/lm/cJ/PYfylmcJ-VPfbwRaQUy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fy/lm/cJ/PYfylmcJ-zpfaQARLfE.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.3767,
+    "endY": 0.4923,
+    "endB": 0.2682
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 16,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-11-19T16:38:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Elton John’s Iconic California Home",
+    "es": "La icónica residencia californiana de Elton John",
+    "fr": "La maison emblématique d'Elton John en Californie",
+    "hi": "एल्टन जॉन का प्रतिष्ठित कैलिफोर्निया होम",
+    "it": "L'iconica casa in California di Elton John",
+    "pt": "Casa Icônica de Elton John na Califórnia",
+    "tl": "Sikat na Bahay ni Elton John sa California"
+    },
+    "shortTitle": {
+    "en": "Elton John’s Iconic California Home",
+    "es": "La icónica residencia californiana de Elton John",
+    "fr": "La maison emblématique d'Elton John en Californie",
+    "hi": "एल्टन जॉन का प्रतिष्ठित कैलिफोर्निया होम",
+    "it": "L'iconica casa in California di Elton John",
+    "pt": "Casa Icônica de Elton John na Califórnia",
+    "tl": "Sikat na Bahay ni Elton John sa California"
+    },
+    "summary": {
+    "en": "Known for his over-the-top, iconic outfits and exciting stage presence, Elton John is more subtle these days. Together with his husband, film producer David Furnish, he resides at his contemporary-style home in Beverly Hills, California. \n\nThe 1960s, hilltop home features bright colors and an enviable collection of contemporary and modern art. Take a step inside this power couple’s show-stopping abode — the epitome of more is more.",
+    "es": "Aunque es conocido por sus icónicos y excéntricos vestuarios y su emocionante presencia en el escenario, en la actualidad, Elton John es un poco más reservado. Elton y su esposo David Furnish, un productor de cine, viven en esta residencia contemporánea ubicada en Beverly Hills, California.\n\nLa propiedad se encuentra en una colina y fue construida en los años 60. Cuenta con colores brillantes y una colección envidiable de arte moderno y contemporáneo. Adéntrate y conoce la espectacular residencia de esta pareja, donde más es más.",
+    "fr": "Connu pour ses tenues iconiques et exagérées et sa présence passionnée sur scène, Elton John est plus subtil ces jours-ci. Avec son mari, le producteur de films David Furnish, il réside dans sa maison de style contemporain à Beverly Hills, en Californie.\n\nLa maison des années 1960, au sommet d'une colline, présente des couleurs vives et une collection enviable d'art contemporain et moderne. Faites un pas dans la demeure spectaculaire de ce couple - la quintessence de l'ornement.",
+    "hi": "अपने अतिरंजित आलीशान परिधानों और रोमांचक मंचीय उपस्थिति के लिए जाने जाने वाले, एल्टन जॉन इन दिनों काफी शिष्ट हो गए हैं। अपने पति, फिल्म निर्माता डेविड फर्निश के साथ, वह कैलिफोर्निया के बेवर्ली हिल्स में अपने समकालीन शैली के घर में रहते हैं।\n\nहिलटॉप होम के इस द 1960s घर में भड़कीले रंग और समकालीन और आधुनिक कला का एक उल्लेखनीय संग्रह है। इस पावर कपल के आलीशान निवास के अंदर प्रवेश करें - क्योंकि अधिक ही अधिक का प्रतीक है।",
+    "it": "Noto per i suoi outfit iconici e sopra le righe e per la sua travolgente presenza scenica, Elton John è più sottile ai giorni d'oggi. Insieme a suo marito, il produttore cinematografico David Furnish, abita nella sua casa in stile contemporaneo a Beverly Hills, in California.\n\nLa casa, risalente al 1960 e situata sulla cima di una collina, presenta colori brillanti e una collezione invidiabile di arte contemporanea e moderna. Entra all'interno della sensazionale dimora di questa super coppia - la quintessenza del principio del \"più è meglio\".",
+    "pt": "Conhecido por seus trajes icônicos e exagerados e sua empolgante presença de palco, Elton John é mais sutil atualmente. Junto com seu marido, o produtor de cinema David Furnish, ele mora em sua casa de estilo contemporâneo em Beverly Hills, Califórnia.\n\nDécada de 1960, a casa no topo da colina apresenta cores vivas e uma coleção invejável de arte contemporânea e moderna. Dê um passo dentro da residência fascinante deste casal poderoso - o epítome de mais é mais.",
+    "tl": "Kilala sa kanyang magagarbo at kakaibang pananamit at nakakatuwang presensya sa entablado, mas banayad si Elton John ngayon. Kasama ang kanyang asawa, ang producer ng mga pelikulang si David Furnish, nakatira siya sa kanyang bahay na may makabagong disensyo sa Beverly Hills, California.\n\nTampok sa 1960s na bahay na nakapwesto sa burol ang matitingkad na kulay at nakakainggit na koleksyon ng contemporary at modern art. Silipin ang loob ng kamangha-manghang bahay ng power couple - ang perpektong halimbawa ng pagiging magarbo."
+    },
+    "link": "https://fotoscapes.com/lookbook/J1f7yEsP/elton-johns-iconic-california-home",
+    "uid": "J1f7yEsP",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fj/dY/HB/97fjdYHB-lAf3pe3aSe.webp",
+    "width": 1280,
+    "height": 873
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fj/dY/HB/97fjdYHB-aYfemreGf0.webp",
+    "width": 1024,
+    "height": 699
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fj/dY/HB/97fjdYHB-26fN3WNQfy.webp",
+    "width": 850,
+    "height": 580
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fj/dY/HB/97fjdYHB-e1fqDZ31ie.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fj/dY/HB/97fjdYHB-OnfezEx6SJ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fj/dY/HB/97fjdYHB-BBfd4J1euD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fj/dY/HB/97fjdYHB-ZofDPbQZtg.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.6743,
+    "startB": 0.4444,
+    "endX": 0.5353,
+    "endY": 0.7117,
+    "endB": 0.3372
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 14,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-11-14T14:42:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Kevin Hart’s $2.75 Million Los Angeles Mansion",
+    "es": "La mansión de Kevin Hart de 2,75 millones de dólares en Los Ángeles",
+    "pt": "Mansão de US$ 2,75 milhões de Kevin Hart em Los Angeles"
+    },
+    "shortTitle": {
+    "en": "Kevin Hart’s $2.75 Million Mansion",
+    "es": "La mansión de 2,75 millones de dólares de Kevin Hart",
+    "pt": "Mansão de US$ 2,75 milhões de Kevin Hart"
+    },
+    "summary": {
+    "en": "Actor and comedian Kevin Hart has sold his seven-bedroom Los Angeles mansion for a profit. He purchased the 6,549-square-foot home in 2012 for just under $2 million and sold it for a humble $2.75 million in 2019. \n\nTake a peek inside this mammoth residence previously owned by a comedy king.",
+    "es": "El actor y comediante Kevin Hart vendió su mansión de siete habitaciones en Los Ángeles para obtener ganancias. Compró la casa de 6,549 pies cuadrados en 2012 por poco menos de $2 millones y la vendió por $2,75 millones en 2019. Eche un vistazo al interior de esta gigantesca residencia que anteriormente perteneció a un rey de la comedia.",
+    "pt": "O ator e comediante Kevin Hart vendeu sua mansão de sete quartos em Los Angeles com lucro. Ele comprou a casa de 6.549 pés quadrados em 2012 por pouco menos de US$ 2 milhões e a vendeu por humildes US$ 2,75 milhões em 2019. Dê uma olhada nesta residência gigantesca que anteriormente pertencia a um rei da comédia."
+    },
+    "link": "https://fotoscapes.com/lookbook/ZofYRxC0/kevin-harts-2-75-million-los-angeles-mansion",
+    "uid": "ZofYRxC0",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "v4fVCL",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fB/mD/Ig/w6fBmDIg-kvfkqvJXTO.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fB/mD/Ig/w6fBmDIg-97f3jePWCL.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fB/mD/Ig/w6fBmDIg-jxf1DgZPh9.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fB/mD/Ig/w6fBmDIg-Gvfw1dezua.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fB/mD/Ig/w6fBmDIg-DkfLa4l1HR.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fB/mD/Ig/w6fBmDIg-26fNly1Ncy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/w6/fB/mD/Ig/w6fBmDIg-26fNly1jTy.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5054,
+    "endY": 0.5726,
+    "endB": 0.3782
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 9,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-09-17T14:32:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Kendall Jenner's $6.5 million Hollywood Hills Residence",
+    "es": "La residencia de Kendall Jenner en Hollywood Hills, valorada en 6,5 millones de dólares"
+    },
+    "shortTitle": {
+    "en": "Kendall Jenner's $6.5 million Home",
+    "es": "La casa de Kendall Jenner valorada en 6,5 millones de dólares"
+    },
+    "summary": {
+    "en": "It seems as if every member of the Kardashian family purchases a lavish mansion as a rite of passage into adulthood. No stranger to the tradition, supermodel and reality TV star Kendall Jenner purchased her first pad for $6.5 million in West Hollywood.  Previously owned by Hollywood elite John Krasinski and Emily Blunt, Kendall negotiated the $6.5 million price point down from the original $8M listing, according to TMZ.  A win-win for both parties, John and Emily originally purchased the home in 2009 for just under $1.6 million.",
+    "es": "Parece como si cada miembro de la familia Kardashian comprara una lujosa mansión como un rito de paso a la edad adulta. No ajena a la tradición, la supermodelo y estrella de reality shows Kendall Jenner compró su primera casa por 6,5 millones de dólares en West Hollywood. Anteriormente propiedad de la élite de Hollywood John Krasinski y Emily Blunt, Kendall negoció el precio de 6,5 millones de dólares por debajo de la cotización original de 8 millones de dólares, según TMZ. Una situación beneficiosa para ambas partes: John y Emily compraron originalmente la casa en 2009 por poco menos de $1,6 millones."
+    },
+    "link": "https://fotoscapes.com/lookbook/e1f0JS7/kendall-jenners-6-5-million-hollywood-hills-residence",
+    "uid": "e1f0JS7",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "v4fVCL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fw/4A/sd/Xofw4Asd-aYfZyZxs0.jpg",
+    "width": 1500,
+    "height": 999
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fw/4A/sd/Xofw4Asd-26fgQgkHy.jpg",
+    "width": 1280,
+    "height": 853
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fw/4A/sd/Xofw4Asd-ngf2QkLTz.jpg",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fw/4A/sd/Xofw4Asd-YofD0Lwto.jpg",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fw/4A/sd/Xofw4Asd-J1fAPeWcn.jpg",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Xo/fw/4A/sd/Xofw4Asd-m7fX4vJuR.jpg",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5023,
+    "startB": 0.4438,
+    "endX": 0.5,
+    "endY": 0.5023,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 18,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2016-07-04T20:13:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Alicia Keys’ $21 Million Razor House",
+    "es": "La casa Razor de Alicia Keys, valorada en 21 millones de dólares",
+    "pt": "Razor House de US$ 21 milhões de Alicia Keys"
+    },
+    "shortTitle": {
+    "en": "Alicia Keys’ $21 Million House",
+    "es": "La casa de 21 millones de dólares de Alicia Keys",
+    "pt": "Casa de US$ 21 milhões de Alicia Keys"
+    },
+    "summary": {
+    "en": "Alicia Keys owns a truly remarkable mansion in San Diego that bears the name “Razor House.” Designed by architect Wallace E. Cunningham, the 10,000-square-foot property resembles Tony Stark’s house in the ^&“Iron Man”^& movies. \n\nCheck out some photos of this super-chic mansion, fit for an R&B legend and her family.",
+    "es": "Alicia Keys posee una mansión verdaderamente extraordinaria en San Diego que lleva el nombre de \"Razor House\". Diseñada por el arquitecto Wallace E. Cunningham, la propiedad de 10,000 pies cuadrados se parece a la casa de Tony Stark en las películas ^&“Iron Man”^&. Mire algunas fotos de esta mansión súper elegante, digna de una leyenda del R&B y su familia.",
+    "pt": "Alicia Keys possui uma mansão verdadeiramente notável em San Diego que leva o nome de “Razor House”. Projetada pelo arquiteto Wallace E. Cunningham, a propriedade de 10.000 pés quadrados lembra a casa de Tony Stark nos filmes ^&“Homem de Ferro”^&. Confira algumas fotos dessa mansão super chique, digna de uma lenda do R&B e sua família."
+    },
+    "link": "https://fotoscapes.com/lookbook/g6fNlJHZ/alicia-keys-21-million-razor-house",
+    "uid": "g6fNlJHZ",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "01fPho",
+    "LRfPcJ",
+    "3xfBzCl"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fA/ko/UX/OnfAkoUX-Rqf6e1GqSX.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fA/ko/UX/OnfAkoUX-LRf371dqi6.webp",
+    "width": 1024,
+    "height": 682
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fA/ko/UX/OnfAkoUX-w6fVaqraU0.webp",
+    "width": 850,
+    "height": 566
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fA/ko/UX/OnfAkoUX-26fNlj64Cy.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fA/ko/UX/OnfAkoUX-3xfklX1JFp.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fA/ko/UX/OnfAkoUX-e1fqXawlhe.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fA/ko/UX/OnfAkoUX-7mf1wxzkCx.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4857,
+    "startY": 0.549,
+    "startB": 0.3633,
+    "endX": 0.5,
+    "endY": 0.5016,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 8,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-09-16T15:55:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "7 Things You Didn't Know Rubbing Alcohol Could Clean",
+    "es": "7 cosas que no sabías que el alcohol isopropílico podía limpiar"
+    },
+    "shortTitle": {
+    "en": "Things to Clean with Rubbing Alcohol",
+    "es": "Cosas para limpiar con alcohol isopropílico"
+    },
+    "summary": {
+    "en": "That innocuous bottle of rubbing alcohol sitting at the back of the cupboard has many more uses that you probably knew. So many, in fact, that you might want to buy a bigger bottle! \n\nSwipe through to learn about 7 things you can clean with rubbing alcohol.",
+    "es": "Esa inofensiva botella de alcohol isopropílico que se encuentra en el fondo del armario tiene muchos más usos de los que probablemente conocías. ¡Tantos, de hecho, que tal vez quieras comprar una botella más grande! Deslízate para conocer 7 cosas que puedes limpiar con alcohol isopropílico."
+    },
+    "link": "https://fotoscapes.com/lookbook/oNf1677piw/7-things-you-didnt-know-rubbing-alcohol-could-clean",
+    "uid": "oNf1677piw",
+    "lbtype": "standard",
+    "interests": [
+    "v4fVCL",
+    "g6fYliB"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fk/3w/yL/Ul/ANfk3wyLUl-g6f3yEaosk.webp",
+    "width": 300,
+    "height": 450
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/AN/fk/3w/yL/Ul/ANfk3wyLUl-4xfq6Z3zhl.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4992,
+    "startY": 0.7219,
+    "startB": 0.4438,
+    "endX": 0.5,
+    "endY": 0.2185,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 7,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2024-01-12T20:27:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "An Inside Look at Stevie Wonder's Bel Air Home",
+    "es": "Una mirada al interior de la casa Bel Air de Stevie Wonder",
+    "pt": "Uma visão interna da casa de Stevie Wonder em Bel Air"
+    },
+    "shortTitle": {
+    "en": "Stevie Wonder's Los Angeles home.",
+    "es": "La casa de Stevie Wonder en Los Ángeles.",
+    "pt": "A casa de Stevie Wonder em Los Angeles."
+    },
+    "summary": {
+    "en": "There is no \"Superstition\" surrounding this amazing property! Stevie Wonder is a household name that spent a staggering $13.9 million for this sprawling, luxurious mansion in Bel Air Crest in Los Angeles, California. It is considered an extremely exclusive guard-gated community and it's home to many other celebrities.",
+    "es": "¡No hay ninguna \"superstición\" en torno a esta increíble propiedad! Stevie Wonder es un nombre muy conocido que gastó la asombrosa cantidad de 13,9 millones de dólares en esta lujosa y extensa mansión en Bel Air Crest en Los Ángeles, California. Se considera una comunidad vigilada extremadamente exclusiva y es el hogar de muchas otras celebridades.",
+    "pt": "Não há \"superstição\" em torno desta propriedade incrível! Stevie Wonder é um nome conhecido que gastou impressionantes US$ 13,9 milhões nesta luxuosa mansão em Bel Air Crest, em Los Angeles, Califórnia. É considerado um condomínio fechado extremamente exclusivo e é o lar de muitas outras celebridades."
+    },
+    "link": "https://fotoscapes.com/lookbook/01f2YmkuJ/an-inside-look-at-stevie-wonders-bel-air-home",
+    "uid": "01f2YmkuJ",
+    "lbtype": "standard",
+    "interests": [
+    "v4fVCL",
+    "26fgYum"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/f0/yJ/qI/V/yBf0yJqIV-q6fNkoXdHY.webp",
+    "width": 850,
+    "height": 580
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/f0/yJ/qI/V/yBf0yJqIV-ZofD7mkZUg.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/f0/yJ/qI/V/yBf0yJqIV-w6fVd7y1t0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/f0/yJ/qI/V/yBf0yJqIV-26fN2zXEFy.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/f0/yJ/qI/V/yBf0yJqIV-3xfk9An2ip.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3603,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 12,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-06-16T18:55:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "11 Movies That Were Actually Better Than The Book",
+    "es": "11 películas que en realidad fueron mejores que el libro",
+    "pt": "11 filmes que foram realmente melhores que o livro"
+    },
+    "shortTitle": {
+    "en": "Movies That Were Better Than The Book",
+    "es": "Películas que eran mejores que el libro",
+    "pt": "Filmes que foram melhores que o livro"
+    },
+    "summary": {
+    "en": "\"The book is always better than the movie\" is a common opinion, but there are times when a movie is definitely better than the book it was based upon. \n\nCheck out this list of movies that were considered better than the books, which includes a few that may surprise you.",
+    "es": "\"El libro siempre es mejor que la película\" es una opinión común, pero hay ocasiones en las que una película es definitivamente mejor que el libro en el que se basa. Consulte esta lista de películas que se consideraron mejores que los libros, que incluye algunas que pueden sorprenderlo.",
+    "pt": "“O livro é sempre melhor que o filme” é uma opinião comum, mas há momentos em que um filme é definitivamente melhor que o livro em que foi baseado. Confira esta lista de filmes que foram considerados melhores que os livros, que inclui alguns que podem te surpreender."
+    },
+    "link": "https://fotoscapes.com/lookbook/01f7EbaCJ/11-movies-that-were-actually-better-than-the-book",
+    "uid": "01f7EbaCJ",
+    "lbtype": "standard",
+    "interests": [
+    "w6fnIL",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fZ/Ew/1C/P/v4fZEw1CP-Xofo7J2gSm.webp",
+    "width": 1280,
+    "height": 541
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fZ/Ew/1C/P/v4fZEw1CP-PYfO9Rdwu7.webp",
+    "width": 1024,
+    "height": 433
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fZ/Ew/1C/P/v4fZEw1CP-GvfwdzY0Ha.webp",
+    "width": 850,
+    "height": 359
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fZ/Ew/1C/P/v4fZEw1CP-Yof2Nd9GSo.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fZ/Ew/1C/P/v4fZEw1CP-J1f2ZOELhn.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fZ/Ew/1C/P/v4fZEw1CP-m7fV2em4fR.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fZ/Ew/1C/P/v4fZEw1CP-DkfL4lQ7HR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4852,
+    "startY": 0.5,
+    "startB": 0.4225,
+    "endX": 0.5,
+    "endY": 0.5,
+    "endB": 0.4225
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 11,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-02-23T20:55:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Adele's Estate Is Worth Over $100 Million",
+    "es": "El patrimonio de Adele vale más de 100 millones de dólares",
+    "pt": "O patrimônio de Adele vale mais de US$ 100 milhões"
+    },
+    "shortTitle": {
+    "en": "Adele buys Sylvester Stallone's estate",
+    "es": "Adele compra la propiedad de Sylvester Stallone",
+    "pt": "Adele compra propriedade de Sylvester Stallone"
+    },
+    "summary": {
+    "en": "Initially valued at $110 million, Adele buys the estate of former boxing star and actor Sylvester Stallone for a whopping $58 million. The property features 8 bedrooms, 12 baths and a custom library complete with a statue of Stallone as his most famous character: Rocky Balboa.",
+    "es": "Valorada inicialmente en 110 millones de dólares, Adele compra la herencia de la ex estrella del boxeo y actor Sylvester Stallone por la friolera de 58 millones de dólares. La propiedad cuenta con 8 dormitorios, 12 baños y una biblioteca personalizada completa con una estatua de Stallone como su personaje más famoso: Rocky Balboa.",
+    "pt": "Inicialmente avaliada em US$ 110 milhões, Adele compra o patrimônio do ex-astro e ator do boxe Sylvester Stallone por incríveis US$ 58 milhões. A propriedade possui 8 quartos, 12 banheiros e uma biblioteca personalizada completa com uma estátua de Stallone como seu personagem mais famoso: Rocky Balboa."
+    },
+    "link": "https://fotoscapes.com/lookbook/XofZxy4Sa/adeles-estate-is-worth-over-100-million",
+    "sourceLink": "https://www.zillow.com/homedetails/30-Beverly-Park-Ter-Beverly-Hills-CA-90210/20533634_zpid/",
+    "uid": "XofZxy4Sa",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fv/L2/Of/L/YofvL2OfL-PYfO9RwDs7.webp",
+    "width": 1024,
+    "height": 682
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fv/L2/Of/L/YofvL2OfL-EvfZb1xohO.webp",
+    "width": 850,
+    "height": 566
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fv/L2/Of/L/YofvL2OfL-Rqf6x09wsX.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fv/L2/Of/L/YofvL2OfL-97f3elrmtL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fv/L2/Of/L/YofvL2OfL-BBfdlpWWuD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fv/L2/Of/L/YofvL2OfL-3xfk0yrRHp.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3669,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 11,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-02-26T01:26:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "Ryan Seacrest's $85 Million Beverly Hills Mansion",
+    "es": "La mansión de Ryan Seacrest en Beverly Hills, valorada en 85 millones de dólares",
+    "pt": "Mansão de US$ 85 milhões de Ryan Seacrest em Beverly Hills"
+    },
+    "shortTitle": {
+    "en": "Ryan Seacrest's $85 Million Beverly Hills Mansion",
+    "es": "La mansión de Ryan Seacrest en Beverly Hills, valorada en 85 millones de dólares",
+    "pt": "Mansão de US$ 85 milhões de Ryan Seacrest em Beverly Hills"
+    },
+    "summary": {
+    "en": "Radio personality and television host Ryan Seacrest listed his 9,000-square-foot Beverly Hills mansion for an eye-watering $85 million. The contemporary compound comes with a pool, pool house, two guesthouses and a large, landscaped pond. \n\nCheck out the luxurious home.",
+    "es": "La personalidad de radio y presentador de televisión Ryan Seacrest puso a la venta su mansión de 9,000 pies cuadrados en Beverly Hills por la increíble suma de 85 millones de dólares. El complejo contemporáneo cuenta con una piscina, una caseta de piscina, dos casas de huéspedes y un gran estanque ajardinado. Echa un vistazo a la lujosa casa.",
+    "pt": "Personalidade de rádio e apresentador de televisão Ryan Seacrest listou sua mansão de 9.000 pés quadrados em Beverly Hills por impressionantes US $ 85 milhões. O complexo contemporâneo vem com piscina, casa com piscina, duas pousadas e um grande lago paisagístico. Confira a luxuosa casa."
+    },
+    "link": "https://fotoscapes.com/lookbook/e1fYlNf7/ryan-seacrests-85-million-beverly-hills-mansion",
+    "uid": "e1fYlNf7",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fQ/zz/kf/W/1DfQzzkfW-6JfBr9Yahq.webp",
+    "width": 1280,
+    "height": 719
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fQ/zz/kf/W/1DfQzzkfW-4xfqdYopFl.webp",
+    "width": 1024,
+    "height": 575
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fQ/zz/kf/W/1DfQzzkfW-w6fVqk9gi0.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fQ/zz/kf/W/1DfQzzkfW-WJfpDQWXFL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fQ/zz/kf/W/1DfQzzkfW-4xfqdYwpSl.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fQ/zz/kf/W/1DfQzzkfW-lAf3LEg3fe.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/1D/fQ/zz/kf/W/1DfQzzkfW-97f3yPQVHL.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.3638,
+    "endY": 0.5239,
+    "endB": 0.2454
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 16,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-12-09T15:19:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "9 of the Wildest Celebrity Purchases",
+    "es": "9 de las compras de celebridades más locas",
+    "pt": "9 das compras de celebridades mais loucas"
+    },
+    "shortTitle": {
+    "en": "Wild celebrity purchases",
+    "es": "Compras salvajes de celebridades",
+    "pt": "Compras selvagens de celebridades"
+    },
+    "summary": {
+    "en": "It's no secret that Hollywood's rich and famous celebrities love to spend money. However, some of their expensive purchases leave us scratching our heads. Scroll ahead to check out the top 9 wildest celebrity purchases.",
+    "es": "No es ningún secreto que a las celebridades ricas y famosas de Hollywood les encanta gastar dinero. Sin embargo, algunas de sus costosas compras nos dejan rascándonos la cabeza. Desplácese hacia adelante para ver las 9 compras más extravagantes de celebridades.",
+    "pt": "Não é nenhum segredo que as celebridades ricas e famosas de Hollywood adoram gastar dinheiro. No entanto, algumas de suas compras caras nos deixam coçando a cabeça. Role para frente para conferir as 9 compras de celebridades mais loucas."
+    },
+    "link": "https://fotoscapes.com/lookbook/GvfQdXpC4/9-of-the-wildest-celebrity-purchases",
+    "uid": "GvfQdXpC4",
+    "lbtype": "standard",
+    "interests": [
+    "LRfPcJ",
+    "e1frGSP"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fO/pp/Pi/X/OnfOppPiX-01fzl0b6SA.webp",
+    "width": 1024,
+    "height": 818
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fO/pp/Pi/X/OnfOppPiX-bYfbDrwvHQ.webp",
+    "width": 850,
+    "height": 679
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fO/pp/Pi/X/OnfOppPiX-p6fqNmg1h0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fO/pp/Pi/X/OnfOppPiX-QafBknPmSN.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fO/pp/Pi/X/OnfOppPiX-zpfaPLQluE.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/On/fO/pp/Pi/X/OnfOppPiX-r6fYxBzotV.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5836,
+    "startY": 0.6391,
+    "startB": 0.2461,
+    "endX": 0.4943,
+    "endY": 0.426,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 9,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-03-31T15:11:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "7 Space Mysteries That Remain Unsolved",
+    "es": "7 misterios del espacio que siguen sin resolverse",
+    "fr": "7 Mystères Irrésolus de notre Univers",
+    "hi": "अंतरिक्ष से जुड़ी 7 ऐसी घटनाएं जो अभी तक रहस्य बनी हुई हैं",
+    "it": "7 misteri dello spazio ancora irrisolti",
+    "pt": "7 Mistérios do Espaço que Permanecem Sem Solução",
+    "tl": "7 Misteryo ng Kalawakan na Hindi Pa Rin Nalulutas"
+    },
+    "shortTitle": {
+    "en": "7 Space Mysteries That Remain Unsolved",
+    "es": "7 misterios del espacio que siguen sin resolverse",
+    "fr": "7 Mystères Irrésolus de notre Univers",
+    "hi": "अंतरिक्ष से जुड़ी 7 ऐसी घटनाएं जो अभी तक रहस्य बनी हुई हैं",
+    "it": "7 misteri dello spazio ancora irrisolti",
+    "pt": "7 Mistérios do Espaço que Permanecem Sem Solução",
+    "tl": "7 Misteryo ng Kalawakan na Hindi Pa Rin Nalulutas"
+    },
+    "summary": {
+    "en": "Humans have been exploring space for decades, and there is still so much we don't understand. There remain unexplained events and anomalies that astronomers have not been able to solve. Check out seven of the weirdest unsolved mysteries that continue to stump leading experts.",
+    "es": "Los humanos han estado explorando el espacio durante décadas y, aún así, hay muchas cosas que no podemos entender. A lo largo del tiempo, ha habido eventos y anomalías inexplicables que los astrónomos no han podido resolver. A continuación, encontrarás siete de los misterios no resueltos más extraños que, hasta la fecha, siguen confundiendo a los expertos de la materia.",
+    "fr": "Les humains explorent l'espace depuis des décennies, et il y a encore tant de choses que nous ne comprenons pas. Il reste des événements et des anomalies inexpliqués que les astronomes n'ont pas été en mesure de résoudre. Découvrez sept des mystères irrésolus les plus étranges qui continuent de surprendre les expert·es de ce champ d'études.",
+    "hi": "कई दशकों तक अंतरिक्ष की खोजबीन करने के बावजूद, कितना कुछ है जो अभी तक हम इंसानों की समझ के परे है। ऐसी कई घटनाएं हैं जिन्हें वैज्ञानिक समझने में नाक़ाम रहे हैं। आइये जानें 7 ऐसी अद्भुत और रहस्यमयी घटनाएं जो विशेषज्ञों के लिए अभी तक पहेलियाँ बनी हुई हैं।",
+    "it": "L'essere umano ha esplorato lo spazio per decenni, ma ci sono ancora tantissime cose che non capiamo. Ci sono eventi e anomalie che rimangono inspiegati e che gli astronomi non sono stati in grado di risolvere. Scopri sette dei più bizzarri misteri irrisolti su cui i migliori esperti continuano ancora a scervellarsi.",
+    "pt": "Os humanos têm explorado o espaço por décadas e ainda há muita coisa que não entendemos. Há eventos e anomalias que permanecem inexplicados e os astrônomos ainda não conseguiram resolver. Dê uma olhads nos sete mistérios mais estranhos que continuam a impressionar os especialistas.",
+    "tl": "Ilang dekada nang pinag-aaralan ng mga tao ang kalawakan, at napakarami pa rin nating hindi naiintindihan. Nariyan pa rin ang mga hindi maipaliwanag na kaganapan at anomalyang hindi pa nareresolba ng mga astronomo. Tingnan ang pito sa mga pinakakakaibang di-malutas na misteryo na patuloy na nagpapaisip sa mga nangungunang eksperto."
+    },
+    "link": "https://fotoscapes.com/lookbook/v4fqAoto/7-space-mysteries-that-remain-unsolved",
+    "uid": "v4fqAoto",
+    "lbtype": "standard",
+    "interests": [
+    "97fvvHR",
+    "01fPho"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fB/bG/4h/4/ngfBbG4h4-lAf3LpvAse.webp",
+    "width": 1280,
+    "height": 1280
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fB/bG/4h/4/ngfBbG4h4-aYfeBmZNC0.webp",
+    "width": 1024,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fB/bG/4h/4/ngfBbG4h4-26fNj3gJcy.webp",
+    "width": 850,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fB/bG/4h/4/ngfBbG4h4-e1fqaDrqfe.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fB/bG/4h/4/ngfBbG4h4-OnfeqzyxtJ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fB/bG/4h/4/ngfBbG4h4-BBfdw4gNfD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/ng/fB/bG/4h/4/ngfBbG4h4-01fz6b7DIA.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5001,
+    "startY": 0.6129,
+    "startB": 0.4444,
+    "endX": 0.5458,
+    "endY": 0.6468,
+    "endB": 0.3024
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 8,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-11-18T19:55:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "10 Surprising Jobs Celebrities Did Before They Were Famous",
+    "es": "10 trabajos sorprendentes que hacían las celebridades antes de ser famosos",
+    "pt": "10 empregos surpreendentes que celebridades fizeram antes de se tornarem famosas"
+    },
+    "shortTitle": {
+    "en": "Surprising celebrity jobs",
+    "es": "Trabajos sorprendentes de celebridades",
+    "pt": "Empregos surpreendentes de celebridades"
+    },
+    "summary": {
+    "en": "We've seen their movies, binged their TV shows and streamed their music on our smartphones. However, our favorite celebs haven't always lived the lifestyle of the rich and famous. Keep scrolling to for 10 unexpected jobs held by celebrities before they rose to fame.",
+    "es": "Hemos visto sus películas, nos hemos emborrachado con sus programas de televisión y hemos transmitido su música a nuestros teléfonos inteligentes. Sin embargo, nuestras celebridades favoritas no siempre han vivido el estilo de vida de los ricos y famosos. Continúe desplazándose para conocer 10 trabajos inesperados que tuvieron celebridades antes de saltar a la fama.",
+    "pt": "Vimos seus filmes, assistimos seus programas de TV e transmitimos suas músicas em nossos smartphones. No entanto, as nossas celebridades favoritas nem sempre viveram o estilo de vida dos ricos e famosos. Continue lendo para ver 10 empregos inesperados ocupados por celebridades antes de chegarem à fama."
+    },
+    "link": "https://fotoscapes.com/lookbook/XofZ7XEFa/10-surprising-jobs-celebrities-did-before-they-were-famous",
+    "uid": "XofZ7XEFa",
+    "lbtype": "standard",
+    "interests": [
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/f3/vD/oT/1/aYf3vDoT1-VPfbeYJVuy.webp",
+    "width": 1024,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/f3/vD/oT/1/aYf3vDoT1-QafBk96vsN.webp",
+    "width": 850,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/f3/vD/oT/1/aYf3vDoT1-kvfkZmlJIO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/f3/vD/oT/1/aYf3vDoT1-Yof2Qj6dho.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/f3/vD/oT/1/aYf3vDoT1-J1f2n61Dfn.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/aY/f3/vD/oT/1/aYf3vDoT1-m7fVnkDvHR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.2916,
+    "startY": 0.4324,
+    "startB": 0.256,
+    "endX": 0.4904,
+    "endY": 0.549,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-04-01T00:46:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "The Top Contenders for the World's Ugliest Dog Competition",
+    "es": "Los principales contendientes del concurso del perro más feo del mundo",
+    "pt": "Os principais candidatos à competição de cães mais feios do mundo"
+    },
+    "shortTitle": {
+    "en": "World's Ugliest Dogs",
+    "es": "Los perros más feos del mundo",
+    "pt": "Os cães mais feios do mundo"
+    },
+    "summary": {
+    "en": "The World's Ugliest Dog Competition is the highlight of the year for many spectators and a huge social event for the pups themselves. These dogs have underbites, bowed legs and big personalities, but that doesn't make them any less lovable!\n\nClick through to see a dog named Tostito and learn why a bulldog named Meatloaf has his own posse.",
+    "es": "El concurso del perro más feo del mundo es para muchos espectadores el punto culminante del año y un gran evento social para los propios cachorros. Estos perros tienen mordidas inferiores, patas arqueadas y grandes personalidades, ¡pero eso no los hace menos adorables! Haga clic para ver un perro llamado Tostito y descubrir por qué un bulldog llamado Meatloaf tiene su propia pandilla.",
+    "pt": "A Competição do Cão Mais Feio do Mundo é o destaque do ano para muitos espectadores e um grande evento social para os próprios filhotes. Esses cães têm mordidas inferiores, pernas arqueadas e grandes personalidades, mas isso não os torna menos adoráveis! Clique para ver um cachorro chamado Tostito e saiba por que um bulldog chamado Meatloaf tem seu próprio bando."
+    },
+    "link": "https://fotoscapes.com/lookbook/lAfvjglsQ/the-top-contenders-for-the-worlds-ugliest-dog-competition",
+    "sourceLink": "https://www.sonoma-marinfair.org/wud_gallery-2/",
+    "uid": "lAfvjglsQ",
+    "lbtype": "standard",
+    "interests": [
+    "3xfzul",
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/g1/OF/X/dofeg1OFX-lAf3XvPWhe.webp",
+    "width": 1024,
+    "height": 682
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/g1/OF/X/dofeg1OFX-aYfekZJgH0.webp",
+    "width": 850,
+    "height": 566
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/g1/OF/X/dofeg1OFX-x6fYJpEOFY.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/g1/OF/X/dofeg1OFX-v4fkqYg2ub.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/g1/OF/X/dofeg1OFX-e1fqervAHe.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/g1/OF/X/dofeg1OFX-OnfenyBZcJ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.6577,
+    "startY": 0.3304,
+    "startB": 0.2204,
+    "endX": 0.5001,
+    "endY": 0.4088,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 8,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-04-14T14:42:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "10 of the Most Expensive Animals in the World",
+    "es": "10 de los animales más caros del mundo",
+    "pt": "10 dos animais mais caros do mundo"
+    },
+    "shortTitle": {
+    "en": "See the Most Expensive Animals in the World",
+    "es": "Ver los animales más caros del mundo",
+    "pt": "Veja os animais mais caros do mundo"
+    },
+    "summary": {
+    "en": "These animals go down in the history books as being the some of the priciest buys in the world. From Savannah Cats to the first successfully cloned dog, click through to see which animal takes the title of most expensive.",
+    "es": "Estos animales pasan a los libros de historia como una de las compras más caras del mundo. Desde Savannah Cats hasta el primer perro clonado con éxito, haga clic para ver qué animal se lleva el título de más caro.",
+    "pt": "Esses animais aparecem nos livros de história como uma das compras mais caras do mundo. De Savannah Cats ao primeiro cachorro clonado com sucesso, clique para ver qual animal leva o título de mais caro."
+    },
+    "link": "https://fotoscapes.com/lookbook/ngfdnvOI9/10-of-the-most-expensive-animals-in-the-world",
+    "uid": "ngfdnvOI9",
+    "lbtype": "standard",
+    "interests": [
+    "3xfzul",
+    "01fPho"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fW/Zb/Af/q/LRfWZbAfq-XofoEZpxtm.webp",
+    "width": 639,
+    "height": 511
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fW/Zb/Af/q/LRfWZbAfq-Yof2QjOkFo.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fW/Zb/Af/q/LRfWZbAfq-J1f2n6Ljin.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fW/Zb/Af/q/LRfWZbAfq-m7fVnkweUR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.6047,
+    "startY": 0.2939,
+    "startB": 0.3516,
+    "endX": 0.4992,
+    "endY": 0.4668,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-04-18T03:10:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "11 US Cities with the Most Inexpensive Rent",
+    "es": "11 ciudades de EE. UU. con el alquiler más económico",
+    "pt": "11 cidades dos EUA com aluguel mais barato"
+    },
+    "shortTitle": {
+    "en": "Cheapest US Cities to Rent",
+    "es": "Las ciudades más baratas de EE. UU. para alquilar",
+    "pt": "Cidades mais baratas dos EUA para alugar"
+    },
+    "summary": {
+    "en": "Who needs the coast, when you've got low-cost living options in these mostly-Midwestern US cities?",
+    "es": "¿Quién necesita la costa, cuando hay opciones de vida de bajo costo en estas ciudades, en su mayoría del Medio Oeste de Estados Unidos?",
+    "pt": "Quem precisa do litoral, quando você tem opções de vida de baixo custo nessas cidades predominantemente do meio-oeste dos EUA?"
+    },
+    "link": "https://fotoscapes.com/lookbook/g6fYykGTZ/11-us-cities-with-the-most-inexpensive-rent",
+    "uid": "g6fYykGTZ",
+    "lbtype": "standard",
+    "interests": [
+    "v4fVCL",
+    "g6fYliB"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/m0/PC/X/dofem0PCX-DkfLXommHR.webp",
+    "width": 1024,
+    "height": 640
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/m0/PC/X/dofem0PCX-WJfpZEnqIL.webp",
+    "width": 850,
+    "height": 531
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/m0/PC/X/dofem0PCX-aYfekOnLH0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/m0/PC/X/dofem0PCX-x6fYJBGJTY.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/m0/PC/X/dofem0PCX-BBfdrmPEfD.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fe/m0/PC/X/dofem0PCX-7mf1WnX6Ix.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5008,
+    "startY": 0.355,
+    "startB": 0.4438,
+    "endX": 0.5008,
+    "endY": 0.59,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 11,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-04-22T19:33:00Z",
+    "scheduledOn": "2024-08-04T00:51:24Z"
+    },
+    {
+    "title": {
+    "en": "The Obamas’ $12 Million Getaway Home",
+    "es": "La Nueva Casa de $12 Millones de los Obamas",
+    "fr": "La Nouvelle Maison des Obama de 12 Millions de Dollars",
+    "hi": "ओबामा परिवार का नया $12 मिलियन का घर",
+    "it": "La nuova casa da 12 milioni di dollari degli Obama",
+    "pt": "A Nova Casa de 12 milhões de Dólares dos Obama",
+    "tl": "Ang Bagong $12 Milyong Halagang Bahay ng mga Obama"
+    },
+    "shortTitle": {
+    "en": "The Obamas’ New $12 Million Home",
+    "es": "La Nueva Casa de $12 Millones de los Obamas",
+    "fr": "La Nouvelle Maison des Obama de 12 Millions de Dollars",
+    "hi": "ओबामा परिवार का नया $12 मिलियन का घर",
+    "it": "La nuova casa da 12 milioni di dollari degli Obama",
+    "pt": "A Nova Casa de 12 milhões de Dólares dos Obama",
+    "tl": "Ang Bagong $12 Milyong Halagang Bahay ng mga Obama"
+    },
+    "summary": {
+    "en": "After the Obama family left the White House, many people wondered where they would end up living next. The former president and Michelle finally purchased the $11.75 million Martha’s Vineyard home they had rented in previous summers.\n\nThe nearly 7,000-square-foot home sits on 30 acres and seems like a lot of house for a small family. Check out the former first family’s newest digs.",
+    "es": "Después de que la familia Obama dejara la Casa Blanca, mucha gente se preguntó dónde terminaría viviendo después. El expresidente y Michelle finalmente compraron la casa de Martha's Vineyard de $11.75 millones que habían alquilado en los veranos anteriores. \n\nLa casa de casi 7.000 pies cuadrados se encuentra en 30 acres y parece mucha casa para una pequeña familia. Entra en la nueva casa de la ex familia presidencial.",
+    "fr": "Après que la famille Obama ait quitté la Maison Blanche, de nombreuses personnes se sont demandées où elle allait s'installer. L’ancien président et Michelle ont finalement acheté une maison de 11,75 millions de dollars sur l'île de Martha’s Vineyard au Massachusetts qu’ils avaient louée au cours des étés précédents.\n\nLa maison de près de 650 mètres carrés s'étend sur 12 hectares. Découvrez la dernière trouvaille de l'ancienne famille présidentielle.",
+    "hi": "ओबामा परिवार के व्हाइट हाउस से चले जाने के बाद, कई लोगों को कौतूहल हुआ कि उनका अगला घर कौन सा होगा। पूर्व राष्ट्रपति और मिशेल ने अंत में $11.75 मिलियन का मार्था वाइनयार्ड घर खरीदा, जिसे उन्होंने पिछले गर्मियों में किराए पर लिया था।\n\nलगभग 7,000 वर्ग फुट का घर 30 एकड़ में बसा है और एक छोटे परिवार के लिए ये बहुत विशाल लगता है। ओबामा परिवार के इस नए घर को देखें।",
+    "it": "Dopo che la famiglia Obama ha lasciato la Casa Bianca, molte persone si sono chieste dove sarebbero andati a vivere. L'ex presidente e Michelle hanno finalmente acquistato la casa di Martha's Vineyard da 11,75 milioni di dollari che avevano affittato nelle estati precedenti.\n\nLa casa di quasi 650 metri quadrati si trova su un terreno di 12 ettari: una casa piuttosto grande per una famiglia così piccola. Guarda i nuovi alloggi della famiglia dell'ex-presidente degli Stati Uniti.",
+    "pt": "Depois que a família Obama deixou a Casa Branca, muitas pessoas se perguntaram onde eles iriam morar em seguida. O ex-presidente e Michelle finalmente compraram a casa Martha’s Vineyard de 11,75 milhões de dólares que haviam alugado nos verões anteriores.\n\nA casa de quase 7.000 pés quadrados ocupa 30 acres e parece uma grande casa para uma família pequena. Confira as mais novas escavações da antiga primeira família.",
+    "tl": "Matapos umalis ng mga Obama sa White House, maraming nag-isip kung saan sila sunod na maninirahan. Binili na rin sa wakas ng dating pangulo at asawa nitong si Michelle ang halagang $11.75 milyong Martha's Vineyard na dati na rin nilang nirerentahan tuwing nagbabakasyon.\n\nAng halos 7,000 square foot na bahay ay nakatayo sa lawak na 30 acres at tila napakalaki para sa isang maliit na pamilya. Tingnan ang pinakabagong tirahan ng dating 'first family'."
+    },
+    "link": "https://fotoscapes.com/lookbook/GvflweF4/the-obamas-12-million-getaway-home",
+    "uid": "GvflweF4",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fj/4j/iz/jxfj4jiz-q6fNnRdlHY.webp",
+    "width": 1280,
+    "height": 719
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fj/4j/iz/jxfj4jiz-4xfqvynOCl.webp",
+    "width": 1024,
+    "height": 575
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fj/4j/iz/jxfj4jiz-Rqf6pEO4TX.webp",
+    "width": 850,
+    "height": 478
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fj/4j/iz/jxfj4jiz-e1fqDLnBCe.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fj/4j/iz/jxfj4jiz-ZofDP6l4Fg.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fj/4j/iz/jxfj4jiz-lAf3p9rRUe.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/jx/fj/4j/iz/jxfj4jiz-3xfk3qgeup.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.6045,
+    "startB": 0.4444,
+    "endX": 0.506,
+    "endY": 0.6192,
+    "endB": 0.3218
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 14,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2019-12-09T19:07:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "Travis Scott's $23 Million Los Angeles Home",
+    "es": "La casa de Travis Scott de 23 millones de dólares en Los Ángeles",
+    "pt": "Casa de US$ 23 milhões de Travis Scott em Los Angeles"
+    },
+    "shortTitle": {
+    "en": "Travis Scott's $23 Million home in LA",
+    "es": "La casa de Travis Scott de 23 millones de dólares en Los Ángeles",
+    "pt": "Casa de US$ 23 milhões de Travis Scott em Los Angeles"
+    },
+    "summary": {
+    "en": "American recording artist and producer Travis Scott recently purchased a Los Angeles mega-mansion for $23.5 million. This ultra-modern 17,000 square-foot home was originally listed for $42 million and it features an amazing outdoor space with an enormous garden, and a pool with its own underwater sound system.\n\nContinue on to see the rest of this gorgeous home.",
+    "es": "El artista y productor estadounidense Travis Scott compró recientemente una megamansión en Los Ángeles por 23,5 millones de dólares. Esta casa ultramoderna de 17,000 pies cuadrados se cotizó originalmente por $42 millones y cuenta con un increíble espacio al aire libre con un enorme jardín y una piscina con su propio sistema de sonido submarino. Continúe para ver el resto de esta hermosa casa.",
+    "pt": "O artista e produtor americano Travis Scott comprou recentemente uma megamansão em Los Angeles por US$ 23,5 milhões. Esta casa ultramoderna de 17.000 pés quadrados foi originalmente cotada por US$ 42 milhões e possui um incrível espaço ao ar livre com um enorme jardim e uma piscina com seu próprio sistema de som subaquático. Continue para ver o resto desta linda casa."
+    },
+    "link": "https://fotoscapes.com/lookbook/p6fOQBziN/travis-scotts-23-million-los-angeles-home",
+    "uid": "p6fOQBziN",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "3xfBzCl"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fQ/V9/XC/b/g6fQV9XCb-J1f2noWyHn.webp",
+    "width": 750,
+    "height": 459
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fQ/V9/XC/b/g6fQV9XCb-3xfk9op1Fp.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fQ/V9/XC/b/g6fQV9XCb-BBfdrO6xuD.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fQ/V9/XC/b/g6fQV9XCb-aYfek0bkF0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/g6/fQ/V9/XC/b/g6fQV9XCb-x6fYJqdyIY.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.5,
+    "endY": 0.3905,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-07-15T23:26:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "10 Best Hot Sauces for Everyday Use",
+    "es": "10 mejores salsas picantes para uso diario",
+    "pt": "10 melhores molhos picantes para uso diário"
+    },
+    "shortTitle": {
+    "en": "The Best Hot Sauces",
+    "es": "Las Mejores Salsas Picantes",
+    "pt": "Os melhores molhos picantes"
+    },
+    "summary": {
+    "en": "A good hot sauce is like a favorite pair of dark jeans: It just goes with everything. Here are 10 of the best hot sauces around, according to professional chefs and online reviewers.",
+    "es": "Una buena salsa picante es como tu par de jeans oscuros favoritos: combina con todo. Aquí hay 10 de las mejores salsas picantes que existen, según chefs profesionales y críticos en línea.",
+    "pt": "Um bom molho picante é como um jeans escuro favorito: combina com tudo. Aqui estão 10 dos melhores molhos picantes do mercado, de acordo com chefs profissionais e revisores online."
+    },
+    "link": "https://fotoscapes.com/lookbook/Qafx22ux/10-best-hot-sauces-for-everyday-use",
+    "uid": "Qafx22ux",
+    "lbtype": "standard",
+    "interests": [
+    "q6fqjSw",
+    "3xfzul"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/QB/6T/6/3xfBQB6T6-NZfvovaesz.webp",
+    "width": 1280,
+    "height": 512
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/QB/6T/6/3xfBQB6T6-bYfbwbgJuQ.webp",
+    "width": 1024,
+    "height": 410
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/QB/6T/6/3xfBQB6T6-r6fYzY7bsV.webp",
+    "width": 850,
+    "height": 340
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/QB/6T/6/3xfBQB6T6-dofPZPEyfV.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/QB/6T/6/3xfBQB6T6-ZofDPDVnig.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/QB/6T/6/3xfBQB6T6-w6fVQVjRu0.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/3x/fB/QB/6T/6/3xfBQB6T6-aYfemeXmf0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4,
+    "endX": 0.5102,
+    "endY": 0.5744,
+    "endB": 0.3321
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-01-24T14:46:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "6 Celebrities With Very High IQs",
+    "es": "6 celebridades con coeficientes intelectuales muy altos",
+    "pt": "6 celebridades com QI muito alto"
+    },
+    "shortTitle": {
+    "en": "Celebrities with high IQs",
+    "es": "Celebridades con alto coeficiente intelectual",
+    "pt": "Celebridades com QI alto"
+    },
+    "summary": {
+    "en": "Celebrities are often stereotyped as lacking intelligence. However, a lot of famous people have IQ scores just like some of the world’s biggest intellectuals. Your favorite actor, singer, or television personality may rival Albert Einstein or Steven Hawkins when it comes to their intelligence quotient scores.\n\nContinue through the gallery to see if your favorite celebrity is among those who have high IQ scores.",
+    "es": "A menudo se estereotipa a las celebridades por carecer de inteligencia. Sin embargo, muchas personas famosas tienen puntuaciones de coeficiente intelectual como las de algunos de los intelectuales más importantes del mundo. Su actor, cantante o personalidad de televisión favorito puede rivalizar con Albert Einstein o Steven Hawkins en lo que respecta a sus puntuaciones de cociente intelectual. Continúa por la galería para ver si tu celebridad favorita se encuentra entre las que tienen puntuaciones de coeficiente intelectual altas.",
+    "pt": "As celebridades são frequentemente estereotipadas como desprovidas de inteligência. No entanto, muitas pessoas famosas têm pontuações de QI, tal como alguns dos maiores intelectuais do mundo. Seu ator, cantor ou personalidade de televisão favorito pode rivalizar com Albert Einstein ou Steven Hawkins no que diz respeito às pontuações de quociente de inteligência. Continue pela galeria para ver se a sua celebridade favorita está entre aquelas que têm pontuações de QI altas."
+    },
+    "link": "https://fotoscapes.com/lookbook/PYfQNywUo/6-celebrities-with-very-high-iqs",
+    "uid": "PYfQNywUo",
+    "lbtype": "standard",
+    "interests": [
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fZ/rP/mc/q/LRfZrPmcq-zpfvjzBxtE.jpg",
+    "width": 1024,
+    "height": 1280
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fZ/rP/mc/q/LRfZrPmcq-r6fe3JbGUV.jpg",
+    "width": 819,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fZ/rP/mc/q/LRfZrPmcq-oNfprDkefA.jpg",
+    "width": 680,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fZ/rP/mc/q/LRfZrPmcq-YofyA94mso.jpg",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fZ/rP/mc/q/LRfZrPmcq-m7foymZYTR.jpg",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fZ/rP/mc/q/LRfZrPmcq-6JfoJDRVIq.jpg",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/LR/fZ/rP/mc/q/LRfZrPmcq-q6fBAX7ETY.jpg",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.2475,
+    "startB": 0.4438,
+    "endX": 0.3688,
+    "endY": 0.1475,
+    "endB": 0.3281
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 6,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-11-01T21:35:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "The “Full House” Home Hits the Market for $5.5 Million",
+    "es": "La Casa de \"Full House\" Llega al Mercado por $5.5 millones"
+    },
+    "shortTitle": {
+    "en": "“Full House” Home Listed for $5.5 Million",
+    "es": "“Full House” Recibe el Precio de $5.5 Millones"
+    },
+    "summary": {
+    "en": "The house used as the exterior of the Tanner home in 1990s sitcom ^&“Full House”^& is up for grabs after an extensive remodel. The redesign was completed at the request of Jeff Franklin, creator of ^&“Full House.”^& Franklin purchased the home in 2016 for $4 million.\n\nContinue on for photos of this beautiful three-story abode, located in San Francisco’s Lower Pacific Heights neighborhood.",
+    "es": "La casa usada como exterior del hogar de los Tanner en la comedia de los 90, “Full House,” está en juego después de una extensa remodelación. El rediseño se completó a petición de Jeff Franklin, creador de “Full House.” Franklin compró la casa en 2016 por $4 millones. \n\nContinúa para ver fotos de esta hermosa morada de tres pisos, ubicada en el barrio Lower Pacific Heights de San Francisco."
+    },
+    "link": "https://fotoscapes.com/lookbook/g6fQn4tZ/the-full-house-home-hits-the-market-for-5-5-million",
+    "uid": "g6fQn4tZ",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "v4fVCL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fe/pj/Lc/o/NZfepjLco-VPfbwAPNhy.webp",
+    "width": 1024,
+    "height": 512
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fe/pj/Lc/o/NZfepjLco-p6fqgRV6t0.webp",
+    "width": 850,
+    "height": 425
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fe/pj/Lc/o/NZfepjLco-zpfaQxgGIE.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fe/pj/Lc/o/NZfepjLco-XofoXaALum.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fe/pj/Lc/o/NZfepjLco-Gvfw6ry2ha.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/NZ/fe/pj/Lc/o/NZfepjLco-EvfZqnw3FO.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5169,
+    "startY": 0.6792,
+    "startB": 0.3208,
+    "endX": 0.5,
+    "endY": 0.529,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 14,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-03-04T16:38:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "8 Incredible Documentaries on Netflix",
+    "es": "8 documentales increíbles en Netflix",
+    "pt": "8 documentários incríveis na Netflix"
+    },
+    "shortTitle": {
+    "en": "Netflix’s Most Popular Documentaries",
+    "es": "Los documentales más populares de Netflix",
+    "pt": "Os documentários mais populares da Netflix"
+    },
+    "summary": {
+    "en": "Netflix has the perfect documentary for you whether you’re into scandalous drama, extreme athleticism, or wholesome feel-good stories.\n\nSwipe to see the most popular documentaries on Netflix.",
+    "es": "Netflix tiene el documental perfecto para ti, ya sea que te gusten los dramas escandalosos, el atletismo extremo o las historias saludables que te hacen sentir bien. Desliza para ver los documentales más populares en Netflix.",
+    "pt": "A Netflix tem o documentário perfeito para você, quer você goste de drama escandaloso, atletismo extremo ou histórias saudáveis e alegres. Deslize para ver os documentários mais populares da Netflix."
+    },
+    "link": "https://fotoscapes.com/lookbook/1DfbJBGHq/8-incredible-documentaries-on-netflix",
+    "uid": "1DfbJBGHq",
+    "lbtype": "standard",
+    "interests": [
+    "w6fnIL",
+    "LRfPcJ",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/f2/AY/6U/L/Yof2AY6UL-oNfwoVnZcA.webp",
+    "width": 1280,
+    "height": 767
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/f2/AY/6U/L/Yof2AY6UL-kvfkZRpbsO.webp",
+    "width": 1024,
+    "height": 614
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/f2/AY/6U/L/Yof2AY6UL-Yof2QGZAFo.webp",
+    "width": 850,
+    "height": 509
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/f2/AY/6U/L/Yof2AY6UL-m7fVnOzaCR.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/f2/AY/6U/L/Yof2AY6UL-WJfpZxRZfL.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/f2/AY/6U/L/Yof2AY6UL-g6f3aWgrtk.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/f2/AY/6U/L/Yof2AY6UL-ANfrWB4Ou0.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.4992,
+    "startY": 0.3721,
+    "startB": 0.4453,
+    "endX": 0.5008,
+    "endY": 0.5352,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 8,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-12-30T22:31:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "de": "Atemberaubende verborgene Pracht in den Nationalparks der USA",
+    "en": "Awesome Hidden Beauty in the United States’ National Parks"
+    },
+    "shortTitle": {
+    "de": "Weniger bekannte Gebiete der Nationalparks",
+    "en": "Lesser Known Areas of National Parks"
+    },
+    "summary": {
+    "de": "Der Grand Canyon, die Great Smoky Mountains in North Carolina und Tennessee und die surrealen Felsformationen von Utah sind wohlbekannte Sehenswürdigkeiten in den Nationalparks der USA.\n\nGanz gleich, ob Sie größere Besuchermengen meiden oder einfach nur etwas Neues erleben möchten, die folgende Liste von Ausflugszielen wird Ihren nächsten Urlaub in den USA mit Sicherheit zu einem kleinen Wunder machen.",
+    "en": "The Grand Canyon, the Great Smoky Mountains of North Carolina and Tennessee, and Utah’s surreal rock formations are all familiar landmarks within the United States National Parks. \n\nWhether you’re looking to avoid larger groups of people, or just want to experience something new, the following list of places is sure to add a bit of wonder to your next stateside vacation."
+    },
+    "link": "https://fotoscapes.com/lookbook/7mfbNdAIR/awesome-hidden-beauty-in-the-united-states-national-parks",
+    "uid": "7mfbNdAIR",
+    "lbtype": "standard",
+    "interests": [
+    "NZf7cr",
+    "dofEhL",
+    "x6fpXFR"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fp/41/Ri/J/PYfp41RiJ-BBfdldXzfD.webp",
+    "width": 1280,
+    "height": 800
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fp/41/Ri/J/PYfp41RiJ-7mf171OqSx.webp",
+    "width": 1024,
+    "height": 640
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fp/41/Ri/J/PYfp41RiJ-bYfbgb3BHQ.webp",
+    "width": 850,
+    "height": 531
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fp/41/Ri/J/PYfp41RiJ-yBf2d2zpiO.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fp/41/Ri/J/PYfp41RiJ-Yof2N20Oho.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fp/41/Ri/J/PYfp41RiJ-J1f2Z2PPTn.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/PY/fp/41/Ri/J/PYfp41RiJ-DkfL4LqRuR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5,
+    "startY": 0.5,
+    "startB": 0.4444,
+    "endX": 0.6508,
+    "endY": 0.7212,
+    "endB": 0.3109
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 16,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2021-06-23T20:52:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "Sneakers that Helped Define the NBA Playoffs",
+    "es": "Zapatillas que ayudaron a definir los playoffs de la NBA",
+    "pt": "Tênis que ajudaram a definir os playoffs da NBA"
+    },
+    "shortTitle": {
+    "en": "Iconic Sneakers of the NBA Playoffs",
+    "es": "Zapatillas icónicas de los Playoffs de la NBA",
+    "pt": "Tênis icônicos dos playoffs da NBA"
+    },
+    "summary": {
+    "en": "Back in '97, Michael Jordan alongside Nike announced the launch of Jordan Brand – a first-of-its-kind move that turned Jordan's footwear line into a fully-fledged apparel company. The world of NBA player-exclusive sneakers exploded in popularity across the globe after that season and since then, memories of the biggest moments in recent NBA playoffs history are often tied to the sneakers worn by star players.\n\nContinue on for a gallery featuring sneakers worn during the NBA playoffs' most iconic moments since 1997.",
+    "es": "En 1997, Michael Jordan junto con Nike anunciaron el lanzamiento de Jordan Brand, un movimiento único en su tipo que convirtió la línea de calzado de Jordan en una empresa de indumentaria de pleno derecho. El mundo de las zapatillas exclusivas para jugadores de la NBA explotó en popularidad en todo el mundo después de esa temporada y, desde entonces, los recuerdos de los momentos más importantes de la historia reciente de los playoffs de la NBA a menudo están vinculados a las zapatillas usadas por los jugadores estrella. Continúe para ver una galería de zapatillas usadas durante los momentos más emblemáticos de los playoffs de la NBA desde 1997.",
+    "pt": "Em 1997, Michael Jordan, juntamente com a Nike, anunciaram o lançamento da Jordan Brand – um movimento inédito que transformou a linha de calçados da Jordan em uma empresa de vestuário de pleno direito. O mundo dos tênis exclusivos para jogadores da NBA explodiu em popularidade em todo o mundo depois daquela temporada e, desde então, as memórias dos maiores momentos da história recente dos playoffs da NBA estão frequentemente ligadas aos tênis usados pelos craques. Continue para uma galeria com tênis usados durante os momentos mais icônicos dos playoffs da NBA desde 1997."
+    },
+    "link": "https://fotoscapes.com/lookbook/yBfQexeco/sneakers-that-helped-define-the-nba-playoffs",
+    "uid": "yBfQexeco",
+    "lbtype": "standard",
+    "interests": [
+    "OnfyOho"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fA/nX/YU/a/4xfAnXYUa-97f3Bxn1IL.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fA/nX/YU/a/4xfAnXYUa-v4fkq0pnib.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fA/nX/YU/a/4xfAnXYUa-OnfenaOkfJ.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fA/nX/YU/a/4xfAnXYUa-J1f2noXbtn.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fA/nX/YU/a/4xfAnXYUa-DkfLXp1WCR.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fA/nX/YU/a/4xfAnXYUa-WJfpZ4BLSL.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/4x/fA/nX/YU/a/4xfAnXYUa-6JfBvRw3hq.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.3977,
+    "startY": 0.6815,
+    "startB": 0.3531,
+    "endX": 0.4992,
+    "endY": 0.6101,
+    "endB": 0.4453
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 11,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2021-05-26T17:37:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "14 of the Most Valuable Toys from the 90s",
+    "es": "14 de los juguetes más valiosos de los años 90"
+    },
+    "shortTitle": {
+    "en": "Super Valuable Toys from the 1990s",
+    "es": "Juguetes súper valiosos de la década de 1990"
+    },
+    "summary": {
+    "en": "During the 90s, the world was transitioning into a new era of connectivity ushered in by the Internet. The combination of companies’ decades-long experience in manufacturing paired with the cutting-edge technology of the day made for some very interesting innovations and creative products, especially when it came to children’s toys and games.\n\nToday, some of our favorites toys and games from the 90s are worth a fortune. Use this list of extremely valuable toys as a guide next time you’re looking through old stuff at your parents’ house. Maybe you'll find an old Beanie Baby that happens to be worth $50,000.",
+    "es": "Durante los años 90, el mundo estaba transitando hacia una nueva era de conectividad iniciada por Internet. La combinación de décadas de experiencia de las empresas en fabricación junto con la tecnología de vanguardia del momento generó algunas innovaciones y productos creativos muy interesantes, especialmente cuando se trataba de juguetes y juegos para niños. Hoy en día, algunos de nuestros juguetes y juegos favoritos de los años 90 valen una fortuna. Utilice esta lista de juguetes extremadamente valiosos como guía la próxima vez que revise cosas viejas en la casa de sus padres. Tal vez encuentres un viejo Beanie Baby que vale 50.000 dólares."
+    },
+    "link": "https://fotoscapes.com/lookbook/4xf2wxJUn/14-of-the-most-valuable-toys-from-the-90s",
+    "uid": "4xf2wxJUn",
+    "lbtype": "standard",
+    "interests": [
+    "ZofNtA"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fe/Ze/xU/Y/BBfeZexUY-jxf1gBwji9.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fe/Ze/xU/Y/BBfeZexUY-aYfeX6ays0.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fe/Ze/xU/Y/BBfeZexUY-NZfvam0Vfz.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fe/Ze/xU/Y/BBfeZexUY-p6fqzpR0s0.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fe/Ze/xU/Y/BBfeZexUY-r6fY76ZafV.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/BB/fe/Ze/xU/Y/BBfeZexUY-oNfwxyd6HA.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.3922,
+    "startY": 0.5726,
+    "startB": 0.3484,
+    "endX": 0.5,
+    "endY": 0.4602,
+    "endB": 0.4453
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 14,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2021-06-29T19:53:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "Instagram’s Trove of Abandoned Houses",
+    "es": "El tesoro de casas abandonadas de Instagram",
+    "pt": "O tesouro de casas abandonadas do Instagram"
+    },
+    "shortTitle": {
+    "en": "Abandoned House on Instagram",
+    "es": "Casa abandonada en Instagram",
+    "pt": "Casa Abandonada no Instagram"
+    },
+    "summary": {
+    "en": "All over Instagram, photographers post their best photos of abandoned buildings and homes. The United States covers over 3.1 million square miles of land, where many structures have been built, used and then forgotten.\n\nContinue on for a look at some of the best photography of abandoned homes on Instagram.",
+    "es": "En todo Instagram, los fotógrafos publican sus mejores fotografías de edificios y casas abandonadas. Estados Unidos cubre más de 3,1 millones de millas cuadradas de tierra, donde se han construido, utilizado y luego olvidado muchas estructuras. Continúe para ver algunas de las mejores fotografías de casas abandonadas en Instagram.",
+    "pt": "Em todo o Instagram, fotógrafos postam suas melhores fotos de prédios e casas abandonadas. Os Estados Unidos cobrem mais de 3,1 milhões de milhas quadradas de terra, onde muitas estruturas foram construídas, usadas e depois esquecidas. Continue para ver algumas das melhores fotografias de casas abandonadas no Instagram."
+    },
+    "link": "https://fotoscapes.com/lookbook/PYfaWvYco/instagrams-trove-of-abandoned-houses",
+    "uid": "PYfaWvYco",
+    "lbtype": "standard",
+    "interests": [
+    "01fPho",
+    "dofEhL"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fo/mW/ec/m/m7fomWecm-DkfL4dx9fR.webp",
+    "width": 1024,
+    "height": 1280
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fo/mW/ec/m/m7fomWecm-WJfp0V3wSL.webp",
+    "width": 819,
+    "height": 1024
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fo/mW/ec/m/m7fomWecm-g6f3nvmbsk.webp",
+    "width": 680,
+    "height": 850
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fo/mW/ec/m/m7fomWecm-4xfql0XWcl.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fo/mW/ec/m/m7fomWecm-Rqf6xmlrUX.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fo/mW/ec/m/m7fomWecm-ZofDVQRmcg.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/m7/fo/mW/ec/m/m7fomWecm-26fNy9LOuy.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.3922,
+    "startY": 0.5094,
+    "startB": 0.3484,
+    "endX": 0.5,
+    "endY": 0.6625,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 12,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2021-06-30T17:34:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "A Real Flying Car",
+    "es": "Un verdadero coche volador",
+    "fr": "Une Vraie Voiture Volante"
+    },
+    "shortTitle": {
+    "en": "A Real Flying Car",
+    "es": "Un verdadero coche volador",
+    "fr": "Une Vraie Voiture Volante"
+    },
+    "summary": {
+    "en": "Slovakian tech company Klein Vision designed the AirCar — a dual-mode car-aircraft vehicle and it has just taken its first flight. \n\nThe AirCar prototype flew from Nitra, Slovakia to Bratislava, a 35-minute flight. After landing, it turned into a sleek sports car with the touch of a button and Stefan Klein, CEO of Klein Vision, drove it straight off the tarmac and onto the highway. \n\nCheck out the awesome photos from this futuristic vehicle’s maiden flight and its transformation into a car.",
+    "es": "Es posible que después de años de películas de ciencia ficción que retratan un mundo futuro lleno de autos voladores, pronto se convierta en realidad. La empresa de tecnología eslovaca Klein Vision diseñó el AirCar, un vehículo automóvil-avión de modo dual y acaba de realizar su primer vuelo. El prototipo de AirCar voló desde Nitra, Eslovaquia, a Bratislava, en un vuelo de 35 minutos. Después de aterrizar, se convirtió en un elegante automóvil deportivo con solo tocar un botón y Stefan Klein, director ejecutivo de Klein Vision, lo sacó de la pista y lo condujo directamente a la autopista. Mira las impresionantes fotografías del vuelo inaugural de este vehículo futurista y su transformación en automóvil.",
+    "fr": "Il est possible qu'après des années de films de science-fiction décrivant un monde futur rempli de voitures volantes, cela devienne bientôt une réalité. La société de technologie slovaque Klein Vision a conçu l'AirCar - un véhicule voiture-avion bimode et il vient d'effectuer son premier vol.\n\nLe prototype AirCar a volé de Nitra, en Slovaquie, à Bratislava, un vol de 35 minutes. Après l'atterrissage, elle s'est transformée en une voiture de sport élégante d'une simple pression sur un bouton et Stefan Klein, PDG de Klein Vision, l'a conduite directement sur le tarmac et sur l'autoroute.\n\nDécouvrez les superbes photos du vol inaugural de ce véhicule futuriste et de sa transformation en voiture."
+    },
+    "link": "https://fotoscapes.com/lookbook/OnfyWPxIY/a-real-flying-car",
+    "uid": "OnfyWPxIY",
+    "lbtype": "standard",
+    "interests": [
+    "97fvsR"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fV/me/gT/P/v4fVmegTP-6JfBLGXrsq.webp",
+    "width": 1280,
+    "height": 806
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fV/me/gT/P/v4fVmegTP-g6f3n2Dnik.webp",
+    "width": 1024,
+    "height": 645
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fV/me/gT/P/v4fVmegTP-4xfqlGkBIl.webp",
+    "width": 850,
+    "height": 535
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fV/me/gT/P/v4fVmegTP-97f3e4NkTL.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fV/me/gT/P/v4fVmegTP-x6fY46amsY.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fV/me/gT/P/v4fVmegTP-v4fkw2m0cb.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/v4/fV/me/gT/P/v4fVmegTP-Onfe2vDbhJ.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5906,
+    "startY": 0.6266,
+    "startB": 0.3641,
+    "endX": 0.5,
+    "endY": 0.5931,
+    "endB": 0.4438
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 13,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2021-07-07T17:43:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "10 of the Worst Movie Remake Fails",
+    "es": "10 de los peores remakes de películas fracasan"
+    },
+    "shortTitle": {
+    "en": "worst remakes",
+    "es": "peores remakes"
+    },
+    "summary": {
+    "en": "Some movies are so good, it's hard to believe that a sequel or reboot could get any better. Unfortunately, some movie studios make an attempt with remakes and often fail miserably to capture the magic of the original film. From good movies turned bad to bad movies that were made even worse, scroll ahead for 10 of the worst film remakes in history.",
+    "es": "Algunas películas son tan buenas que es difícil creer que una secuela o un reinicio puedan ser mejores. Desafortunadamente, algunos estudios cinematográficos intentan hacer remakes y, a menudo, fracasan estrepitosamente a la hora de capturar la magia de la película original. Desde buenas películas que se volvieron malas hasta malas películas que empeoraron aún más, desplácese hacia adelante para ver 10 de los peores remakes de películas de la historia."
+    },
+    "link": "https://fotoscapes.com/lookbook/J1f6qBVUP/10-of-the-worst-movie-remake-fails",
+    "uid": "J1f6qBVUP",
+    "lbtype": "standard",
+    "interests": [
+    "w6fnIL",
+    "6JfV7FW"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fD/ro/oC/X/dofDrooCX-QafB3mjBuN.webp",
+    "width": 1280,
+    "height": 790
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fD/ro/oC/X/dofDrooCX-Gvfwde2mUa.webp",
+    "width": 1024,
+    "height": 632
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fD/ro/oC/X/dofDrooCX-1Df9qPXaTj.webp",
+    "width": 850,
+    "height": 525
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fD/ro/oC/X/dofDrooCX-w6fVjnayC0.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fD/ro/oC/X/dofDrooCX-26fNyQlrfy.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fD/ro/oC/X/dofDrooCX-Onfe23JYTJ.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/do/fD/ro/oC/X/dofDrooCX-7mf17ewLux.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.3711,
+    "startY": 0.2671,
+    "startB": 0.3297,
+    "endX": 0.5,
+    "endY": 0.3608,
+    "endB": 0.4453
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-02-21T20:49:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "These 12 Vegetables Could Kill You if Eaten Raw",
+    "es": "12 verduras que podrían matarte si las comes crudas",
+    "fr": "Ces 12 Légumes sont Extrêmement Toxiques Mangés Crus",
+    "hi": "अगर इन्हें कच्चा खाया तो ये 12 सब्ज़ियां जानलेवा साबित हो सकती हैं",
+    "it": "Queste 12 verdure potrebbero ucciderti se mangiate crude",
+    "pt": "Estes 12 Legumes Podem te Matar se Comidos Crus",
+    "tl": "Maaari Kang Mamatay sa 12 Gulay na Ito Kapag Nakain Nang Hilaw"
+    },
+    "shortTitle": {
+    "en": "These 12 Vegetables if Eaten Raw Could Kill You",
+    "es": "12 verduras que podrían matarte si las comes crudas",
+    "fr": "Ces 12 Légumes sont Extrêmement Toxiques Mangés Crus",
+    "hi": "अगर इन्हें कच्चा खाया तो ये 12 सब्ज़ियां जानलेवा साबित हो सकती हैं",
+    "it": "Queste 12 verdure potrebbero ucciderti se mangiate crude",
+    "pt": "Estes 12 Legumes Podem te Matar se Comidos Crus",
+    "tl": "Maaari Kang Mamatay Kapag Nakain mo Nang Hilaw ang 12 Gulay na Ito"
+    },
+    "summary": {
+    "en": "If you've ever considered taking a bite of a raw potato or wanted to pick elderberries straight off the vine, you should maybe think again. These 12 vegetables, if eaten raw, could do serious damage to your health.",
+    "es": "Antes de morder una papa cruda o comer saucos directamente de la vid, piénsalo dos veces. Las siguientes verduras podrían hacerle un daño grave a tu cuerpo si no las cocinas antes de comer.",
+    "fr": "Si tu as déjà eu l'idée de manger une pomme de terre crue ou cueillir des baies de sureau yèble directement de la vigne, tu devrais y penser à deux fois. Ces 12 légumes, s'ils sont consommés crus, peuvent nuire gravement à ta santé.",
+    "hi": "अगर आप कच्चा आलू या बेल से तोड़ी हुई कच्ची एल्डरबेरी खाना चाहते हैं, तो एक बार फ़िर से सोच लीजिये। ये 12 ऐसी सब्ज़ियाँ हैं, जिन्हें अगर कच्चा खाया जाये तो हमारी सेहत को भयानक नुकसान पहुंचा सकती हैं।",
+    "it": "Se hai mai pensato di dare un morso a una patata cruda o di raccogliere le bacche di sambuco direttamente dalla pianta, forse dovresti ripensarci. Queste 12 verdure, se mangiate crude, potrebbero provocare seri danni alla tua salute.",
+    "pt": "Se você já considerou dar uma mordida numa batata crua ou quis pegar sabugueiros diretamente da árvore, é melhor pensar duas vezes. Estes 12 legumes, se comidos crus, podem causar sérios problemas à sua saude.",
+    "tl": "Kung naiisip mo nang tumikim ng isang kagat ng hilaw na patatas o gusto mong mamitas ng elderberries mula mismo sa baging nito, baka dapat kang mag-isip munang muli. Ang 12 gulay na ito, kapag nakain ng hilaw, ay maaaring magdulot ng matinding epekto sa iyong kalusugan."
+    },
+    "link": "https://fotoscapes.com/lookbook/BBfgVOWIA/these-12-vegetables-could-kill-you-if-eaten-raw",
+    "uid": "BBfgVOWIA",
+    "lbtype": "standard",
+    "interests": [
+    "3xfzul",
+    "q6fqjSw"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fJ/Wy/XC/L/YofJWyXCL-26fNy4mNUy.webp",
+    "width": 1280,
+    "height": 853
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fJ/Wy/XC/L/YofJWyXCL-97f3ekPLFL.webp",
+    "width": 1024,
+    "height": 683
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fJ/Wy/XC/L/YofJWyXCL-3xfk0meZhp.webp",
+    "width": 850,
+    "height": 567
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fJ/Wy/XC/L/YofJWyXCL-BBfdl3YDUD.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fJ/Wy/XC/L/YofJWyXCL-01fzRWLjcA.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fJ/Wy/XC/L/YofJWyXCL-7mf17prYSx.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/Yo/fJ/Wy/XC/L/YofJWyXCL-NZfva4nlTz.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5001,
+    "startY": 0.5561,
+    "startB": 0.4444,
+    "endX": 0.5997,
+    "endY": 0.6082,
+    "endB": 0.2896
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 12,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2021-02-08T16:02:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "Kat Von D's $15 Million House Hits the Market",
+    "es": "La casa de Kat Von D de 15 millones de dólares llega al mercado",
+    "pt": "A casa de US$ 15 milhões de Kat Von D chega ao mercado"
+    },
+    "shortTitle": {
+    "en": "Kat Von D's Mansion",
+    "es": "La mansión de Kat Von D",
+    "pt": "Mansão de Kat Von D"
+    },
+    "summary": {
+    "en": "Tattoo artist Kat Von D put her Los Angeles house on the market in January 2022 for a cool $15 million. Keep scrolling to check out this unique gothic-style mansion and learn more about the history of the home.",
+    "es": "La tatuadora Kat Von D puso a la venta su casa de Los Ángeles en enero de 2022 por la friolera de 15 millones de dólares. Sigue desplazándote para ver esta mansión única de estilo gótico y aprende más sobre la historia de la casa.",
+    "pt": "A tatuadora Kat Von D colocou sua casa em Los Angeles à venda em janeiro de 2022 por incríveis US$ 15 milhões. Continue navegando para conferir esta mansão única em estilo gótico e aprender mais sobre a história da casa."
+    },
+    "link": "https://fotoscapes.com/lookbook/Evf2ApwsD/kat-von-ds-15-million-house-hits-the-market",
+    "uid": "Evf2ApwsD",
+    "lbtype": "standard",
+    "interests": [
+    "26fgYum",
+    "LRfPcJ"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fk/9W/9T/B/97fk9W9TB-NZfva31Otz.webp",
+    "width": 850,
+    "height": 532
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fk/9W/9T/B/97fk9W9TB-VPfbByZbIy.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fk/9W/9T/B/97fk9W9TB-bYfbgEoafQ.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fk/9W/9T/B/97fk9W9TB-QafB3REDfN.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/97/fk/9W/9T/B/97fk9W9TB-oNfwx9pacA.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.2826,
+    "startY": 0.2003,
+    "startB": 0.2513,
+    "endX": 0.5001,
+    "endY": 0.4877,
+    "endB": 0.4444
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 10,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2022-02-22T03:52:00Z",
+    "scheduledOn": "2024-08-04T00:51:23Z"
+    },
+    {
+    "title": {
+    "en": "Weekly Celebrity Birthday Roundup | 8/5 - 8/11",
+    "es": "Resumen semanal de cumpleaños de celebridades | 5/8 - 11/8"
+    },
+    "shortTitle": {
+    "en": "Celebrity Birthday Roundup",
+    "es": "Resumen De Cumpleaños De Celebridades"
+    },
+    "summary": {
+    "en": "Continue on for photos of your favorite celebrities that celebrate their birthdays between August 5 - August 11.",
+    "es": "Continúe para ver fotos de sus celebridades favoritas que celebran sus cumpleaños entre el 5 y el 11 de agosto."
+    },
+    "link": "https://fotoscapes.com/lookbook/XofZEm4Yta/weekly-celebrity-birthday-roundup-8-5-8-11",
+    "uid": "XofZEm4Yta",
+    "lbtype": "standard",
+    "interests": [
+    "LRfPcJ",
+    "3xfzul"
+    ],
+    "images": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-zpfZemvbCE.webp",
+    "width": 2200,
+    "height": 1368
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-r6fPR4eJIV.webp",
+    "width": 1500,
+    "height": 933
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-oNfZ3ApJiA.webp",
+    "width": 1280,
+    "height": 796
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-XofN3VwgUm.webp",
+    "width": 1024,
+    "height": 637
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-PYfnqWpwh7.webp",
+    "width": 850,
+    "height": 528
+    }
+    ],
+    "previews": [
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-ngfDW0o1Iz.webp",
+    "width": 675,
+    "height": 300,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-YofWb7yGUo.webp",
+    "width": 450,
+    "height": 200,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-J1fBdpVLhn.webp",
+    "width": 360,
+    "height": 160,
+    "aspect": "9:4"
+    },
+    {
+    "link": "https://media.fotoscapes.com/imgs/yB/fV/oA/a4/fV/yBfVoAa4fV-m7fq1Jo4iR.webp",
+    "width": 270,
+    "height": 120,
+    "aspect": "9:4"
+    }
+    ],
+    "kb": {
+    "startX": 0.5008,
+    "startY": 0.3668,
+    "startB": 0.4438,
+    "endX": 0.4492,
+    "endY": 0.2563,
+    "endB": 0.3188
+    },
+    "owner": "FotoSCAPE",
+    "brandLogo": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-Onfy9vXyHJ.png",
+    "brandLogoDark": "https://media.fotoscapes.com/imgs/lA/fk/Wf/9/lAfkWf9-BBfgZNkmfD.png",
+    "numImages": 11,
+    "boost": 0,
+    "promote": false,
+    "publishOn": "2020-05-08T13:32:00Z",
+    "scheduledOn": "2024-08-01T20:46:03Z"
+    }
+    ],
+    "gen": "2024-08-06T00:05:18Z",
+    "ttl": "2024-08-06T00:50:18Z"
+    }
