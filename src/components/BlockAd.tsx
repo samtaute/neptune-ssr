@@ -12,7 +12,7 @@ function BlockAd() {
         enableServices(); 
         defineSlots();
         renderAd();
-      } else if (retries < 10) {
+      } else if (retries < 100) {
         retries += 1;
         timeoutId = setTimeout(checkLoaded, 50);
       } else {
