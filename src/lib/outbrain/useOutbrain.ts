@@ -14,7 +14,7 @@ export function useOutbrain(permalink: string, widgetId: string){
       const requestData = {permalink, widgetId, installationKey: DUMMY_KEY}
       fetchOutbrainItems(ob, requestData);
     };
-    checkScriptLoaded("OBR", callback, 5, 25); //executes callback if outbrain script has loaded. If not, retries up to 10 times at 25ms intervals
+    checkScriptLoaded("OBR", callback, 5, 1000); //executes callback if outbrain script has loaded. If not, retries up to 10 times at 25ms intervals
   }, [permalink, widgetId]);
 
   return sponsoredItems
