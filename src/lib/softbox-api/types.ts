@@ -61,3 +61,5 @@ export type ContentScheduleEntity = ContentEntity[]
 export type ContentStoreEntity = {
     [key:string]: ContentScheduleEntity
 }
+
+export type ScheduleId = "news" | "standard" | "entertainment"

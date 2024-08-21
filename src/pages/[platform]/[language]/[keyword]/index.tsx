@@ -1,15 +1,13 @@
 import { useEffect, PropsWithChildren } from "react";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
-import { fetchSoftboxContent } from "@/lib/softbox-api/fetchSoftboxContent";
+import { createContentStore} from "@/lib/softbox-api/fetchSoftboxContent";
 import {
-  ContentScheduleEntity,
   ContentStoreEntity,
+  ScheduleId,
 } from "@/lib/softbox-api/types";
 import TemplateDailyBrief from "@/components/TemplateDailyBrief";
-import { injectScript } from "@/lib/util/utils";
 import Script from "next/script";
 
-const DUMMY_WIDGET = "JS_6";
 
 function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
   useEffect(() => {
@@ -35,17 +33,29 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
 
   }, []);
 
+
+  const {templateId, content, pubwiseScript} = props; 
+
+  const template = getTemplate(templateId, content); 
+
   return (
     <>
       <FeedContainer>
-        <TemplateDailyBrief content={props.content}></TemplateDailyBrief>
+       {template}
       </FeedContainer>
-      <Script src={props.pubwiseScript} />
+      <Script src={pubwiseScript}/>
     </>
   );
 }
 
 export default FeedPage;
+
+function getTemplate(id: string, content: ContentStoreEntity){
+  if(id === 'daily-brief'){
+    return <TemplateDailyBrief content={content}></TemplateDailyBrief>
+  }
+
+}
 
 function FeedContainer({ children }: PropsWithChildren) {
   return (
@@ -65,24 +75,19 @@ export const getStaticProps = (async (context) => {
   const { params } = context;
   const { platform, language, keyword } = params as UrlParams;
 
-  const cats = getCategories(keyword);
-  const data: ContentStoreEntity = {};
-
-  for (const cat of cats) {
-    const content = await fetchSoftboxContent(cat, language);
-    if (content) {
-      data[cat] = content as ContentScheduleEntity;
-    }
-  }
+  const categories = getCategories(keyword);
+  const content = await createContentStore(categories, language); 
+  const templateId = getTemplateId(platform, keyword); 
 
   return {
     props: {
-      content: data,
+      content,
+      templateId,
       pubwiseScript:
         "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pws.js?type=ckscoop-english",
     },
   };
-}) satisfies GetStaticProps<{ content: ContentStoreEntity }>;
+}) satisfies GetStaticProps<{ content: ContentStoreEntity, templateId: string, pubwiseScript: string}>;
 
 export const getStaticPaths = async () => {
   return {
@@ -95,5 +100,9 @@ export const getStaticPaths = async () => {
 
 function getCategories(keyword: string) {
   console.log(keyword);
-  return ["news", "entertainment", "standard"];
+  return ["news", "entertainment", "standard"] as ScheduleId[];
+}
+
+function getTemplateId(platform: string, keyword: string){
+  return "daily-brief"
 }
