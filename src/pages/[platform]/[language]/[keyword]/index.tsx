@@ -1,6 +1,6 @@
 import { useEffect, PropsWithChildren } from "react";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
-import { createContentStore} from "@/lib/softbox-api/fetchSoftboxContent";
+import { createContentStore} from "@/lib/softbox-api/actions";
 import {
   ContentStoreEntity,
   ScheduleId,
