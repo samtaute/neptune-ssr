@@ -15,7 +15,7 @@ export function injectScript(src: string, attributes?: any){
   }
 
 
-  export function checkScriptLoaded(identifier: string, callback: any, retryInterval = 50, maxRetries = 10){
+  export function checkScriptLoaded(identifier: string, callback: any, retryInterval = 50, maxRetries = 100){
      let retries = 0; 
      let timeoutId: NodeJS.Timeout; 
 

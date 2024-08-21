@@ -1,18 +1,36 @@
-import entertainmentData from '../../../data/softbox-api/entertainment.json';
-import newsData from '../../../data/softbox-api/news.json';
-import standardData from '../../../data/softbox-api/standard.json'; 
-import { LookbookItem } from "./types";
+import { ContentStoreEntity,ContentScheduleEntity, LookbookItem, ScheduleId } from "./types";
+
+ export async function createContentStore(categories: ScheduleId[], language: string){
+    const data = {} as ContentStoreEntity
+    for (const cat of categories) {
+        const content = await fetchSoftboxContent(cat, language);
+        if (content) {
+          data[cat] = content as ContentScheduleEntity;
+        }
+      }
+    if(Object.keys(data).length === 0){
+        //todo: more robust error handling here
+        console.error('No content returned in store')
+    }  
+    return data;   
+ }
 
 
-
+//Fetches content from daily endpont. 
 export async function fetchSoftboxContent(category: string, language: string){
-    // todo implement logic
-        if(category === 'news'){
-            return extractItems(newsData.items as LookbookItem[], language);
-        }else if (category === 'entertainment'){
-            return extractItems(entertainmentData.items as LookbookItem[], language); 
-        }else return extractItems(standardData.items as LookbookItem[], language); 
-    
+        const requestUrl = `${process.env.softboxBaseUrl}/daily?sched=${category}&ckey=${process.env.softboxKey}&mp_lang=${language}`; 
+
+        try{
+            const response = await fetch(requestUrl);
+
+            if(!response.ok){
+                throw new Error(`Http error. Status: ${response.status}`);
+            }
+            const data = await response.json(); 
+            return extractItems(data.items, language); 
+        }catch(error){
+            console.error(`Could not fetch ${requestUrl}`, error)
+        }    
     }
     
     //Returns clean data from a raw softbox feed.
