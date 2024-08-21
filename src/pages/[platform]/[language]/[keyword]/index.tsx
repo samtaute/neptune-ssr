@@ -10,29 +10,6 @@ import Script from "next/script";
 
 
 function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  useEffect(() => {
-    var w = window as any;
-    w.mp_globals = {};
-    w.mp_globals.pubwise_integration = {};
-
-    var gptadslots = w.gptadslots || [];
-    var googletag = w.googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    w.pbjs = w.pbjs || {};
-    w.pbjs.que = w.pbjs.que || [];
-    w.pubwise = w.pubwise || {};
-
-    w.pubwise.cmd = w.pubwise.cmd || [];
-    w.pubwise.que = w.pubwise.que || [];
-    w.pubwise.observers = w.pubwise.observers || [];
-    w.pubwise.adconfig = w.pubwise.adconfig || [];
-    w.pubwise.enabled = true;
-    w.pubwise.extra_bidder_params = w.pubwise.extra_bidder_params || {};
-    w.pubwise.extra_bidder_params.bids =
-      w.pubwise.extra_bidder_params.bids || [];
-
-  }, []);
-
 
   const {templateId, content, pubwiseScript} = props; 
 
@@ -105,4 +82,9 @@ function getCategories(keyword: string) {
 
 function getTemplateId(platform: string, keyword: string){
   return "daily-brief"
+}
+
+function getPathsForPlatform(){
+
+
 }
