@@ -5,9 +5,7 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Script
-        src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
-      />
+zz
       <Script
         src="https://widgets.outbrain.com/outbrain.js"
       />
