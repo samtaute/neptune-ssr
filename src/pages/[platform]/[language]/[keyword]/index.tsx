@@ -1,4 +1,4 @@
-import { useEffect, PropsWithChildren } from "react";
+import {PropsWithChildren } from "react";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 import { createContentStore} from "@/lib/softbox-api/actions";
 import {
@@ -7,12 +7,10 @@ import {
 } from "@/lib/softbox-api/types";
 import TemplateDailyBrief from "@/components/TemplateDailyBrief";
 import Script from "next/script";
-
+import { getPaths } from "@/lib/page-generation/page-generation";
 
 function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
-
   const {templateId, content, pubwiseScript} = props; 
-
   const template = getTemplate(templateId, content); 
 
   return (
@@ -27,13 +25,7 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
 
 export default FeedPage;
 
-function getTemplate(id: string, content: ContentStoreEntity){
-  if(id === 'daily-brief'){
-    return <TemplateDailyBrief content={content}></TemplateDailyBrief>
-  }
-
-}
-
+//Layout Block
 function FeedContainer({ children }: PropsWithChildren) {
   return (
     <div className="mx-auto max-w-[450px] px-[20px] min-h-40 flex flex-col">
@@ -53,38 +45,53 @@ export const getStaticProps = (async (context) => {
   const { platform, language, keyword } = params as UrlParams;
 
   const categories = getCategories(keyword);
+
+  //get props
   const content = await createContentStore(categories, language); 
   const templateId = getTemplateId(platform, keyword); 
+  const pubwiseScript = getPubwiseScript()
 
   return {
     props: {
       content,
       templateId,
-      pubwiseScript:
-        "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pws.js?type=ckscoop-english",
+      pubwiseScript
     },
   };
 }) satisfies GetStaticProps<{ content: ContentStoreEntity, templateId: string, pubwiseScript: string}>;
 
 export const getStaticPaths = async () => {
   return {
-    paths: [
-      { params: { platform: "cricket", language: "en", keyword: "1000" } },
-    ],
+    paths: await getPaths(), 
     fallback: "blocking", //page will not render until getStaticProps has completed.
   };
 };
+
+///Helper functions
+function getTemplateId(platform: string, keyword: string){
+  return "daily-brief"
+}
+
+
+function getTemplate(id: string, content: ContentStoreEntity){
+  if(id === 'daily-brief'){
+    return <TemplateDailyBrief content={content}></TemplateDailyBrief>
+  }
+}
 
 function getCategories(keyword: string) {
   console.log(keyword);
   return ["news", "entertainment", "standard"] as ScheduleId[];
 }
 
-function getTemplateId(platform: string, keyword: string){
-  return "daily-brief"
+
+function getPubwiseScript(){
+  //todo: implement logic
+
+  return "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pws.js?type=ckscoop-english"
+
 }
 
-function getPathsForPlatform(){
 
 
-}
+
