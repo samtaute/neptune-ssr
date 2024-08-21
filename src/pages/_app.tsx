@@ -32,6 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
     w.pubwise.extra_bidder_params.bids =
       w.pubwise.extra_bidder_params.bids || [];`}
       </Script>
+      <Script src="https://tagan.adlightning.com/mobileposse/op.j"></Script>
       <Component {...pageProps} />;
     </>
   );
