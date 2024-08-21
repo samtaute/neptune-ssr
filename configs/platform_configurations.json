@@ -1,0 +1,26 @@
+[
+  {
+    "name": "cricket",
+    "product": "daily-brief",
+    "languages": ["en", "es"],
+    "adTags": {
+      "en": {
+        "unitBasePath": "/180049092/ROS_CK_SCOOP_WVIEW_EN",
+        "pubwiseScript": "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pws.js?type=ckscoop-english"
+      }
+    },
+    "outbrainPlatformId": "CK/SCOOP"
+  },
+  {
+    "name": "boost",
+    "product": "daily-brief",
+    "languages": ["en", "es"],
+    "adTags": {
+      "en": {
+        "unitBasePath": "/180049092/ROS_BOOST_FASTNEWS_WVIEW_EN_",
+        "pubwiseScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pws.js?type=fastnews-english"
+      }
+    },
+    "outbrainPlatformId": "BOOST/FASTNEWS"
+  }
+]
