@@ -57,6 +57,7 @@ export const getStaticProps = (async (context) => {
       templateId,
       pubwiseScript
     },
+    revalidate: 1800
   };
 }) satisfies GetStaticProps<{ content: ContentStoreEntity, templateId: string, pubwiseScript: string}>;
 
@@ -81,7 +82,7 @@ function getTemplate(id: string, content: ContentStoreEntity){
 
 function getCategories(keyword: string) {
   console.log(keyword);
-  return ["news", "entertainment", "standard"] as ScheduleId[];
+  return ["news", "entertainment", "standard-hero"] as ScheduleId[];
 }
 
 
