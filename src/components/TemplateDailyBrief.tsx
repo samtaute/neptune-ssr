@@ -2,7 +2,7 @@ import { ContentEntity } from "../lib/softbox-api/types";
 import BlockEdge from "./BlockLayouts/BlockEdge";
 import BlockPhotocard from "./BlockLayouts/BlockPhotocard";
 import BlockAd from "./BlockAd";
-import Outbrain from "./Providers/Outbrain";
+import Outbrain from "./providers/Outbrain";
 import BlockList from "./BlockLayouts/BlockList";
 import { useEffect } from "react";
 
@@ -18,7 +18,7 @@ function TemplateDailyBrief({ content }: { content: TemplateProps }) {
   console.log(numCategories)
   return (
     <>
-      <BlockPhotocard items={content['standard-hero'].slice(0,1)} />
+      <BlockPhotocard items={content['standard-latest'].slice(0,1)} />
       <BlockAd/>
       <BlockList items={content['news'].slice(0,4)}/>
       <BlockEdge items ={content['entertainment'].slice(1,6)}/>

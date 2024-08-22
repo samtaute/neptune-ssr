@@ -82,7 +82,7 @@ function getTemplate(id: string, content: ContentStoreEntity){
 
 function getCategories(keyword: string) {
   console.log(keyword);
-  return ["news", "entertainment", "standard-hero"] as ScheduleId[];
+  return ["news", "entertainment", "standard-latest"] as ScheduleId[];
 }
 
 
