@@ -19,8 +19,8 @@ function TemplateDailyBrief({ content }: { content: TemplateProps }) {
     <>
       <BlockPhotocard items={content['standard-latest'].slice(0,1)} />
       <BlockAd/>
-      <BlockList items={content['news'].slice(0,4)}/>
-      <BlockEdge items ={content['entertainment'].slice(1,6)}/>
+      <BlockList items={content['entertainment'].slice(0,4)}/>
+      <BlockEdge items ={content['news'].slice(1,6)}/>
       <Outbrain widgetId={DUMMY_WIDGET} layout="edge"/>
     </>
   );
