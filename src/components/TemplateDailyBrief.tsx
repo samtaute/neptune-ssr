@@ -4,7 +4,6 @@ import BlockPhotocard from "./BlockLayouts/BlockPhotocard";
 import BlockAd from "./BlockAd";
 import Outbrain from "./providers/Outbrain";
 import BlockList from "./BlockLayouts/BlockList";
-import { useEffect } from "react";
 
 const DUMMY_WIDGET = "JS_6";
 
