@@ -1,4 +1,4 @@
-import { ContentStoreEntity,ContentScheduleEntity, LookbookItem, ScheduleId } from "./types";
+import { ContentStoreEntity,ContentScheduleEntity, LookbookItem, ScheduleId, Interests } from "./types";
 
  export async function createContentStore(categories: ScheduleId[], language: string){
     const data = {} as ContentStoreEntity
@@ -27,14 +27,17 @@ export async function fetchSoftboxContent(category: string, language: string){
                 throw new Error(`Http error. Status: ${response.status}`);
             }
             const data = await response.json(); 
-            return extractItems(data.items, language); 
+            const interests = data.interests
+            
+           
+            return extractItems(data.items.slice(0, 26), language, interests); 
         }catch(error){
             console.error(`Could not fetch ${requestUrl}`, error)
         }    
     }
     
     //Returns clean data from a raw softbox feed.
-    export function extractItems(rawItems: LookbookItem[], language: string){
+    export function extractItems(rawItems: LookbookItem[], language: string, interests:Interests){
         let shortenedLang: string = language.substring(0,2); 
     
         //checks if rawItems support language requested, and if not, switch to a supported language. 
@@ -49,7 +52,12 @@ export async function fetchSoftboxContent(category: string, language: string){
         return rawItems.map((item)=>{
             const wideImages = item.previews.filter(image=>image.aspect === "9:4"); 
             const squareImage = item.previews.filter(image=>image.aspect === "1:1");
-
+            
+            const getPrimaryInterest = ()=>{
+                const interestId = item.interests[0];
+                const interestName = interests[interestId]['name'][language]
+                return interestName
+            }
             return {
                 title: item['title'][shortenedLang],
                 description: item.summary?.[shortenedLang] ? item.summary?.[shortenedLang] : "",
@@ -60,6 +68,7 @@ export async function fetchSoftboxContent(category: string, language: string){
                 squareImage: squareImage[0]?.link, //todo get square image
                 link: item.link,
                 uid: item.uid,
+                primaryInterest: getPrimaryInterest()
             }
         })
     }
