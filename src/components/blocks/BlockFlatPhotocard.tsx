@@ -14,11 +14,11 @@ function BlockFlatPhotocard({ items }: BlockProps) {
                 <HeroImageFlat image={item.wideImage} />
                 <div className="flex px-4 flex-col gap-2 self-stretch">
                   <div>
-                    <span className="text-lg font-semibold leading-6">
+                    <span className="text-lg font-semibold font-sans leading-6">
                       {item.title}
                     </span>
                   </div>
-                  <div className="flex gap-4 items-start">
+                  <div className="flex gap-4 items-start font-sans">
                     <span className="text-xs font-medium text-[#747474] leading-4">Travel</span>
                   </div>
                 </div>
