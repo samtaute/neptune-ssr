@@ -43,16 +43,21 @@ export async function fetchSoftboxContent(category: string, language: string){
             shortenedLang = Object.keys(rawItems[0]['title'])[0];
             console.log('missing language')
         }
+
+
     
         return rawItems.map((item)=>{
+            const wideImages = item.previews.filter(image=>image.aspect === "9:4"); 
+            const squareImage = item.previews.filter(image=>image.aspect === "1:1");
+
             return {
                 title: item['title'][shortenedLang],
                 description: item.summary?.[shortenedLang] ? item.summary?.[shortenedLang] : "",
                 owner: item['owner'],
                 brandLogo: item.brandLogo,
                 brandLogoDark: item.brandLogoDark,
-                wideImage: item.previews[0]?.link, //todo why are some links not available?
-                squareImage: item.previews[0]?.link, //todo get square image
+                wideImage: wideImages[0]?.link, //todo why are some links not available?
+                squareImage: squareImage[0]?.link, //todo get square image
                 link: item.link,
                 uid: item.uid,
             }
