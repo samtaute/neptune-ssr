@@ -51,6 +51,7 @@ export interface ContentEntity
     brandLogo?: string,
     brandLogoDark?: string,
     wideImage: string,
+    squareImage: string,
     link: string,
     uid: string,
     onViewed?: string,

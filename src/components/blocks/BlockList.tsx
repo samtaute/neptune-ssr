@@ -1,6 +1,7 @@
 import { PropsWithChildren } from "react";
 import { BlockProps } from "../../types/propsTypes";
 import ViewabilityWrapper from "../common/ViewabilityWrapper";
+import { BlockPadding } from "../common/layouts";
 
 function BlockList({ items }: BlockProps) {
   return (
@@ -8,15 +9,15 @@ function BlockList({ items }: BlockProps) {
       {items.map((item) => {
         return (
           <ViewabilityWrapper key={item.uid} itemData={item}>
-            <a href={item.link} className="block">
+            <a href={item.link} className="block relative">
               <BlockPadding>
                 <ImageContainer
                   imageUrl={item.wideImage}
                   height={114}
                   width={112}
                 />
-                <div className="absolute text-sm w-[220px] left-[124px]">{item.title}</div>
-                <div className="absolute left-[124px] bottom-[28px] font-sans">
+                <div className="absolute text-sm w-[220px] left-[144px]">{item.title}</div>
+                <div className="absolute left-[144px] bottom-[28px] font-sans">
                   {item.brandLogoDark && <LogoContainer logoUrl={item.brandLogoDark} />}
                 </div>
               </BlockPadding>
@@ -30,9 +31,7 @@ function BlockList({ items }: BlockProps) {
 
 export default BlockList;
 
-function BlockPadding({ children }: PropsWithChildren) {
-  return <div className="pb-4 flex relative">{children}</div>;
-}
+
 
 function LogoContainer({ logoUrl }: { logoUrl: string }) {
   return (

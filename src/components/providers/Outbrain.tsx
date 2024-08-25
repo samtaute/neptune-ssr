@@ -1,6 +1,6 @@
 import { useOutbrain } from "../../lib/outbrain/useOutbrain";
-import BlockEdge from "../BlockLayouts/BlockEdge";
-import BlockPhotocard from "../BlockLayouts/BlockPhotocard";
+import BlockEdge from "../blocks/BlockEdge";
+import BlockPhotocard from "../blocks/BlockPhotocard";
 import { ContentEntity } from "../../lib/softbox-api/types";
 import { DTLayout } from "../../types/dtTypes";
 

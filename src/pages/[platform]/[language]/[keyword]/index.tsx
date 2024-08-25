@@ -5,7 +5,7 @@ import {
   ContentStoreEntity,
   ScheduleId,
 } from "@/lib/softbox-api/types";
-import TemplateDailyBrief from "@/components/TemplateDailyBrief";
+import TemplateDailyBrief from "@/components/templates/TemplateDailyBrief";
 import Script from "next/script";
 import { getPaths } from "@/lib/page-generation/page-generation";
 
@@ -28,7 +28,7 @@ export default FeedPage;
 //Layout Block
 function FeedContainer({ children }: PropsWithChildren) {
   return (
-    <div className="mx-auto max-w-[450px] px-[20px] min-h-40 flex flex-col">
+    <div className="mx-auto max-w-[450px] min-h-40 flex flex-col">
       {children}
     </div>
   );

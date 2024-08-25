@@ -18,7 +18,7 @@ import { ContentStoreEntity,ContentScheduleEntity, LookbookItem, ScheduleId } fr
 
 //Fetches content from daily endpont. 
 export async function fetchSoftboxContent(category: string, language: string){
-        const requestUrl = `${process.env.softboxBaseUrl}/daily?sched=${category}&ckey=${process.env.softboxKey}&mp_lang=${language}`; 
+        const requestUrl = `${process.env.softboxBaseUrl}/daily?sched=${category}&ckey=${process.env.softboxKey}&mp_lang=${language}&previewAspect=all`; 
 
         try{
             const response = await fetch(requestUrl);
@@ -52,6 +52,7 @@ export async function fetchSoftboxContent(category: string, language: string){
                 brandLogo: item.brandLogo,
                 brandLogoDark: item.brandLogoDark,
                 wideImage: item.previews[0]?.link, //todo why are some links not available?
+                squareImage: item.previews[0]?.link, //todo get square image
                 link: item.link,
                 uid: item.uid,
             }

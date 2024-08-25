@@ -37,7 +37,7 @@ function ViewabilityWrapper({
     }
   });
 
-  return <div ref={elementRef}>{children}</div>;
+  return <span ref={elementRef}>{children}</span>;
 }
 
 export default ViewabilityWrapper;
