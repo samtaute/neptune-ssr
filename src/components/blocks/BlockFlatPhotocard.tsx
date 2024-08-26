@@ -13,7 +13,7 @@ function BlockFlatPhotocard({ items }: BlockProps) {
         return (
           <ViewabilityWrapper key={item.uid} itemData={item}>
               <div className="flex pb-3 flex-col items-center gap-3 rounded-lg shadow-lg bg-white w-full">
-                <RoundedImage image={item.squareImage} className="h-[340px]">
+                <RoundedImage image={item.squareImage} className="h-[340px]" priority={true}>
                   {item.brandLogo && (
                     <Logo
                       src={item.brandLogo}

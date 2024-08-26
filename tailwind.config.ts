@@ -15,9 +15,14 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-ibm)']
+      },
+      colors: {
+        'custom-gray':'#747474'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };
 export default config;

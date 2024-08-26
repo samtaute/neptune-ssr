@@ -5,8 +5,9 @@ import { RoundedImage } from "../elements/RoundedImage";
 import Title from "../elements/Title";
 import BlockContentContainer from "../elements/BlockContentContainer";
 import Footer from "../elements/Footer";
+import { Description } from "../elements/Description";
 
-function BlockEdge({ items }: BlockProps) {
+function BlockEdge({ items, showDescription }: BlockProps) {
   return (
     <BlockContainer>
       {items.map((item) => { 
@@ -19,6 +20,7 @@ function BlockEdge({ items }: BlockProps) {
             <BlockContentContainer>
               <Footer logo={item.brandLogoDark}/>
               <Title title={item.title} />
+              {showDescription && item.description && <Description text={item.description}/>}
             </BlockContentContainer>
           </ItemWrapper>
         );
