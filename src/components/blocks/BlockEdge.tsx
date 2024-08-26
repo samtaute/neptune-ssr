@@ -9,7 +9,7 @@ import Footer from "../elements/Footer";
 function BlockEdge({ items }: BlockProps) {
   return (
     <BlockContainer>
-      {items.map((item) => {
+      {items.map((item) => { 
         return (
           <ItemWrapper key={item.uid} item={item}>
             <RoundedImage

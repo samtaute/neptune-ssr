@@ -20,10 +20,12 @@ function TemplateDailyBrief({ content }: { content: TemplateProps }) {
   console.log(numCategories);
   return (
     <>
+      <BlockHeader text="Trending Stories" />
       <BlockFlatPhotocard items={content["standard"].slice(0, 1)} />
+      <BlockAd />
       <BlockEdge items={content["standard"].slice(1, 2)} />
 
-      {/* <BlockAd />
+      {/*
       <BlockTopStory items={content['news'].slice(6, 12)}/>
       <BlockHeader text="Trending Stories" />
       <BlockList items={content["entertainment"].slice(0, 4)} />
