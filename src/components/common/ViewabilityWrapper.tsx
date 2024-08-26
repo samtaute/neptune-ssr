@@ -1,6 +1,7 @@
 import { PropsWithChildren, useRef, useEffect } from "react";
 import { ContentEntity } from "../../lib/softbox-api/types";
 
+
 function ViewabilityWrapper({
   itemData,
   children,
@@ -37,7 +38,7 @@ function ViewabilityWrapper({
     }
   });
 
-  return <span ref={elementRef}>{children}</span>;
+  return <span ref={elementRef} className="w-full">{children}</span>;
 }
 
 export default ViewabilityWrapper;

@@ -1,8 +1,8 @@
 import ViewabilityWrapper from "../common/ViewabilityWrapper";
 import { BlockProps } from "../../types/propsTypes";
-import { BlockPadding, HeroImage } from "../common/layouts";
 import BlockHeader from "./BlockHeader";
 import { PhotocardLogo } from "./BlockPhotocard";
+import { RoundedImage } from "../elements/RoundedImage";
 
 function BlockTopStory({ items }: BlockProps) {
   return (
@@ -17,9 +17,8 @@ function BlockTopStory({ items }: BlockProps) {
                   sub="Your Daily Briefing"
                 />
                 <div className="px-5 w-full">
-                  <HeroImage image={item.wideImage} />
+                  <RoundedImage image={item.wideImage} />
                 </div>
-
                 <div className="flex flex-col items-start gap-2 pt-2 px-5 pb-1">
                   {item.brandLogoDark && (
                     <PhotocardLogo logo={item.brandLogoDark} />

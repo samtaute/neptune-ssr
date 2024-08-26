@@ -1,25 +1,26 @@
 import { PropsWithChildren } from "react";
 import { BlockProps } from "../../types/propsTypes";
 import ViewabilityWrapper from "../common/ViewabilityWrapper";
-import { BlockPadding } from "../common/layouts";
+
+import BlockContainer from "../elements/BlockContainer";
+import ItemWrapper from "../elements/ItemWrapper";
 
 function BlockPhotocard({ items }: BlockProps) {
   return (
-    <>
+    <BlockContainer>
       {items.map((item) => {
         return (
-          <ViewabilityWrapper key={item.uid} itemData={item}>
-            <BlockPadding>
+          <ItemWrapper key={item.uid} item={item}>
               <PhotocardContainer link={item.link} image={item.wideImage}>
                 {item.brandLogo && <PhotocardLogo logo={item.brandLogo} />}
                 <PhotocardTitle title={item.title}></PhotocardTitle>
                 <PhotocardFooter />
               </PhotocardContainer>
-            </BlockPadding>
-          </ViewabilityWrapper>
+  
+          </ItemWrapper>
         );
       })}
-    </>
+    </BlockContainer>
   );
 }
 

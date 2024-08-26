@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Script>
       <Script src="https://tagan.adlightning.com/mobileposse/op.j"></Script>
       <main className={`${ibmPlexSans.variable}`}>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </main>
     </>
   );

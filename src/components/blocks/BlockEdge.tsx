@@ -1,28 +1,30 @@
-import { PropsWithChildren } from "react";
 import { BlockProps } from "../../types/propsTypes";
-import { PhotocardLogo } from "./BlockPhotocard";
-import ViewabilityWrapper from "../common/ViewabilityWrapper";
-import { BlockPadding, HeroImage } from "../common/layouts";
+import ItemWrapper from "../elements/ItemWrapper";
+import BlockContainer from "../elements/BlockContainer";
+import { RoundedImage } from "../elements/RoundedImage";
+import Title from "../elements/Title";
+import BlockContentContainer from "../elements/BlockContentContainer";
+import Footer from "../elements/Footer";
 
+//start here: substitute rounded image for hero. use image component and optimize for lcp
 function BlockEdge({ items }: BlockProps) {
   return (
-    <>
+    <BlockContainer>
       {items.map((item) => {
         return (
-          <ViewabilityWrapper key={item.uid} itemData={item}>
-            <BlockPadding>
-              <a href={item.link} className="block">
-                <HeroImage image={item.wideImage}></HeroImage>
-                {item.brandLogoDark && (
-                  <PhotocardLogo logo={item.brandLogoDark} />
-                )}
-                <EdgeTitle title={item.title} />
-              </a>
-            </BlockPadding>
-          </ViewabilityWrapper>
+          <ItemWrapper key={item.uid} item={item}>
+            <RoundedImage
+              image={item.wideImage}
+              className="h-[252px]"
+            ></RoundedImage>
+            <BlockContentContainer>
+              <Footer logo={item.brandLogoDark}/>
+              <Title title={item.title} />
+            </BlockContentContainer>
+          </ItemWrapper>
         );
       })}
-    </>
+    </BlockContainer>
   );
 }
 
@@ -35,5 +37,3 @@ function EdgeTitle({ title }: { title: string }) {
     </h2>
   );
 }
-
-

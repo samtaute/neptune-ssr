@@ -28,7 +28,7 @@ export default FeedPage;
 //Layout Block
 function FeedContainer({ children }: PropsWithChildren) {
   return (
-    <div className="mx-auto max-w-[450px] min-h-40 flex flex-col">
+    <div className="mx-auto max-w-[450px] min-h-40 min-w-[250px] flex flex-col">
       {children}
     </div>
   );

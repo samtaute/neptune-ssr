@@ -1,26 +1,26 @@
 import { BlockProps } from "@/types/propsTypes";
-import { BlockPadding, HeroImage } from "../common/layouts";
 import ViewabilityWrapper from "../common/ViewabilityWrapper";
 import { PropsWithChildren } from "react";
 import Logo from "../elements/Logo";
 import Footer from "../elements/Footer";
+import BlockContainer from "../elements/BlockContainer";
+import { RoundedImage } from "../elements/RoundedImage";
 
 function BlockFlatPhotocard({ items }: BlockProps) {
   return (
-    <>
-      {items.map((item) => {
+    <BlockContainer>
+ {items.map((item) => {
         return (
           <ViewabilityWrapper key={item.uid} itemData={item}>
-            <BlockPadding>
               <div className="flex pb-3 flex-col items-center gap-3 rounded-lg shadow-lg bg-white w-full">
-                <HeroImageFlat image={item.squareImage}>
+                <RoundedImage image={item.squareImage} className="h-[340px]">
                   {item.brandLogo && (
                     <Logo
                       src={item.brandLogo}
                       className="absolute left-4 top-4"
                     />
                   )}
-                </HeroImageFlat>
+                </RoundedImage>
                 <div className="flex px-4 flex-col gap-2 self-stretch">
                   <div>
                     <span className="text-lg font-semibold font-sans leading-6">
@@ -30,30 +30,11 @@ function BlockFlatPhotocard({ items }: BlockProps) {
                   <Footer interest={item.primaryInterest}/>
                 </div>
               </div>
-            </BlockPadding>
           </ViewabilityWrapper>
         );
       })}
-    </>
+    </BlockContainer>
   );
 }
 
 export default BlockFlatPhotocard;
-
-export function HeroImageFlat({
-  children,
-  image,
-}: PropsWithChildren<{ image: string }>) {
-  const backgroundImage = {
-    backgroundImage: `url(${image})`,
-  };
-
-  return (
-    <div
-      style={backgroundImage}
-      className={"relative flex flex-col rounded-lg bg-cover h-[340px] w-full"}
-    >
-      {children}
-    </div>
-  );
-}

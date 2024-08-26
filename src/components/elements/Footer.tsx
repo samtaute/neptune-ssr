@@ -1,16 +1,22 @@
-function Footer({interest}: {interest?: string}) {
+import Logo from "./Logo";
+
+function Footer({interest, logo}: {interest?: string, logo?: string}) {
+  let content; 
+  if(interest){
+    content = interest; 
+  }else if(logo){
+    content = <Logo src={logo}/>
+  }else {content = 'Today'}
+
   return (
     <div className="flex items-center self-stretch">
-      <div className="font-sans flex text-xs font-medium text-[#747474] flex-grow flex-shrink-0 basis-0">{interest ? interest : 'Today'}</div>
+      <div className="font-sans flex text-xs font-medium text-[#747474] flex-grow flex-shrink-0 basis-0">{content}</div>
       <ThreeDot/>
     </div>
   );
 }
 export default Footer;
 
-<div className="flex gap-4 items-start font-sans">
-  <span className="text-xs font-medium text-[#747474] leading-4">Travel</span>
-</div>;
 
 function ThreeDot(){
     return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

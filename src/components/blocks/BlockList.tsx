@@ -1,16 +1,14 @@
 import { PropsWithChildren } from "react";
 import { BlockProps } from "../../types/propsTypes";
-import ViewabilityWrapper from "../common/ViewabilityWrapper";
-import { BlockPadding } from "../common/layouts";
+import ItemWrapper from "../elements/ItemWrapper";
+import BlockContainer from "../elements/BlockContainer";
 
 function BlockList({ items }: BlockProps) {
   return (
-    <>
-      {items.map((item) => {
+    <BlockContainer>
+  {items.map((item) => {
         return (
-          <ViewabilityWrapper key={item.uid} itemData={item}>
-            <a href={item.link} className="block relative">
-              <BlockPadding>
+          <ItemWrapper key={item.uid} item={item}>
                 <ImageContainer
                   imageUrl={item.wideImage}
                   height={114}
@@ -20,12 +18,10 @@ function BlockList({ items }: BlockProps) {
                 <div className="absolute left-[144px] bottom-[28px] font-sans">
                   {item.brandLogoDark && <LogoContainer logoUrl={item.brandLogoDark} />}
                 </div>
-              </BlockPadding>
-            </a>
-          </ViewabilityWrapper>
+            </ItemWrapper>
         );
       })}
-    </>
+    </BlockContainer>
   );
 }
 
