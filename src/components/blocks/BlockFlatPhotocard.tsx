@@ -1,17 +1,16 @@
 import { BlockProps } from "@/types/propsTypes";
-import ViewabilityWrapper from "../common/ViewabilityWrapper";
-import { PropsWithChildren } from "react";
-import Logo from "../elements/Logo";
-import Footer from "../elements/Footer";
-import BlockContainer from "../elements/BlockContainer";
-import { RoundedImage } from "../elements/RoundedImage";
+import Logo from "../block-elements/Logo";
+import ItemFooter from "../block-elements/ItemFooter";
+import Container from "../block-elements/Container";
+import { RoundedImage } from "../block-elements/RoundedImage";
+import ItemWrapper from "../block-elements/ItemWrapper";
 
 function BlockFlatPhotocard({ items }: BlockProps) {
   return (
-    <BlockContainer>
+    <Container>
  {items.map((item) => {
         return (
-          <ViewabilityWrapper key={item.uid} itemData={item}>
+          <ItemWrapper key={item.uid} item={item}>
               <div className="flex pb-3 flex-col items-center gap-3 rounded-lg shadow-lg bg-white w-full">
                 <RoundedImage image={item.squareImage} className="h-[340px]" priority={true}>
                   {item.brandLogo && (
@@ -27,13 +26,13 @@ function BlockFlatPhotocard({ items }: BlockProps) {
                       {item.title}
                     </span>
                   </div>
-                  <Footer interest={item.primaryInterest}/>
+                  <ItemFooter interest={item.primaryInterest}/>
                 </div>
               </div>
-          </ViewabilityWrapper>
+          </ItemWrapper>
         );
       })}
-    </BlockContainer>
+    </Container>
   );
 }
 

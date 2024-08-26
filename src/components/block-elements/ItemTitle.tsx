@@ -1,4 +1,4 @@
-function Title({ title }: { title: string }) {
+function ItemTitle({ title }: { title: string }) {
   return (
     <div className="self-stretch font-sans font-semibold text-[18px] leading-[24px]">
       {title}
@@ -6,4 +6,4 @@ function Title({ title }: { title: string }) {
   );
 }
 
-export default Title;
+export default ItemTitle;

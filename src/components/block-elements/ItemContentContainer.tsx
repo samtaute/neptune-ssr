@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
-function BlockContentContainer({ children }: PropsWithChildren) {
+function ItemContentContainer({ children }: PropsWithChildren) {
   return (
     <div className="flex flex-col gap-2 self-stretch items-start pt-2 pb-5">
       {children}
@@ -8,4 +8,4 @@ function BlockContentContainer({ children }: PropsWithChildren) {
   );
 }
 
-export default BlockContentContainer;
+export default ItemContentContainer;

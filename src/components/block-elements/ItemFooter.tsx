@@ -1,6 +1,6 @@
 import Logo from "./Logo";
 
-function Footer({interest, logo}: {interest?: string, logo?: string}) {
+function ItemFooter({interest, logo}: {interest?: string, logo?: string}) {
   let content; 
   if(interest){
     content = interest; 
@@ -15,7 +15,7 @@ function Footer({interest, logo}: {interest?: string, logo?: string}) {
     </div>
   );
 }
-export default Footer;
+export default ItemFooter;
 
 
 function ThreeDot(){

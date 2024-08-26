@@ -1,11 +1,11 @@
 import { BlockProps } from "../../types/propsTypes";
-import ItemWrapper from "../elements/ItemWrapper";
-import BlockContainer from "../elements/BlockContainer";
-import { RoundedImage } from "../elements/RoundedImage";
-import Title from "../elements/Title";
-import BlockContentContainer from "../elements/BlockContentContainer";
-import Footer from "../elements/Footer";
-import { Description } from "../elements/Description";
+import ItemWrapper from "../block-elements/ItemWrapper";
+import BlockContainer from "../block-elements/Container";
+import { RoundedImage } from "../block-elements/RoundedImage";
+import ItemTitle from "../block-elements/ItemTitle";
+import ItemContentContainer from "../block-elements/ItemContentContainer";
+import ItemFooter from "../block-elements/ItemFooter";
+import ItemDescription from "../block-elements/ItemDescription";
 
 function BlockEdge({ items, showDescription }: BlockProps) {
   return (
@@ -17,11 +17,11 @@ function BlockEdge({ items, showDescription }: BlockProps) {
               image={item.wideImage}
               className="h-[252px]"
             ></RoundedImage>
-            <BlockContentContainer>
-              <Footer logo={item.brandLogoDark}/>
-              <Title title={item.title} />
-              {showDescription && item.description && <Description text={item.description}/>}
-            </BlockContentContainer>
+            <ItemContentContainer>
+              <ItemFooter logo={item.brandLogoDark}/>
+              <ItemTitle title={item.title} />
+              {showDescription && item.description && <ItemDescription text={item.description}/>}
+            </ItemContentContainer>
           </ItemWrapper>
         );
       })}

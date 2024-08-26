@@ -1,15 +1,15 @@
-import ViewabilityWrapper from "../common/ViewabilityWrapper";
 import { BlockProps } from "../../types/propsTypes";
 import BlockHeader from "./BlockHeader";
 import { PhotocardLogo } from "./BlockPhotocard";
-import { RoundedImage } from "../elements/RoundedImage";
+import { RoundedImage } from "../block-elements/RoundedImage";
+import ItemWrapper from "../block-elements/ItemWrapper";
 
 function BlockTopStory({ items }: BlockProps) {
   return (
     <>
       {items.map((item) => {
         return (
-          <ViewabilityWrapper key={item.uid} itemData={item}>
+          <ItemWrapper key={item.uid} item={item}>
             <a href={item.link}>
               <div className="gap-3 flex flex-col items-start pb-3">
                 <BlockHeader
@@ -32,7 +32,7 @@ function BlockTopStory({ items }: BlockProps) {
                 </div>
               </div>
             </a>
-          </ViewabilityWrapper>
+          </ItemWrapper>
         );
       })}
     </>

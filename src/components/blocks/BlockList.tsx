@@ -1,11 +1,11 @@
 import { PropsWithChildren } from "react";
 import { BlockProps } from "../../types/propsTypes";
-import ItemWrapper from "../elements/ItemWrapper";
-import BlockContainer from "../elements/BlockContainer";
+import ItemWrapper from "../block-elements/ItemWrapper";
+import Container from "../block-elements/Container";
 
 function BlockList({ items }: BlockProps) {
   return (
-    <BlockContainer>
+  <Container>
   {items.map((item) => {
         return (
           <ItemWrapper key={item.uid} item={item}>
@@ -21,7 +21,7 @@ function BlockList({ items }: BlockProps) {
             </ItemWrapper>
         );
       })}
-    </BlockContainer>
+    </Container>
   );
 }
 
