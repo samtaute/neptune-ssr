@@ -1,6 +1,13 @@
 import "@/styles/globals.css";
 import Script from "next/script";
 import type { AppProps } from "next/app";
+import { IBM_Plex_Sans } from "next/font/google";
+
+const ibmPlexSans = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-ibm",
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -29,7 +36,9 @@ export default function App({ Component, pageProps }: AppProps) {
       w.pubwise.extra_bidder_params.bids || [];`}
       </Script>
       <Script src="https://tagan.adlightning.com/mobileposse/op.j"></Script>
-      <Component {...pageProps} />;
+      <main className={`${ibmPlexSans.variable}`}>
+        <Component {...pageProps} />
+      </main>
     </>
   );
 }

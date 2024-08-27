@@ -33,6 +33,7 @@ export class OutbrainCallbackWrapper {
         title: item.content,
         owner: item.source_display_name,
         wideImage: item.thumbnail.url,
+        squareImage: item.thumbnail.url, // todo -- avoid duplicate assignment here 
         link: item.url,
         onViewed: item["on-viewed"][0],
         uid: item.url

@@ -1,36 +1,23 @@
-// export interface ContentEntity
-// {
-//     title: string,
-//     description?: string,
-//     owner: string,
-//     brandLogo: string,
-//     brandLogoDark: string,
-//     wideImage: string,
-//     link: string,
-// }
 import { PropsWithChildren } from "react";
 import { BlockProps } from "../../types/propsTypes";
-import ViewabilityWrapper from "../common/ViewabilityWrapper";
+import Container from "../block-elements/Container";
+import ItemWrapper from "../block-elements/ItemWrapper";
 
-function BlockPhotocard({ items }: BlockProps ) {
-
+function BlockPhotocard({ items }: BlockProps) {
   return (
-    <>
+    <Container>
       {items.map((item) => {
         return (
-          <ViewabilityWrapper key={item.uid} itemData={item}>
-            <PhotocardContainer
-              link={item.link}
-              image={item.wideImage}
-            >
-              {item.brandLogo && <PhotocardLogo logo={item.brandLogo} />}
-              <PhotocardTitle title={item.title}></PhotocardTitle>
-              <PhotocardFooter />
-            </PhotocardContainer>
-          </ViewabilityWrapper>
+          <ItemWrapper key={item.uid} item={item}>
+              <PhotocardContainer link={item.link} image={item.wideImage}>
+                {item.brandLogo && <PhotocardLogo logo={item.brandLogo} />}
+                <PhotocardTitle title={item.title}></PhotocardTitle>
+                <PhotocardFooter />
+              </PhotocardContainer>
+          </ItemWrapper>
         );
       })}
-    </>
+    </Container>
   );
 }
 
@@ -50,7 +37,7 @@ function PhotocardContainer({
       style={backgroundImage}
       href={link}
       className={
-        "relative flex flex-col rounded-lg bg-cover h-[254px] justify-end p-4 mb-4"
+        "relative flex flex-col rounded-lg bg-cover h-[254px] justify-end p-4 w-full"
       }
     >
       {children}

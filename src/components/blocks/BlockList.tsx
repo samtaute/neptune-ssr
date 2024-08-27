@@ -1,38 +1,33 @@
 import { PropsWithChildren } from "react";
 import { BlockProps } from "../../types/propsTypes";
-import ViewabilityWrapper from "../common/ViewabilityWrapper";
+import ItemWrapper from "../block-elements/ItemWrapper";
+import Container from "../block-elements/Container";
 
 function BlockList({ items }: BlockProps) {
   return (
-    <>
-      {items.map((item) => {
+  <Container>
+  {items.map((item) => {
         return (
-          <ViewabilityWrapper key={item.uid} itemData={item}>
-            <a href={item.link} className="block">
-              <BlockPadding>
+          <ItemWrapper key={item.uid} item={item}>
                 <ImageContainer
                   imageUrl={item.wideImage}
                   height={114}
                   width={112}
                 />
-                <div className="absolute text-sm w-[220px] left-[124px]">{item.title}</div>
-                <div className="absolute left-[124px] bottom-[28px] font-sans">
+                <div className="absolute text-sm w-[220px] left-[144px]">{item.title}</div>
+                <div className="absolute left-[144px] bottom-[28px] font-sans">
                   {item.brandLogoDark && <LogoContainer logoUrl={item.brandLogoDark} />}
                 </div>
-              </BlockPadding>
-            </a>
-          </ViewabilityWrapper>
+            </ItemWrapper>
         );
       })}
-    </>
+    </Container>
   );
 }
 
 export default BlockList;
 
-function BlockPadding({ children }: PropsWithChildren) {
-  return <div className="pb-4 flex relative">{children}</div>;
-}
+
 
 function LogoContainer({ logoUrl }: { logoUrl: string }) {
   return (
