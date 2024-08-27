@@ -2,6 +2,11 @@ import { PropsWithChildren } from "react";
 import { BlockProps } from "../../types/propsTypes";
 import Container from "../block-elements/Container";
 import ItemWrapper from "../block-elements/ItemWrapper";
+import { RoundedImage } from "../block-elements/RoundedImage";
+import ItemContentContainer from "../block-elements/ItemContentContainer";
+import Logo from "../block-elements/Logo";
+import ItemTitle from "../block-elements/ItemTitle";
+import ItemFooter from "../block-elements/ItemFooter";
 
 function BlockPhotocard({ items }: BlockProps) {
   return (
@@ -9,17 +14,29 @@ function BlockPhotocard({ items }: BlockProps) {
       {items.map((item) => {
         return (
           <ItemWrapper key={item.uid} item={item}>
-              <PhotocardContainer link={item.link} image={item.wideImage}>
-                {item.brandLogo && <PhotocardLogo logo={item.brandLogo} />}
-                <PhotocardTitle title={item.title}></PhotocardTitle>
-                <PhotocardFooter />
-              </PhotocardContainer>
+            <RoundedImage
+              image={item.wideImage}
+              gradient={true}
+              className="h-[254px]"
+            >
+              <div className="z-20">
+                <ItemContentContainer className="px-5">
+                  {item.brandLogo && <Logo src={item.brandLogo} />}
+                  {item.title && <ItemTitle title={item.title} color="light" />}
+                  <ItemFooter isLight/>
+                </ItemContentContainer>
+              </div>
+            </RoundedImage>
           </ItemWrapper>
         );
       })}
     </Container>
   );
 }
+
+// {item.brandLogo && <PhotocardLogo logo={item.brandLogo} />}
+// <PhotocardTitle title={item.title}></PhotocardTitle>
+// <PhotocardFooter />
 
 export default BlockPhotocard;
 

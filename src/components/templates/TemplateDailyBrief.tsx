@@ -21,7 +21,8 @@ function TemplateDailyBrief({ content }: { content: TemplateProps }) {
   return (
     <>
       <BlockHeader text="Trending Stories" />
-      <BlockFlatPhotocard items={content["standard"].slice(0, 1)} />
+      <BlockPhotocard items={content["standard"].slice(0, 1)}/>
+      <BlockFlatPhotocard items={content["standard"].slice(0, 1)} priority={true} />
       <BlockAd />
       <BlockEdge items={content["standard"].slice(1, 2)} showDescription={true}/>
       
