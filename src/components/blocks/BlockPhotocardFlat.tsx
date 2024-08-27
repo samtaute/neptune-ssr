@@ -5,7 +5,7 @@ import Container from "../block-elements/Container";
 import { RoundedImage } from "../block-elements/RoundedImage";
 import ItemWrapper from "../block-elements/ItemWrapper";
 
-function BlockFlatPhotocard({ items }: BlockProps) {
+function BlockPhotocardFlat({ items }: BlockProps) {
   return (
     <Container>
  {items.map((item) => {
@@ -36,4 +36,4 @@ function BlockFlatPhotocard({ items }: BlockProps) {
   );
 }
 
-export default BlockFlatPhotocard;
+export default BlockPhotocardFlat;

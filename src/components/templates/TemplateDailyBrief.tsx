@@ -6,7 +6,7 @@ import Outbrain from "../providers/Outbrain";
 import BlockList from "../blocks/BlockList";
 import BlockHeader from "../blocks/BlockHeader";
 import BlockTopStory from "../blocks/BlockTopStory";
-import BlockFlatPhotocard from "../blocks/BlockFlatPhotocard";
+import BlockFlatPhotocard from "../blocks/BlockPhotocardFlat";
 
 const DUMMY_WIDGET = "JS_6";
 

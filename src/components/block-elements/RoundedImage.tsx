@@ -7,9 +7,6 @@ export function RoundedImage({
   className,
   priority
 }: PropsWithChildren<{ image: string; className?: string, priority?: boolean }>) {
-  const backgroundImage = {
-    backgroundImage: `url(${image})`,
-  };
 
   return (
     <div
