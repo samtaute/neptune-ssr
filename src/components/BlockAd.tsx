@@ -5,11 +5,11 @@ function BlockAd() {
     const w = window as any;
     let retries = 0;
     let timeoutId: NodeJS.Timeout;
-    w.gptadslots = []; 
+    w.gptadslots = [];
     //check if google and pubwise scripts have been added, then define and render ad. Retry up to 10 times at 10ms intervals.
     const checkLoaded = () => {
       if (w.googletag && w.googletag.pubads && w.gptadslots) {
-        enableServices(); 
+        enableServices();
         defineSlots();
         renderAd();
       } else if (retries < 1000) {
@@ -20,16 +20,19 @@ function BlockAd() {
       }
     };
     checkLoaded();
-    return ()=>{
-      if(timeoutId){
-        clearTimeout(timeoutId)
+    return () => {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
       }
-    }
+    };
   }, []);
 
   return (
-    <div className="flex w-full justify-center m-2">
-      <div className="w-[300px] h-[250px]" id="div-1"></div>
+    <div className="flex w-full justify-center mb-5">
+      <div className="flex flex-col items-center">
+        <div className="text-xs text-[#666]">Advertisement</div>
+        <div className="w-[300px] h-[250px] bg-[#e9e9e9]" id="div-1"></div>
+      </div>
     </div>
   );
 }
@@ -37,7 +40,7 @@ function BlockAd() {
 export default BlockAd;
 
 function defineSlots() {
-  const w = window as any; 
+  const w = window as any;
   if (!w.gptadslots[`div-1`]) {
     w.googletag.cmd.push(function () {
       w.gptadslots["div-1"] = w.googletag
@@ -51,14 +54,14 @@ function defineSlots() {
 }
 
 function renderAd() {
-  const w = window as any; 
+  const w = window as any;
   w.pubwise.que.push(function () {
     w.pubwise.renderAd("div-1");
   });
 }
 
-function enableServices(){
-  const w = window as any; 
+function enableServices() {
+  const w = window as any;
   w.googletag.cmd.push(function () {
     const pubads = w.googletag.pubads(); //returns a reference to PubAdsService, which fetches and shows ads.
 
@@ -67,4 +70,3 @@ function enableServices(){
     w.googletag.enableServices(); //Enables all GPT services that have been defined for ad slots on the page.
   });
 }
-

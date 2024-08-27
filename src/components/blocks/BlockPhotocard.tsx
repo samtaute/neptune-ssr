@@ -14,7 +14,6 @@ function BlockPhotocard({ items }: BlockProps) {
                 <PhotocardTitle title={item.title}></PhotocardTitle>
                 <PhotocardFooter />
               </PhotocardContainer>
-  
           </ItemWrapper>
         );
       })}
