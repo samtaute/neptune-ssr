@@ -18,7 +18,7 @@ export function RoundedImage({
 
   return (
     <div
-      className={`relative flex flex-col rounded-lg justify-end w-full overflow-hidden ${className}`}
+      className={`relative flex flex-col rounded-lg justify-end overflow-hidden ${className}`}
     >
       {gradient && <div style={style} className="absolute z-10 h-full w-full"></div>}
       <Image
