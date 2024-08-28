@@ -18,7 +18,7 @@ export function ItemTitleSmall({ title, isLight, className}: { title: string, is
     textColor = 'text-white'
   }
   return (
-    <div className={`${className} self-stretch font-sans font-medium text-sm ${textColor}`}>
+    <div className={`${className} self-stretch font-sans font-medium text-sm line-clamp-2 ${textColor}`}>
       {title}
     </div>
   );
