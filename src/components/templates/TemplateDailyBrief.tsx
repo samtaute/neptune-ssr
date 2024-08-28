@@ -6,7 +6,7 @@ import Outbrain from "../providers/Outbrain";
 import BlockList from "../blocks/BlockList";
 import BlockHeader from "../blocks/BlockHeader";
 import BlockTopStory from "../blocks/BlockTopStory";
-import BlockFlatPhotocard from "../blocks/BlockFlatPhotocard";
+import BlockFlatPhotocard from "../blocks/BlockPhotocardFlat";
 
 const DUMMY_WIDGET = "JS_6";
 
@@ -20,12 +20,12 @@ function TemplateDailyBrief({ content }: { content: TemplateProps }) {
   console.log(numCategories);
   return (
     <>
-      <BlockHeader text="Trending Stories" />
-      <BlockFlatPhotocard items={content["standard"].slice(0, 1)} />
+      <BlockTopStory items={content['standard'].slice(0,1)}/>
+      <BlockList items={content["entertainment"].slice(1,2)}/>
       <BlockAd />
-      <BlockEdge items={content["standard"].slice(1, 2)} showDescription={true}/>
-      
-
+      <BlockFlatPhotocard items={content["standard"].slice(2, 3)} priority={true} />
+      <BlockPhotocard items={content["standard"].slice(3, 5)}/>
+      <BlockEdge items={content["standard"].slice(5, 7)} showDescription={true}/>
       {/*
     <BlockTopStory items={content['news'].slice(6, 12)}/>
       <BlockHeader text="Trending Stories" />

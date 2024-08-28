@@ -5,14 +5,14 @@ import Container from "../block-elements/Container";
 import { RoundedImage } from "../block-elements/RoundedImage";
 import ItemWrapper from "../block-elements/ItemWrapper";
 
-function BlockFlatPhotocard({ items }: BlockProps) {
+function BlockPhotocardFlat({ items, priority }: BlockProps) {
   return (
     <Container>
  {items.map((item) => {
         return (
           <ItemWrapper key={item.uid} item={item}>
               <div className="flex pb-3 flex-col items-center gap-3 rounded-lg shadow-lg bg-white w-full">
-                <RoundedImage image={item.squareImage} className="h-[340px]" priority={true}>
+                <RoundedImage image={item.squareImage} className="h-[340px]" priority={priority}>
                   {item.brandLogo && (
                     <Logo
                       src={item.brandLogo}
@@ -36,4 +36,4 @@ function BlockFlatPhotocard({ items }: BlockProps) {
   );
 }
 
-export default BlockFlatPhotocard;
+export default BlockPhotocardFlat;
