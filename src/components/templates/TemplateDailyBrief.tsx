@@ -7,6 +7,7 @@ import BlockList from "../blocks/BlockList";
 import BlockHeader from "../blocks/BlockHeader";
 import BlockTopStory from "../blocks/BlockTopStory";
 import BlockFlatPhotocard from "../blocks/BlockPhotocardFlat";
+import BlockGamePhotocard from "../blocks/BlockGamePhotocard";
 
 const DUMMY_WIDGET = "JS_6";
 
@@ -20,6 +21,7 @@ function TemplateDailyBrief({ content }: { content: TemplateProps }) {
   console.log(numCategories);
   return (
     <>
+      <BlockGamePhotocard items={content['html5games'].slice(1,4)}/>
       <BlockTopStory items={content['standard'].slice(0,1)} priority/>
       <BlockList items={content["entertainment"].slice(1,2)}/>
       <BlockAd />

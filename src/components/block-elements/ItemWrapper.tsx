@@ -2,9 +2,9 @@ import { PropsWithChildren, useRef, useEffect } from "react";
 import { ContentEntity } from "../../lib/softbox-api/types";
 
 
-function ItemWrapper({item, children}: PropsWithChildren<{item:ContentEntity}>){
+function ItemWrapper({item, children, sourceLink}: PropsWithChildren<{item:ContentEntity, sourceLink?:boolean}>){
     return (<ViewabilityWrapper itemData={item}>
-        <a href={item.link}>
+        <a href={sourceLink? item.sourceLink : item.link}>
             {children}
         </a>
     </ViewabilityWrapper>

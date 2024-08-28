@@ -52,6 +52,7 @@ export interface ContentEntity {
   wideImage: string;
   squareImage: string;
   link: string;
+  sourceLink?:string; 
   uid: string;
   onViewed?: string;
   primaryInterest?: string; 
