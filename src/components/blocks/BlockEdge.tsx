@@ -1,6 +1,6 @@
 import { BlockProps } from "../../types/propsTypes";
 import ItemWrapper from "../block-elements/ItemWrapper";
-import BlockContainer from "../block-elements/Container";
+import Container from "../block-elements/Container";
 import { RoundedImage } from "../block-elements/RoundedImage";
 import ItemTitle from "../block-elements/ItemTitle";
 import ItemContentContainer from "../block-elements/ItemContentContainer";
@@ -9,7 +9,7 @@ import ItemDescription from "../block-elements/ItemDescription";
 
 function BlockEdge({ items, showDescription }: BlockProps) {
   return (
-    <BlockContainer>
+    <Container>
       {items.map((item) => { 
         return (
           <ItemWrapper key={item.uid} item={item}>
@@ -25,7 +25,7 @@ function BlockEdge({ items, showDescription }: BlockProps) {
           </ItemWrapper>
         );
       })}
-    </BlockContainer>
+    </Container>
   );
 }
 

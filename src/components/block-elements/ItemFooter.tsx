@@ -1,6 +1,6 @@
 import Logo from "./Logo";
 
-function ItemFooter({interest, logo, isLight}: {interest?: string, logo?: string, isLight?:boolean}) {
+function ItemFooter({interest, logo, isLight, className}: {interest?: string, logo?: string, isLight?:boolean, className?: string}) {
   let content; 
   let textColor= 'text-[#747474]' 
 
@@ -15,9 +15,9 @@ function ItemFooter({interest, logo, isLight}: {interest?: string, logo?: string
     textColor='text-white'
   }
   return (
-    <div className="flex items-center self-stretch">
+    <div className={`flex items-center self-stretch ${className}`}>
       <div className={`font-sans flex text-xs font-medium ${textColor} flex-grow flex-shrink-0 basis-0`}>{content}</div>
-      <ThreeDot isLight/>
+      <ThreeDot isLight={isLight}/>
     </div>
   );
 }

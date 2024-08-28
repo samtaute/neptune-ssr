@@ -1,8 +1,13 @@
 import { BlockProps } from "../../types/propsTypes";
 import BlockHeader from "./BlockHeader";
-import { PhotocardLogo } from "./BlockPhotocard";
-import { RoundedImage } from "../block-elements/RoundedImage";
 import ItemWrapper from "../block-elements/ItemWrapper";
+import Divider from "../block-elements/Divider";
+import { RoundedImage } from "../block-elements/RoundedImage";
+import ItemContentContainer from "../block-elements/ItemContentContainer";
+import ItemFooter from "../block-elements/ItemFooter";
+import ItemTitle from "../block-elements/ItemTitle";
+import ItemDescription from "../block-elements/ItemDescription";
+import { PropsWithChildren } from "react";
 
 function BlockTopStory({ items }: BlockProps) {
   return (
@@ -10,28 +15,14 @@ function BlockTopStory({ items }: BlockProps) {
       {items.map((item) => {
         return (
           <ItemWrapper key={item.uid} item={item}>
-            <a href={item.link}>
-              <div className="gap-3 flex flex-col items-start pb-3">
-                <BlockHeader
-                  text={getFormattedDate()}
-                  sub="Your Daily Briefing"
-                />
-                <div className="px-5 w-full">
-                  <RoundedImage image={item.wideImage} />
-                </div>
-                <div className="flex flex-col items-start gap-2 pt-2 px-5 pb-1">
-                  {item.brandLogoDark && (
-                    <PhotocardLogo logo={item.brandLogoDark} />
-                  )}
-                  <div className="font-bold text-lg w-full">{item.title}</div>
-                  {item.description && (
-                    <div className="text-slate-800 text-sm text-ellipsis overflow-hidden  box-content">
-                      {item.description}
-                    </div>
-                  )}
-                </div>
-              </div>
-            </a>
+            <div className="gap-3 flex flex-col items-start pb-3">
+              <BlockHeader
+                text={getFormattedDate()}
+                sub="Your Daily Briefing"
+              />
+              <BlockEdgeNoPadding items={[item]} showDescription />
+              <Divider />
+            </div>
           </ItemWrapper>
         );
       })}
@@ -49,4 +40,41 @@ function getFormattedDate() {
     day: "numeric",
   };
   return date.toLocaleDateString("en-US", options);
+}
+
+function BlockEdgeNoPadding({ items, showDescription }: BlockProps) {
+  return (
+    <div className="px-5 flex w-full min-w-[250px] flex-col">
+      {items.map((item) => {
+        return (
+          <>
+            <RoundedImage
+              image={item.wideImage}
+              className="h-[252px]"
+            ></RoundedImage>
+            <ItemContentContainerNoPadding>
+              <ItemFooter logo={item.brandLogoDark} />
+              <ItemTitle title={item.title} />
+              {showDescription && item.description && (
+                <ItemDescription text={item.description} />
+              )}
+            </ItemContentContainerNoPadding>
+          </>
+        );
+      })}
+    </div>
+  );
+}
+
+function ItemContentContainerNoPadding({
+  children,
+  className,
+}: PropsWithChildren<{ className?: string }>) {
+  return (
+    <div
+      className={`flex flex-col gap-2 self-stretch items-start pt-2 ${className}`}
+    >
+      {children}
+    </div>
+  );
 }
