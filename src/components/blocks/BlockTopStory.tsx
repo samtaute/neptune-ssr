@@ -9,7 +9,7 @@ import ItemTitle from "../block-elements/ItemTitle";
 import ItemDescription from "../block-elements/ItemDescription";
 import { PropsWithChildren } from "react";
 
-function BlockTopStory({ items }: BlockProps) {
+function BlockTopStory({ items, priority }: BlockProps) {
   return (
     <>
       {items.map((item) => {
@@ -20,7 +20,7 @@ function BlockTopStory({ items }: BlockProps) {
                 text={getFormattedDate()}
                 sub="Your Daily Briefing"
               />
-              <BlockEdgeNoPadding items={[item]} showDescription />
+              <BlockEdgeNoPadding items={[item]} priority showDescription />
               <Divider />
             </div>
           </ItemWrapper>
@@ -42,7 +42,7 @@ function getFormattedDate() {
   return date.toLocaleDateString("en-US", options);
 }
 
-function BlockEdgeNoPadding({ items, showDescription }: BlockProps) {
+function BlockEdgeNoPadding({ items, showDescription, priority }: BlockProps) {
   return (
     <div className="px-5 flex w-full min-w-[250px] flex-col">
       {items.map((item) => {
@@ -51,6 +51,7 @@ function BlockEdgeNoPadding({ items, showDescription }: BlockProps) {
             <RoundedImage
               image={item.wideImage}
               className="h-[252px]"
+              priority={priority}
             ></RoundedImage>
             <ItemContentContainerNoPadding>
               <ItemFooter logo={item.brandLogoDark} />
