@@ -6,8 +6,9 @@ export function RoundedImage({
   image,
   className,
   priority,
-  gradient
-}: PropsWithChildren<{ image: string; className?: string, priority?: boolean, gradient?:boolean}>) {
+  gradient,
+  gameGradient
+}: PropsWithChildren<{ image: string; className?: string, priority?: boolean, gradient?:boolean, gameGradient?: boolean}>) {
 
   let style;  
   if(gradient){
@@ -16,11 +17,18 @@ export function RoundedImage({
     }
   }
 
+  if(gameGradient){
+    style={
+      backgroundImage: "radial-gradient(353.37% 89.53% at 50% 37.35%, rgba(17, 94, 128, 0.00) 0%, #115E80 74.18%)"
+    }
+  }
+
   return (
     <div
       className={`relative flex flex-col rounded-lg justify-end overflow-hidden ${className}`}
     >
       {gradient && <div style={style} className="absolute z-10 h-full w-full"></div>}
+      {gameGradient && <div style={style} className="absolute z-10 h-full w-full"></div>}
       <Image
         src={image}
         alt="top image"

@@ -67,6 +67,7 @@ export async function fetchSoftboxContent(category: string, language: string){
                 wideImage: wideImages[0]?.link, //todo why are some links not available?
                 squareImage: squareImage[0]?.link, //todo get square image
                 link: item.link,
+                sourceLink: item.sourceLink ? item.sourceLink : null, 
                 uid: item.uid,
                 primaryInterest: getPrimaryInterest()
             }
