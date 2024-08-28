@@ -21,13 +21,15 @@ function TemplateDailyBrief({ content }: { content: TemplateProps }) {
   console.log(numCategories);
   return (
     <>
-      <BlockGamePhotocard items={content['html5games'].slice(1,4)}/>
       <BlockTopStory items={content['standard'].slice(0,1)} priority/>
-      <BlockList items={content["entertainment"].slice(1,2)}/>
       <BlockAd />
-      <BlockFlatPhotocard items={content["standard"].slice(2, 3)}/>
       <BlockPhotocard items={content["standard"].slice(3, 5)}/>
+      <BlockGamePhotocard items={content['html5games'].slice(1,2)}/>
       <BlockEdge items={content["standard"].slice(5, 7)} showDescription={true}/>
+      <BlockList items={content["entertainment"].slice(1,4)}/>
+
+      <BlockFlatPhotocard items={content["standard"].slice(2, 3)}/>
+
       {/*
     <BlockTopStory items={content['news'].slice(6, 12)}/>
       <BlockHeader text="Trending Stories" />
