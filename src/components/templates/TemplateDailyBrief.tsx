@@ -20,7 +20,7 @@ function TemplateDailyBrief({ content }: { content: TemplateProps }) {
   console.log(numCategories);
   return (
     <>
-      <BlockTopStory items={content['standard'].slice(0,1)}/>
+      <BlockTopStory items={content['standard'].slice(0,1)} priority/>
       <BlockList items={content["entertainment"].slice(1,2)}/>
       <BlockAd />
       <BlockFlatPhotocard items={content["standard"].slice(2, 3)}/>
