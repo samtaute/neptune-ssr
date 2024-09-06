@@ -1,4 +1,4 @@
-import { ContentEntity } from "../../lib/softbox-api/types";
+import { ContentEntity, ContentStoreEntity } from "../../lib/softbox-api/types";
 import BlockEdge from "../blocks/BlockEdge";
 import BlockPhotocard from "../blocks/BlockPhotocard";
 import BlockAd from "../BlockAd";
@@ -8,17 +8,20 @@ import BlockHeader from "../blocks/BlockHeader";
 import BlockTopStory from "../blocks/BlockTopStory";
 import BlockFlatPhotocard from "../blocks/BlockPhotocardFlat";
 import BlockGamePhotocard from "../blocks/BlockGamePhotocard";
+import { PlatformConfigs } from "@/lib/page-generation/types";
 
 const DUMMY_WIDGET = "JS_6";
 
-type TemplateProps = {
-  [key: string]: ContentEntity[];
-};
 
-function TemplateDailyBrief({ content }: { content: TemplateProps }) {
+function TemplateDailyBrief({ content, platformConfigs}: {content: ContentStoreEntity, platformConfigs: PlatformConfigs}) {
   const categories = Object.keys(content);
   const numCategories = categories.length; //use in template
   console.log(numCategories);
+
+
+  //todo: parse configs and pass ad tag base/outbrain base to ads and outbrain.
+
+  
   return (
     <>
       <BlockTopStory items={content['standard'].slice(0,1)} priority/>
