@@ -4,12 +4,10 @@ import BlockPhotocard from "../blocks/BlockPhotocard";
 import { ContentEntity } from "../../lib/softbox-api/types";
 import { DTLayout } from "../../types/dtTypes";
 
-const DUMMY_URL = "http://www.mobileposse.com/BLU/BLUNEWS/0000/EN";
 
 
 
-function Outbrain({layout, widgetId}:{layout: DTLayout, widgetId: string}){
-    const permalink = getPermalink(); 
+function Outbrain({layout, widgetId, permalink}:{layout: DTLayout, widgetId: string, permalink: string}){
 
     const items = useOutbrain(permalink, widgetId); 
     const template = getLayoutTemplate(layout, items); 
@@ -20,13 +18,6 @@ function Outbrain({layout, widgetId}:{layout: DTLayout, widgetId: string}){
 }
 
 export default Outbrain; 
-
-
-function getPermalink(){
-    //todo -- implement logic for getting url from params. for now, just return DUMMY_URL
-
-    return DUMMY_URL; 
-}
 
 
 function getLayoutTemplate(layout:string, items: ContentEntity[]){

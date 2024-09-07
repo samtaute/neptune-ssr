@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {"name": "originals", "title": "Trending Galleries", "schedule": "standard"},
+    {"name": "games", "title":"Playable Games", "schedule":"html5games"},
+    { "name": "news", "title":"Top Headlines", "schedule": "dynamic-news" },
+    { "name": "sneakers", "title": "Sneakers & Apparel", "schedule": "sneakers" },
+    {"name": "celebrity-homes", "title": "Celebrity Homes", "schedule": "celebrity-homes"},
+    {"name": "photography", "title":"Awesome Photography", "schedule":"best-photography"},
+    {"name":"entertainment","title": "Entertainment", "schedule":"dynamic-entertainment"},
+    {"name":"lifestyle","title": "Everyday Styles", "schedule":"standard-hero"},
+    {"name":"travel","title": "Travel","schedule":"travel"},
+    {"name": "sports","title": "Sports", "schedule": "dynamic-sports"},
+    {"name": "politics", "title": "Politics", "schedule":"politics"},
+    {"name":"home", "title": "Home & Garden", "schedule":"standard-home"}
+  ]
+}

@@ -1,16 +1,17 @@
 import { promises as fs } from "fs";
-import { PlatformConfigs } from "./types";
-import { ScheduleId } from "../softbox-api/types";
-export async function getPlatformConfigs(platform: string){
+import { CategoryEntity, PlatformConfigs } from "./types";
+export async function getPlatformConfigs(platform: string) {
   const platformFile = await fs.readFile(
     process.cwd() + "/configs/platform_configurations.json",
     "utf-8"
   );
-  const platform_configs=JSON.parse(platformFile) as PlatformConfigs[];
+  const platform_configs = JSON.parse(platformFile) as PlatformConfigs[];
 
-  const configs = platform_configs.find((plat)=>{return plat.name===platform})
+  const configs = platform_configs.find((plat) => {
+    return plat.name === platform;
+  });
 
-  return configs; 
+  return configs;
 }
 
 //Determines which urls to generate static pages for.
@@ -39,12 +40,71 @@ export async function getPaths() {
   return paths;
 }
 
-///Helper functions
+//Returns a theme template at random.
 export function getTemplateId(platform: string, keyword: string) {
-  return "daily-brief";
+  const themes = ["discover", "play", "relax"];
+  const random = Math.floor(Math.random() * 3);
+  //If daily brief, return a theme at random
+  if (hasFourConsecutiveNumerals(keyword)) {
+    return themes[random];
+  } else if (keyword === "discover-games") {
+    return "play";
+  } else if (keyword === "discover-style") {
+    return "relax";
+  } else return themes[random];
 }
 
-export function getCategories(keyword: string) {
-  console.log(keyword);
-  return ["news", "entertainment", "standard", "html5games"] as ScheduleId[];
+function hasFourConsecutiveNumerals(str: string) {
+  const regex = /\d{4}/;
+  return regex.test(str);
+}
+
+export async function getCategories(templateId: string) {
+  const categoriesFile = await fs.readFile(
+    process.cwd() + "/configs/categories.json",
+    "utf-8"
+  );
+  const parsedFile = JSON.parse(categoriesFile);
+  const allCategories = parsedFile.categories as CategoryEntity[];
+
+  const numCategories = allCategories.length;
+
+  let result = allCategories.filter(
+    (category) => category.name === "originals" || category.name === "games"
+  );
+  while (result.length < 5) {
+    const random = Math.floor(Math.random() * numCategories);
+    if (!result.includes(allCategories[random])) {
+      result.push(allCategories[random]);
+    }
+  }
+  return result;
+
+  // //todo: set up logic for specific categories. start with "originals" and "games"
+
+  // if (templateId === "discover") {
+   
+  // } else if (templateId === "play") {
+  //   let result = allCategories.filter(
+  //     (category) => category.name === "originals" || category.name === "games"
+  //   );
+  //   while (result.length < 5) {
+  //     const random = Math.floor(Math.random() * numCategories);
+  //     if (!result.includes(allCategories[random])) {
+  //       result.push(allCategories[random]);
+  //     }
+  //   }
+  //   return result; 
+  // } else if (templateId === "relax") {
+  //   let result = allCategories.filter(
+  //     (category) => category.name === "originals" || category.name === "games"
+  //   );
+  //   while (result.length < 5) {
+  //     const random = Math.floor(Math.random() * numCategories);
+  //     if (!result.includes(allCategories[random])) {
+  //       result.push(allCategories[random]);
+  //     }
+  //   }
+  //   return result; 
+  // } else return allCategories;
 }

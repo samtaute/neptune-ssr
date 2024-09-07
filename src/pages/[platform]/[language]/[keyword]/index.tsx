@@ -1,15 +1,12 @@
-import { PropsWithChildren } from "react";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 import { createContentStore } from "@/lib/softbox-api/actions";
-import { ContentStoreEntity, ScheduleId } from "@/lib/softbox-api/types";
-import TemplateDailyBrief from "@/components/templates/TemplateDailyBrief";
+import TemplateDiscover from "@/components/templates/TemplateDiscover";
 import Script from "next/script";
 import {
   getPaths,
   getPlatformConfigs,
 } from "@/lib/page-generation/page-generation";
-import { dtLanguages, PlatformConfigs } from "@/lib/page-generation/types";
-import { DTLanguage } from "@/types/dtTypes";
+import { ContentStore, ContentStoreData, dtLanguages, PageConfig} from "@/lib/page-generation/types";
 import { getTemplateId, getCategories } from "@/lib/page-generation/page-generation";
 
 const DEFAULT_PLATFORM_CONFIGS = {
@@ -29,13 +26,17 @@ const DEFAULT_PLATFORM_CONFIGS = {
 };
 
 function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { templateId, content, platformConfigs, language } = props;
-  const template = getTemplate(templateId, content, platformConfigs);
+  const { templateId, content, pageConfig, randomizer } = props;
+  
+  const contentStore = new ContentStore(content)
+  const template = getTemplate(templateId, contentStore, pageConfig, randomizer);
+  const pubwiseScript = pageConfig.pubwiseScript;
 
-  const pubwiseScript = platformConfigs.adTags[language].pubwiseScript;
+
+
   return (
     <>
-      <FeedContainer>{template}</FeedContainer>
+      <div className="mx-auto max-w-[450px] min-h-40 min-w-[250px] flex flex-col">{template}</div>
       <Script src={pubwiseScript} />
     </>
   );
@@ -43,14 +44,6 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
 
 export default FeedPage;
 
-//Layout Block
-function FeedContainer({ children }: PropsWithChildren) {
-  return (
-    <div className="mx-auto max-w-[450px] min-h-40 min-w-[250px] flex flex-col">
-      {children}
-    </div>
-  );
-}
 
 type UrlParams = {
   platform: string;
@@ -59,42 +52,57 @@ type UrlParams = {
 };
 
 export const getStaticProps = (async (context) => {
+  //Extract data from params
   const { params } = context;
   const { platform, language, keyword } = params as UrlParams;
 
+  //Set up 'en' as fallback for language
   let langProp = language; 
-  //sets fallback language to 'en'
   if(!dtLanguages.includes(language)){
     console.log(`${language} not supported`)
     langProp = 'en'; 
   }
+  //Get platform configs or use default configs
   let platformConfigs = await getPlatformConfigs(platform);
   if (!platformConfigs) {
     console.error(`Could not find configs for ${platform}`);
     platformConfigs = DEFAULT_PLATFORM_CONFIGS;
   }
 
-  const categories = getCategories(keyword);
+
+  //Set up remaining properties for FeedPage
+  const templateId = getTemplateId(platform, keyword);
+  const categories = await getCategories(templateId); //used only for fetching content\
   const content = await createContentStore(categories, langProp);
 
-  const templateId = getTemplateId(platform, keyword);
+  //set up page config
+  const obId = platformConfigs.outbrainPlatformId
+  const pageLang = dtLanguages.includes(language) ? language : "en" //set en as fallback
 
+  const pageConfig: PageConfig = {
+    language: pageLang,
+    outbrainPermalink: `http://www.mobileposse.com/${obId}/${keyword}/${language}`,
+    adBasePath: platformConfigs.adTags[pageLang].unitBasePath,
+    pubwiseScript: platformConfigs.adTags[pageLang].pubwiseScript,
+    pubwisePreScript: platformConfigs.adTags[pageLang].pubwisePreScript,
+  }
 
+  const randomizer = Math.floor(Math.random()*2);
 
   return {
     props: {
-      content,
+      content: content.content,
       templateId,
-      platformConfigs,
-      language: langProp,
+      pageConfig,
+      randomizer,
     },
     revalidate: 1800,
   };
 }) satisfies GetStaticProps<{
-  content: ContentStoreEntity;
+  content: ContentStoreData;
   templateId: string;
-  platformConfigs: PlatformConfigs;
-  language: string; 
+  pageConfig:  PageConfig; 
+  randomizer: number; 
 }>;
 
 export const getStaticPaths = async () => {
@@ -106,10 +114,9 @@ export const getStaticPaths = async () => {
 
 
 
-function getTemplate(id: string, content: ContentStoreEntity, platformConfigs: PlatformConfigs) {
-  if (id === "daily-brief") {
-    return <TemplateDailyBrief content={content} platformConfigs={platformConfigs}></TemplateDailyBrief>;
-  }
+function getTemplate(id: string, content: ContentStore, pageConfig: PageConfig, randomizer: number) {
+    return <TemplateDiscover content={content} pageConfig={pageConfig} randomizer={randomizer}></TemplateDiscover>;
+  
 }
 
 
