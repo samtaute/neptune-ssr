@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-function BlockAd() {
+function BlockAd({placementId}: {placementId: string}) {
   useEffect(() => {
     const w = window as any;
     let retries = 0;
@@ -10,7 +10,7 @@ function BlockAd() {
     const checkLoaded = () => {
       if (w.googletag && w.googletag.pubads && w.gptadslots) {
         enableServices();
-        defineSlots();
+        defineSlots(placementId);
         renderAd();
       } else if (retries < 1000) {
         retries += 1;
@@ -39,12 +39,12 @@ function BlockAd() {
 
 export default BlockAd;
 
-function defineSlots() {
+function defineSlots(placementId: string) {
   const w = window as any;
   if (!w.gptadslots[`div-1`]) {
     w.googletag.cmd.push(function () {
       w.gptadslots["div-1"] = w.googletag
-        .defineSlot("/180049092/ROS_CK_SCOOP_WVIEW_EN_TOP", [300, 250], "div-1")
+        .defineSlot(placementId, [300, 250], "div-1")
         .addService(w.googletag.pubads());
       console.log("pushed");
     });

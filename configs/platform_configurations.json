@@ -6,7 +6,13 @@
     "adTags": {
       "en": {
         "unitBasePath": "/180049092/ROS_CK_SCOOP_WVIEW_EN",
-        "pubwiseScript": "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pws.js?type=ckscoop-english"
+        "pubwiseScript": "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pws.js?type=ckscoop-english",
+        "pubwisePreScript": "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pre_pws.js?type=ckscoop-english"
+      },
+      "es": {
+        "unitBasePath": "/180049092/ROS_CK_SCOOP_WVIEW_ES",
+        "pubwiseScript": "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pws.js?type=ckscoop-spanish",
+        "pubwisePreScript": "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pre_pws.js?type=ckscoop-spanish"
       }
     },
     "outbrainPlatformId": "CK/SCOOP"
@@ -18,7 +24,13 @@
     "adTags": {
       "en": {
         "unitBasePath": "/180049092/ROS_BOOST_FASTNEWS_WVIEW_EN_",
-        "pubwiseScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pws.js?type=fastnews-english"
+        "pubwiseScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pws.js?type=fastnews-english",
+        "pubwisPreScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pre_pws.js?type=fastnews-english"
+      },
+      "es": {
+        "unitBasePath": "/180049092/ROS_BOOST_FASTNEWS_WVIEW_ES_",
+        "pubwiseScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pws.js?type=fastnews-spanish",
+        "pubwisPreScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pre_pws.js?type=fastnews-spanish"
       }
     },
     "outbrainPlatformId": "BOOST/FASTNEWS"
@@ -30,7 +42,31 @@
     "adTags": {
       "en": {
         "unitBasePath": "/180049092/ROS_OM_SNACKTIME_WVIEW_EN_",
-        "pubwiseScript": "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pws.js?type=snacktime-english"
+        "pubwiseScript": "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pws.js?type=snacktime-english",
+        "pubwisePreScript": "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pre_pws.js?type=snacktime-english"
+      },
+      "es": {
+        "unitBasePath": "/180049092/ROS_OM_SNACKTIME_WVIEW_ES_",
+        "pubwiseScript": "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pws.js?type=snacktime-spanish",
+        "pubwisePreScript": "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pre_pws.js?type=snacktime-spanish"
+      }
+    },
+    "outbrainPlatformId": "BOOST/FASTNEWS"
+  },
+  {
+    "name": "tracfonebar",
+    "product": "discover-bar",
+    "languages": ["en", "es"],
+    "adTags": {
+      "en": {
+        "unitBasePath": "/180049092/ROS_TRACFONE_TFBAR_MWEB_EN_",
+        "pubwiseScript": "https://fdyn.pubwise.io/script/15e42f31-a235-4e6e-8e6a-566c857a3ee4/v3/dyn/pws.js?type=tfbar",
+        "pubwisePreScript": "https://fdyn.pubwise.io/script/15e42f31-a235-4e6e-8e6a-566c857a3ee4/v3/dyn/pre_pws.js?type=tfbar"
+      },
+      "es": {
+        "unitBasePath": "/180049092/ROS_OM_FIRSTLYBAR_MWEB_ES_",
+        "pubwiseScript": "https://fdyn.pubwise.io/script/15e42f31-a235-4e6e-8e6a-566c857a3ee4/v3/dyn/pws.js?type=snackbar-spanish",
+        "pubwisePreScript": "https://fdyn.pubwise.io/script/15e42f31-a235-4e6e-8e6a-566c857a3ee4/v3/dyn/pre_pws.js?type=snackbar-spanish"
       }
     },
     "outbrainPlatformId": "BOOST/FASTNEWS"

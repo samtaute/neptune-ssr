@@ -52,10 +52,10 @@ export interface ContentEntity {
   wideImage: string;
   squareImage: string;
   link: string;
-  sourceLink?:string; 
+  sourceLink?: string;
   uid: string;
   onViewed?: string;
-  primaryInterest?: string; 
+  primaryInterest?: string;
 }
 
 export type ContentScheduleEntity = ContentEntity[];
@@ -64,7 +64,7 @@ export type ContentStoreEntity = {
   [key: string]: ContentScheduleEntity;
 };
 
-export type ScheduleId = "news" | "standard" | "entertainment";
+export type ScheduleId = "news" | "standard" | "entertainment" | "html5games"|"standard-hero";
 
 export interface Interest {
   name: {

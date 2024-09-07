@@ -46,8 +46,9 @@ function BlockEdgeNoPadding({ items, showDescription, priority }: BlockProps) {
   return (
     <div className="px-5 flex w-full min-w-[250px] flex-col">
       {items.map((item) => {
+        //todo: implement Itemwrapper w/out hydration error
         return (
-          <>
+          <div key={item.uid}>
             <RoundedImage
               image={item.wideImage}
               className="h-[252px]"
@@ -60,7 +61,7 @@ function BlockEdgeNoPadding({ items, showDescription, priority }: BlockProps) {
                 <ItemDescription text={item.description} />
               )}
             </ItemContentContainerNoPadding>
-          </>
+          </div>
         );
       })}
     </div>

@@ -1,38 +1,49 @@
-import {PropsWithChildren } from "react";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
-import { createContentStore} from "@/lib/softbox-api/actions";
-import {
-  ContentStoreEntity,
-  ScheduleId,
-} from "@/lib/softbox-api/types";
-import TemplateDailyBrief from "@/components/templates/TemplateDailyBrief";
+import { createContentStore } from "@/lib/softbox-api/actions";
+import TemplateDiscover from "@/components/templates/TemplateDiscover";
 import Script from "next/script";
-import { getPaths } from "@/lib/page-generation/page-generation";
+import {
+  getPaths,
+  getPlatformConfigs,
+} from "@/lib/page-generation/page-generation";
+import { ContentStore, ContentStoreData, dtLanguages, PageConfig} from "@/lib/page-generation/types";
+import { getTemplateId, getCategories } from "@/lib/page-generation/page-generation";
+
+const DEFAULT_PLATFORM_CONFIGS = {
+  name: "firstly",
+  product: "daily-brief",
+  languages: ["en", "es"],
+  adTags: {
+    en: {
+      unitBasePath: "/180049092/ROS_OM_SNACKTIME_WVIEW_EN_",
+      pubwiseScript:
+        "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pws.js?type=snacktime-english",
+      pubwisePreScript:
+        "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pre_pws.js?type=snacktime-english",
+    },
+  },
+  outbrainPlatformId: "BOOST/FASTNEWS",
+};
 
 function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const {templateId, content, pubwiseScript} = props; 
-  const template = getTemplate(templateId, content); 
+  const { templateId, content, pageConfig, randomizer } = props;
+  
+  const contentStore = new ContentStore(content)
+  const template = getTemplate(templateId, contentStore, pageConfig, randomizer);
+  const pubwiseScript = pageConfig.pubwiseScript;
+
+
 
   return (
     <>
-      <FeedContainer>
-       {template}
-      </FeedContainer>
-      <Script src={pubwiseScript}/>
+      <div className="mx-auto max-w-[450px] min-h-40 min-w-[250px] flex flex-col">{template}</div>
+      <Script src={pubwiseScript} />
     </>
   );
 }
 
 export default FeedPage;
 
-//Layout Block
-function FeedContainer({ children }: PropsWithChildren) {
-  return (
-    <div className="mx-auto max-w-[450px] min-h-40 min-w-[250px] flex flex-col">
-      {children}
-    </div>
-  );
-}
 
 type UrlParams = {
   platform: string;
@@ -41,58 +52,71 @@ type UrlParams = {
 };
 
 export const getStaticProps = (async (context) => {
+  //Extract data from params
   const { params } = context;
   const { platform, language, keyword } = params as UrlParams;
 
-  const categories = getCategories(keyword);
+  //Set up 'en' as fallback for language
+  let langProp = language; 
+  if(!dtLanguages.includes(language)){
+    console.log(`${language} not supported`)
+    langProp = 'en'; 
+  }
+  //Get platform configs or use default configs
+  let platformConfigs = await getPlatformConfigs(platform);
+  if (!platformConfigs) {
+    console.error(`Could not find configs for ${platform}`);
+    platformConfigs = DEFAULT_PLATFORM_CONFIGS;
+  }
 
-  //get props
-  const content = await createContentStore(categories, language); 
-  const templateId = getTemplateId(platform, keyword); 
-  const pubwiseScript = getPubwiseScript()
+
+  //Set up remaining properties for FeedPage
+  const templateId = getTemplateId(platform, keyword);
+  const categories = await getCategories(templateId); //used only for fetching content\
+  const content = await createContentStore(categories, langProp);
+
+  //set up page config
+  const obId = platformConfigs.outbrainPlatformId
+  const pageLang = dtLanguages.includes(language) ? language : "en" //set en as fallback
+
+  const pageConfig: PageConfig = {
+    language: pageLang,
+    outbrainPermalink: `http://www.mobileposse.com/${obId}/${keyword}/${language}`,
+    adBasePath: platformConfigs.adTags[pageLang].unitBasePath,
+    pubwiseScript: platformConfigs.adTags[pageLang].pubwiseScript,
+    pubwisePreScript: platformConfigs.adTags[pageLang].pubwisePreScript,
+  }
+
+  const randomizer = Math.floor(Math.random()*2);
 
   return {
     props: {
-      content,
+      content: content.content,
       templateId,
-      pubwiseScript
+      pageConfig,
+      randomizer,
     },
-    revalidate: 1800
+    revalidate: 1800,
   };
-}) satisfies GetStaticProps<{ content: ContentStoreEntity, templateId: string, pubwiseScript: string}>;
+}) satisfies GetStaticProps<{
+  content: ContentStoreData;
+  templateId: string;
+  pageConfig:  PageConfig; 
+  randomizer: number; 
+}>;
 
 export const getStaticPaths = async () => {
   return {
-    paths: await getPaths(), 
+    paths: await getPaths(),
     fallback: "blocking", //page will not render until getStaticProps has completed.
   };
 };
 
-///Helper functions
-function getTemplateId(platform: string, keyword: string){
-  return "daily-brief"
+
+
+function getTemplate(id: string, content: ContentStore, pageConfig: PageConfig, randomizer: number) {
+    return <TemplateDiscover content={content} pageConfig={pageConfig} randomizer={randomizer}></TemplateDiscover>;
+  
 }
-
-
-function getTemplate(id: string, content: ContentStoreEntity){
-  if(id === 'daily-brief'){
-    return <TemplateDailyBrief content={content}></TemplateDailyBrief>
-  }
-}
-
-function getCategories(keyword: string) {
-  console.log(keyword);
-  return ["news", "entertainment", "standard", "html5games"] as ScheduleId[];
-}
-
-
-function getPubwiseScript(){
-  //todo: implement logic
-
-  return "https://fdyn.pubwise.io/script/2c26db5b-4c6b-428a-a959-6edc463b427f/v3/dyn/pws.js?type=ckscoop-english"
-
-}
-
-
 
 

@@ -1,18 +1,20 @@
-import { ContentStoreEntity,ContentScheduleEntity, LookbookItem, ScheduleId, Interests } from "./types";
+import { CategoryEntity, ContentStore } from "../page-generation/types";
+import { LookbookItem, Interests, ContentEntity } from "./types";
 
- export async function createContentStore(categories: ScheduleId[], language: string){
-    const data = {} as ContentStoreEntity
+ export async function createContentStore(categories: CategoryEntity[], language: string){
+    const store = new ContentStore(); 
+
     for (const cat of categories) {
-        const content = await fetchSoftboxContent(cat, language);
+        const content = await fetchSoftboxContent(cat.schedule, language);
         if (content) {
-          data[cat] = content as ContentScheduleEntity;
+          store.addContent(cat, content as ContentEntity[]); 
         }
       }
-    if(Object.keys(data).length === 0){
+    if(store.numKeys === 0){
         //todo: more robust error handling here
         console.error('No content returned in store')
     }  
-    return data;   
+    return store;   
  }
 
 
@@ -30,7 +32,7 @@ export async function fetchSoftboxContent(category: string, language: string){
             const interests = data.interests
             
            
-            return extractItems(data.items.slice(0, 26), language, interests); 
+            return extractItems(data.items.slice(0, 20), language, interests); 
         }catch(error){
             console.error(`Could not fetch ${requestUrl}`, error)
         }    
