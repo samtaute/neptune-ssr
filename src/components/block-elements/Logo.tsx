@@ -1,5 +1,5 @@
-function Logo({src, className}: {src: string, className?: string}){
-    return <img src={src} className={`${className} h-5`} alt="logo"/>
+function Logo({src, className = 'h-5'}: {src: string, className?: string}){
+    return <img src={src} className={className} alt="logo"/>
 }
 
 export default Logo; 

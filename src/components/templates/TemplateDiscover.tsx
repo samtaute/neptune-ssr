@@ -8,6 +8,8 @@ import BlockTopStory from "../blocks/BlockTopStory";
 import BlockPhotocard from "../blocks/BlockPhotocard";
 import BlockAd from "../BlockAd";
 import Outbrain from "../providers/Outbrain";
+import BlockTile from "../blocks/BlockTile";
+import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 
 function TemplateDiscover({
   content,
@@ -61,6 +63,8 @@ function TopSection({
         />
       )}
       <BlockAd placementId={placementId}/>
+      <BlockFortune items={content.getItemsOfCategory(categories[0], [0,1])}/>
+      <BlockTile items={content.getItemsOfCategory(categories[0], [2,6])}/>
       
     </>
   );
