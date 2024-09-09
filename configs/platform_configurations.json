@@ -25,12 +25,12 @@
       "en": {
         "unitBasePath": "/180049092/ROS_BOOST_FASTNEWS_WVIEW_EN_",
         "pubwiseScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pws.js?type=fastnews-english",
-        "pubwisPreScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pre_pws.js?type=fastnews-english"
+        "pubwisePreScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pre_pws.js?type=fastnews-english"
       },
       "es": {
         "unitBasePath": "/180049092/ROS_BOOST_FASTNEWS_WVIEW_ES_",
         "pubwiseScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pws.js?type=fastnews-spanish",
-        "pubwisPreScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pre_pws.js?type=fastnews-spanish"
+        "pubwisePreScript": "https://fdyn.pubwise.io/script/264eff0a-a8c3-47c1-bc27-7dc4b2d07fc4/v3/dyn/pre_pws.js?type=fastnews-spanish"
       }
     },
     "outbrainPlatformId": "BOOST/FASTNEWS"
