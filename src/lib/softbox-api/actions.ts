@@ -53,12 +53,16 @@ export async function fetchSoftboxContent(category: string, language: string){
     
         return rawItems.map((item)=>{
             const wideImages = item.previews.filter(image=>image.aspect === "9:4"); 
-            const squareImage = item.previews.filter(image=>image.aspect === "1:1");
+            const squareImages = item.previews.filter(image=>image.aspect === "1:1");
             
+            //todo: handle empty interests array 
             const getPrimaryInterest = ()=>{
-                const interestId = item.interests[0];
-                const interestName = interests[interestId]['name'][language]
-                return interestName
+                if(item.interests.length > 0){
+                    const interestId = item.interests[0];
+                    const interestName = interests[interestId]['name'][language]
+                    return interestName
+                }
+               else return "Reveal"
             }
             return {
                 title: item['title'][shortenedLang],
@@ -66,12 +70,13 @@ export async function fetchSoftboxContent(category: string, language: string){
                 owner: item['owner'],
                 brandLogo: item.brandLogo,
                 brandLogoDark: item.brandLogoDark,
-                wideImage: wideImages[0]?.link, //todo why are some links not available?
-                squareImage: squareImage[0]?.link, //todo get square image
+                wideImage: wideImages[0]?.link ? wideImages[0]?.link : null, //todo why are some links not available?
+                squareImage: squareImages[0]?.link ? squareImages[0]?.link : null, 
                 link: item.link,
                 sourceLink: item.sourceLink ? item.sourceLink : null, 
                 uid: item.uid,
-                primaryInterest: getPrimaryInterest()
+                primaryInterest: getPrimaryInterest(),
+                fortune: item.fortune?.fortunetext[shortenedLang] ? item.fortune.fortunetext[shortenedLang]: ""
             }
         })
     }

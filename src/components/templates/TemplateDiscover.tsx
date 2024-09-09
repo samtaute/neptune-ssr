@@ -52,19 +52,19 @@ function TopSection({
     <>
       {randomizer === 0 && (
         <BlockTopStory
-          items={content.getItemsOfCategory(categories[0], [0,1])}
+          items={content.getItemsOfCategory(categories[1], [0,1])}
           priority
         />
       )}
       {randomizer > 0 && (
         <BlockPhotocard
-          items={content.getItemsOfCategory(categories[0], [0,1])}
+          items={content.getItemsOfCategory(categories[1], [0,1])}
           priority
         />
       )}
       <BlockAd placementId={placementId}/>
-      <BlockFortune items={content.getItemsOfCategory(categories[0], [0,1])}/>
-      <BlockTile items={content.getItemsOfCategory(categories[0], [2,6])}/>
+      <BlockFortune items={content.getItemsOfCategory(categories[0], [0,5])}/>
+      <BlockTile items={content.getItemsOfCategory(categories[1], [2,6])}/>
       
     </>
   );

@@ -41,6 +41,11 @@ export interface LookbookItem {
   publishOn: string;
   scheduledOn: string;
   sourceLink?: string;
+  fortune?: {
+    fortunetext: {
+      [key: string]: string
+    }
+  }
 }
 
 export interface ContentEntity {
@@ -56,6 +61,7 @@ export interface ContentEntity {
   uid: string;
   onViewed?: string;
   primaryInterest?: string;
+  fortune?: string; 
 }
 
 export type ContentScheduleEntity = ContentEntity[];

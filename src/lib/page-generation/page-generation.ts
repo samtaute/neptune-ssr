@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import { CategoryEntity, PlatformConfigs } from "./types";
-import { platform } from "os";
+
 export async function getPlatformConfigs(platform: string) {
   const platformFile = await fs.readFile(
     process.cwd() + "/configs/platform_configurations.json",
@@ -86,7 +86,7 @@ export async function getCategories(templateId: string) {
   const numCategories = allCategories.length;
 
   let result = allCategories.filter(
-    (category) => category.name === "originals" || category.name === "games"
+    (category) => category.name === "originals" || category.name === "games" 
   );
   while (result.length < 5) {
     const random = Math.floor(Math.random() * numCategories);
@@ -94,6 +94,7 @@ export async function getCategories(templateId: string) {
       result.push(allCategories[random]);
     }
   }
+  result.unshift({name: "Fortune Cookie", schedule:"fortune-cookie", title: "Fortune Cookie"})
   return result;
 
   // //todo: set up logic for specific categories. start with "originals" and "games"

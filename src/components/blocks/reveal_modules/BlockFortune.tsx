@@ -3,12 +3,37 @@ import { BlockProps } from "@/types/propsTypes";
 import ItemTitle from "@/components/block-elements/ItemTitle";
 
 function BlockFortune({ items }: BlockProps) {
-  const [isReveal, setIsReveal] = useState(false)
+  const [isReveal, setIsReveal] = useState(false);
+  const [fortune, setFortune] = useState(items[0].fortune);
+
+  const numFortunes = items.length;
+
+  //todo -- should initiate this call dynamically
+
+  let animation = "animate-cookieBounce";
+  let shadowAnimation = "animate-shadowBounce";
+  let reveal = "invisible";
+  if (isReveal) {
+    animation = "animate-cookieSlideUp opacity-10";
+    shadowAnimation = "";
+    reveal = "visible";
+  }
+  const clickHandler = () => {
+    setIsReveal(!isReveal);
+    const random = Math.floor(Math.random() * numFortunes);
+    setFortune(items[random].fortune);
+  };
+
   return (
-    <div className="p-5 pt-0">
-      <div className="bg-[#C9efff] rounded-lg h-[284px] w-full relative flex flex-col justify-start items-center">
-        <div className="p-4 w-full flex justify-start"><ItemTitle title="Fortune Cookie"/></div>
-        <div className="w-[182px] h-[147px] absolute animate-cookieBounce">
+    <div onClick={clickHandler} className="p-5 pt-0">
+      <div className="bg-[#C9efff] rounded-lg h-[284px] w-full relative flex flex-col justify-start items-center overflow-hidden">
+        {isReveal && <ReloadIcon />}
+        <div className="p-4 w-full flex justify-start">
+          <ItemTitle title="Fortune Cookie" />
+        </div>
+        <div
+          className={`w-[182px] h-[147px] absolute bottom-[77px] ${animation}`}
+        >
           <svg xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient
@@ -92,10 +117,25 @@ function BlockFortune({ items }: BlockProps) {
             </g>
           </svg>
         </div>
-        <div className="opacity-10 w-[146px] h-[12px] rounded-[50%] absolute bottom-4 animate-shadowBounce bg-black"></div>
+        <div
+          className={`opacity-10 w-[146px] h-[12px] rounded-[50%] absolute bottom-4 ${shadowAnimation} bg-black`}
+        ></div>
+        <div
+          className={`font-sans px-5 font-medium z-10 w-full text-center absolute bottom-[50%] ${reveal}`}
+        >
+          {fortune}
+        </div>
       </div>
     </div>
   );
 }
 
 export default BlockFortune;
+
+function ReloadIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="absolute bottom-[-110px] right-[-260px]">
+      <path d="M3.25195 12C3.25195 12.3424 2.96837 12.626 2.62594 12.626C2.27816 12.626 1.99994 12.3424 1.99994 12C1.99994 9.23917 3.11818 6.7405 4.92664 4.9267C6.74044 3.11825 9.23911 2 11.9999 2C13.6532 2 15.2156 2.40128 16.5906 3.11825C17.5216 3.59979 18.3723 4.22579 19.1054 4.96415V3.57303C19.1054 3.2306 19.3836 2.94703 19.7314 2.94703C20.0738 2.94703 20.352 3.2306 20.352 3.57303V6.69235V6.6977C20.352 7.04548 20.0738 7.3237 19.7314 7.3237H16.6067C16.2589 7.3237 15.9807 7.04548 15.9807 6.6977C15.9807 6.35527 16.2589 6.0717 16.6067 6.0717H18.4365C17.7463 5.32263 16.9331 4.69663 16.0181 4.22579C14.8196 3.59979 13.4499 3.25201 11.9999 3.25201C9.58154 3.25201 7.3932 4.23114 5.81482 5.81487C4.23108 7.39326 3.25195 9.58159 3.25195 12ZM4.89454 20.427C4.89454 20.7694 4.61631 21.0476 4.26853 21.0476C3.9261 21.0476 3.64253 20.7694 3.64253 20.427V17.313V17.3023V17.2862V17.2702L3.64788 17.2541V17.2381V17.222L3.65323 17.206V17.1899L3.65858 17.1739V17.1578L3.66393 17.1418L3.66928 17.1311V17.115L3.67463 17.099L3.67998 17.0829L3.68533 17.0722L3.69068 17.0562L3.70138 17.0455V17.0401L3.70673 17.0294L3.71208 17.0134L3.71743 17.0027L3.72814 16.9866L3.73349 16.9759L3.74419 16.9652L3.74954 16.9492L3.76024 16.9385L3.76559 16.9278L3.77629 16.9117L3.78699 16.901L3.79769 16.8903L3.80839 16.8796L3.81374 16.8689L3.82444 16.8582L3.83514 16.8475L3.84585 16.8368H3.8512L3.8619 16.8261L3.8726 16.8154L3.8833 16.8101L3.894 16.7994L3.9047 16.7887L3.92075 16.7833L3.93145 16.7726L3.94215 16.7673L3.95821 16.7566L3.96891 16.7512L3.98496 16.7459L3.99566 16.7352L4.01171 16.7298L4.02776 16.7245L4.03846 16.7191L4.05451 16.7138L4.07057 16.7084L4.08127 16.703L4.09732 16.6977L4.11337 16.6923H4.12942L4.14012 16.687H4.14547H4.15617L4.17222 16.6816H4.18828L4.20433 16.6763H4.22038H4.23643H4.25248H4.26853H4.27923H7.3932C7.74098 16.6763 8.0192 16.9545 8.0192 17.3023C8.0192 17.6447 7.74098 17.923 7.3932 17.923H5.56334C6.2482 18.6667 7.06147 19.2927 7.9657 19.7635C9.16955 20.3949 10.5446 20.748 11.9999 20.748C14.413 20.748 16.6013 19.7689 18.1851 18.1851C19.7688 16.6014 20.7479 14.4131 20.7479 12C20.7479 11.6522 21.0262 11.374 21.3739 11.374C21.7164 11.374 22 11.6522 22 12C22 14.7608 20.8764 17.2595 19.0679 19.068C17.2594 20.8764 14.7608 22 11.9999 22C10.336 22 8.76827 21.5934 7.38785 20.8711C6.46222 20.3895 5.6222 19.7689 4.89454 19.0305V20.427Z" />
+    </svg>
+  );
+}

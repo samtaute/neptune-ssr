@@ -54,11 +54,23 @@ const config: Config = {
             height: '12px',
             'transition-timing-function': 'cubic-bezier(0.64, 0.04, 0.35, 1)',
           },
+        },
+        cookieSlideUp:{
+          '0%':{
+            bottom: '36px',
+            'transition-timing-function': 'cubic-bezier(0.64, 0.04, 0.35, 1)',
+            'transform-origin': 'bottom', 
+          },
+          '100%': {
+            bottom: '77px',
+            'transition-timing-function': 'cubic-bezier(0.64, 0.04, 0.35, 1)'
+          }
         }
       },
       animation: {
         cookieBounce: 'cookieBounce 1600ms infinite',
-        shadowBounce: 'shadowBounce 1600ms infinite'
+        shadowBounce: 'shadowBounce 1600ms infinite',
+        cookieSlideUp: 'cookieSlideUp 100ms'
       },
     },
   },
