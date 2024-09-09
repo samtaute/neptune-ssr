@@ -5,6 +5,7 @@ import Script from "next/script";
 import {
   getPaths,
   getPlatformConfigs,
+  manualGetPaths,
 } from "@/lib/page-generation/page-generation";
 import { ContentStore, ContentStoreData, dtLanguages, PageConfig} from "@/lib/page-generation/types";
 import { getTemplateId, getCategories } from "@/lib/page-generation/page-generation";
@@ -107,8 +108,10 @@ export const getStaticProps = (async (context) => {
 
 export const getStaticPaths = async () => {
   return {
-    paths: await getPaths(),
+    // paths: await getPaths(),
+    paths: await manualGetPaths(), 
     fallback: "blocking", //page will not render until getStaticProps has completed.
+
   };
 };
 

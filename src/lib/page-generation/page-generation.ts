@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import { CategoryEntity, PlatformConfigs } from "./types";
+import { platform } from "os";
 export async function getPlatformConfigs(platform: string) {
   const platformFile = await fs.readFile(
     process.cwd() + "/configs/platform_configurations.json",
@@ -38,6 +39,21 @@ export async function getPaths() {
     }
   }
   return paths;
+}
+
+export async function manualGetPaths() {
+  const paths = [
+    { params: { platform: "boost", language: "en", keyword: "0000" } },
+    { params: { platform: "boost", language: "en", keyword: "0600" } },
+    { params: { platform: "boost", language: "en", keyword: "1200" } },
+    { params: { platform: "boost", language: "en", keyword: "1600" } },
+    { params: { platform: "boost", language: "en", keyword: "2000" } },
+    { params: { platform: "tracfonebar", language: "en", keyword: "discover-games" } },
+    { params: { platform: "tracfonebar", language: "en", keyword: "discover-style" } },
+    { params: { platform: "cricket", language: "es", keyword: "0000" } },
+    { params: { platform: "cricket", language: "es", keyword: "1200" } },
+  ];
+  return paths
 }
 
 //Returns a theme template at random.
@@ -83,7 +99,7 @@ export async function getCategories(templateId: string) {
   // //todo: set up logic for specific categories. start with "originals" and "games"
 
   // if (templateId === "discover") {
-   
+
   // } else if (templateId === "play") {
   //   let result = allCategories.filter(
   //     (category) => category.name === "originals" || category.name === "games"
@@ -94,7 +110,7 @@ export async function getCategories(templateId: string) {
   //       result.push(allCategories[random]);
   //     }
   //   }
-  //   return result; 
+  //   return result;
   // } else if (templateId === "relax") {
   //   let result = allCategories.filter(
   //     (category) => category.name === "originals" || category.name === "games"
@@ -105,6 +121,6 @@ export async function getCategories(templateId: string) {
   //       result.push(allCategories[random]);
   //     }
   //   }
-  //   return result; 
+  //   return result;
   // } else return allCategories;
 }

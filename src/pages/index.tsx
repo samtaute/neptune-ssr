@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { InferGetStaticPropsType } from "next";
-import { getPaths } from "@/lib/page-generation/page-generation";
-import { platform } from "os";
+import { getPaths, manualGetPaths } from "@/lib/page-generation/page-generation";
 
 export default function Home(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const {paths} = props
@@ -52,7 +51,8 @@ export default function Home(props: InferGetStaticPropsType<typeof getStaticProp
 export async function getStaticProps(){
   return{
     props: {
-      paths: await getPaths()
+      // paths: await getPaths()
+      paths: await manualGetPaths(), 
     }
   }
 
