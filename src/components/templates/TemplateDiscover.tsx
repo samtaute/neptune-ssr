@@ -63,7 +63,7 @@ function TopSection({
         />
       )}
       <BlockAd placementId={placementId}/>
-      <BlockFortune items={content.getItemsOfCategory(categories[0], [0,5])}/>
+      <BlockFortune language={pageConfig.language}/>
       <BlockTile items={content.getItemsOfCategory(categories[1], [2,6])}/>
       
     </>
