@@ -10,6 +10,6 @@
     {"name":"lifestyle","title": "Everyday Styles", "schedule":"standard-hero"},
     {"name":"travel","title": "Travel","schedule":"travel"},
     {"name": "sports","title": "Sports", "schedule": "dynamic-sports"},
-    {"name":"home", "title": "Home & Garden", "schedule":"standard-home"}
+    {"name":"home", "title": "Home & Garden", "schedule":"standard-home"}    
   ]
 }
