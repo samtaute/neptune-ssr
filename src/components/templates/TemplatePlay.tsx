@@ -25,13 +25,15 @@ function TemplatePlayTop({ content, pageConfig, randomizer }: TemplateProps) {
   const placementId = pageConfig.adBasePath + "top";
   const permalink = pageConfig.outbrainPermalink;
   const categories = Object.keys(content.library);
+  const randomIndex = Math.floor(randomizer * 5)
+
   //start here -- what is the best place to pass down outbrain permalink.
 
   return (
     <>
       <BlockHeader text={content.library["games"].title} />
       <BlockGamePhotocard
-        items={content.getItemsOfCategory("games", [0, 1])}
+        items={content.getItemsOfCategory("games", [randomIndex, randomIndex+1])}
         priority
       />
       <BlockAd placementId={placementId} />

@@ -37,19 +37,20 @@ function TopSection({
   const permalink = pageConfig.outbrainPermalink;
   const categories = Object.keys(content.library);
   const randomCategory = categories[Math.floor(randomizer*categories.length)]
+  const randomIndex = Math.floor(randomizer*10)
   //start here -- what is the best place to pass down outbrain permalink.
 
   return (
     <>
       {randomizer < 0.5 && (
         <BlockTopStory
-          items={content.getItemsOfCategory(randomCategory, [0, 1])}
+          items={content.getItemsOfCategory(randomCategory, [randomIndex, randomIndex+1])}
           priority
         />
       )}
       {randomizer >= 0.5 && (
         <BlockPhotocard
-          items={content.getItemsOfCategory(categories[1], [0, 1])}
+          items={content.getItemsOfCategory(randomCategory, [randomIndex, randomIndex+1])}
           priority
         />
       )}
