@@ -42,7 +42,15 @@ export async function fetchRawDaily(
 
 //Fetches content from daily endpont.
 export async function getDailyContent(category: string, language: string) {
-  const data = await fetchRawDaily(category, language);
+  let data = await fetchRawDaily(category, language);
+
+  //setup fallbacks
+  if(!data || data.items.length === 0){
+    data = await fetchRawDaily('standard', language);
+  }
+  if(!data || data.items.length === 0){
+    data = await fetchRawDaily('standard', 'en');
+  }
   const interests = data.interests;
 
   return extractItems(data.items.slice(0, 20), language, interests);
