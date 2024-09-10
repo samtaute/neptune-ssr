@@ -7,8 +7,10 @@ export function RoundedImage({
   className,
   priority,
   gradient,
-  gameGradient
-}: PropsWithChildren<{ image: string; className?: string, priority?: boolean, gradient?:boolean, gameGradient?: boolean}>) {
+  gameGradient,
+  unoptimized = false,
+
+}: PropsWithChildren<{ image: string; className?: string, priority?: boolean, gradient?:boolean, gameGradient?: boolean,   unoptimized?: boolean}>) {
 
   let style;  
   if(gradient){
@@ -35,6 +37,7 @@ export function RoundedImage({
         sizes="300px"
         priority={priority}
         fill
+        unoptimized={unoptimized}
         style={{
           objectFit: "cover",
         }}

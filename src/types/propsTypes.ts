@@ -4,5 +4,6 @@ export interface BlockProps {
     items: ContentEntity[]; 
     priority?: boolean;
     showDescription?: boolean; 
+    unoptimized?: boolean; 
 }
 

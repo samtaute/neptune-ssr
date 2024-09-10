@@ -48,6 +48,8 @@ export async function manualGetPaths() {
     { params: { platform: "boost", language: "en", keyword: "1200" } },
     { params: { platform: "boost", language: "en", keyword: "1600" } },
     { params: { platform: "boost", language: "en", keyword: "2000" } },
+    { params: { platform: "boost", language: "en", keyword: "test" } },
+
     { params: { platform: "tracfonebar", language: "en", keyword: "discover-games" } },
     { params: { platform: "tracfonebar", language: "en", keyword: "discover-style" } },
     { params: { platform: "cricket", language: "es", keyword: "0000" } },
@@ -67,8 +69,10 @@ export function getTemplateId(platform: string, keyword: string) {
   } else if (keyword === "discover-games") {
     return "play";
   } else if (keyword === "discover-style") {
-    return "relax";
-  } else return themes[random];
+    return "discover";
+  } else if (keyword === "test"){
+    return "test"
+  }else return themes[random];
 }
 
 function hasFourConsecutiveNumerals(str: string) {

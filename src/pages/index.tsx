@@ -1,9 +1,14 @@
 import Link from "next/link";
 import { InferGetStaticPropsType } from "next";
-import { getPaths, manualGetPaths } from "@/lib/page-generation/page-generation";
+import {
+  getPaths,
+  manualGetPaths,
+} from "@/lib/page-generation/page-generation";
 
-export default function Home(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const {paths} = props
+export default function Home(
+  props: InferGetStaticPropsType<typeof getStaticProps>
+) {
+  const { paths } = props;
   const platforms: string[] = [];
   for (const path of paths) {
     if (!platforms.includes(path.params.platform)) {
@@ -16,14 +21,17 @@ export default function Home(props: InferGetStaticPropsType<typeof getStaticProp
       <h1 className="text-lg font-bold underline">Main Index</h1>
       <ul>
         {platforms.map((platform) => {
-          const filteredPaths = paths.filter(path=>path.params.platform===platform)
+          const filteredPaths = paths.filter(
+            (path) => path.params.platform === platform
+          );
           return (
-            <>
-              <li key={platform}>{platform}:</li>
-              <ul>
+            <li key={platform}>
+              {platform}:
+              <ul key={Math.random()}>
                 {filteredPaths.map((path) => {
                   return (
-                    <li className="ml-8"
+                    <li
+                      className="ml-8"
                       key={`${path.params.platform}/${path.params.language}/${path.params.keyword}`}
                     >
                       <Link
@@ -41,7 +49,7 @@ export default function Home(props: InferGetStaticPropsType<typeof getStaticProp
                   );
                 })}
               </ul>
-            </>
+            </li>
           );
         })}
       </ul>
@@ -49,13 +57,11 @@ export default function Home(props: InferGetStaticPropsType<typeof getStaticProp
   );
 }
 
-export async function getStaticProps(){
-  return{
+export async function getStaticProps() {
+  return {
     props: {
       // paths: await getPaths()
-      paths: await manualGetPaths(), 
-    }
-  }
-
-
+      paths: await manualGetPaths(),
+    },
+  };
 }

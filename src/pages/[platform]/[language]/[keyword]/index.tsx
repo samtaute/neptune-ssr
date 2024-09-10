@@ -9,6 +9,9 @@ import {
 } from "@/lib/page-generation/page-generation";
 import { ContentStore, ContentStoreData, dtLanguages, PageConfig} from "@/lib/page-generation/types";
 import { getTemplateId, getCategories } from "@/lib/page-generation/page-generation";
+import TemplatePlay from "@/components/templates/TemplatePlay";
+import TemplateRelax from "@/components/templates/TemplateRelax";
+import TemplateTest from "@/components/templates/TemplateTest";
 
 const DEFAULT_PLATFORM_CONFIGS = {
   name: "firstly",
@@ -88,11 +91,11 @@ export const getStaticProps = (async (context) => {
     pubwisePreScript: platformConfigs.adTags[pageLang].pubwisePreScript,
   }
 
-  const randomizer = Math.floor(Math.random()*2);
+  const randomizer = Math.random(); 
 
   return {
     props: {
-      content: content.content,
+      content: content.library,
       templateId,
       pageConfig,
       randomizer,
@@ -111,15 +114,27 @@ export const getStaticPaths = async () => {
     // paths: await getPaths(),
     paths: await manualGetPaths(), 
     fallback: "blocking", //page will not render until getStaticProps has completed.
-
+    
   };
 };
 
 
 
 function getTemplate(id: string, content: ContentStore, pageConfig: PageConfig, randomizer: number) {
-    return <TemplateDiscover content={content} pageConfig={pageConfig} randomizer={randomizer}></TemplateDiscover>;
-  
+    const props = {
+      content,
+      pageConfig,
+      randomizer
+    }
+    if(id === 'discover'){
+      return <TemplateDiscover {...props}></TemplateDiscover>;
+    }else if(id==='play'){
+      return <TemplatePlay {...props}/>
+    }else if (id==='test'){
+      return <TemplateTest {...props}/>
+    } else {
+      return <TemplateRelax {...props}/>
+    }   
 }
 
 
