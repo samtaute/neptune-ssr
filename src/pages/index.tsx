@@ -13,13 +13,13 @@ export default function Home(props: InferGetStaticPropsType<typeof getStaticProp
 
   return (
     <div className="flex flex-col w-full items-center">
-      <h1>Content Pages Master List</h1>
+      <h1 className="text-lg font-bold underline">Main Index</h1>
       <ul>
         {platforms.map((platform) => {
           const filteredPaths = paths.filter(path=>path.params.platform===platform)
           return (
             <>
-              <li key={platform}>{platform}</li>
+              <li key={platform}>{platform}:</li>
               <ul>
                 {filteredPaths.map((path) => {
                   return (
@@ -27,6 +27,7 @@ export default function Home(props: InferGetStaticPropsType<typeof getStaticProp
                       key={`${path.params.platform}/${path.params.language}/${path.params.keyword}`}
                     >
                       <Link
+                        className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
                         href={{
                           pathname: "/[platform]/[language]/[keyword]",
                           query: {
