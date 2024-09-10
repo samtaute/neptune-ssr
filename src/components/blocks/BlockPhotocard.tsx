@@ -7,7 +7,8 @@ import Logo from "../block-elements/Logo";
 import ItemTitle from "../block-elements/ItemTitle";
 import ItemFooter from "../block-elements/ItemFooter";
 
-function BlockPhotocard({ items, priority }: BlockProps) {
+function BlockPhotocard({ items, priority, unoptimized
+ }: BlockProps) {
   return (
     <Container>
       {items.map((item) => {
@@ -19,6 +20,7 @@ function BlockPhotocard({ items, priority }: BlockProps) {
               gradient={true}
               className="h-[254px]"
               priority={priority}
+              unoptimized={unoptimized}
             >
               <div className="z-20">
                 <ItemContentContainer className="px-5">

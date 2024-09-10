@@ -7,7 +7,7 @@ import ItemContentContainer from "../block-elements/ItemContentContainer";
 import ItemFooter from "../block-elements/ItemFooter";
 import ItemDescription from "../block-elements/ItemDescription";
 
-function BlockEdge({ items, showDescription }: BlockProps) {
+function BlockEdge({ items, showDescription, unoptimized }: BlockProps) {
   return (
     <Container>
       {items.map((item) => { 
@@ -16,6 +16,7 @@ function BlockEdge({ items, showDescription }: BlockProps) {
             <RoundedImage
               image={item.wideImage}
               className="h-[252px]"
+              unoptimized
             ></RoundedImage>
             <ItemContentContainer>
               <ItemFooter logo={item.brandLogoDark}/>

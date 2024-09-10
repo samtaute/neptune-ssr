@@ -1,5 +1,11 @@
 import { ContentEntity, ContentScheduleEntity } from "../softbox-api/types";
 
+export type TemplateProps = {
+  content: ContentStore,
+  pageConfig: PageConfig,
+  randomizer: number,
+}
+
 export type AdTags = {
     [language: string]: {
       unitBasePath: string;
@@ -28,17 +34,17 @@ export type PageConfig = {
 }
 
 export class ContentStore {
-  content: ContentStoreData; 
+  library: ContentStoreData; 
 
   addContent(category: CategoryEntity, items: ContentEntity[]){
-    this.content[category.name]={
+    this.library[category.name]={
       ...category,
       items,
     }
   }
   getItemsOfCategory(categoryName: string, indices: number[]){
 
-    if(!this.content[categoryName]){
+    if(!this.library[categoryName]){
       console.error(`Could not find items of category ${categoryName}`)
       //todo return mor e evergreen content here
       return [{
@@ -50,7 +56,7 @@ export class ContentStore {
         uid: "GvfQdXpC4",
       } as ContentEntity]
     }
-    const {items} = this.content[categoryName]; 
+    const {items} = this.library[categoryName]; 
 
     const result = items.slice(indices[0], indices[1]); 
 
@@ -58,12 +64,12 @@ export class ContentStore {
   }
 
   get numKeys():number{
-    return Object.keys(this.content).length
+    return Object.keys(this.library).length
   }
 
 
   constructor(content = {} as ContentStoreData){
-    this.content = content; 
+    this.library = content; 
   }
 
 }

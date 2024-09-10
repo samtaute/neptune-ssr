@@ -6,7 +6,7 @@ import Logo from "../block-elements/Logo";
 import ItemTitle, { ItemTitleSmall } from "../block-elements/ItemTitle";
 import ItemFooter from "../block-elements/ItemFooter";
 
-function BlockTile({ items }: BlockProps) {
+function BlockTile({ items, unoptimized }: BlockProps) {
   let displayItems = items;
   //ensure an even number of items to display.
   if (items.length % 2 !== 0) {
@@ -21,6 +21,7 @@ function BlockTile({ items }: BlockProps) {
               <RoundedImage
                 image={item.squareImage}
                 className="h-[102px] w-full"
+                unoptimized = {unoptimized}
               />
               <div className="px-3 flex flex-col items-start gap-2 mt-2">
               {item.brandLogoDark && <Logo className="h-4" src={item.brandLogoDark} />}

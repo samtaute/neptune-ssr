@@ -93,8 +93,8 @@ export function extractItems(
       owner: item["owner"],
       brandLogo: item.brandLogo,
       brandLogoDark: item.brandLogoDark,
-      wideImage: wideImages[0]?.link ? wideImages[0]?.link : null, //todo why are some links not available?
-      squareImage: squareImages[0]?.link ? squareImages[0]?.link : null,
+      wideImage: wideImages[0]?.link ? wideImages[0].link : missingImage(item), //todo why are some links not available?
+      squareImage: squareImages[0]?.link ? squareImages[0].link : missingImage(item),
       link: item.link,
       sourceLink: item.sourceLink ? item.sourceLink : null,
       uid: item.uid,
@@ -104,4 +104,8 @@ export function extractItems(
         : "",
     };
   });
+}
+function missingImage(item: LookbookItem){
+  console.error(`missing image for ${item.link}, ${item.title}`)
+  return "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-26fNjE97iy.webp"
 }
