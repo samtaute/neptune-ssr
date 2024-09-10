@@ -52,6 +52,7 @@ export async function manualGetPaths() {
     { params: { platform: "tracfonebar", language: "en", keyword: "discover-style" } },
     { params: { platform: "cricket", language: "es", keyword: "0000" } },
     { params: { platform: "cricket", language: "es", keyword: "1200" } },
+    { params: { platform: "cricket", language: "en", keyword: "1000" } },
   ];
   return paths
 }
