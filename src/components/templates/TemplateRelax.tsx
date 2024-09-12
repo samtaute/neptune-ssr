@@ -1,7 +1,7 @@
 import { TemplateProps } from "@/lib/page-generation/types";
 import BlockPhotocardFlat from "../blocks/BlockPhotocardFlat";
 import BlockPhotocard from "../blocks/BlockPhotocard";
-import BlockAd from "../BlockAd";
+import BlockAd from "../blocks/BlockAd";
 import Outbrain from "../providers/Outbrain";
 import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 import BlockTile from "../blocks/BlockTile";

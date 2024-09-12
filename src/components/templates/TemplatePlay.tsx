@@ -1,6 +1,6 @@
 import { TemplateProps } from "@/lib/page-generation/types";
 import BlockGamePhotocard from "../blocks/BlockGamePhotocard";
-import BlockAd from "../BlockAd";
+import BlockAd from "../blocks/BlockAd";
 import { ContentStore, PageConfig } from "@/lib/page-generation/types";
 import BlockHeader from "../blocks/BlockHeader";
 import Outbrain from "../providers/Outbrain";

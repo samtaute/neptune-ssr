@@ -5,7 +5,7 @@ import {
 } from "@/lib/page-generation/types";
 import BlockTopStory from "../blocks/BlockTopStory";
 import BlockPhotocard from "../blocks/BlockPhotocard";
-import BlockAd from "../BlockAd";
+import BlockAd from "../blocks/BlockAd";
 import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 import BlockList from "../blocks/BlockList";
 import Outbrain from "../providers/Outbrain";
