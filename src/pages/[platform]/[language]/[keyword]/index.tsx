@@ -12,6 +12,11 @@ import { getTemplateId, getCategories } from "@/lib/page-generation/page-generat
 import TemplatePlay from "@/components/templates/TemplatePlay";
 import TemplateRelax from "@/components/templates/TemplateRelax";
 import TemplateTest from "@/components/templates/TemplateTest";
+import gtm, { getMpid } from "@/lib/gtm/gtm";
+import { useEffect } from "react";
+import { getAAID } from "@/lib/gtm/gtm";
+import { LS_BRIDGE_APP_VERSION_MP, LS_BRIDGE_MODE_INTERNAL, LS_BRIDGE_UUID_INTERNAL } from "@/lib/gtm/constants";
+
 
 const DEFAULT_PLATFORM_CONFIGS = {
   name: "firstly",
@@ -35,6 +40,27 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const contentStore = new ContentStore(content)
   const template = getTemplate(templateId, contentStore, pageConfig, randomizer);
   const pubwiseScript = pageConfig.pubwiseScript;
+  useEffect(()=>{
+    const event = {
+        event: "neptune_page_view",
+        aaid: getAAID() || null,
+        appVersion: localStorage.getItem(LS_BRIDGE_APP_VERSION_MP) || null,
+        mode: localStorage.getItem(LS_BRIDGE_MODE_INTERNAL) || null,
+        mpid: getMpid() || null,
+        partner: pageConfig.platform || null,
+        platform: pageConfig.platform || null,
+        userId: localStorage.getItem(LS_BRIDGE_UUID_INTERNAL) || null,
+        user_agent: navigator.userAgent,
+        // user_agent_browser: extra?.browser || null,
+        // user_agent_browser_version: extra?.browserVersion || null,
+        // user_agent_mobile: extra?.mobile !== undefined ? extra.mobile : null,
+        // user_agent_model: extra?.model || null,
+        // user_agent_platform: extra?.platform || null,
+        // user_agent_platform_version: extra?.platformVersion || null
+    }
+    gtm.emit(event)
+  })
+
 
 
 
@@ -84,6 +110,7 @@ export const getStaticProps = (async (context) => {
   const pageLang = dtLanguages.includes(language) ? language : "en" //set en as fallback
 
   const pageConfig: PageConfig = {
+    platform: platformConfigs.name, 
     language: pageLang,
     outbrainPermalink: `http://www.mobileposse.com/${obId}/${keyword}/${language}`,
     adBasePath: platformConfigs.adTags[pageLang].unitBasePath,

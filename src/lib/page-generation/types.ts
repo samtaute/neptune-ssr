@@ -26,6 +26,7 @@ export type AdTags = {
 
 
 export type PageConfig = {
+  platform: string, 
   language: string, 
   outbrainPermalink: string, 
   adBasePath: string,
