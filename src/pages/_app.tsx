@@ -2,7 +2,8 @@ import "@/styles/globals.css";
 import Script from "next/script";
 import type { AppProps } from "next/app";
 import { IBM_Plex_Sans } from "next/font/google";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { useEffect } from "react";
+import gtm from "@/lib/gtm/gtm";
 
 const ibmPlexSans = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -11,6 +12,10 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export default function App({ Component, pageProps }: AppProps) {
+  useEffect(()=>{
+    gtm.init(); 
+  })
+
   return (
     <>
       <Script src="https://widgets.outbrain.com/outbrain.js" />
@@ -39,7 +44,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Script src="https://tagan.adlightning.com/mobileposse/op.j"></Script>
       <main className={`${ibmPlexSans.variable}`}>
         <Component {...pageProps} />
-        <GoogleTagManager gtmId="GTM-MVJ2H55"/>
       </main>
     </>
   );
