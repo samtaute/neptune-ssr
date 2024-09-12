@@ -99,34 +99,5 @@ export async function getCategories(templateId: string) {
       result.push(allCategories[random]);
     }
   }
-  result.unshift({name: "Fortune Cookie", schedule:"fortune-cookie", title: "Fortune Cookie"})
   return result;
-
-  // //todo: set up logic for specific categories. start with "originals" and "games"
-
-  // if (templateId === "discover") {
-
-  // } else if (templateId === "play") {
-  //   let result = allCategories.filter(
-  //     (category) => category.name === "originals" || category.name === "games"
-  //   );
-  //   while (result.length < 5) {
-  //     const random = Math.floor(Math.random() * numCategories);
-  //     if (!result.includes(allCategories[random])) {
-  //       result.push(allCategories[random]);
-  //     }
-  //   }
-  //   return result;
-  // } else if (templateId === "relax") {
-  //   let result = allCategories.filter(
-  //     (category) => category.name === "originals" || category.name === "games"
-  //   );
-  //   while (result.length < 5) {
-  //     const random = Math.floor(Math.random() * numCategories);
-  //     if (!result.includes(allCategories[random])) {
-  //       result.push(allCategories[random]);
-  //     }
-  //   }
-  //   return result;
-  // } else return allCategories;
 }
