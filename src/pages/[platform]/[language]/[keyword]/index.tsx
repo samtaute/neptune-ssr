@@ -1,5 +1,5 @@
 import { GetStaticProps, InferGetStaticPropsType } from "next";
-import TemplateDiscover from "@/components/templates/TemplateDiscover";
+import TemplateDiscover from "@/components/themes/TemplateDiscover";
 import Script from "next/script";
 import {
   getPaths,
@@ -11,9 +11,9 @@ import {
   getTemplateId,
   getCategories,
 } from "@/lib/page-generation/page-generation";
-import TemplatePlay from "@/components/templates/TemplatePlay";
-import TemplateRelax from "@/components/templates/TemplateRelax";
-import TemplateTest from "@/components/templates/TemplateTest";
+import TemplatePlay from "@/components/themes/TemplatePlay";
+import TemplateRelax from "@/components/themes/TemplateRelax";
+import TemplateTest from "@/components/themes/TemplateTest";
 import gtm, { getMpid } from "@/lib/gtm/gtm";
 import { useEffect, useRef } from "react";
 import { getAAID } from "@/lib/gtm/gtm";
@@ -101,7 +101,6 @@ export const getStaticProps = (async (context) => {
   //Set up remaining properties for FeedPage
   const templateId = getTemplateId(platform, keyword);
   const schedules = getSchedules(keyword, langProp); //will return \categories required by page. For instance, the "discover-lifestyle" must have lifestyle as a category.
-  console.log('schedules: ', schedules)
   const contentSeed = await createContentSeed(schedules, language);
 
   //set up page config

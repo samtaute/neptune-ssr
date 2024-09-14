@@ -1,10 +1,10 @@
 import { BlockProps } from "@/types/propsTypes";
-import Container from "../block-elements/Container";
-import ItemWrapper from "../block-elements/ItemWrapper";
-import { RoundedImage } from "../block-elements/RoundedImage";
-import Logo from "../block-elements/Logo";
-import ItemTitle, { ItemTitleSmall } from "../block-elements/ItemTitle";
-import ItemFooter from "../block-elements/ItemFooter";
+import Container from "../common/Container";
+import ItemWrapper from "../common/ItemWrapper";
+import { RoundedImage } from "../common/RoundedImage";
+import Logo from "../common/Logo";
+import ItemTitle, { ItemTitleSmall } from "../common/ItemTitle";
+import ItemFooter from "../common/ItemFooter";
 
 function BlockTile({ items, unoptimized }: BlockProps) {
   let displayItems = items;

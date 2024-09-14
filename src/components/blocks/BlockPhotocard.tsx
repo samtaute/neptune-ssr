@@ -1,11 +1,11 @@
 import { BlockProps } from "../../types/propsTypes";
-import Container from "../block-elements/Container";
-import ItemWrapper from "../block-elements/ItemWrapper";
-import { RoundedImage } from "../block-elements/RoundedImage";
-import ItemContentContainer from "../block-elements/ItemContentContainer";
-import Logo from "../block-elements/Logo";
-import ItemTitle from "../block-elements/ItemTitle";
-import ItemFooter from "../block-elements/ItemFooter";
+import Container from "../common/Container";
+import ItemWrapper from "../common/ItemWrapper";
+import { RoundedImage } from "../common/RoundedImage";
+import ItemContentContainer from "../common/ItemContentContainer";
+import Logo from "../common/Logo";
+import ItemTitle from "../common/ItemTitle";
+import ItemFooter from "../common/ItemFooter";
 
 function BlockPhotocard({ items, priority, unoptimized
  }: BlockProps) {

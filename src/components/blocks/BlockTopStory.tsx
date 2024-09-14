@@ -1,12 +1,12 @@
 import { BlockProps } from "../../types/propsTypes";
 import BlockHeader from "./BlockHeader";
-import ItemWrapper from "../block-elements/ItemWrapper";
-import Divider from "../block-elements/Divider";
-import { RoundedImage } from "../block-elements/RoundedImage";
-import ItemContentContainer from "../block-elements/ItemContentContainer";
-import ItemFooter from "../block-elements/ItemFooter";
-import ItemTitle from "../block-elements/ItemTitle";
-import ItemDescription from "../block-elements/ItemDescription";
+import ItemWrapper from "../common/ItemWrapper";
+import Divider from "../common/Divider";
+import { RoundedImage } from "../common/RoundedImage";
+import ItemContentContainer from "../common/ItemContentContainer";
+import ItemFooter from "../common/ItemFooter";
+import ItemTitle from "../common/ItemTitle";
+import ItemDescription from "../common/ItemDescription";
 import { PropsWithChildren } from "react";
 
 function BlockTopStory({ items, priority }: BlockProps) {
