@@ -14,3 +14,4 @@ export const DEFAULT_PLATFORM_CONFIGS = {
     outbrainPlatformId: "BOOST/FASTNEWS",
   };
   
+  export const DT_LANGUAGES = ['en', 'es']

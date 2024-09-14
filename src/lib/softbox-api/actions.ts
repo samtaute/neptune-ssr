@@ -1,23 +1,73 @@
-import { CategoryEntity, ContentStore } from "../page-generation/types";
 import { LookbookItem, Interests, ContentEntity } from "./types";
+import { Interest } from "../page-generation/content-store";
 
-export async function createContentStore(
-  categories: CategoryEntity[],
-  language: string
-) {
-  const store = new ContentStore();
+interface RawInterest {
+  name: {
+    [key: string]: string;
+  };
+  description: {
+    [key: string]: string;
+  };
+  uid: string;
+  priority: number;
+  previews: RawInterestPreview[];
+  selectable: boolean;
+}
 
-  for (const cat of categories) {
-    const content = await getDailyContent(cat.schedule, language);
-    if (content) {
-      store.addContent(cat, content as ContentEntity[]);
+interface RawInterestPreview {
+  uid: string;
+  averageColor: string;
+  images: RawInterest[];
+  thumbnails: RawInterestThumbnail[];
+}
+
+interface RawInterestImage {
+  height: number;
+  width: number;
+  url: string;
+}
+
+interface RawInterestThumbnail {
+  height: number;
+  width: number;
+  url: string;
+  aspect: string;
+}
+
+export async function fetchRawInterests(): Promise<RawInterest[]> {
+  const requestUrl = `${process.env.softboxBaseUrl}/interests?ckey=${process.env.softboxKey}`;
+  try {
+    const response = await fetch(requestUrl);
+
+    if (!response.ok) {
+      throw new Error(`Http error. Status: ${response.status}`);
     }
+    const data = await response.json();
+
+    return data.interests as RawInterest[];
+  } catch (error) {
+    console.error(`Could not fetch ${requestUrl}`, error);
+    return [];
   }
-  if (store.numKeys === 0) {
-    //todo: more robust error handling here
-    console.error("No content returned in store");
+}
+
+export async function getAllInterests(language: string): Promise<Interest[]> {
+  const rawInterests = await fetchRawInterests();
+  return extractInterests(rawInterests, language);
+}
+
+function extractInterests(
+  rawInterests: RawInterest[],
+  language: string
+): Interest[] {
+  let interests = [];
+  for (const rawInterest of rawInterests) {
+    interests.push({
+      name: rawInterest.name[language],
+      items: [],
+    });
   }
-  return store;
+  return interests as Interest[];
 }
 
 export async function fetchRawDaily(
@@ -41,19 +91,24 @@ export async function fetchRawDaily(
 }
 
 //Fetches content from daily endpont.
-export async function getDailyContent(category: string, language: string) {
+export async function getDailyContent(
+  category: string,
+  language: string
+): Promise<ContentEntity[]> {
   let data = await fetchRawDaily(category, language);
 
   //setup fallbacks
-  if(!data || data.items.length === 0){
-    data = await fetchRawDaily('standard', language);
+  let lang = language;
+  if (!data || data.items.length === 0) {
+    data = await fetchRawDaily("standard", lang);
   }
-  if(!data || data.items.length === 0){
-    data = await fetchRawDaily('standard', 'en');
+  if (!data || data.items.length === 0) {
+    lang = "en";
+    data = await fetchRawDaily("standard", lang);
   }
   const interests = data.interests;
 
-  return extractItems(data.items.slice(0, 20), language, interests);
+  return extractItems(data.items, lang, interests);
 }
 
 //Returns clean data from a raw softbox feed.
@@ -61,7 +116,7 @@ export function extractItems(
   rawItems: LookbookItem[],
   language: string,
   interests: Interests
-) {
+): ContentEntity[] {
   let shortenedLang: string = language.substring(0, 2);
 
   //checks if rawItems support language requested, and if not, switch to a supported language.
@@ -78,15 +133,18 @@ export function extractItems(
     );
 
     //todo: handle empty interests array
-    const getPrimaryInterest = () => {
+    const getPrimaryInterests = () => {
+      const result = []
       if (item.interests.length > 0) {
-        const interestId = item.interests[0];
-        const interestName = interests[interestId]["name"][language];
-        return interestName;
-      } else return "Reveal";
+        for (const interestId of item.interests) {
+          const interestName = interests[interestId]["name"][language];
+          result.push(interestName)
+        }
+        return result
+      } else return ['reveal']
     };
     return {
-      title: item["title"][shortenedLang],
+      title: item["title"][shortenedLang]!,
       description: item.summary?.[shortenedLang]
         ? item.summary?.[shortenedLang]
         : "",
@@ -94,18 +152,22 @@ export function extractItems(
       brandLogo: item.brandLogo,
       brandLogoDark: item.brandLogoDark,
       wideImage: wideImages[0]?.link ? wideImages[0].link : missingImage(item), //todo why are some links not available?
-      squareImage: squareImages[0]?.link ? squareImages[0].link : missingImage(item),
+      squareImage: squareImages[0]?.link
+        ? squareImages[0].link
+        : missingImage(item),
       link: item.link,
       sourceLink: item.sourceLink ? item.sourceLink : null,
       uid: item.uid,
-      primaryInterest: getPrimaryInterest(),
+      type: item.lbtype,
+      primaryInterest: getPrimaryInterests()[0],
+      interests: getPrimaryInterests(),
       fortune: item.fortune?.fortunetext[shortenedLang]
         ? item.fortune.fortunetext[shortenedLang]
         : "",
     };
   });
 }
-function missingImage(item: LookbookItem){
-  console.error(`missing image for ${item.link}, ${item.title}`)
-  return "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-26fNjE97iy.webp"
+function missingImage(item: LookbookItem) {
+  console.error(`missing image for ${item.link}, ${item.title}`);
+  return "https://media.fotoscapes.com/imgs/WJ/fE/jR/jH/B/WJfEjRjHB-26fNjE97iy.webp";
 }

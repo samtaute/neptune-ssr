@@ -1,9 +1,9 @@
-import { ContentEntity, ContentScheduleEntity } from "../softbox-api/types";
+import { ContentEntity } from "../softbox-api/types";
+import { ContentStore } from "./content-store";
 
 export type TemplateProps = {
-  content: ContentStore,
+  contentStore: ContentStore,
   pageConfig: PageConfig,
-  randomizer: number,
 }
 
 export type AdTags = {
@@ -22,7 +22,6 @@ export type AdTags = {
     outbrainPlatformId: string;
   };
 
-  export const dtLanguages = ['en', 'es']
 
 
 export type PageConfig = {
@@ -32,47 +31,6 @@ export type PageConfig = {
   adBasePath: string,
   pubwiseScript: string,
   pubwisePreScript: string, 
-}
-
-export class ContentStore {
-  library: ContentStoreData; 
-
-  addContent(category: CategoryEntity, items: ContentEntity[]){
-    this.library[category.name]={
-      ...category,
-      items,
-    }
-  }
-  getItemsOfCategory(categoryName: string, indices: number[]){
-
-    if(!this.library[categoryName]){
-      console.error(`Could not find items of category ${categoryName}`)
-      //todo return mor e evergreen content here
-      return [{
-        title: "9 of the Wildest Celebrity Purchases",
-        owner: "Fotoscapes",
-        wideImage: "https://media.fotoscapes.com/imgs/On/fO/pp/Pi/X/OnfOppPiX-p6fqNmg1h0.webp",
-        squareImage: "https://media.fotoscapes.com/imgs/On/fO/pp/Pi/X/OnfOppPiX-p6fqNmg1h0.webp",
-        link: "https://fotoscapes.com/lookbook/GvfQdXpC4/9-of-the-wildest-celebrity-purchases", 
-        uid: "GvfQdXpC4",
-      } as ContentEntity]
-    }
-    const {items} = this.library[categoryName]; 
-
-    const result = items.slice(indices[0], indices[1]); 
-
-    return result; 
-  }
-
-  get numKeys():number{
-    return Object.keys(this.library).length
-  }
-
-
-  constructor(content = {} as ContentStoreData){
-    this.library = content; 
-  }
-
 }
 
 export type CategoryEntity = {

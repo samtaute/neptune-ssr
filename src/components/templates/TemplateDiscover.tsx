@@ -1,79 +1,64 @@
-import {
-  ContentStore,
-  PageConfig,
-  TemplateProps,
-} from "@/lib/page-generation/types";
+import { PageConfig, TemplateProps } from "@/lib/page-generation/types";
 import BlockTopStory from "../blocks/BlockTopStory";
 import BlockPhotocard from "../blocks/BlockPhotocard";
 import BlockAd from "../blocks/BlockAd";
 import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 import BlockList from "../blocks/BlockList";
 import Outbrain from "../providers/Outbrain";
+import { ContentStore } from "@/lib/page-generation/content-store";
+import BlockEdge from "../blocks/BlockEdge";
+import BlockHeader from "../blocks/BlockHeader";
 
-function TemplateDiscover(
-props
-: TemplateProps) {
-
+function TemplateDiscover(props: TemplateProps) {
   return (
     <>
-      <TopSection
-        {...props}
-      />
+      <TopSection {...props} />
       <BottomSection {...props}/>
     </>
   );
 }
 
 function TopSection({
-  content,
+  contentStore,
   pageConfig,
-  randomizer,
-}: {
-  content: ContentStore;
-  pageConfig: PageConfig;
-  randomizer: number;
-}) {
+}: TemplateProps) {
   const placementId = pageConfig.adBasePath + "top";
   const permalink = pageConfig.outbrainPermalink;
-  const categories = Object.keys(content.library);
-  const randomCategory = categories[Math.floor(randomizer*categories.length)]
-  const randomIndex = Math.floor(randomizer*10)
+
+  const { getGalleries, getArticles, getGames, randomizer } = contentStore;
+  const randomIndex = Math.floor(randomizer * 10);
   //start here -- what is the best place to pass down outbrain permalink.
 
+  const { galleries, galleriesTitle } = getGalleries([0, 4]);
   return (
     <>
       {randomizer < 0.5 && (
-        <BlockTopStory
-          items={content.getItemsOfCategory(randomCategory, [randomIndex, randomIndex+1])}
-          priority
-        />
+        <BlockTopStory items={galleries.slice(0,1)} priority />
       )}
       {randomizer >= 0.5 && (
-        <BlockPhotocard
-          items={content.getItemsOfCategory(randomCategory, [randomIndex, randomIndex+1])}
-          priority
-        />
+        <>
+          <BlockHeader text={galleriesTitle} />
+          <BlockPhotocard items={galleries.slice(0,1)} priority />
+        </>
       )}
+
+
       <BlockAd placementId={placementId} />
-      <Outbrain layout="edge" widgetId="JS_16" permalink={permalink} />
-      <Outbrain layout="tile" widgetId="JS_9" permalink={permalink} />
+      <Outbrain layout="edge" widgetId="JS_9" permalink={permalink} />
     </>
   );
 }
 
 function BottomSection({
-  content,
+  contentStore,
   pageConfig,
-  randomizer
 }: TemplateProps) {
 
-  const categories = Object.keys(content.library);
-  const randomCategory = categories[Math.floor(randomizer*categories.length)]
 
   return (
     <>
     <BlockFortune language={pageConfig.language} />
-    <BlockList items={content.getItemsOfCategory(categories[1], [2, 6])} />
+    <BlockList items={contentStore.getArticles([0,4]).articles} />
     </>
   )
 }
