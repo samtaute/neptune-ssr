@@ -18,17 +18,19 @@ function TemplateRelax(props: TemplateProps) {
 
 export default TemplateRelax;
 
-function TemplateRelaxTop({ content, pageConfig, randomizer }: TemplateProps) {
+function TemplateRelaxTop({ contentStore, pageConfig }: TemplateProps) {
   const placementId = pageConfig.adBasePath + "top";
   const permalink = pageConfig.outbrainPermalink;
-  const startIndex = Math.floor(randomizer * 5)
+  const {randomizer, getGalleries} = contentStore;  
 
+  const {galleries, galleriesTitle} = getGalleries([0,1])
   return (
     <>
-      {randomizer <= 0.5 && <BlockFortune language={pageConfig.language} />}
+      <BlockHeader text={galleriesTitle}/>
+      {randomizer <= 0.5 && <BlockPhotocardFlat items={galleries} priority/>}
       {randomizer > 0.5 && (
         <BlockPhotocard
-        items={content.getItemsOfCategory("originals", [startIndex, startIndex+1])}
+        items={galleries}
           priority
         />
       )}
@@ -40,24 +42,21 @@ function TemplateRelaxTop({ content, pageConfig, randomizer }: TemplateProps) {
 }
 
 function TemplateRelaxBottom({
-  content,
+  contentStore,
   pageConfig,
-  randomizer,
 }: TemplateProps) {
-  const categories = Object.keys(content.library);
-  const randomIndex = Math.floor(randomizer * categories.length);
 
-  const randomCategory = categories[randomIndex];
+  const {randomizer, getGalleries} = contentStore 
 
   return (
     <>
       {randomizer > 0.5 && <BlockFortune language={pageConfig.language} />}
       {randomizer <= 0.5 && (
         <BlockPhotocard
-          items={content.getItemsOfCategory(randomCategory, [0, 1])}
+          items={getGalleries([1, 2]).galleries}
         />
       )}
-      <BlockTile items={content.getItemsOfCategory(randomCategory, [1, 9])} />
+      <BlockTile items={getGalleries([2, 10]).galleries} />
     </>
   );
 }

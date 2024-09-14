@@ -1,10 +1,10 @@
 import { TemplateProps } from "@/lib/page-generation/types";
 import BlockGamePhotocard from "../blocks/BlockGamePhotocard";
 import BlockAd from "../blocks/BlockAd";
-import { ContentStore, PageConfig } from "@/lib/page-generation/types";
 import BlockHeader from "../blocks/BlockHeader";
 import Outbrain from "../providers/Outbrain";
 import BlockTile from "../blocks/BlockTile";
+import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 
 // TemplateProps: {
 //     content,
@@ -21,37 +21,33 @@ function TemplatePlay(props: TemplateProps) {
   );
 }
 
-function TemplatePlayTop({ content, pageConfig, randomizer }: TemplateProps) {
+function TemplatePlayTop({ contentStore, pageConfig }: TemplateProps) {
   const placementId = pageConfig.adBasePath + "top";
   const permalink = pageConfig.outbrainPermalink;
-  const categories = Object.keys(content.library);
-  const randomIndex = Math.floor(randomizer * 5)
 
-  //start here -- what is the best place to pass down outbrain permalink.
+  const { getGames, randomizer } = contentStore;
+  const { gamesTitle, games } = getGames([0, 1]);
 
   return (
     <>
-      <BlockHeader text={content.library["games"].title} />
-      <BlockGamePhotocard
-        items={content.getItemsOfCategory("games", [randomIndex, randomIndex+1])}
-        priority
-      />
+      {randomizer > 0.5 && <BlockFortune language={pageConfig.language} />}
+      {randomizer <= 0.5 && (
+        <>
+          <BlockHeader text={gamesTitle} />
+          <BlockGamePhotocard items={games} priority />
+        </>
+      )}
       <BlockAd placementId={placementId} />
-      <Outbrain layout="edge" widgetId="JS_16" permalink={permalink} />
-      <Outbrain layout="tile" widgetId="JS_9" permalink={permalink} />
+      <Outbrain layout="edge" widgetId="JS_9" permalink={permalink} />
     </>
   );
 }
 
-function TemplatePlayBottom({
-  content,
-  pageConfig,
-  randomizer,
-}: TemplateProps) {
+function TemplatePlayBottom({ contentStore, pageConfig }: TemplateProps) {
   return (
     <>
-      <BlockGamePhotocard items={content.getItemsOfCategory("games", [1, 2])} />
-      <BlockTile items={content.getItemsOfCategory("games", [2, 10])} />
+      <BlockGamePhotocard items={contentStore.getGames([1, 2]).games} />
+      <BlockTile items={contentStore.getGames([2, 11]).games} />
     </>
   );
 }

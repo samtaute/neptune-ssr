@@ -16,7 +16,7 @@ function BlockPhotocardFlat({ items, priority }: BlockProps) {
                   {item.brandLogo && (
                     <Logo
                       src={item.brandLogo}
-                      className="absolute left-4 top-4"
+                      className="absolute left-4 top-4 h-5"
                     />
                   )}
                 </RoundedImage>

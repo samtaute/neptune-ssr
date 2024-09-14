@@ -100,7 +100,8 @@ export const getStaticProps = (async (context) => {
 
   //Set up remaining properties for FeedPage
   const templateId = getTemplateId(platform, keyword);
-  const schedules = getSchedules(keyword, langProp); //will return categories required by page. For instance, the "discover-lifestyle" must have lifestyle as a category.
+  const schedules = getSchedules(keyword, langProp); //will return \categories required by page. For instance, the "discover-lifestyle" must have lifestyle as a category.
+  console.log('schedules: ', schedules)
   const contentSeed = await createContentSeed(schedules, language);
 
   //set up page config
@@ -144,17 +145,16 @@ function getTemplate(
   pageConfig: PageConfig
 ) {
   const props = {
-    contentStore: content,
+    contentStore: content,  
     pageConfig,
   };
-  return <TemplateDiscover {...props} />;
-  // if(id === 'discover'){
-  //   return <TemplateDiscover {...props}></TemplateDiscover>;
-  // }else if(id==='play'){
-  //   return <TemplatePlay {...props}/>
-  // }else if (id==='test'){
-  //   return <TemplateTest {...props}/>
-  // } else {
-  //   return <TemplateRelax {...props}/>
-  // }
+  if(id === 'discover'){
+    return <TemplateDiscover {...props}></TemplateDiscover>;
+  }else if(id==='play'){
+    return <TemplatePlay {...props}/>
+  }else if (id==='test'){
+    return <TemplateTest {...props}/>
+  } else {
+    return <TemplateRelax {...props}/>
+  }
 }

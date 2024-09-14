@@ -62,14 +62,21 @@ export async function manualGetPaths() {
 //Returns a theme template at random.
 export function getTemplateId(platform: string, keyword: string) {
   const themes = ["discover", "play", "relax"];
-  const random = Math.floor(Math.random() * 3);
+  const random = Math.floor(Math.random() * 5);
+
   //If daily brief, return a theme at random
   if (hasFourConsecutiveNumerals(keyword)) {
-    return themes[random];
+    if (random === 1 || random === 2){
+      return 'discover'
+    } 
+    if (random === 3 || random === 4){
+      return  'relax'
+    }
+    else return 'play'
   } else if (keyword === "discover-games") {
     return "play";
   } else if (keyword === "discover-style") {
-    return "discover";
+    return "relax";
   } else if (keyword === "test"){
     return "test"
   }else return themes[random];

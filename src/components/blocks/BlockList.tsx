@@ -16,7 +16,7 @@ function BlockList({ items }: BlockProps) {
               <div className="flex flex-col pt-1 gap-2 flex-1 h-[84px]line-clamp-3">
                 <div className="flex items-start">
                   {item.brandLogoDark && (
-                    <Logo className="w-auto" src={item.brandLogoDark} />
+                    <Logo src={item.brandLogoDark} />
                   )}
                 </div>
                 <ItemTitleSmall title={item.title} className="text-sm font-medium"/>

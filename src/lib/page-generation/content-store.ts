@@ -2,6 +2,7 @@ import { getDailyContent } from "../softbox-api/actions";
 import { ContentEntity } from "../softbox-api/types";
 import { pageCategories } from "./page-categories";
 import { getAllInterests } from "../softbox-api/actions";
+import { FALLBACK_CONTENT } from "./constants";
 
 export type Interest = {
   name: string;
@@ -41,8 +42,10 @@ export class ContentStore {
   getGalleries = (indices: number[]) => {
     const numCats = this.galleries.length;
     const randomIdx = Math.floor(this.randomizer * numCats);
+    const interest = this.galleries[randomIdx]
+    const items = interest.items
     return {
-      galleries: this.galleries[randomIdx].items.slice(indices[0], indices[1]),
+      galleries: items.slice(indices[0], indices[1]),
       galleriesTitle: this.galleries[randomIdx].name,
     };
   };
@@ -72,7 +75,7 @@ export class ContentStore {
 
 export function getSchedules(keyword: string, language: string) {
   if (isFSD(keyword)) {
-    return ["standard", "standard"];
+    return ["standard", ];
   }
   if (isCategory(keyword)) {
     return [pageCategories[keyword]];
@@ -105,11 +108,9 @@ export async function createContentSeed(
     items = [...items, ...newItems];
   }
 
-  const dedupedItems = dedupe(items); //requires "dowlevelIteration" set to true in tsconfig.json\
-
+  const dedupedItems = dedupe(items); 
   //Updates interest counts and filters out interests with 0 count.
   const galleries = createInterests(dedupedItems, allInterests);
-
   const articles = createInterests(
     dedupe(await getDailyContent("dynamic-news", language)),
     allInterests
@@ -149,6 +150,13 @@ function createInterests(items: ContentEntity[], allInterests: Interest[]) {
     }
   }
   result = result.filter((interest) => interest.items.length > 4);
+  if(result.length < 1){
+    console.error('requested schedule did not return enough items. returned stale content')
+    return FALLBACK_CONTENT
+
+  }
   result.sort((a, b) => b.items.length - a.items.length);
   return result;
 }
+
+

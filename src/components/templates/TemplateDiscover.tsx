@@ -1,44 +1,43 @@
-import { PageConfig, TemplateProps } from "@/lib/page-generation/types";
+import {TemplateProps } from "@/lib/page-generation/types";
 import BlockTopStory from "../blocks/BlockTopStory";
 import BlockPhotocard from "../blocks/BlockPhotocard";
 import BlockAd from "../blocks/BlockAd";
 import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 import BlockList from "../blocks/BlockList";
 import Outbrain from "../providers/Outbrain";
-import { ContentStore } from "@/lib/page-generation/content-store";
-import BlockEdge from "../blocks/BlockEdge";
 import BlockHeader from "../blocks/BlockHeader";
 
 function TemplateDiscover(props: TemplateProps) {
   return (
     <>
-      <TopSection {...props} />
-      <BottomSection {...props}/>
+      <TemplateDiscoverTop {...props} />
+      <TemplateDiscoverBottom {...props}/>
     </>
   );
 }
 
-function TopSection({
+function TemplateDiscoverTop({
   contentStore,
   pageConfig,
 }: TemplateProps) {
   const placementId = pageConfig.adBasePath + "top";
   const permalink = pageConfig.outbrainPermalink;
 
-  const { getGalleries, getArticles, getGames, randomizer } = contentStore;
+  const {getArticles, randomizer } = contentStore;
   const randomIndex = Math.floor(randomizer * 10);
   //start here -- what is the best place to pass down outbrain permalink.
 
-  const { galleries, galleriesTitle } = getGalleries([0, 4]);
+  const { articles, articlesTitle } = getArticles([0, 4]);
+
   return (
     <>
       {randomizer < 0.5 && (
-        <BlockTopStory items={galleries.slice(0,1)} priority />
+        <BlockTopStory items={articles.slice(0,1)} priority />
       )}
       {randomizer >= 0.5 && (
         <>
-          <BlockHeader text={galleriesTitle} />
-          <BlockPhotocard items={galleries.slice(0,1)} priority />
+          <BlockHeader text={articlesTitle} />
+          <BlockPhotocard items={articles.slice(0,1)} priority />
         </>
       )}
 
@@ -49,7 +48,7 @@ function TopSection({
   );
 }
 
-function BottomSection({
+function TemplateDiscoverBottom({
   contentStore,
   pageConfig,
 }: TemplateProps) {
@@ -58,7 +57,7 @@ function BottomSection({
   return (
     <>
     <BlockFortune language={pageConfig.language} />
-    <BlockList items={contentStore.getArticles([0,4]).articles} />
+    <BlockList items={contentStore.getGalleries([0,4]).galleries} />
     </>
   )
 }

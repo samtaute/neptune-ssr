@@ -101,6 +101,7 @@ export async function getDailyContent(
   let lang = language;
   if (!data || data.items.length === 0) {
     data = await fetchRawDaily("standard", lang);
+
   }
   if (!data || data.items.length === 0) {
     lang = "en";
