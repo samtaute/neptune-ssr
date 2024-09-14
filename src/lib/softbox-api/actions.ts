@@ -157,7 +157,7 @@ export function extractItems(
         ? squareImages[0].link
         : missingImage(item),
       link: item.link,
-      sourceLink: item.sourceLink ? item.sourceLink : null,
+      sourceLink: item.sourceLink,
       uid: item.uid,
       type: item.lbtype,
       primaryInterest: getPrimaryInterests()[0],
