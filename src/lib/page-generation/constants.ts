@@ -36,7 +36,6 @@ export const FALLBACK_CONTENT = [
         squareImage:
           "https://media.fotoscapes.com/imgs/w6/fP/Pp/9G/Cg/w6fPPp9GCg-kvfk1jxOhO.webp",
         link: "https://fotoscapes.com/lookbook/kvfmGXznsq/master-the-trend-the-rugby-shirt",
-        sourceLink: null,
         uid: "kvfmGXznsq",
         type: "standard",
         primaryInterest: "Fashion",
@@ -104,8 +103,6 @@ export const FALLBACK_CONTENT = [
           "https://media.fotoscapes.com/imgs/kv/fl/nv/6h/J/kvflnv6hJ-ZofDVVJAUg.webp",
         squareImage:
           "https://media.fotoscapes.com/imgs/kv/fl/nv/6h/J/kvflnv6hJ-yBf2ddRNFO.webp",
-        link: "https://fotoscapes.com/lookbook/OnfyvGytY/billie-eilishs-air-jordan-exclusives",
-        sourceLink: null,
         uid: "OnfyvGytY",
         type: "standard",
         primaryInterest: "Sneakers",
@@ -128,7 +125,6 @@ export const FALLBACK_CONTENT = [
         squareImage:
           "https://media.fotoscapes.com/imgs/NZ/fr/w3/kS/o/NZfrw3kSo-BBfdlVVkuD.webp",
         link: "https://fotoscapes.com/lookbook/VPf3xgtz/the-start-of-lamelo-and-pumas-major-partnership",
-        sourceLink: null,
         uid: "VPf3xgtz",
         type: "standard",
         primaryInterest: "Fashion",
@@ -151,7 +147,6 @@ export const FALLBACK_CONTENT = [
         squareImage:
           "https://media.fotoscapes.com/imgs/4x/f2/jv/Zj/ua/4xf2jvZjua-NZfvgQ4Eiz.webp",
         link: "https://fotoscapes.com/lookbook/v4fYXjPaHo/nikes-chinese-new-year-24-collection",
-        sourceLink: null,
         uid: "v4fYXjPaHo",
         type: "standard",
         primaryInterest: "Sneakers",
@@ -174,7 +169,6 @@ export const FALLBACK_CONTENT = [
         squareImage:
           "https://media.fotoscapes.com/imgs/kv/fl/nv/6h/J/kvflnv6hJ-yBf2ddRNFO.webp",
         link: "https://fotoscapes.com/lookbook/OnfyvGytY/billie-eilishs-air-jordan-exclusives",
-        sourceLink: null,
         uid: "OnfyvGytY",
         type: "standard",
         primaryInterest: "Sneakers",
@@ -197,7 +191,6 @@ export const FALLBACK_CONTENT = [
         squareImage:
           "https://media.fotoscapes.com/imgs/NZ/fr/w3/kS/o/NZfrw3kSo-BBfdlVVkuD.webp",
         link: "https://fotoscapes.com/lookbook/VPf3xgtz/the-start-of-lamelo-and-pumas-major-partnership",
-        sourceLink: null,
         uid: "VPf3xgtz",
         type: "standard",
         primaryInterest: "Fashion",
@@ -220,7 +213,6 @@ export const FALLBACK_CONTENT = [
         squareImage:
           "https://media.fotoscapes.com/imgs/4x/f2/jv/Zj/ua/4xf2jvZjua-NZfvgQ4Eiz.webp",
         link: "https://fotoscapes.com/lookbook/v4fYXjPaHo/nikes-chinese-new-year-24-collection",
-        sourceLink: null,
         uid: "v4fYXjPaHo",
         type: "standard",
         primaryInterest: "Sneakers",

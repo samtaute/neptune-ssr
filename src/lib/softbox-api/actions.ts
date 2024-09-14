@@ -157,7 +157,7 @@ export function extractItems(
         ? squareImages[0].link
         : missingImage(item),
       link: item.link,
-      sourceLink: item.sourceLink,
+      sourceLink: getSourceLink(item), 
       uid: item.uid,
       type: item.lbtype,
       primaryInterest: getPrimaryInterests()[0],
@@ -167,6 +167,12 @@ export function extractItems(
         : "",
     };
   });
+}
+
+function getSourceLink(item: LookbookItem){
+  if(item.sourceLink && item.sourceLink !== null){
+    return item.sourceLink; 
+  }
 }
 function missingImage(item: LookbookItem) {
   console.error(`missing image for ${item.link}, ${item.title}`);

@@ -152,7 +152,7 @@ function createInterests(items: ContentEntity[], allInterests: Interest[]) {
   result = result.filter((interest) => interest.items.length > 4);
   if(result.length < 1){
     console.error('requested schedule did not return enough items. returned stale content')
-    return FALLBACK_CONTENT
+    return FALLBACK_CONTENT as Interest[]
 
   }
   result.sort((a, b) => b.items.length - a.items.length);
