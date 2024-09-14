@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import ItemTitle from "@/components/block-elements/ItemTitle";
+import ItemTitle from "@/components/common/ItemTitle";
 import { fetchRawDaily } from "@/lib/softbox-api/actions";
 
 function BlockFortune({language}:{language: string}) {

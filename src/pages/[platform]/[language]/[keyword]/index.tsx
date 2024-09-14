@@ -1,79 +1,78 @@
 import { GetStaticProps, InferGetStaticPropsType } from "next";
-import { createContentStore } from "@/lib/softbox-api/actions";
-import TemplateDiscover from "@/components/templates/TemplateDiscover";
+import TemplateDiscover from "@/components/themes/TemplateDiscover";
 import Script from "next/script";
 import {
   getPaths,
   getPlatformConfigs,
   manualGetPaths,
 } from "@/lib/page-generation/page-generation";
-import { ContentStore, ContentStoreData, dtLanguages, PageConfig} from "@/lib/page-generation/types";
-import { getTemplateId, getCategories } from "@/lib/page-generation/page-generation";
-import TemplatePlay from "@/components/templates/TemplatePlay";
-import TemplateRelax from "@/components/templates/TemplateRelax";
-import TemplateTest from "@/components/templates/TemplateTest";
+import { PageConfig } from "@/lib/page-generation/types";
+import {
+  getTemplateId,
+  getCategories,
+} from "@/lib/page-generation/page-generation";
+import TemplatePlay from "@/components/themes/TemplatePlay";
+import TemplateRelax from "@/components/themes/TemplateRelax";
+import TemplateTest from "@/components/themes/TemplateTest";
 import gtm, { getMpid } from "@/lib/gtm/gtm";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { getAAID } from "@/lib/gtm/gtm";
-import { LS_BRIDGE_APP_VERSION_MP, LS_BRIDGE_MODE_INTERNAL, LS_BRIDGE_UUID_INTERNAL } from "@/lib/gtm/constants";
-
-
-const DEFAULT_PLATFORM_CONFIGS = {
-  name: "firstly",
-  product: "daily-brief",
-  languages: ["en", "es"],
-  adTags: {
-    en: {
-      unitBasePath: "/180049092/ROS_OM_SNACKTIME_WVIEW_EN_",
-      pubwiseScript:
-        "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pws.js?type=snacktime-english",
-      pubwisePreScript:
-        "https://fdyn.pubwise.io/script/c24055f1-5419-4d4c-8fe9-fc3491f15c71/v3/dyn/pre_pws.js?type=snacktime-english",
-    },
-  },
-  outbrainPlatformId: "BOOST/FASTNEWS",
-};
+import {
+  LS_BRIDGE_APP_VERSION_MP,
+  LS_BRIDGE_MODE_INTERNAL,
+  LS_BRIDGE_UUID_INTERNAL,
+} from "@/lib/gtm/constants";
+import {
+  DEFAULT_PLATFORM_CONFIGS,
+  DT_LANGUAGES,
+} from "@/lib/page-generation/constants";
+import {
+  ContentStore,
+  ContentStoreSeed,
+  createContentSeed,
+  getSchedules,
+} from "@/lib/page-generation/content-store";
 
 function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { templateId, content, pageConfig, randomizer } = props;
-  
-  const contentStore = new ContentStore(content)
-  const template = getTemplate(templateId, contentStore, pageConfig, randomizer);
+  const { templateId, contentSeed, pageConfig } = props;
+
+  const contentStore = new ContentStore(contentSeed);
+
+  const template = getTemplate(templateId, contentStore, pageConfig);
+
   const pubwiseScript = pageConfig.pubwiseScript;
-  useEffect(()=>{
+  useEffect(() => {
     const event = {
-        event: "neptune_page_view",
-        aaid: getAAID() || null,
-        appVersion: localStorage.getItem(LS_BRIDGE_APP_VERSION_MP) || null,
-        mode: localStorage.getItem(LS_BRIDGE_MODE_INTERNAL) || null,
-        mpid: getMpid() || null,
-        partner: pageConfig.platform || null,
-        platform: pageConfig.platform || null,
-        userId: localStorage.getItem(LS_BRIDGE_UUID_INTERNAL) || null,
-        user_agent: navigator.userAgent,
-        // user_agent_browser: extra?.browser || null,
-        // user_agent_browser_version: extra?.browserVersion || null,
-        // user_agent_mobile: extra?.mobile !== undefined ? extra.mobile : null,
-        // user_agent_model: extra?.model || null,
-        // user_agent_platform: extra?.platform || null,
-        // user_agent_platform_version: extra?.platformVersion || null
-    }
-    gtm.emit(event)
-  })
-
-
-
+      event: "neptune_page_view",
+      aaid: getAAID() || null,
+      appVersion: localStorage.getItem(LS_BRIDGE_APP_VERSION_MP) || null,
+      mode: localStorage.getItem(LS_BRIDGE_MODE_INTERNAL) || null,
+      mpid: getMpid() || null,
+      partner: pageConfig.platform || null,
+      platform: pageConfig.platform || null,
+      userId: localStorage.getItem(LS_BRIDGE_UUID_INTERNAL) || null,
+      user_agent: navigator.userAgent,
+      // user_agent_browser: extra?.browser || null,
+      // user_agent_browser_version: extra?.browserVersion || null,
+      // user_agent_mobile: extra?.mobile !== undefined ? extra.mobile : null,
+      // user_agent_model: extra?.model || null,
+      // user_agent_platform: extra?.platform || null,
+      // user_agent_platform_version: extra?.platformVersion || null
+    };
+    gtm.emit(event);
+  });
 
   return (
     <>
-      <div className="mx-auto max-w-[450px] min-h-40 min-w-[250px] flex flex-col">{template}</div>
+      <div className="mx-auto max-w-[450px] min-h-40 min-w-[250px] flex flex-col">
+        {template}
+      </div>
       <Script src={pubwiseScript} />
     </>
   );
 }
 
 export default FeedPage;
-
 
 type UrlParams = {
   platform: string;
@@ -87,10 +86,10 @@ export const getStaticProps = (async (context) => {
   const { platform, language, keyword } = params as UrlParams;
 
   //Set up 'en' as fallback for language
-  let langProp = language; 
-  if(!dtLanguages.includes(language)){
-    console.log(`${language} not supported`)
-    langProp = 'en'; 
+  let langProp = language;
+  if (!DT_LANGUAGES.includes(language)) {
+    console.log(`${language} not supported`);
+    langProp = "en";
   }
   //Get platform configs or use default configs
   let platformConfigs = await getPlatformConfigs(platform);
@@ -99,69 +98,62 @@ export const getStaticProps = (async (context) => {
     platformConfigs = DEFAULT_PLATFORM_CONFIGS;
   }
 
-
   //Set up remaining properties for FeedPage
   const templateId = getTemplateId(platform, keyword);
-  const categories = await getCategories(templateId); //used only for fetching content\
-  const content = await createContentStore(categories, langProp);
+  const schedules = getSchedules(keyword, langProp); //will return \categories required by page. For instance, the "discover-lifestyle" must have lifestyle as a category.
+  const contentSeed = await createContentSeed(schedules, language);
 
   //set up page config
-  const obId = platformConfigs.outbrainPlatformId
-  const pageLang = dtLanguages.includes(language) ? language : "en" //set en as fallback
+  const obId = platformConfigs.outbrainPlatformId;
+  const pageLang = DT_LANGUAGES.includes(language) ? language : "en"; //set en as fallback
 
   const pageConfig: PageConfig = {
-    platform: platformConfigs.name, 
+    platform: platformConfigs.name,
     language: pageLang,
     outbrainPermalink: `http://www.mobileposse.com/${obId}/${keyword}/${language}`,
     adBasePath: platformConfigs.adTags[pageLang].unitBasePath,
     pubwiseScript: platformConfigs.adTags[pageLang].pubwiseScript,
     pubwisePreScript: platformConfigs.adTags[pageLang].pubwisePreScript,
-  }
-
-  const randomizer = Math.random(); 
+  };
 
   return {
     props: {
-      content: content.library,
+      contentSeed: contentSeed,
       templateId,
       pageConfig,
-      randomizer,
     },
     revalidate: 1800,
   };
 }) satisfies GetStaticProps<{
-  content: ContentStoreData;
+  contentSeed: ContentStoreSeed;
   templateId: string;
-  pageConfig:  PageConfig; 
-  randomizer: number; 
+  pageConfig: PageConfig;
 }>;
 
 export const getStaticPaths = async () => {
   return {
     // paths: await getPaths(),
-    paths: await manualGetPaths(), 
+    paths: await manualGetPaths(),
     fallback: "blocking", //page will not render until getStaticProps has completed.
-    
   };
 };
 
-
-
-function getTemplate(id: string, content: ContentStore, pageConfig: PageConfig, randomizer: number) {
-    const props = {
-      content,
-      pageConfig,
-      randomizer
-    }
-    if(id === 'discover'){
-      return <TemplateDiscover {...props}></TemplateDiscover>;
-    }else if(id==='play'){
-      return <TemplatePlay {...props}/>
-    }else if (id==='test'){
-      return <TemplateTest {...props}/>
-    } else {
-      return <TemplateRelax {...props}/>
-    }   
+function getTemplate(
+  id: string,
+  content: ContentStore,
+  pageConfig: PageConfig
+) {
+  const props = {
+    contentStore: content,  
+    pageConfig,
+  };
+  if(id === 'discover'){
+    return <TemplateDiscover {...props}></TemplateDiscover>;
+  }else if(id==='play'){
+    return <TemplatePlay {...props}/>
+  }else if (id==='test'){
+    return <TemplateTest {...props}/>
+  } else {
+    return <TemplateRelax {...props}/>
+  }
 }
-
-

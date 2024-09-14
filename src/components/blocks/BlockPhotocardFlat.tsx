@@ -1,9 +1,9 @@
 import { BlockProps } from "@/types/propsTypes";
-import Logo from "../block-elements/Logo";
-import ItemFooter from "../block-elements/ItemFooter";
-import Container from "../block-elements/Container";
-import { RoundedImage } from "../block-elements/RoundedImage";
-import ItemWrapper from "../block-elements/ItemWrapper";
+import Logo from "../common/Logo";
+import ItemFooter from "../common/ItemFooter";
+import Container from "../common/Container";
+import { RoundedImage } from "../common/RoundedImage";
+import ItemWrapper from "../common/ItemWrapper";
 
 function BlockPhotocardFlat({ items, priority }: BlockProps) {
   return (
@@ -16,7 +16,7 @@ function BlockPhotocardFlat({ items, priority }: BlockProps) {
                   {item.brandLogo && (
                     <Logo
                       src={item.brandLogo}
-                      className="absolute left-4 top-4"
+                      className="absolute left-4 top-4 h-5"
                     />
                   )}
                 </RoundedImage>

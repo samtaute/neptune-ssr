@@ -1,7 +1,7 @@
 import { BlockProps } from "@/types/propsTypes";
-import Container from "../block-elements/Container";
-import ItemWrapper from "../block-elements/ItemWrapper";
-import { RoundedImage } from "../block-elements/RoundedImage";
+import Container from "../common/Container";
+import ItemWrapper from "../common/ItemWrapper";
+import { RoundedImage } from "../common/RoundedImage";
 
 function BlockGamePhotocard({ items, priority }: BlockProps) {
   return (

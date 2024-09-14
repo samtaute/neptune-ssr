@@ -1,10 +1,10 @@
 import { BlockProps } from "../../types/propsTypes";
-import ItemWrapper from "../block-elements/ItemWrapper";
-import Container from "../block-elements/Container";
-import Logo from "../block-elements/Logo";
-import { ItemTitleSmall } from "../block-elements/ItemTitle";
-import { RoundedImage } from "../block-elements/RoundedImage";
-import ItemFooter from "../block-elements/ItemFooter";
+import ItemWrapper from "../common/ItemWrapper";
+import Container from "../common/Container";
+import Logo from "../common/Logo";
+import { ItemTitleSmall } from "../common/ItemTitle";
+import { RoundedImage } from "../common/RoundedImage";
+import ItemFooter from "../common/ItemFooter";
 
 function BlockList({ items }: BlockProps) {
   return (
@@ -16,7 +16,7 @@ function BlockList({ items }: BlockProps) {
               <div className="flex flex-col pt-1 gap-2 flex-1 h-[84px]line-clamp-3">
                 <div className="flex items-start">
                   {item.brandLogoDark && (
-                    <Logo className="w-auto" src={item.brandLogoDark} />
+                    <Logo src={item.brandLogoDark} />
                   )}
                 </div>
                 <ItemTitleSmall title={item.title} className="text-sm font-medium"/>

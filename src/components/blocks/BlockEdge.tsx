@@ -1,11 +1,11 @@
 import { BlockProps } from "../../types/propsTypes";
-import ItemWrapper from "../block-elements/ItemWrapper";
-import Container from "../block-elements/Container";
-import { RoundedImage } from "../block-elements/RoundedImage";
-import ItemTitle from "../block-elements/ItemTitle";
-import ItemContentContainer from "../block-elements/ItemContentContainer";
-import ItemFooter from "../block-elements/ItemFooter";
-import ItemDescription from "../block-elements/ItemDescription";
+import ItemWrapper from "../common/ItemWrapper";
+import Container from "../common/Container";
+import { RoundedImage } from "../common/RoundedImage";
+import ItemTitle from "../common/ItemTitle";
+import ItemContentContainer from "../common/ItemContentContainer";
+import ItemFooter from "../common/ItemFooter";
+import ItemDescription from "../common/ItemDescription";
 
 function BlockEdge({ items, showDescription, unoptimized }: BlockProps) {
   return (

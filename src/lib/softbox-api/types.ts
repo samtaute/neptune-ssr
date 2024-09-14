@@ -57,11 +57,13 @@ export interface ContentEntity {
   wideImage: string;
   squareImage: string;
   link: string;
-  sourceLink?: string;
+  sourceLink?: string; 
   uid: string;
   onViewed?: string;
-  primaryInterest?: string;
+  primaryInterest: string; 
+  interests: string[]; 
   fortune?: string; 
+  type: string; 
 }
 
 export type ContentScheduleEntity = ContentEntity[];

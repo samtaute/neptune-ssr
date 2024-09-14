@@ -36,7 +36,10 @@ export class OutbrainCallbackWrapper {
         squareImage: item.thumbnail.url, // todo -- avoid duplicate assignment here 
         link: item.url,
         onViewed: item["on-viewed"][0],
-        uid: item.url
+        uid: item.url,
+        primaryInterest: 'sponsored', 
+        interests: ['sponsored'],
+        type: 'sponsored'
       });
     }
     this.setItems(content)
