@@ -25,7 +25,6 @@ function TemplateDiscoverTop({
 
   const {getArticles, randomizer } = contentStore;
   const randomIndex = Math.floor(randomizer * 10);
-  //start here -- what is the best place to pass down outbrain permalink.
 
   const { articles, articlesTitle } = getArticles([0, 4]);
 
