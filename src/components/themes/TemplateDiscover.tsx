@@ -6,12 +6,14 @@ import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 import BlockList from "../blocks/BlockList";
 import Outbrain from "../providers/Outbrain";
 import BlockHeader from "../blocks/BlockHeader";
+import LazyComponent from "../LazyLoad";
 
 function TemplateDiscover(props: TemplateProps) {
   return (
     <>
       <TemplateDiscoverTop {...props} />
       <TemplateDiscoverBottom {...props}/>
+      <LazyComponent pageConfig={props.pageConfig}></LazyComponent>
     </>
   );
 }
@@ -24,7 +26,6 @@ function TemplateDiscoverTop({
   const permalink = pageConfig.outbrainPermalink;
 
   const {getArticles, randomizer } = contentStore;
-  const randomIndex = Math.floor(randomizer * 10);
 
   const { articles, articlesTitle } = getArticles([0, 4]);
 

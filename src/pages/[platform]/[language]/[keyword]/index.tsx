@@ -33,6 +33,7 @@ import {
   getSchedules,
 } from "@/lib/page-generation/content-store";
 
+
 function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const { templateId, contentSeed, pageConfig } = props;
 

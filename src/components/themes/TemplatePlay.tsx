@@ -5,6 +5,7 @@ import BlockHeader from "../blocks/BlockHeader";
 import Outbrain from "../providers/Outbrain";
 import BlockTile from "../blocks/BlockTile";
 import BlockFortune from "../blocks/reveal_modules/BlockFortune";
+import LazyComponent from "../LazyLoad";
 
 // TemplateProps: {
 //     content,
@@ -17,6 +18,7 @@ function TemplatePlay(props: TemplateProps) {
     <>
       <TemplatePlayTop {...props} />
       <TemplatePlayBottom {...props} />
+      <LazyComponent pageConfig={props.pageConfig}/>
     </>
   );
 }

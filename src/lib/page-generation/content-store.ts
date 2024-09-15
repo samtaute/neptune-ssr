@@ -39,6 +39,17 @@ export class ContentStore {
     this.randomizer = contentSeed.randomizer;
   }
 
+  getAll = ()=>{
+    let result: ContentEntity[] = []; 
+    for (const interest of this.galleries){
+      result = [...result, ...interest.items]
+    }
+    for (const interest of this.articles){
+      result = [...result, ...interest.items]
+    }
+    return result; 
+  }
+
   getGalleries = (indices: number[]) => {
     const numCats = this.galleries.length;
     const randomIdx = Math.floor(this.randomizer * numCats);
