@@ -6,12 +6,14 @@ import Outbrain from "../providers/Outbrain";
 import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 import BlockTile from "../blocks/BlockTile";
 import BlockHeader from "../blocks/BlockHeader";
+import LazyComponent from "../LazyLoad";
 
 function TemplateRelax(props: TemplateProps) {
   return (
     <>
       <TemplateRelaxTop {...props} />
       <TemplateRelaxBottom {...props} />
+      <LazyComponent pageConfig={props.pageConfig}/>
     </>
   );
 }
