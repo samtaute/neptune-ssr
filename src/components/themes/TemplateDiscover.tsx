@@ -26,7 +26,6 @@ function TemplateDiscoverTop({
   const permalink = pageConfig.outbrainPermalink;
 
   const {getArticles, randomizer } = contentStore;
-  //start here -- what is the best place to pass down outbrain permalink.
 
   const { articles, articlesTitle } = getArticles([0, 4]);
 
