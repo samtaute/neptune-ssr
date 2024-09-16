@@ -1,10 +1,11 @@
-import { PropsWithChildren, useRef, useEffect } from "react";
+import { PropsWithChildren, useRef, useEffect, useContext } from "react";
 import { ContentEntity } from "../../lib/softbox-api/types";
-
+import { PlatformContext } from "@/pages/[platform]/[language]/[keyword]";
 
 function ItemWrapper({item, children, sourceLink}: PropsWithChildren<{item:ContentEntity, sourceLink?:boolean}>){
+    const platform = useContext(PlatformContext); 
     return (<ViewabilityWrapper itemData={item}>
-        <a href={sourceLink? item.sourceLink : item.link}>
+        <a href={sourceLink? `${item.sourceLink}?utm_source=${platform}` : `${item.link}?utm_source=${platform}`}>
             {children}
         </a>
     </ViewabilityWrapper>
