@@ -78,7 +78,11 @@ export async function fetchRawDaily(
   const requestUrl = `${process.env.softboxBaseUrl}/daily?sched=${schedule}&ckey=${process.env.softboxKey}&mp_lang=${language}&previewAspect=${previewAspect}`;
 
   try {
-    const response = await fetch(requestUrl, {cache: 'no-store'}); //https://nextjs.org/docs/app/building-your-application/caching
+    const response = await fetch(requestUrl, {headers:{
+      'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0',
+    }}); //https://nextjs.org/docs/app/building-your-application/caching
 
     if (!response.ok) {
       throw new Error(`Http error. Status: ${response.status}`);
