@@ -27,7 +27,7 @@ function TemplateDiscoverTop({
 
   const {getArticles, randomizer } = contentStore;
 
-  const { articles, articlesTitle } = getArticles([0, 4]);
+  const {articles, articlesTitle} = getArticles([0, 4]);
 
   return (
     <>

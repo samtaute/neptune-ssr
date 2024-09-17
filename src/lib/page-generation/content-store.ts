@@ -64,10 +64,14 @@ export class ContentStore {
   getArticles = (indices: number[], interest?: string) => {
     const numCats = this.articles.length;
     const randomIdx = Math.floor(this.randomizer * numCats);
+    let news = this.articles.find((interest)=>{return interest.name === 'News'})
 
+    if(!news){
+      news = this.articles[0]
+    }
     return {
-      articles: this.articles[randomIdx].items.slice(indices[0], indices[1]),
-      articlesTitle: this.articles[randomIdx].name,
+      articles: news.items.slice(indices[0], indices[1]),
+      articlesTitle: news.name,
     };
   };
   getGames = (indices: number[], interest?: string) => {

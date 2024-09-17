@@ -125,7 +125,7 @@ export const getStaticProps = (async (context) => {
       templateId,
       pageConfig,
     },
-    revalidate: 1800,
+    revalidate: 3600,
   };
 }) satisfies GetStaticProps<{
   contentSeed: ContentStoreSeed;
