@@ -32,11 +32,13 @@ import {
   createContentSeed,
   getSchedules,
 } from "@/lib/page-generation/content-store";
+import { createContext } from "react";
+
+export const PlatformContext = createContext('mp-firstly'); //default platform name
 
 
 function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const { templateId, contentSeed, pageConfig } = props;
-
   const contentStore = new ContentStore(contentSeed);
 
   const template = getTemplate(templateId, contentStore, pageConfig);
@@ -64,12 +66,12 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
   });
 
   return (
-    <>
+    <PlatformContext.Provider value={`mp-${pageConfig.platform}`}>
       <div className="mx-auto max-w-[450px] min-h-40 min-w-[250px] flex flex-col">
         {template}
       </div>
       <Script src={pubwiseScript} />
-    </>
+    </PlatformContext.Provider>
   );
 }
 
@@ -145,16 +147,16 @@ function getTemplate(
   pageConfig: PageConfig
 ) {
   const props = {
-    contentStore: content,  
+    contentStore: content,
     pageConfig,
   };
-  if(id === 'discover'){
+  if (id === "discover") {
     return <TemplateDiscover {...props}></TemplateDiscover>;
-  }else if(id==='play'){
-    return <TemplatePlay {...props}/>
-  }else if (id==='test'){
-    return <TemplateTest {...props}/>
+  } else if (id === "play") {
+    return <TemplatePlay {...props} />;
+  } else if (id === "test") {
+    return <TemplateTest {...props} />;
   } else {
-    return <TemplateRelax {...props}/>
+    return <TemplateRelax {...props} />;
   }
 }
