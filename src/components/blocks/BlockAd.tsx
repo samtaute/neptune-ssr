@@ -1,11 +1,14 @@
 import { useEffect } from "react";
+const slotId = "mp_ad_unit_top";
 
-function BlockAd({placementId}: {placementId: string}) {
+
+//todo : add slot Id here
+function BlockAd({ placementId }: { placementId: string }) {
   useEffect(() => {
     const w = window as any;
     let retries = 0;
     let timeoutId: NodeJS.Timeout;
-    w.gptadslots = [];
+    // w.gptadslots = [];
     //check if google and pubwise scripts have been added, then define and render ad. Retry up to 10 times at 10ms intervals.
     const checkLoaded = () => {
       if (w.googletag && w.googletag.pubads && w.gptadslots) {
@@ -21,17 +24,25 @@ function BlockAd({placementId}: {placementId: string}) {
     };
     checkLoaded();
     return () => {
+      const slotId = "mp_ad_unit_top";
+      w.adSlots = w.adSlots ? w.adSlots : [];
+      w.googletag.cmd.push(() => {
+        if (w.adSlots[slotId]) {
+          w.googletag.destroySlots([w.adSlots[slotId]]);
+          delete w.adSlots[slotId];
+        }
+      });
       if (timeoutId) {
         clearTimeout(timeoutId);
       }
     };
-  }, []);
+  }, [placementId]);
 
   return (
     <div className="flex w-full justify-center mb-5">
       <div className="flex flex-col items-center">
         <div className="text-xs text-[#666]">Advertisement</div>
-        <div className="w-[300px] h-[250px] bg-[#e9e9e9]" id="div-1"></div>
+        <div className="w-[300px] h-[250px] bg-[#e9e9e9]" id={slotId}></div>
       </div>
     </div>
   );
@@ -41,11 +52,13 @@ export default BlockAd;
 
 function defineSlots(placementId: string) {
   const w = window as any;
-  if (!w.gptadslots[`div-1`]) {
+  if (!w.gptadslots[slotId]) {
     w.googletag.cmd.push(function () {
-      w.gptadslots["div-1"] = w.googletag
-        .defineSlot(placementId, [300, 250], "div-1")
-        .addService(w.googletag.pubads());
+      w.gptadslots[slotId] = w.googletag
+        .defineSlot(placementId, [[300, 250],[320, 50],[320,100],[336,280]], slotId)
+        .addService(w.googletag.pubads())
+        .setTargeting("pathname", fileNameWithoutExtension())
+        .setTargeting("mp_app_version", getAppVersion());
       console.log("pushed");
     });
   }
@@ -56,7 +69,7 @@ function defineSlots(placementId: string) {
 function renderAd() {
   const w = window as any;
   w.pubwise.que.push(function () {
-    w.pubwise.renderAd("div-1");
+    w.pubwise.renderAd(slotId);
   });
 }
 
@@ -69,4 +82,18 @@ function enableServices() {
     pubads.disableInitialLoad(); //Disables requests for ads on page load, but allows ads to be requested with a PubAdsService.refresh call.
     w.googletag.enableServices(); //Enables all GPT services that have been defined for ad slots on the page.
   });
+}
+
+
+function fileNameWithoutExtension() {
+  const w = window as any;
+  // Strip pathname to only filename for targeting.
+  const pathnameMap = window.location.pathname.split("/");
+  const filename = pathnameMap[pathnameMap.length - 1];
+  const filenameWithoutExtension = filename.split(".html")[0];
+  return fileNameWithoutExtension; 
+}
+
+function getAppVersion(){
+  return localStorage.getItem('mp_mpAppVersion')
 }
