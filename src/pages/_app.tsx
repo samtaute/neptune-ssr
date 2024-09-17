@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Script src="https://widgets.outbrain.com/outbrain.js" />
-      <Script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" />
+
       <Script src="https://tagan.adlightning.com/mobileposse/op.j"></Script>
       <Script id="initWindow">
         {`var w = window;
