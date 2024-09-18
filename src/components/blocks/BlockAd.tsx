@@ -1,14 +1,10 @@
 import { useEffect, useState } from "react";
 const slotId = "mp_ad_unit_top";
 
-
-
-
 //todo : add slot Id here
 function BlockAd({ placementId }: { placementId: string }) {
-
   useEffect(() => {
-    const w = window as any; 
+    const w = window as any;
     let retries = 0;
     let timeoutId: NodeJS.Timeout;
     // w.gptadslots = [];
@@ -20,6 +16,12 @@ function BlockAd({ placementId }: { placementId: string }) {
       if (w.googletag && w.googletag.pubads && w.gptadslots) {
         enableServices();
         defineSlots(placementId);
+        w.googletag
+          .pubads()
+          .setTargeting("pathname", fileNameWithoutExtension())
+        if(getAppVersion()){
+          w.googletag.pubads().setTargeting("app_version", getAppVersion())
+        }
         renderAd();
       } else if (retries < 1000) {
         retries += 1;
@@ -49,9 +51,7 @@ function BlockAd({ placementId }: { placementId: string }) {
       <div className="flex flex-col items-center">
         <div className="text-xs text-[#666]">Advertisement</div>
         <div id={slotId}>
-          <div
-            className="bg-[#e9e9e9] w-[300px] h-[250px] min-w-[300] min-h-[25px] max-w-full max-h-full"
-          ></div>
+          <div className="bg-[#e9e9e9] w-[300px] h-[250px] min-w-[300] min-h-[25px] max-w-full max-h-full"></div>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ export default BlockAd;
 
 function defineSlots(placementId: string) {
   const w = window as any;
-  w.gptadslots = w.gptadslots || []; 
+  w.gptadslots = w.gptadslots || [];
   if (!w.gptadslots[slotId]) {
     w.googletag.cmd.push(function () {
       w.gptadslots[slotId] = w.googletag
@@ -76,9 +76,7 @@ function defineSlots(placementId: string) {
           ],
           slotId
         )
-        .addService(w.googletag.pubads())
-        .setTargeting("pathname", fileNameWithoutExtension())
-        .setTargeting("mp_app_version", getAppVersion());
+        .addService(w.googletag.pubads());
       console.log("pushed");
     });
   }
@@ -121,5 +119,5 @@ function getAppVersion() {
 
   const app_version = urlParams.get("app_version");
 
-  return app_version;
+  return app_version
 }
