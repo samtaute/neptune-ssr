@@ -1,15 +1,21 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 const slotId = "mp_ad_unit_top";
+
+
 
 
 //todo : add slot Id here
 function BlockAd({ placementId }: { placementId: string }) {
+
   useEffect(() => {
-    const w = window as any;
+    const w = window as any; 
     let retries = 0;
     let timeoutId: NodeJS.Timeout;
     // w.gptadslots = [];
     //check if google and pubwise scripts have been added, then define and render ad. Retry up to 10 times at 10ms intervals.
+    if (localStorage.getItem("mp_dnt")) {
+      return;
+    }
     const checkLoaded = () => {
       if (w.googletag && w.googletag.pubads && w.gptadslots) {
         enableServices();
@@ -42,7 +48,11 @@ function BlockAd({ placementId }: { placementId: string }) {
     <div className="flex w-full justify-center mb-5">
       <div className="flex flex-col items-center">
         <div className="text-xs text-[#666]">Advertisement</div>
-        <div className="w-[300px] h-[250px] bg-[#e9e9e9]" id={slotId}></div>
+        <div id={slotId}>
+          <div
+            className="bg-[#e9e9e9] w-[300px] h-[250px] min-w-[300] min-h-[25px] max-w-full max-h-full"
+          ></div>
+        </div>
       </div>
     </div>
   );
@@ -52,10 +62,20 @@ export default BlockAd;
 
 function defineSlots(placementId: string) {
   const w = window as any;
+  w.gptadslots = w.gptadslots || []; 
   if (!w.gptadslots[slotId]) {
     w.googletag.cmd.push(function () {
       w.gptadslots[slotId] = w.googletag
-        .defineSlot(placementId, [[300, 250],[320, 50],[320,100],[336,280]], slotId)
+        .defineSlot(
+          placementId,
+          [
+            [300, 250],
+            [320, 50],
+            [320, 100],
+            [336, 280],
+          ],
+          slotId
+        )
         .addService(w.googletag.pubads())
         .setTargeting("pathname", fileNameWithoutExtension())
         .setTargeting("mp_app_version", getAppVersion());
@@ -84,16 +104,22 @@ function enableServices() {
   });
 }
 
-
 function fileNameWithoutExtension() {
   const w = window as any;
   // Strip pathname to only filename for targeting.
   const pathnameMap = window.location.pathname.split("/");
   const filename = pathnameMap[pathnameMap.length - 1];
   const filenameWithoutExtension = filename.split(".html")[0];
-  return fileNameWithoutExtension; 
+
+  return filenameWithoutExtension;
 }
 
-function getAppVersion(){
-  return localStorage.getItem('mp_mpAppVersion')
+function getAppVersion() {
+  const w = window as any;
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+
+  const app_version = urlParams.get("app_version");
+
+  return app_version;
 }
