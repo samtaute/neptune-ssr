@@ -13,7 +13,6 @@ function TemplateDiscover(props: TemplateProps) {
     <>
       <TemplateDiscoverTop {...props} />
       <TemplateDiscoverBottom {...props}/>
-      <LazyComponent pageConfig={props.pageConfig}></LazyComponent>
     </>
   );
 }

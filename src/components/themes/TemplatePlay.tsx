@@ -18,7 +18,6 @@ function TemplatePlay(props: TemplateProps) {
     <>
       <TemplatePlayTop {...props} />
       <TemplatePlayBottom {...props} />
-      <LazyComponent pageConfig={props.pageConfig}/>
     </>
   );
 }

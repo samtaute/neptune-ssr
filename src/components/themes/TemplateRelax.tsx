@@ -13,7 +13,6 @@ function TemplateRelax(props: TemplateProps) {
     <>
       <TemplateRelaxTop {...props} />
       <TemplateRelaxBottom {...props} />
-      <LazyComponent pageConfig={props.pageConfig}/>
     </>
   );
 }
