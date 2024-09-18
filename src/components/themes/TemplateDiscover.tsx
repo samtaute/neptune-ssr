@@ -22,7 +22,7 @@ function TemplateDiscoverTop({
   contentStore,
   pageConfig,
 }: TemplateProps) {
-  const placementId = pageConfig.adBasePath + "top";
+  const placementId = pageConfig.adBasePath + "TOP";
   const permalink = pageConfig.outbrainPermalink;
 
   const {getArticles, randomizer } = contentStore;

@@ -24,7 +24,7 @@ function TemplatePlay(props: TemplateProps) {
 }
 
 function TemplatePlayTop({ contentStore, pageConfig }: TemplateProps) {
-  const placementId = pageConfig.adBasePath + "top";
+  const placementId = pageConfig.adBasePath + "TOP";
   const permalink = pageConfig.outbrainPermalink;
 
   const { getGames, randomizer } = contentStore;

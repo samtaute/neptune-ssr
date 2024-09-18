@@ -6,28 +6,33 @@ import ItemTitle from "../common/ItemTitle";
 import ItemContentContainer from "../common/ItemContentContainer";
 import ItemFooter from "../common/ItemFooter";
 import ItemDescription from "../common/ItemDescription";
+import { Suspense } from "react";
 
-function BlockEdge({ items, showDescription, unoptimized }: BlockProps) {
+function BlockEdge({ items, showDescription }: BlockProps) {
   return (
-    <Container>
-      {items.map((item) => { 
-        return (
-          <ItemWrapper key={item.uid} item={item}>
-            <RoundedImage
-              image={item.wideImage}
-              className="h-[252px]"
-              unoptimized
-            ></RoundedImage>
-            <ItemContentContainer>
-              <ItemFooter logo={item.brandLogoDark}/>
-              <ItemTitle title={item.title} />
-              {showDescription && item.description && <ItemDescription text={item.description}/>}
-            </ItemContentContainer>
-          </ItemWrapper>
-        );
-      })}
-    </Container>
+      <Container>
+        {items.map((item) => {
+          return (
+            <ItemWrapper key={item.uid} item={item}>
+              <RoundedImage
+                image={item.wideImage}
+                className="h-[252px]"
+                unoptimized
+              ></RoundedImage>
+              <ItemContentContainer>
+                <ItemFooter logo={item.brandLogoDark} />
+                <ItemTitle title={item.title} />
+                {showDescription && item.description && (
+                  <ItemDescription text={item.description} />
+                )}
+              </ItemContentContainer>
+            </ItemWrapper>
+          );
+        })}
+      </Container>
   );
 }
 
 export default BlockEdge;
+
+

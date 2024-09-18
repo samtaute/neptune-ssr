@@ -21,7 +21,7 @@ function TemplateRelax(props: TemplateProps) {
 export default TemplateRelax;
 
 function TemplateRelaxTop({ contentStore, pageConfig }: TemplateProps) {
-  const placementId = pageConfig.adBasePath + "top";
+  const placementId = pageConfig.adBasePath + "TOP";
   const permalink = pageConfig.outbrainPermalink;
   const {randomizer, getGalleries} = contentStore;  
 
