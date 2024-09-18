@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-const slotId = "mp_ad_unit_top";
+import { useEffect } from "react";
+const slotId = "mp_ad_unit_TOP";
 
 //todo : add slot Id here
 function BlockAd({ placementId }: { placementId: string }) {
