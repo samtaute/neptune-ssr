@@ -65,6 +65,9 @@ export function getTemplateId(platform: string, keyword: string) {
   const random = Math.floor(Math.random() * 5);
 
   //If daily brief, return a theme at random
+  if(keyword === "0000"){
+    return "relax"
+  } 
   if (hasFourConsecutiveNumerals(keyword)) {
     if (random === 1 || random === 2){
       return 'discover'

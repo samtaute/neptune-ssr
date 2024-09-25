@@ -19,7 +19,8 @@ function BlockAd({ placementId }: { placementId: string }) {
         w.googletag
           .pubads()
           .setTargeting("pathname", fileNameWithoutExtension())
-          .setTargeting("test", true);
+          .setTargeting("test", "true"
+          );
         if(getAppVersion()){
           w.googletag.pubads().setTargeting("app_version", getAppVersion())
         }
