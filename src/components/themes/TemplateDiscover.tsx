@@ -6,7 +6,6 @@ import BlockFortune from "../blocks/reveal_modules/BlockFortune";
 import BlockList from "../blocks/BlockList";
 import Outbrain from "../providers/Outbrain";
 import BlockHeader from "../blocks/BlockHeader";
-import LazyComponent from "../LazyLoad";
 
 function TemplateDiscover(props: TemplateProps) {
   return (

@@ -131,7 +131,7 @@ export async function createContentSeed(
     allInterests
   );
   const games = createInterests(
-    dedupe(await getDailyContent("html5games", language)),
+    dedupe((await getDailyContent("html5games", language)).slice(0,15)),
     allInterests
   );
 
