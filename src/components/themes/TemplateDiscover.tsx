@@ -23,19 +23,19 @@ function TemplateDiscoverTop({
   const placementId = pageConfig.adBasePath + "TOP";
   const permalink = pageConfig.outbrainPermalink;
 
-  const {getArticles, randomizer } = contentStore;
+  const {getGalleries, randomizer } = contentStore;
 
-  const {articles, articlesTitle} = getArticles([0, 4]);
+  const {galleries, galleriesTitle} = getGalleries([1, 5]);
 
   return (
     <>
       {randomizer < 0.5 && (
-        <BlockTopStory items={articles.slice(0,1)} priority />
+        <BlockTopStory items={galleries.slice(0,1)} priority />
       )}
       {randomizer >= 0.5 && (
         <>
-          <BlockHeader text={articlesTitle} />
-          <BlockPhotocard items={articles.slice(0,1)} priority />
+          <BlockHeader text={galleriesTitle} />
+          <BlockPhotocard items={galleries.slice(0,1)} priority />
         </>
       )}
 
@@ -55,7 +55,7 @@ function TemplateDiscoverBottom({
   return (
     <>
     <BlockFortune language={pageConfig.language} />
-    <BlockList items={contentStore.getGalleries([0,4]).galleries} />
+    <BlockList items={contentStore.getAllGalleries().galleries.slice(0,8)} />
     </>
   )
 }

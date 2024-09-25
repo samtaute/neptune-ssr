@@ -39,22 +39,30 @@ export class ContentStore {
     this.randomizer = contentSeed.randomizer;
   }
 
-  getAll = ()=>{
-    let result: ContentEntity[] = []; 
-    for (const interest of this.galleries){
-      result = [...result, ...interest.items]
+  getAllGalleries = () => {
+    let result: ContentEntity[] = [];
+    for (const interest of this.galleries) {
+      result = [...result, ...interest.items];
     }
-    for (const interest of this.articles){
-      result = [...result, ...interest.items]
+    return { galleries: result, galleriesTitle: "Trending" };
+  };
+
+  getAll = () => {
+    let result: ContentEntity[] = [];
+    for (const interest of this.galleries) {
+      result = [...result, ...interest.items];
     }
-    return result; 
-  }
+    for (const interest of this.articles) {
+      result = [...result, ...interest.items];
+    }
+    return result;
+  };
 
   getGalleries = (indices: number[]) => {
     const numCats = this.galleries.length;
     const randomIdx = Math.floor(this.randomizer * numCats);
-    const interest = this.galleries[randomIdx]
-    const items = interest.items
+    const interest = this.galleries[randomIdx];
+    const items = interest.items;
     return {
       galleries: items.slice(indices[0], indices[1]),
       galleriesTitle: this.galleries[randomIdx].name,
@@ -64,10 +72,12 @@ export class ContentStore {
   getArticles = (indices: number[], interest?: string) => {
     const numCats = this.articles.length;
     const randomIdx = Math.floor(this.randomizer * numCats);
-    let news = this.articles.find((interest)=>{return interest.name === 'News'})
+    let news = this.articles.find((interest) => {
+      return interest.name === "News";
+    });
 
-    if(!news){
-      news = this.articles[0]
+    if (!news) {
+      news = this.articles[0];
     }
     return {
       articles: news.items.slice(indices[0], indices[1]),
@@ -90,7 +100,7 @@ export class ContentStore {
 
 export function getSchedules(keyword: string, language: string) {
   if (isFSD(keyword)) {
-    return ["standard", ];
+    return ["standard"];
   }
   if (isCategory(keyword)) {
     return [pageCategories[keyword]];
@@ -123,7 +133,7 @@ export async function createContentSeed(
     items = [...items, ...newItems];
   }
 
-  const dedupedItems = dedupe(items); 
+  const dedupedItems = dedupe(items);
   //Updates interest counts and filters out interests with 0 count.
   const galleries = createInterests(dedupedItems, allInterests);
   const articles = createInterests(
@@ -131,7 +141,7 @@ export async function createContentSeed(
     allInterests
   );
   const games = createInterests(
-    dedupe((await getDailyContent("html5games", language)).slice(0,15)),
+    dedupe((await getDailyContent("html5games", language)).slice(0, 15)),
     allInterests
   );
 
@@ -165,13 +175,12 @@ function createInterests(items: ContentEntity[], allInterests: Interest[]) {
     }
   }
   result = result.filter((interest) => interest.items.length > 4);
-  if(result.length < 1){
-    console.error('requested schedule did not return enough items. returned stale content')
-    return FALLBACK_CONTENT as Interest[]
-
+  if (result.length < 1) {
+    console.error(
+      "requested schedule did not return enough items. returned stale content"
+    );
+    return FALLBACK_CONTENT as Interest[];
   }
   result.sort((a, b) => b.items.length - a.items.length);
   return result;
 }
-
-
