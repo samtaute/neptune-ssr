@@ -6,9 +6,8 @@ import ItemTitle from "../common/ItemTitle";
 import ItemContentContainer from "../common/ItemContentContainer";
 import ItemFooter from "../common/ItemFooter";
 import ItemDescription from "../common/ItemDescription";
-import { Suspense } from "react";
 
-function BlockEdge({ items, showDescription }: BlockProps) {
+function BlockEdge({ items, showDescription, priority, unoptimized }: BlockProps) {
   return (
       <Container>
         {items.map((item) => {
@@ -17,7 +16,8 @@ function BlockEdge({ items, showDescription }: BlockProps) {
               <RoundedImage
                 image={item.wideImage}
                 className="h-[252px]"
-                unoptimized
+                unoptimized={unoptimized ? true : false}
+                priority={priority ? true : false}
               ></RoundedImage>
               <ItemContentContainer>
                 <ItemFooter logo={item.brandLogoDark} />

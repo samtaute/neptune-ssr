@@ -19,8 +19,8 @@ function BlockPhotocard({ items, priority, unoptimized
               image={item.wideImage}
               gradient={true}
               className="h-[254px]"
-              priority={priority}
-              unoptimized={unoptimized}
+              priority={priority ? true : false}
+              unoptimized={unoptimized ? true : false}
             >
               <div className="z-20">
                 <ItemContentContainer className="px-5">

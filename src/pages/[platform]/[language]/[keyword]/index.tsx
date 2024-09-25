@@ -2,20 +2,18 @@ import { GetStaticProps, InferGetStaticPropsType } from "next";
 import TemplateDiscover from "@/components/themes/TemplateDiscover";
 import Script from "next/script";
 import {
-  getPaths,
   getPlatformConfigs,
   manualGetPaths,
 } from "@/lib/page-generation/page-generation";
 import { PageConfig } from "@/lib/page-generation/types";
 import {
   getTemplateId,
-  getCategories,
 } from "@/lib/page-generation/page-generation";
 import TemplatePlay from "@/components/themes/TemplatePlay";
 import TemplateRelax from "@/components/themes/TemplateRelax";
 import TemplateTest from "@/components/themes/TemplateTest";
 import gtm, { getMpid } from "@/lib/gtm/gtm";
-import { useEffect, useRef } from "react";
+import { useEffect} from "react";
 import { getAAID } from "@/lib/gtm/gtm";
 import {
   LS_BRIDGE_APP_VERSION_MP,
@@ -63,7 +61,7 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
       // user_agent_platform_version: extra?.platformVersion || null
     };
     gtm.emit(event);
-  });
+  },[pageConfig.platform]);
 
   return (
     <PlatformContext.Provider value={`mp-${pageConfig.platform}`}>

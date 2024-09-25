@@ -20,7 +20,7 @@ function BlockTopStory({ items, priority }: BlockProps) {
                 text={getFormattedDate()}
                 sub="Your Daily Briefing"
               />
-              <BlockEdgeNoPadding items={[item]} priority showDescription />
+              <BlockEdgeNoPadding items={[item]} priority={priority} showDescription />
               <Divider />
             </div>
           </ItemWrapper>
