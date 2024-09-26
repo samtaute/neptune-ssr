@@ -36,8 +36,7 @@ function TemplateRelaxTop({ contentStore, pageConfig }: TemplateProps) {
         />
       )}
       <BlockAd placementId={placementId} />
-      <Outbrain layout="edge" widgetId="JS_16" permalink={permalink} />
-      <Outbrain layout="tile" widgetId="JS_9" permalink={permalink} />
+      <Outbrain layout="edge" widgetId="JS_9" permalink={permalink} />
     </>
   );
 }

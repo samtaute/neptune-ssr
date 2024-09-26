@@ -79,7 +79,6 @@ function defineSlots(placementId: string) {
           slotId
         )
         .addService(w.googletag.pubads());
-      console.log("pushed");
     });
   }
 
