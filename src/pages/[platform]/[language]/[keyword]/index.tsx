@@ -112,7 +112,7 @@ export const getStaticProps = (async (context) => {
   const pageConfig: PageConfig = {
     platform: platformConfigs.name,
     language: pageLang,
-    outbrainPermalink: `http://www.mobileposse.com/${obId}/${keyword}/${language}`,
+    outbrainPermalink: `http://www.mobileposse.com/${obId}/${keyword}/${language.toUpperCase()}`,
     adBasePath: platformConfigs.adTags[pageLang].unitBasePath,
     pubwiseScript: platformConfigs.adTags[pageLang].pubwiseScript,
     pubwisePreScript: platformConfigs.adTags[pageLang].pubwisePreScript,
