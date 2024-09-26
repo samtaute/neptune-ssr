@@ -12,7 +12,7 @@ import {
 import TemplatePlay from "@/components/themes/TemplatePlay";
 import TemplateRelax from "@/components/themes/TemplateRelax";
 import TemplateTest from "@/components/themes/TemplateTest";
-import gtm, { getMpid } from "@/lib/gtm/gtm";
+import { getMpid } from "@/lib/gtm/gtm";
 import { useEffect} from "react";
 import { getAAID } from "@/lib/gtm/gtm";
 import {
@@ -31,6 +31,7 @@ import {
   getSchedules,
 } from "@/lib/page-generation/content-store";
 import { createContext } from "react";
+import { sendGTMEvent } from "@next/third-parties/google";
 
 export const PlatformContext = createContext('mp-firstly'); //default platform name
 
@@ -60,7 +61,7 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
       // user_agent_platform: extra?.platform || null,
       // user_agent_platform_version: extra?.platformVersion || null
     };
-    gtm.emit(event);
+    sendGTMEvent(event);
   },[pageConfig.platform]);
 
   return (
