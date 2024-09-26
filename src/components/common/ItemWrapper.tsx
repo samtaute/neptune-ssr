@@ -1,18 +1,19 @@
 import { PropsWithChildren, useRef, useEffect, useContext } from "react";
 import { ContentEntity } from "../../lib/softbox-api/types";
 import { PlatformContext } from "@/pages/[platform]/[language]/[keyword]";
-import gtm from "@/lib/gtm/gtm";
+import { sendGTMEvent } from "@next/third-parties/google";
+
 
 function ItemWrapper({item, children, sourceLink}: PropsWithChildren<{item:ContentEntity, sourceLink?:boolean}>){
     const platform = useContext(PlatformContext); 
     const clickHandler = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
       const event = {
-        event: "dt_click",
+        event: "impression_click",
         path: e.currentTarget.pathname,
         publisher: item.owner,
         title: item.title,
       }
-      gtm.emit(event)
+      sendGTMEvent(event)
     }
     return (<ViewabilityWrapper itemData={item}>
         <a href={sourceLink? `${item.sourceLink}?utm_source=${platform}` : `${item.link}?utm_source=${platform}`} onClick={clickHandler}>
@@ -37,7 +38,6 @@ function ViewabilityWrapper({
           (entries) => {
             entries.forEach((entry) => {
               if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-                console.log("element is 50% in viewport " + itemData.onViewed);
                 w.OBR.extern.callViewed(itemData.onViewed)
               }
             });
