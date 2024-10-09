@@ -32,6 +32,7 @@ import {
 } from "@/lib/page-generation/content-store";
 import { createContext } from "react";
 import { sendGTMEvent } from "@next/third-parties/google";
+import { fileNameWithoutExtension, getAppVersion } from "@/components/blocks/BlockAd";
 
 export const PlatformContext = createContext('mp-firstly'); //default platform name
 
@@ -43,7 +44,14 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const template = getTemplate(templateId, contentStore, pageConfig);
 
   const pubwiseScript = pageConfig.pubwiseScript;
+
   useEffect(() => {
+    const w = window as any;
+    w.pubwise.extra_dfp_params = {
+      pathname: fileNameWithoutExtension(),
+      test: "true",
+      app_version: getAppVersion(),
+     }
     const event = {
       event: "neptune_page_view",
       aaid: getAAID() || null,

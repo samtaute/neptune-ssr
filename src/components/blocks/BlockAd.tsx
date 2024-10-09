@@ -1,13 +1,12 @@
 import { useEffect } from "react";
 const slotId = "mp_ad_unit_TOP";
 
-//todo : add slot Id here
 function BlockAd({ placementId }: { placementId: string }) {
   useEffect(() => {
     const w = window as any;
     let retries = 0;
     let timeoutId: NodeJS.Timeout;
-    // w.gptadslots = [];
+
     //check if google and pubwise scripts have been added, then define and render ad. Retry up to 10 times at 10ms intervals.
     if (localStorage.getItem("mp_dnt")) {
       return;
@@ -16,14 +15,7 @@ function BlockAd({ placementId }: { placementId: string }) {
       if (w.googletag && w.googletag.pubads && w.gptadslots) {
         enableServices();
         defineSlots(placementId);
-        w.googletag
-          .pubads()
-          .setTargeting("pathname", fileNameWithoutExtension())
-          .setTargeting("test", "true"
-          );
-        if(getAppVersion()){
-          w.googletag.pubads().setTargeting("app_version", getAppVersion())
-        }
+        w.googletag.pubads();
         renderAd();
       } else if (retries < 1000) {
         retries += 1;
@@ -78,7 +70,10 @@ function defineSlots(placementId: string) {
           ],
           slotId
         )
-        .addService(w.googletag.pubads());
+        .addService(w.googletag.pubads())
+        .setTargeting("pathname", fileNameWithoutExtension())
+        .setTargeting("test", "true")
+        .setTargeting("app_version", getAppVersion());
     });
   }
 
@@ -103,7 +98,7 @@ function enableServices() {
   });
 }
 
-function fileNameWithoutExtension() {
+export function fileNameWithoutExtension() {
   const w = window as any;
   // Strip pathname to only filename for targeting.
   const pathnameMap = window.location.pathname.split("/");
@@ -113,12 +108,12 @@ function fileNameWithoutExtension() {
   return filenameWithoutExtension;
 }
 
-function getAppVersion() {
+export function getAppVersion() {
   const w = window as any;
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
 
   const app_version = urlParams.get("app_version");
 
-  return app_version
+  return app_version;
 }
