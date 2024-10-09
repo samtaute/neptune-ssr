@@ -72,9 +72,15 @@ function defineSlots(placementId: string) {
         )
         .addService(w.googletag.pubads())
         .setTargeting("pathname", fileNameWithoutExtension())
-        .setTargeting("test", "true")
-        .setTargeting("app_version", getAppVersion());
+        .setTargeting("test", "true");
+
+        const appVersion = getAppVersion();
+        if(appVersion){
+          w.gptadslots[slotId].setTargeting("app_version", appVersion);
+        }
+
     });
+
   }
 
   w.googletag.pubads();

@@ -45,12 +45,17 @@ function FeedPage(props: InferGetStaticPropsType<typeof getStaticProps>) {
 
   const pubwiseScript = pageConfig.pubwiseScript;
 
+
   useEffect(() => {
     const w = window as any;
+    const appVersion = getAppVersion();
+    
     w.pubwise.extra_dfp_params = {
       pathname: fileNameWithoutExtension(),
       test: "true",
-      app_version: getAppVersion(),
+     }
+     if(appVersion){
+      w.pubwise.extra_dfp_params["app_version"] = appVersion;
      }
     const event = {
       event: "neptune_page_view",
